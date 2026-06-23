@@ -30,10 +30,13 @@ print(int_num)  # Output: 5
 Example Output: `5`
 
 
-### ✨ AI Hint: Binary to Decimal
+<details>
+  <summary>✨ <b>AI Hint: Binary to Decimal</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
 
 This problem requires you to know how to convert a binary (base 2) number to a decimal (base 10) number. If you are unfamiliar with how to do this, you can use an AI tool like ChatGPT or GitHub Copilot to show you examples of how to convert binary to decimal.
+</details>

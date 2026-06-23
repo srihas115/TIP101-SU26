@@ -25,8 +25,10 @@ Example Output:
 ```
 
 
-### ✨ AI Hint: append()
+<details>
+  <summary>✨ <b>AI Hint: append()</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -38,3 +40,4 @@ If you learn better with examples, you can ask an AI tool like ChatGPT or GitHub
 
 
 *"You're an expert computer science tutor. Please provide a simple code example of how to use the `append()` function in Python, and explain how it works."*
+</details>

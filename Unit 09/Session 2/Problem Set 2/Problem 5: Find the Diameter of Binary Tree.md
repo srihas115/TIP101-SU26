@@ -38,7 +38,10 @@ Output: 3
 ```
 
 
-### 💡 Hint: Choosing your Traversal Method
+<details>
+  <summary>💡 <b>Hint: Choosing your Traversal Method</b></summary>
 
+  <br>
 
 This problem can be solved multiple ways, but may work best with a modified depth first search traversal. To learn more about how to choose a traversal algorithm visit the How to Pick a Traversal Algorithm section of the [Unit 9 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/9#!cheatsheet).
+</details>

@@ -17,8 +17,10 @@ Step 2: Create a second instance of `Player` in a variable named `player_two`.
 Step 3: Use the method `get_player()` below to print out `"Match: Yoshi driving the Super Blooper vs Bowser driving the Pirahna Prowler"`.
 
 
-### ✨ AI Hint: Class Methods
+<details>
+  <summary>✨ <b>AI Hint: Class Methods</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -36,3 +38,4 @@ You might also want to ask questions like:
 
 
 *"Can you explain the difference between class methods, instance methods, and functions?"*
+</details>

@@ -33,7 +33,10 @@ Example Output:
 ```
 
 
-### 💡 Hint: Which technique?
+<details>
+  <summary>💡 <b>Hint: Which technique?</b></summary>
 
+  <br>
 
 This is not a slow-fast pointer problem! This problem does not require a specific technique, but will require you to apply your skills to learn from and extend problem solving patterns you've encountered previously.
+</details>

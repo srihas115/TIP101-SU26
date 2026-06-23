@@ -18,8 +18,10 @@ class Player():
 ```
 
 
-### ✨ AI Hint: Intro to Object Oriented Programming
+<details>
+  <summary>✨ <b>AI Hint: Intro to Object Oriented Programming</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -40,3 +42,4 @@ Once you understand the concept, you can also ask follow-up questions like:
 
 
 *"What does `self` mean in Python, and how is it used in OOP?"*
+</details>

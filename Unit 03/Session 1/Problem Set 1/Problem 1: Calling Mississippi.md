@@ -21,8 +21,10 @@ Call the function so that it prints out the following to the console (*without c
 ```
 
 
-### ✨ AI Hint: String Interpolation
+<details>
+  <summary>✨ <b>AI Hint: String Interpolation</b></summary>
 
+  <br>
 
 *Use AI to explain unfamiliar terms*
 
@@ -35,3 +37,4 @@ For example, you can ask:
 
 
 In Python, the most common string interpolation method is an *f-string* (formatted string literals). If you are unfamiliar with f-strings, try asking your AI tool to show you a working example!
+</details>

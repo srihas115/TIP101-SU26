@@ -1,7 +1,4 @@
-"""Problem 8: Blackjack
-
-Solution intentionally left blank for practice.
-"""
-
-def blackjack():
-    pass
+blackjack(21)
+blackjack(24)
+blackjack(19)
+blackjack(10)

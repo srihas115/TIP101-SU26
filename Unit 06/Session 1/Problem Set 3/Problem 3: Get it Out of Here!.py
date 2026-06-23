@@ -1,27 +1,33 @@
-"""Problem 3: Get it Out of Here!
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value=None, next=None):
-        pass
+        self.value = value
+        self.next = next
 
+# Helper function to print the linked list
 def print_list(node):
-    pass
+    current = node
+    while current:
+        print(current.value, end=" -> " if current.next else "")
+        current = current.next
+    print()
 
+# Function with a bug!
 def remove_by_value(head, val):
-    pass
+    # Handle empty list and removal from the head
+    if not head:
+        return None
+    if head.value == val:
+        return head.next  # Return the second node as the new head
 
-# Example usage / test cases from the prompt:
-# current = node
-# print(current.value, end=" -> " if current.next else "")
-# current = current.next
-# print()
-# current = head
-# current = current.next.next # Skip the node with the value
-# current = current.next
-# # Expected Return Value: 1
-# # Expected Result List: 1 -> 2 -> 4
+    current = head
+    while current.next:
+        if current.next.value == val:
+            current = current.next.next  # Skip the node with the value
+            return head  # Return the original head
+        current = current.next
+
+    # If no node was found with the value `val`, return the original head
+    return head
+
+# Input List: 1 -> 2 -> 3 -> 4
+# Value to Remove: 3

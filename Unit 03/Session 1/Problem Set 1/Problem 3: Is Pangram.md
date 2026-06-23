@@ -28,14 +28,17 @@ False
 ```
 
 
-### 💡 Hint: Capitalization
+<details>
+  <summary>💡 <b>Hint: Capitalization</b></summary>
 
+  <br>
 
 Don't forget to account for capitalization!
+</details>
+<details>
+  <summary>✨ <b>AI Hint: String Looping</b></summary>
 
-
-### ✨ AI Hint: String Looping
-
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -47,3 +50,4 @@ If you'd still like to see more examples or ask follow-up questions, try using a
 
 
 *"You're an expert computer science tutor. Please provide an examples of how to loop over a string in Python, and explain how it compares to looping over a list."*
+</details>

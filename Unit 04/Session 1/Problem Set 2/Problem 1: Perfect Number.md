@@ -30,8 +30,10 @@ False
 ```
 
 
-### ✨ AI Hint: While Loops
+<details>
+  <summary>✨ <b>AI Hint: While Loops</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -43,10 +45,11 @@ This exercise may require you to use a while loop. If you aren't sure what a whi
 
 
 Then open the next hint to see our answer!
+</details>
+<details>
+  <summary>💡 <b>Hint: While Loops (more detail)</b></summary>
 
-
-### 💡 Hint: While Loops (more detail)
-
+  <br>
 
 For loops and while loops are both used to repeat a block of code, but for loops are iteration based (used to iterate over a sequence) while while loops continues to execute as long as a specified condition is true.
 
@@ -100,3 +103,4 @@ In general, we should use a while loop instead of a for loop when:
  while 'b' in lst:
  lst.remove('b')
 ```
+</details>

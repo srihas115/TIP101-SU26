@@ -1,19 +1,19 @@
-"""Problem 10: Double to Single
-
-Solution intentionally left blank for practice.
-"""
-
 class SLLNode:
-    pass
-
     def __init__(self, value, next = None):
-        pass
+        self.value = value
+        self.next = next
 
 class DLLNode:
-    pass
-
     def __init__(self, value, next = None, prev = None):
-        pass
+        self.value = value
+        self.next = next
+        self.prev = prev
 
 def dll_to_sll(dll_head):
     pass
+
+# DLL: Ice <-> Water <-> Steam
+dll_head = Ice
+sll_head = dll_to_sll(dll_head)
+
+#SLL: Ice -> Water -> Steam

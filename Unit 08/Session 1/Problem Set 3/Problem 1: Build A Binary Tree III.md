@@ -22,8 +22,10 @@ class TreeNode:
 ```
 
 
-### ✨ AI Hint: Binary Trees
+<details>
+  <summary>✨ <b>AI Hint: Binary Trees</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -35,3 +37,4 @@ If you need more help, try asking an AI tool like ChatGPT or GitHub Copilot to e
 
 
 Once you grasp the idea, you can ask it to show you examples of binary trees in Python.
+</details>

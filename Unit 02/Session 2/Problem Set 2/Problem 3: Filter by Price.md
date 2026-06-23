@@ -28,8 +28,10 @@ None
 ```
 
 
-### 💡 Hint: Removing Key-Value Pairs from a Dict
+<details>
+  <summary>💡 <b>Hint: Removing Key-Value Pairs from a Dict</b></summary>
 
+  <br>
 
 This question requires you to remove key-value pairs from a dictionary. Just like with a list, you can use the `pop()` method to remove a key-value pair from a dictionary. For example, if you have a dictionary `my_dict` and you want to remove the key-value pair with key `my_key`, you can use the following code:
 
@@ -39,3 +41,4 @@ my_dict.pop('my_key')
 ```
 
 Be careful: If you try to remove a key-value pair **while** looping through the dictionary, you may encounter a `RuntimeError`. To avoid this, you can create a list of keys to remove and then loop through that list to remove the key-value pairs from the dictionary.
+</details>

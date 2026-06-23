@@ -1,13 +1,12 @@
-"""Problem 8: Find Middle Node
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value, next=None):
-        pass
+        self.value = value
+        self.next = next
 
 def find_middle_node(head):
     pass
+
+# linked list: num1 -> num2 -> num3 -> num4
+head = num1
+mid = find_middle_node(head)
+# mid == num2

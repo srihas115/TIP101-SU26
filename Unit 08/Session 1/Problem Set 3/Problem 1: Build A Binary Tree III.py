@@ -1,10 +1,14 @@
-"""Problem 1: Build A Binary Tree III
+"""
+    a
+   / \
+  b   c
+       \
+        d
 
-Solution intentionally left blank for practice.
 """
 
 class TreeNode:
-    pass
-
     def __init__(self, value, left=None, right=None):
-        pass
+        self.val = value
+        self.left = left
+        self.right = right

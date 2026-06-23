@@ -38,8 +38,10 @@ Wigglytuff -> None
 Result Linked list: `Jigglypuff -> Wigglytuff`
 
 
-### ✨ AI Hint: Linked Lists
+<details>
+  <summary>✨ <b>AI Hint: Linked Lists</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -60,3 +62,4 @@ Once you understand the concept of Linked Lists, you can also ask follow-up ques
 
 
 *"Here is a provided Linked List class: (CODE). Can you give me an example of how to access the data in this linked list?"*
+</details>

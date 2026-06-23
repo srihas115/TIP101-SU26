@@ -31,8 +31,10 @@ False
 ```
 
 
-### 💡 Hint: Helper Functions
+<details>
+  <summary>💡 <b>Hint: Helper Functions</b></summary>
 
+  <br>
 
 This problem may benefit from a helper function!
 
@@ -59,5 +61,6 @@ def calculate_total(bill):
         total += calculate_price(item_price, quantity)
     return total
 ```
+</details>
 
 Creating helper functions helps us follow the Single Responsibility Principle (SRP) which says that a function should perform only a single task or action. SRP helps us create clean, readable, and maintainable code!

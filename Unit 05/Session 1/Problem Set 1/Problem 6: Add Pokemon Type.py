@@ -1,10 +1,11 @@
-"""Problem 6: Add Pokemon Type
-
-Solution intentionally left blank for practice.
-"""
-
 class Pokemon():
-    pass
+    ...
 
     def add_type(self, new_type):
         pass
+
+jigglypuff = Pokemon("Jigglypuff", ["Normal"])
+jigglypuff.print_pokemon()
+
+jigglypuff.add_type("Fairy")
+jigglypuff.print_pokemon()

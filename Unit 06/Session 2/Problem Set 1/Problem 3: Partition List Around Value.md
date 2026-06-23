@@ -24,7 +24,10 @@ Example Input:
 Result Linked List: `1 -> 2 -> 2 -> 4 -> 3 -> 5` or `2 -> 2 -> 1 -> 5 -> 4 -> 3`
 
 
-### 💡 Hint: Temporary Head Technique
+<details>
+  <summary>💡 <b>Hint: Temporary Head Technique</b></summary>
 
+  <br>
 
 This problem may benefit from the temporary head technique. For reference, check out the [Unit 6 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/6#!cheatsheet).
+</details>

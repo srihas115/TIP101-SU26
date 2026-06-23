@@ -1,28 +1,32 @@
-"""Problem 3: Remove Tail
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value=None, next=None):
-        pass
+        self.value = value
+        self.next = next
 
+
+# Helper function to print the linked list
 def print_list(node):
-    pass
+    current = node
+    while current:
+        print(current.value, end=" -> " if current.next else "")
+        current = current.next
+    print()
 
+
+# I have a bug!
 def remove_tail(head):
-    pass
+    if head is None: # If the list is empty, return None
+        return None
+    if head.next is None: # If there's only one node, removing it leaves the list empty
+        return None
 
-# Example usage / test cases from the prompt:
-# current = node
-# print(current.value, end=" -> " if current.next else "")
-# current = current.next
-# print()
-# current = head
-# current = current.next
-# # Input List: 1 -> 2 -> 3 -> 4
-# # Input: head = 1
-# # Expected Return Value: 1
-# # Expected Result List: 1 -> 2 -> 3
+    # Start from the head and find the second-to-last node
+    current = head
+    while current.next:
+        current = current.next
+
+    current.next = None # Remove the last node by setting second-to-last node to None
+    return head
+
+# Input List: 1 -> 2 -> 3 -> 4
+# Input: head = 1

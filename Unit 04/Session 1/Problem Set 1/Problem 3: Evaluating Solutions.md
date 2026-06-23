@@ -20,8 +20,10 @@ Which has better time complexity?
 Which has better space complexity?
 
 
-### 💡 Hint: Big O (Time & Space Complexity)
+<details>
+  <summary>💡 <b>Hint: Big O (Time & Space Complexity)</b></summary>
 
+  <br>
 
 Big O notation is a mathematical notation in computer science used to describe the the time and space complexity of an algorithm. Time complexity is the amount of time an algorithm or function takes to run in comparison to the size of the input data. Space complexity is the amount of extra memory or space an algorithm or function needs to complete its task in comparison to the size of the input data.
 
@@ -71,10 +73,11 @@ def find_duplicates(lst):
 ```
 
 The function compares each element in the list to every other element in the list, which means we perform roughly n² comparisons where n is the length of our input list `lst`, so it will take n² time to complete all comparisons. We can expect that for a list of size 2, we will perform roughly 4 comparisons whereas for a list of size 10 we will perform roughly 100 comparisons.
+</details>
+<details>
+  <summary>✨ <b>AI Hint: Decoding Big O</b></summary>
 
-
-### ✨ AI Hint: Decoding Big O
-
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -86,3 +89,4 @@ Big O is a big topic, and kind of tricky to wrap your head around! If you're fee
 
 
 Once it gives you an answer, you can ask follow-up questions to clarify any points that are still confusing. Be patient with yourself, and remember that this is a complex topic that takes time to fully understand!
+</details>

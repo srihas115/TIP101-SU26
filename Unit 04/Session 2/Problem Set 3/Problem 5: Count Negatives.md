@@ -25,7 +25,10 @@ print(count_negatives(lst, 3))
 Example Output: `[2,1,1,1,2]`
 
 
-### 💡 Hint: Sliding Window Technique
+<details>
+  <summary>💡 <b>Hint: Sliding Window Technique</b></summary>
 
+  <br>
 
 This problem may require the use of the sliding window technique, an extension of the two-pointer technique. For an in-depth review of the sliding window technique, check out the [Unit 4 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/4#!cheatsheet).
+</details>

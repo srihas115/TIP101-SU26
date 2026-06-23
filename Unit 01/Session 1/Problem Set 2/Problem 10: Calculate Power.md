@@ -27,8 +27,10 @@ Example Output:
 ```
 
 
-### ✨ AI Hint: Accumulator Variable
+<details>
+  <summary>✨ <b>AI Hint: Accumulator Variable</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -40,3 +42,4 @@ If you're unfamiliar with what an accumulator variable is, try asking an AI tool
 
 
 *"You're an expert computer science tutor. Please briefly explain the concept of an accumulator variable in programming. How is it typically used in algorithms, and can you provide an example of how it might be applied in a python coding problem?"*
+</details>

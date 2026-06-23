@@ -42,8 +42,10 @@ def contains_greater(root, value):
 ```
 
 
-### ✨ AI Hint: Balanced Trees
+<details>
+  <summary>✨ <b>AI Hint: Balanced Trees</b></summary>
 
+  <br>
 
 Tree problems will often specify whether or not you can assume a tree is balanced. This can affect the time complexity of your algorithm.
 
@@ -52,3 +54,4 @@ For a quick refresher, check out the Balanced Tree section of the [Unit 8 Cheats
 
 
 *"You're an expert computer science tutor. Can you help me understand the concept of a balanced binary tree, using multiple examples and an analogy to real-world objects?"*
+</details>

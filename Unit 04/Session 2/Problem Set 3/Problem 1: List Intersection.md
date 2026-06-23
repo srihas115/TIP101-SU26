@@ -23,7 +23,10 @@ print(find_intersection(lst1, lst2))
 Example Output: `[2,4,7]`
 
 
-### 💡 Hint: Two Pointer Technique
+<details>
+  <summary>💡 <b>Hint: Two Pointer Technique</b></summary>
 
+  <br>
 
 This problem requires the use of the two pointer technique. For a more in-depth review of the two-pointer technique, check out the [Unit 4 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/4#!cheatsheet), specifically the opposite direction variation.
+</details>

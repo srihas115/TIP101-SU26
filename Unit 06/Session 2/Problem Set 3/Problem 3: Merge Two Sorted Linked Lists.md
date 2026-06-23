@@ -28,7 +28,10 @@ Output: 1 -> 2 -> 2 -> 3 -> 4 -> 4
 ```
 
 
-### 💡 Hint: Temporary Head Technique
+<details>
+  <summary>💡 <b>Hint: Temporary Head Technique</b></summary>
 
+  <br>
 
 This problem may benefit from the temporary head technique. For reference, check out the [Unit 6 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/6#!cheatsheet).
+</details>

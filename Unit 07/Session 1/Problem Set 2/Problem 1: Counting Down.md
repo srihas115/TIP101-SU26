@@ -42,7 +42,10 @@ Example Output:
 ```
 
 
-### 💡 Hint: Recursion
+<details>
+  <summary>💡 <b>Hint: Recursion</b></summary>
 
+  <br>
 
 This problem requires you to understand recursion and the differences between iteration and recursion. For reference, check out the [Unit 7 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/7#!cheatsheet).
+</details>

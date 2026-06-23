@@ -32,8 +32,10 @@ Example Output:
 ```
 
 
-### ✨ AI Hint: Multiple Pass Technique
+<details>
+  <summary>✨ <b>AI Hint: Multiple Pass Technique</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -42,3 +44,4 @@ This problem may require multiple traversals of the list. For reference, check o
 
 
 For more help, you can use an AI tool like ChatGPT or GitHub Copilot to show you examples of the multiple pass technique.
+</details>

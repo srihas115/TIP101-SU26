@@ -48,8 +48,10 @@ Explanation: The smallest difference between any two nodes is 1 (1 - 0 = 1)
 ```
 
 
-### ✨ AI Hint: Representing Infinite Values
+<details>
+  <summary>✨ <b>AI Hint: Representing Infinite Values</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -61,3 +63,4 @@ If you still have questions, try asking an AI tool like ChatGPT or GitHub Copilo
 
 
 *"What is a common use case for positive or negative infinity in a program?"*
+</details>

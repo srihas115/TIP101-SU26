@@ -20,8 +20,10 @@ print(swapped)
 Example Output: `toab`
 
 
-### ✨ AI Hint: String Indexing
+<details>
+  <summary>✨ <b>AI Hint: String Indexing</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -33,8 +35,7 @@ If you'd still like to see more examples or ask follow-up questions, try using a
 
 
 *"You're an expert computer science tutor. Please provide an examples of string indexing in Python, and explain how it compares to list indexing."*
-
-
+</details>
 ### 💡 What's the difference between strings and lists?
 
 

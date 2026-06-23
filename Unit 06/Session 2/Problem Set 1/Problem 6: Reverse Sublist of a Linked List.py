@@ -1,7 +1,5 @@
-"""Problem 6: Reverse Sublist of a Linked List
-
-Solution intentionally left blank for practice.
-"""
-
 def reverse_between(head, m, n):
     pass
+
+# input list: 1 -> 2 -> 3 -> 4 -> 5
+reverse_between(head, 2, 5)

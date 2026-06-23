@@ -40,8 +40,10 @@ Example Output:
 ```
 
 
-### ✨ AI Hint: Class Methods
+<details>
+  <summary>✨ <b>AI Hint: Class Methods</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -59,3 +61,4 @@ You might also want to ask questions like:
 
 
 *"Can you explain the difference between class methods, instance methods, and functions?"*
+</details>

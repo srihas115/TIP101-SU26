@@ -1,10 +1,11 @@
-"""Problem 4: Catch Pokemon
-
-Solution intentionally left blank for practice.
-"""
-
 class Pokemon():
-    pass
+    ...
 
     def catch(self):
         pass
+
+my_pokemon = Pokemon("rattata", ["Normal"])
+my_pokemon.print_pokemon()
+
+my_pokemon.catch()
+my_pokemon.print_pokemon()

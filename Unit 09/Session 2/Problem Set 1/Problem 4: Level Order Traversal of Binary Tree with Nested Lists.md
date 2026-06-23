@@ -34,7 +34,10 @@ Expected Output: [ [3], [9, 20], [15, 7]]
 ```
 
 
-### ✨ AI Hint: Nested lists
+<details>
+  <summary>✨ <b>AI Hint: Nested lists</b></summary>
 
+  <br>
 
 To solve this problem, you will need to return a nested list. To learn more about nested lists - also called **two-dimensional lists** - try using an AI tool like ChatGPT or GitHub Copilot to explain the topic, both conceptually and with examples in Python.
+</details>

@@ -13,8 +13,10 @@ Example Input: `student_names = ["Ada Lovelace", "Tu Youyou", "Mae Jemison", "Ra
 Example Output: `{"Ada Lovelace": 1, "Tu Youyou": 2, "Mae Jemison": 3, "Rajeshwari Chatterjee": 4, "Alan Turing": 5}`
 
 
-### ✨ AI Hint: Dictionaries
+<details>
+  <summary>✨ <b>AI Hint: Dictionaries</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -32,3 +34,4 @@ After you get your answer, you can also ask follow up questions:
 
 
 *"How is a dictionary different from a list? Can you show me examples of both?"*
+</details>

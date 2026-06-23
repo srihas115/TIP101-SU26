@@ -1,16 +1,15 @@
-"""Problem 2: Create Squirtle
-
-Solution intentionally left blank for practice.
-"""
-
 class Pokemon:
-    pass
-
     def __init__(self, name, types):
-        pass
+        self.name = name
+        self.types = types
+        self.is_caught = False
 
     def print_pokemon(self):
-        pass
+        print({
+            "name": self.name,
+            "types": self.types,
+            "is_caught": self.is_caught
+        })
 
-# Example usage / test cases from the prompt:
-# print({
+squirtle = Pokemon("Squirtle", ["water"])
+squirtle.print_pokemon()

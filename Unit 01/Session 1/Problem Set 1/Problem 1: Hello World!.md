@@ -10,8 +10,10 @@ b. `def hello_world():`
 c. `hello_world()`
 
 
-### 💡 Hint: Python Functions
+<details>
+  <summary>💡 <b>Hint: Python Functions</b></summary>
 
+  <br>
 
 In Python, functions are defined using the `def` keyword.
 
@@ -27,6 +29,7 @@ Example Usage:
 def function_example():
   print("Hello world!")
 ```
+</details>
 
 Functions can be called by writing the function name followed by parentheses.
 

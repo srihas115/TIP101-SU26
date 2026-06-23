@@ -1,13 +1,10 @@
-"""Problem 12: Printing Linked List
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value, next=None):
-        pass
+        self.value = value
+        self.next= next
 
 def print_linked_list(head):
     pass
+
+# input linked list: a->b->c->d->e
+print_linked_list(a)

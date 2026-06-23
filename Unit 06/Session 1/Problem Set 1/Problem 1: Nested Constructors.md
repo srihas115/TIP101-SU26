@@ -14,8 +14,10 @@ class Node:
 ```
 
 
-### 💡 Hint: Nested Constructors
+<details>
+  <summary>💡 <b>Hint: Nested Constructors</b></summary>
 
+  <br>
 
 This problem requires you to be familiar with nesting constructors. The `Node` class below accepts two parameters:
 
@@ -49,3 +51,4 @@ head = Node(1, Node(2))
 ```
 
 This technique is commonly used when generating test cases for linked lists.
+</details>

@@ -32,7 +32,10 @@ a -> b -> c -> d -> e
 ```
 
 
-### 💡 Hint: Linked List Traversal
+<details>
+  <summary>💡 <b>Hint: Linked List Traversal</b></summary>
 
+  <br>
 
 This problem requires you to traverse a linked list. In other words, it requires you to iterate over the nodes of a linked list. For a break down of how to traverse a linked list, check out the [Unit 5 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/5#!cheatsheet).
+</details>

@@ -1,13 +1,12 @@
-"""Problem 5: Delete Tail
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value, next=None):
-        pass
+        self.value = value
+        self.next = next
 
 def delete_tail(head):
     pass
+
+# linked list: num1 -> num2 -> num3
+delete_tail(num1)
+
+# linked list: num1 -> num2

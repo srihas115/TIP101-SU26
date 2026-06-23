@@ -26,8 +26,10 @@ Example Output:
 ```
 
 
-### 💡 Hint: Finding Digits
+<details>
+  <summary>💡 <b>Hint: Finding Digits</b></summary>
 
+  <br>
 
 The [mod operator `%`](https://courses.codepath.org/courses/tip101/unit/2#!cheatsheet) can be used to find the rightmost digit of a number.
 
@@ -42,3 +44,4 @@ The [mod operator `%`](https://courses.codepath.org/courses/tip101/unit/2#!cheat
 ```python
 126 // 10 #This evaluates to 12
 ```
+</details>

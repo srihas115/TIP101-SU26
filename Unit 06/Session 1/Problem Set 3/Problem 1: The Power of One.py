@@ -1,10 +1,11 @@
-"""Problem 1: The Power of One
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value, next=None):
-        pass
+        self.value = value
+        self.next = next
+
+# Recreate this list in a single line of code
+head = Node("Ash")
+misty = Node("Misty")
+brock = Node("Brock")
+head.next = misty
+luigi.next = brock

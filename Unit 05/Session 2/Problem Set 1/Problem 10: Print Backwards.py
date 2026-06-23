@@ -1,13 +1,12 @@
-"""Problem 10: Print Backwards
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value, next = None, prev = None):
-        pass
+        self.value = value
+        self.next = next
+        self.prev = prev
 
 def print_reverse(tail):
     pass
+
+#              (head)                       (tail)
+# Linked List: Poliwag <-> Poliwhirl <-> Poliwrath
+print_reverse(poliwrath)

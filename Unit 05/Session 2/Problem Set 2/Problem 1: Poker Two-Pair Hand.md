@@ -54,8 +54,10 @@ False # Two 4s (+ Ace + 6 + 7)
 ```
 
 
-### ✨ AI Hint: Writing Methods
+<details>
+  <summary>✨ <b>AI Hint: Writing Methods</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -66,3 +68,4 @@ This problem requires you to write your own method! Try it yourself, but if you 
 - Check out the [Unit 5 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/5#!cheatsheet)
 
 - Use an AI tool like ChatGPT or GitHub Copilot to show you examples of how to write methods in Python
+</details>

@@ -9,8 +9,10 @@ Step 2: Use the `print_card()` method to verify that `card` was updated.
 Expected Output: `Ace of Hearts`
 
 
-### ✨ AI Hint: Class Attributes
+<details>
+  <summary>✨ <b>AI Hint: Class Attributes</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -22,3 +24,4 @@ If you'd still like to see more examples or ask follow-up questions, try using a
 
 
 *"You're an expert computer science tutor. Please provide 2-3 examples of how Class Attributes are used in Python, and explain how each one works."*
+</details>

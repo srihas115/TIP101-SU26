@@ -1,10 +1,6 @@
-"""Problem 1: Hello Hello
-
-Solution intentionally left blank for practice.
-"""
-
 def repeat_hello(n):
-    pass
+    if n > 0:
+        print("Hello")
+        repeat_hello(n - 1)
 
-# Example usage / test cases from the prompt:
-# print("Hello")
+repeat_hello(5)

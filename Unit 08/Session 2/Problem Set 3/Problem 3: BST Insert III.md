@@ -77,8 +77,10 @@ Expected Output Tree:
 ```
 
 
-### ✨ AI Hint: Binary Search Trees
+<details>
+  <summary>✨ <b>AI Hint: Binary Search Trees</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -90,3 +92,4 @@ For a refresher on this topic, check out the Binary Search Tree section of the [
 
 
 To go deeper, you can ask an AI tool like ChatGPT or GitHub Copilot to explain the concept of binary search trees, how they work, and how to implement them in Python. You can also visit the [VisuAlgo BST Visualizer](https://visualgo.net/en/bst) to see how binary search trees work visually.
+</details>

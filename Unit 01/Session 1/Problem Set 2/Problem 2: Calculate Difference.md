@@ -13,8 +13,10 @@ Example Usage: `diff = difference(8, 3)`
 Example Output: `diff = 5`
 
 
-### ✨ AI Hint: To Print or to Return?
+<details>
+  <summary>✨ <b>AI Hint: To Print or to Return?</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -23,10 +25,11 @@ To print or to return? That is the question.
 
 
 This problem requires you to know the difference between printing (`print()` in Python) and returning a value inside of a function. If you're unfamiliar with the differences, you can ask an AI tool like ChatGPT or GitHub Copilot to explain it to you.
+</details>
+<details>
+  <summary>💡 <b>Hint: Print vs. Return Examples</b></summary>
 
-
-### 💡 Hint: Print vs. Return Examples
-
+  <br>
 
 Note that `print()` is often used in conjunction with a function that returns a value. For example, below we have a function `return_param()` below which simply returns whatever argument is given to it.
 
@@ -61,3 +64,4 @@ print(return_param("I am the return value!"))
 ```
 
 To take a closer look at this example, try testing it out in [Python Tutor](https://pythontutor.com/render.html#code=def%20return_param%28my_param%29%3A%0A%20%20%20%20return%20my_param%0A%20%20%20%20%0A%20%20%20%20%0Aprint%28return_param%28%22I%20am%20the%20return%20value!%22%29%29&cumulative=false&curInstr=5&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=311&rawInputLstJSON=%5B%5D&textReferences=false) or looking at Example 6 in the `Print` section of the [Unit 1 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/1#!cheatsheet)!
+</details>

@@ -53,8 +53,10 @@ Level 3 (left to right): Node 1, Node 3
 ```
 
 
-### ✨ AI Hint: Breadth First Search Traversal
+<details>
+  <summary>✨ <b>AI Hint: Breadth First Search Traversal</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -66,3 +68,4 @@ If you still have questions, try explaining what you're doing, and ask an AI too
 
 
 *"I'm trying to understand how to use a queue to implement breadth first search, but I'm confused about why I wouldn't just use a list. Can you explain the difference?"*
+</details>

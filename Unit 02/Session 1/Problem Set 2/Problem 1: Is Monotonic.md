@@ -44,7 +44,10 @@ False
 ```
 
 
-### 💡 Hint: Problem Type
+<details>
+  <summary>💡 <b>Hint: Problem Type</b></summary>
 
+  <br>
 
 As a review from the previous unit, this question is a lists question! You do not need to know anything about dictionaries to solve this problem.
+</details>

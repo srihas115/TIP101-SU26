@@ -13,8 +13,10 @@ Example Input: `nums = [1, 2, 2, 3, 3, 3, 4]`
 Example Output: `{1: 1, 2: 2, 3: 3, 4: 1}`
 
 
-### ✨ AI Hint: Frequency Maps
+<details>
+  <summary>✨ <b>AI Hint: Frequency Maps</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -29,3 +31,4 @@ For example, you could say:
 
 
 *"You're an expert computer science tutor for a Python-based technical interviewing course. Please explain what a frequency map is, and provide one or more examples of simple technical interview problems in which a frequency map is useful."*
+</details>

@@ -1,7 +1,7 @@
-"""Problem 4: Sleep Assessment
-
-Solution intentionally left blank for practice.
-"""
-
 def sleep_assessment(hours):
     pass
+
+sleep_assessment(10)
+sleep_assessment(4)
+sleep_assessment(12)
+sleep_assessment(9)

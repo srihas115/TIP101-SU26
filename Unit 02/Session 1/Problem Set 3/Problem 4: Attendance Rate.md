@@ -25,7 +25,10 @@ print(attendance_rate(attendance_list))
 Example Output: `50.0`
 
 
-### 💡 Hint: Accessing Keys, Values, and Key-Value Pairs
+<details>
+  <summary>💡 <b>Hint: Accessing Keys, Values, and Key-Value Pairs</b></summary>
 
+  <br>
 
 This question will require you to loop over a dictionary. We have three options for looping over a dictionary: looping over the keys, values, or key-value pairs. To explore how to access the keys, values, and key-value pairs reference the Unit cheatsheet. For specific examples of looping over a dictionary, ask a generative AI tool to provide an example or search for existing examples using a search engine.
+</details>

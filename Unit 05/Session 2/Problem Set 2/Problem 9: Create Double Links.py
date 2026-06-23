@@ -1,14 +1,13 @@
-"""Problem 9: Create Double Links
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value, next = None):
-        pass
+        self.value = value
+        self.next = next
 
-# Example usage / test cases from the prompt:
-# print(head.value, "<->", head.next.value)
-# print(tail.prev.value, "<->", tail.value)
+head = Node("First")
+tail = Node("Last")
+
+head.next = tail
+tail.prev = head
+
+print(head.value, "<->", head.next.value)
+print(tail.prev.value, "<->", tail.value)

@@ -1,13 +1,17 @@
-"""Problem 7: Race Results
-
-Solution intentionally left blank for practice.
-"""
-
 class Player:
-    pass
-
     def __init__(self, character, kart):
-        pass
+        self.character = character
+        self.kart = kart
+        self.items = []
+    #... methods from previous problems
+
 
 def print_results(race_results):
     pass
+
+peach = Player("Peach", "Daytripper")
+mario = Player("Mario", "Standard Kart M")
+luigi = Player("Luigi", "Super Blooper")
+race_one = [peach, mario, luigi]
+
+print_results(race_one)

@@ -1,11 +1,5 @@
-"""Problem 2: Today's Mood
-
-Solution intentionally left blank for practice.
-"""
-
 def todays_mood():
-    pass
+    mood = "😎"
+    print("Today's mood: " + mood)
 
-# Example usage / test cases from the prompt:
-# mood = "😎"
-# print("Today's mood: " + mood)
+todays_mood()

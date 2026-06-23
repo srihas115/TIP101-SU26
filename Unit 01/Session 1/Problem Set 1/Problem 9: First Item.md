@@ -16,8 +16,10 @@ Example Output: `3`
 *Note: `pass` is a keyword that is used as a placeholder for future code*
 
 
-### ✨ AI Hint: List indexing
+<details>
+  <summary>✨ <b>AI Hint: List indexing</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -28,3 +30,4 @@ This problem requires you to know how to access values by indexing and/or slicin
 ---
 
 *(If you're still confused, there's a brief explanation of list indexing and slicing in the [Unit 1 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/1#!cheatsheet)!)*
+</details>

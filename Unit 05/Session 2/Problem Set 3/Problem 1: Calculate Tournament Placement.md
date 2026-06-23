@@ -43,8 +43,10 @@ Mario was number 1 # Mario's average place is 1.6, Luigi's is 2.0, and Peach's i
 ```
 
 
-### ✨ AI Hint: Writing Methods
+<details>
+  <summary>✨ <b>AI Hint: Writing Methods</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -55,3 +57,4 @@ This problem requires you to write your own method! Try it yourself, but if you 
 - Check out the [Unit 5 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/5#!cheatsheet)
 
 - Use an AI tool like ChatGPT or GitHub Copilot to show you examples of how to write methods in Python
+</details>

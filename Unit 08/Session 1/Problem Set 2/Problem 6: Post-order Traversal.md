@@ -38,8 +38,10 @@ def postorder_traversal(root):
 ```
 
 
-### ✨ AI Hint: Traversing Trees
+<details>
+  <summary>✨ <b>AI Hint: Traversing Trees</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -54,3 +56,4 @@ Still have questions? Try asking an AI tool like ChatGPT or GitHub Copilot to ex
 
 
 Hint: Be sure to learn about "preorder", "postorder", and "inorder" traversals!
+</details>

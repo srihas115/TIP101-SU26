@@ -1,10 +1,11 @@
-"""Problem 9: Convert Singly Linked List to Doubly Linked List
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value, next=None, prev=None):
-        pass
+        self.value = value
+        self.next = next
+        self.prev = prev
+
+crazy_in_love = Node("Crazy in Love")
+formation = Node("Formation")
+texas_hold_em = Node("Texas Hold 'Em")
+crazy_in_love.next = formation
+formation.next = texas_hold_em

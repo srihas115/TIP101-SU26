@@ -33,8 +33,10 @@ Example Output:
 ```
 
 
-### ✨ AI Hint: Slow and Fast Pointers
+<details>
+  <summary>✨ <b>AI Hint: Slow and Fast Pointers</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -43,3 +45,4 @@ This problem requires a variation of the two-pointer technique called the slow a
 
 
 For more help, you can use an AI tool like ChatGPT or GitHub Copilot to show you examples of the slow and fast pointer technique.
+</details>

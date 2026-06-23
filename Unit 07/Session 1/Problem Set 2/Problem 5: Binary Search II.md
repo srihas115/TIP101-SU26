@@ -45,8 +45,10 @@ Example Output:
 ```
 
 
-### ✨ AI Hint: Binary Search
+<details>
+  <summary>✨ <b>AI Hint: Binary Search</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -55,3 +57,4 @@ This problem requires you to understand the binary search algorithm. To learn mo
 
 
 For more help, you can use an AI tool like ChatGPT or GitHub Copilot to show you examples of the binary search algorithm. Try asking it to explain the concept first, using a real-world analogy. Once you understand the concepts, you can ask it to help you understand how to implement it in Python.
+</details>

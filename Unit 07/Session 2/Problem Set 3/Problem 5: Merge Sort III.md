@@ -40,8 +40,10 @@ Example Output:
 ```
 
 
-### ✨ AI Hint: Divide and Conquer
+<details>
+  <summary>✨ <b>AI Hint: Divide and Conquer</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -53,3 +55,4 @@ If you have more questions, try asking an AI tool like ChatGPT or GitHub Copilot
 
 
 You can ask it to provide a real-world analogy to help you understand the concept better. Once you grasp the idea, you can ask it to help you implement a divide and conquer algorithm in Python, such as merge sort or binary search.
+</details>

@@ -35,8 +35,10 @@ You got a good night's rest!
 ```
 
 
-### ✨ AI Hint: Conditionals
+<details>
+  <summary>✨ <b>AI Hint: Conditionals</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -53,3 +55,4 @@ If you're unfamiliar with the syntax for conditional expressions in Python, try 
 ---
 
 *(If you're still confused, there's a brief explanation of conditional syntax in the [Unit 1 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/1#!cheatsheet)!)*
+</details>

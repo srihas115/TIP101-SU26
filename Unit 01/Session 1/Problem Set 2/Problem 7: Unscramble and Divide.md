@@ -21,8 +21,10 @@ g. `def halve_lst(lst):`
 Example Output: `[1,2,3,4]`
 
 
-### ✨ AI Hint: For Loops
+<details>
+  <summary>✨ <b>AI Hint: For Loops</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -31,3 +33,4 @@ To solve this problem, you will need to know how to write a for loop in Python. 
 
 
 If you need a refresher on for loop syntax, try asking an AI tool like ChatGPT or GitHub Copilot to show you a working example!
+</details>

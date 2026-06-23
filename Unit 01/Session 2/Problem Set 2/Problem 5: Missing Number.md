@@ -20,8 +20,10 @@ print(missing_num)
 Example Output: `3`
 
 
-### ✨ AI Hint: sort()
+<details>
+  <summary>✨ <b>AI Hint: sort()</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -33,3 +35,4 @@ If you'd still like to see more examples or ask follow-up questions, try using a
 
 
 *"You're an expert computer science tutor. Please provide 2-3 examples of how the `sort()` function is used in Python, and explain how each one works."*
+</details>

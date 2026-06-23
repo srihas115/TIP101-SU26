@@ -1,13 +1,11 @@
-"""Problem 7: Pop Node
-
-Solution intentionally left blank for practice.
-"""
-
 class Node:
-    pass
-
     def __init__(self, value, next=None):
-        pass
+        self.value = value
+        self.next = next
 
 def ll_pop(head, i):
     pass
+
+# linked list: num1 -> num2 -> num3
+ll_pop(num1, 1)
+# result: num1 -> num3

@@ -1,15 +1,21 @@
-"""Problem 5: Binary Search II
-
-Solution intentionally left blank for practice.
-"""
-
 def binary_search_recursive(arr, target, left, right):
-    pass
+    if left > right:
+        return -1  # Base case: target not found within bounds
+
+        # find middle index of list
+    mid = (left + right) // 2
+
+    # If the middle element is the target, return its index
+    if arr[mid] == target:
+        return mid
+    # If the target is less than the middle element, search the left half
+    elif arr[mid] > target:
+        return binary_search_recursive(arr, target, left, mid - 1)
+    # If the target is greater than the middle element, search the right half
+    else:
+        return binary_search_recursive(arr, target, mid + 1, right)
 
 def binary_search_iterative(arr, target):
     pass
 
-# Example usage / test cases from the prompt:
-# # Example Input: lst = [1, 3, 5, 7, 9, 11, 13, 15], target = 11
-# # Expected Output: 5
-# # Explanation: 11 has index 5 in the list
+# Example Input: lst = [1, 3, 5, 7, 9, 11, 13, 15], target = 11

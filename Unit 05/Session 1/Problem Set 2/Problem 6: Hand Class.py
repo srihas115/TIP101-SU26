@@ -1,16 +1,24 @@
-"""Problem 6: Hand Class
-
-Solution intentionally left blank for practice.
-"""
-
 class Hand:
-    pass
-
     def __init__(self):
-        pass
+        self.cards = []
 
     def add_card(self, card):
         pass
 
     def remove_card(self, card):
         pass
+
+card_one = Card("Hearts", "3")
+card_two = Card("Spades", "8")
+
+player1_hand = Hand()
+# cards = []
+
+player1_hand.add_card(card_one)
+# cards = [card_one]
+
+player1_hand.add_card(card_two)
+# cards = [card_one, card_two]
+
+player1_hand.remove_card(card_one)
+# cards = [card_two]

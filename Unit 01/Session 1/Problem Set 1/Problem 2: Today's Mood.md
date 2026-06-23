@@ -14,8 +14,10 @@ todays_mood()
 Example Output: `Today's mood: 🥱`
 
 
-### 💡 Hint: Variables
+<details>
+  <summary>💡 <b>Hint: Variables</b></summary>
 
+  <br>
 
 A variable in Python stores data with a descriptive name, enhancing the clarity and readability of our programs for both the author and others. Variables are created when you first assign them a value and can be modified later.
 
@@ -29,3 +31,4 @@ my_age = 21
 ```
 
 The `""` around the text indicates to Python the variable is a string, and the 21 is an integer as no decimal places are provided.
+</details>

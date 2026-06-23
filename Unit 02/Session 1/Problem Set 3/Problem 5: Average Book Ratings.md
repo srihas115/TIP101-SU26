@@ -27,8 +27,10 @@ Example Output:
 ```
 
 
-### 💡 Hint: Looping over Key-Value Pairs
+<details>
+  <summary>💡 <b>Hint: Looping over Key-Value Pairs</b></summary>
 
+  <br>
 
 This question will require you to loop over a dictionary. We have three options for looping over a dictionary: looping over the keys, values, or key-value pairs. To loop over both keys and values simultaneously, we often use the following syntax:
 
@@ -39,3 +41,4 @@ for k, v in dict.items():
 ```
 
 For a deeper understanding of how this syntax works, ask a generative AI tool to break down looping over a dictionary with `dict.items()` or search for existing examples using a search engine.
+</details>

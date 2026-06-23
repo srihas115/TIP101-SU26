@@ -58,8 +58,10 @@ Sum of every tilt : 0 + 0 + 0 + 2 + 7 + 6 = 15
 ```
 
 
-### ✨ AI Hint: Absolute Value
+<details>
+  <summary>✨ <b>AI Hint: Absolute Value</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -68,9 +70,11 @@ To solve this problem, it may be helpful to know how to easily find the **absolu
 
 
 For more help, you can use an AI tool like ChatGPT or GitHub Copilot to explain what absolute value is, and how to calculate the absolute value of a number in Python.
+</details>
+<details>
+  <summary>💡 <b>Hint: Choosing your Traversal Method</b></summary>
 
-
-### 💡 Hint: Choosing your Traversal Method
-
+  <br>
 
 This problem can be solved multiple ways, but may work best with a modified depth first search traversal. To learn more about how to choose a traversal algorithm visit the How to Pick a Traversal Algorithm section of the [Unit 9 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/9#!cheatsheet).
+</details>

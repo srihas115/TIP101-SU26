@@ -27,8 +27,10 @@ Example Output:
 ```
 
 
-### ✨ AI Hint: Dictionaries
+<details>
+  <summary>✨ <b>AI Hint: Dictionaries</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -46,3 +48,4 @@ After you get your answer, you can also ask follow up questions:
 
 
 *"How is a dictionary different from a list? Can you show me examples of both?"*
+</details>

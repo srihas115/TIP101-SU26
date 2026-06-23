@@ -33,8 +33,10 @@ None
 *Note*: The actual input you see when you run the provided code without fixing the bug may be different!
 
 
-### ✨ AI Hint: Accessing Values in a Dictionary
+<details>
+  <summary>✨ <b>AI Hint: Accessing Values in a Dictionary</b></summary>
 
+  <br>
 
 *Key Skill: Use AI to explain code concepts*
 
@@ -46,12 +48,14 @@ This question will require you to use keys to access their corresponding values 
 
 
 Then open the next hint to see the answer!
+</details>
+<details>
+  <summary>💡 <b>Hint: Dictionary Access options</b></summary>
 
-
-### 💡 Hint: Dictionary Access options
-
+  <br>
 
 The two common ways to access values in a dictionary are square bracket notation `d[key]` and the `get()` method.
 
 
 The Unit 2 cheatsheet includes a more thorough breakdown of these two options. If you still feel confused after reviewing the cheatsheet, try asking generative AI to help you understand!
+</details>
