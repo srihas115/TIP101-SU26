@@ -1,0 +1,18 @@
+"""Problem 3: Take from Stock
+
+Solution intentionally left blank for practice.
+"""
+
+def pop_stock(items, item_name, quantity):
+    pass
+
+# Example usage / test cases from the prompt:
+# items = {"chocolate": 20, "candy": 5, "chips": 10}
+# resultA = pop_stock(items, "candy", 2)
+# resultB = pop_stock(items, "candy", 5)
+# resultC = pop_stock(items, "lollipops", 5)
+# resultD = pop_stock(items, "chocolate", 5)
+# print(resultA)
+# print(resultB)
+# print(resultC)
+# print(resultD)

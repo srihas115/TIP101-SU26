@@ -1,0 +1,53 @@
+# Problem 6: Pre-order Traversal
+
+Given the `root` of a binary tree, return a list representing the preorder traversal of its nodes' values. In a preorder traversal we traverse the current node, then the left subtree, then the right subtree.
+
+
+```python
+# Example Input Tree:
+"""For example:
+     1
+     / \
+    /   \
+   2     5
+  / \
+ 4   3
+"""
+# Input: root = 1
+# Expected Output: [1, 2, 4, 3, 5]
+
+# Input: root = None
+# Output: []
+
+# Example Input Tree
+""" 1 """
+# Input: root = 1
+# Output: [1]
+
+class TreeNode():
+     def __init__(self, value, left=None, right=None):
+         self.val = value
+         self.left = left
+         self.right = right
+
+def preorder_traversal(root):
+	pass
+```
+
+
+### ✨ AI Hint: Traversing Trees
+
+
+*Key Skill: Use AI to explain code concepts*
+
+
+This problem requires you to traverse a binary tree. For a refresher on this topic, check out the Tree Traversal section of the [Unit 8 Cheatsheet](https://courses.codepath.org/courses/tip101/unit/8#!cheatsheet).
+
+
+Still have questions? Try asking an AI tool like ChatGPT or GitHub Copilot to explain the different types of binary tree traversal. You can use the following prompt as a starting point:
+
+
+*"You're an expert computer science tutor. Please explain the different types of binary tree traversal, and show me how they would each work on an example tree."*
+
+
+Hint: Be sure to learn about "preorder", "postorder", and "inorder" traversals!
