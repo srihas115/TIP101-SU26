@@ -3,3 +3,5 @@ class Pokemon:
         self.name = name
         self.types = types
         self.is_caught = False
+
+my_pokemon = Pokemon("Pikachu", ["Electric"])

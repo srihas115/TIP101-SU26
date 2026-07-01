@@ -43,7 +43,7 @@ Example Output:
 
 
 ```python
-[`Charmander`, `Charmeleon`, `Charizard`]
-[`Charmeleon`, `Charizard`]
+['Charmander', 'Charmeleon', 'Charizard']
+['Charmeleon', 'Charizard']
 ['Charizard']
 ```

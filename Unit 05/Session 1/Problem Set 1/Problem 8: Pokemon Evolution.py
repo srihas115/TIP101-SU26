@@ -1,3 +1,10 @@
+# UPI
+# Understand 
+# Input: pokemon object (starter_pokemon)
+# Output: a list of evolved pokemon and starter pokemon
+# Plan: empty list and traverse through like linked list
+# Implement: (below)
+
 class Pokemon():
     def  __init__(self, name, types, evolution = None):
         self.name = name
@@ -6,8 +13,17 @@ class Pokemon():
         self.evolution = evolution
 
 def get_evolutionary_line(starter_pokemon):
-    pass
-
+    output = []
+    curr = starter_pokemon
+    
+    output.append(starter_pokemon.name)
+    
+    while(curr.evolution is not None):
+        output.append(curr.evolution.name)
+        curr = curr.evolution
+    
+    return output   
+        
 charizard = Pokemon("Charizard", ["fire", "flying"])
 charmeleon = Pokemon("Charmeleon", ["fire"], charizard)
 charmander = Pokemon("Charmander", ["fire"], charmeleon)
