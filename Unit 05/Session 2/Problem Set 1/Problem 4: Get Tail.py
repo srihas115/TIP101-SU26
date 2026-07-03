@@ -4,7 +4,14 @@ class Node:
         self.next = next
 
 def get_tail(head):
-    pass
+    if head is None:
+        return None
+    
+    curr = head
+    while curr.next is not None:
+        curr = curr.next
+
+    return curr.value
 
 # Build: num1 -> num2 -> num3
 num1 = Node("num1")

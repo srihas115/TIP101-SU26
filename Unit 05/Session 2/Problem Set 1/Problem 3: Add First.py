@@ -5,7 +5,14 @@ class Node:
 
 
 def add_first(head, new_node):
-    pass
+    new_node.next = head
+    head = new_node
+    
+    return new_node
+
+node_1 = Node("Jigglypuff", None)
+node_2 = Node("Wigglytuff")
+node_1.next = node_2
 
 # Using the Linked List from Problem 2
 print(node_1.value, "->", node_1.next.value)

@@ -4,7 +4,18 @@ class Node:
         self.next = next
 
 def ll_replace(head, original, replacement):
-    pass
+    if head is None: # linked list is empty
+        return None
+    if head.next is None: # linked list has only 1 element
+        if head.value == original:
+            head.value = replacement
+    # edge cases ^^
+    
+    curr = head
+    while curr is not None:
+        if curr.value == original:
+            curr.value = replacement
+        curr = curr.next
 
 
 def to_string(head): # to test your list
@@ -22,3 +33,4 @@ num1 = Node(5, num2)
 head = num1
 ll_replace(head, 5, "banana")
 # updated linked list: "banana" -> 6 -> "banana"
+print(to_string(head))
