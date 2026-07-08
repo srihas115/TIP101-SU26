@@ -22,7 +22,8 @@ def remove_tail(head):
 
     # Start from the head and find the second-to-last node
     current = head
-    while current.next:
+    while current.next.next is not None:
+        # print(current.value)
         current = current.next
 
     current.next = None # Remove the last node by setting second-to-last node to None
@@ -30,3 +31,12 @@ def remove_tail(head):
 
 # Input List: 1 -> 2 -> 3 -> 4
 # Input: head = 1
+head = Node(1, Node(2, Node(3, Node(4))))
+remove_tail(head)
+print_list(head)
+
+print()
+
+two_nodes = Node(1, Node(2))
+remove_tail(two_nodes)
+print_list(two_nodes)
