@@ -1,6 +1,28 @@
+def what_time_is_it(hour):
+    pass
+
 time = what_time_is_it(2)
 print(time)
 time = what_time_is_it(7)
 print(time)
 time = what_time_is_it(12)
 print(time)
+
+# ==== AI-generated test cases (added by Claude via Claude Code) ====
+# These are AI-generated edge-case tests, not part of the original CodePath problem set.
+# They check correctness beyond the single example call above.
+
+print("Test 1 - hour is 2 (taco time)")
+print("  expected:", "taco time 🌮", "| got:", what_time_is_it(2))
+
+print("Test 2 - hour is 12 (peanut butter jelly time)")
+print("  expected:", "peanut butter jelly time 🥪", "| got:", what_time_is_it(12))
+
+print("Test 3 - hour is 0 (nap time)")
+print("  expected:", "nap time 😴", "| got:", what_time_is_it(0))
+
+print("Test 4 - negative hour (nap time)")
+print("  expected:", "nap time 😴", "| got:", what_time_is_it(-3))
+
+print("Test 5 - large hour value (nap time)")
+print("  expected:", "nap time 😴", "| got:", what_time_is_it(100))
