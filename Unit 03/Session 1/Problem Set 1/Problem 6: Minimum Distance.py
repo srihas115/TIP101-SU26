@@ -10,3 +10,22 @@ print(dist2)
 words2 = ["code", "path", "code", "contribute",  "practice"]
 dist3 = min_distance(words2, "code", "practice")
 print(dist3)
+
+# ==== AI-generated test cases (added by Claude via Claude Code) ====
+# These are AI-generated edge-case tests, not part of the original CodePath problem set.
+# They check correctness beyond the single example call above.
+
+print("Test 1 - words are adjacent, distance of 1")
+print("  expected:", 1, "| got:", min_distance(["a", "b"], "a", "b"))
+
+print("Test 2 - multiple occurrences, closest pair should be chosen")
+print("  expected:", 1, "| got:", min_distance(["a", "c", "b", "a"], "a", "b"))
+
+print("Test 3 - two-element list with the same word twice is same word, treat as adjacent")
+print("  expected:", 1, "| got:", min_distance(["a", "a"], "a", "a"))
+
+print("Test 4 - words separated by several other words")
+print("  expected:", 4, "| got:", min_distance(['a', 'x', 'y', 'z', 'b'], 'a', 'b'))
+
+print("Test 5 - order of word1/word2 swapped gives same distance")
+print("  expected:", 3, "| got:", min_distance(['the', 'quick', 'brown', 'fox', 'jumped', 'the'], 'jumped', 'quick'))
