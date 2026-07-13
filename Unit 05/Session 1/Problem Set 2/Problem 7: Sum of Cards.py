@@ -9,7 +9,11 @@ class Hand:
     def __init__(self):
         self.cards = []
 
-    # ... methods from previous problems
+    def add_card(self, card):
+        pass
+
+    def remove_card(self, card):
+        pass
 
 
 def sum_hand(hand):
@@ -26,3 +30,30 @@ hand.add_card(card_three)
 
 sum = sum_hand(hand)
 print(sum)
+
+# ==== AI-generated test cases (added by Claude via Claude Code) ====
+# These are AI-generated edge-case tests, not part of the original CodePath problem set.
+# They check correctness beyond the single example call above.
+# Note: expected values assume a correct get_value() (from Problem 5) and correct
+# add_card()/remove_card() (from Problem 6) - fill those in for these to pass too.
+
+print("Test 1 - empty hand")
+empty_hand = Hand()
+print("  expected:", 0, "| got:", sum_hand(empty_hand))
+
+print("Test 2 - single numeric card")
+h1 = Hand()
+h1.add_card(Card("Hearts", "5"))
+print("  expected:", 5, "| got:", sum_hand(h1))
+
+print("Test 3 - two face cards")
+h2 = Hand()
+h2.add_card(Card("Hearts", "King"))
+h2.add_card(Card("Clubs", "Ace"))
+print("  expected:", 14, "| got:", sum_hand(h2))
+
+print("Test 4 - hand containing an invalid card")
+h3 = Hand()
+h3.add_card(Card("Hearts", "5"))
+h3.add_card(Card("Spades", "Joker"))
+print("  expected:", None, "| got:", sum_hand(h3))

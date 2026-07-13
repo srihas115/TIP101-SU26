@@ -23,3 +23,25 @@ while current:
 
 # Print the head node's VALUE:
 print(linked_list.value)        # expected: Betty
+
+# ==== AI-generated test cases (added by Claude via Claude Code) ====
+# These are AI-generated edge-case tests, not part of the original CodePath problem set.
+# They check correctness beyond the single example call above.
+
+def _to_list(head):
+    vals = []
+    while head is not None:
+        vals.append(head.value)
+        head = head.next
+    return vals
+
+print("Test 1 - empty list")
+print("  expected:", None, "| got:", list_to_linked_list([]))
+
+print("Test 2 - single-element list")
+result2 = list_to_linked_list(["Betty"])
+print("  expected:", ["Betty"], "| got:", _to_list(result2))
+
+print("Test 3 - list with duplicate values")
+result3 = list_to_linked_list(["X", "X", "X"])
+print("  expected:", ["X", "X", "X"], "| got:", _to_list(result3))
