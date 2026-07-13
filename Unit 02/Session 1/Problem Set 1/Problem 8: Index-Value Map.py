@@ -1,2 +1,21 @@
 def index_to_value_map(lst):
     pass
+
+# ==== AI-generated test cases (added by Claude via Claude Code) ====
+# These are AI-generated edge-case tests, not part of the original CodePath problem set.
+# They check correctness beyond the single example call above.
+
+print("Test 1 - example from spec")
+print("  expected:", {0: "apple", 1: "banana", 2: "cherry"}, "| got:", index_to_value_map(["apple", "banana", "cherry"]))
+
+print("Test 2 - empty list")
+print("  expected:", {}, "| got:", index_to_value_map([]))
+
+print("Test 3 - single element list")
+print("  expected:", {0: "solo"}, "| got:", index_to_value_map(["solo"]))
+
+print("Test 4 - duplicate values at different indices")
+print("  expected:", {0: "a", 1: "a", 2: "b"}, "| got:", index_to_value_map(["a", "a", "b"]))
+
+print("Test 5 - list of integers, including negatives and zero")
+print("  expected:", {0: -1, 1: 0, 2: 5}, "| got:", index_to_value_map([-1, 0, 5]))
