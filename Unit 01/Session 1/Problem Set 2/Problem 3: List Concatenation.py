@@ -1,5 +1,8 @@
 def concatenate_list(nums):
-    pass
+    res = []
+    res.extend(nums)
+    res.extend(nums)
+    return res
 
 # ==== AI-generated test cases (added by Claude via Claude Code) ====
 # These are AI-generated edge-case tests, not part of the original CodePath problem set.

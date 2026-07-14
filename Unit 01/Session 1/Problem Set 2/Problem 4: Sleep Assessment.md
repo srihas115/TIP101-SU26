@@ -27,7 +27,7 @@ sleep_assessment(9)
 Example Output:
 
 
-```python
+```
 You got a good night's rest!
 Oof, go back to bed!
 You're a sleep prodigy!

@@ -34,7 +34,7 @@ rock_paper_scissors("paper", "rock")
 Example Output:
 
 
-```python
+```
 It's a tie!
 Player 2 wins!
 Player 1 wins!
