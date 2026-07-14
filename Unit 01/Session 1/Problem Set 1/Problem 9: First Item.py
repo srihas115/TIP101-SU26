@@ -1,5 +1,7 @@
 def get_first(lst):
-    pass
+    if len(lst) == 0:
+        return None
+    return lst[0]
 
 # ==== AI-generated test cases (added by Claude via Claude Code) ====
 # These are AI-generated edge-case tests, not part of the original CodePath problem set.

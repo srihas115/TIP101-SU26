@@ -1,5 +1,8 @@
 def sum_ten():
-    pass
+    sum = 0
+    for i in range(1,11):
+        sum += i
+    return sum
 
 output = sum_ten()
 

@@ -1,5 +1,8 @@
 def sum_positive_range(stop):
-    pass
+    sum = 0
+    for i in range(stop+1):
+        sum += i
+    return sum
 
 sum = sum_positive_range(6)
 

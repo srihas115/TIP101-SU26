@@ -1,5 +1,6 @@
 def counter(stop):
-    pass
+    for i in range(stop):
+        print(i+1)
 
 counter(7)
 

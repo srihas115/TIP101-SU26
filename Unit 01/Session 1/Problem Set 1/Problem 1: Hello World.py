@@ -1,8 +1,6 @@
-# Example: Calling a function
-function_example() # Prints 'Hello world!'
-
 def hello_world():
-    pass
+    print("Hello world!")
+
 
 # ==== AI-generated test cases (added by Claude via Claude Code) ====
 # These are AI-generated edge-case tests, not part of the original CodePath problem set.
