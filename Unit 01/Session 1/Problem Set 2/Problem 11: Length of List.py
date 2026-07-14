@@ -1,5 +1,8 @@
 def list_length(lst):
-    pass
+    l = 0
+    for num in lst:
+        l += 1
+    return l
 
 lst = [2,4,6,8,10]
 length = list_length(lst)

@@ -1,5 +1,7 @@
 def multiply_list(lst, multiplier):
-    pass
+    for i in range(len(lst)):
+        lst[i] = lst[i] * multiplier
+    return lst
 
 lst = [1,2,3]
 new_lst = multiply_list(lst, 3)

@@ -1,5 +1,9 @@
 def count_evens(lst):
-    pass
+    counter = 0
+    for num in lst:
+        if num % 2 == 0:
+            counter += 1
+    return counter
 
 lst1 = [1,5,7,9]
 count1 = count_evens(lst1)

@@ -1,5 +1,9 @@
 def above_threshold(lst, threshold):
-    pass
+    res = []
+    for num in lst:
+        if num > threshold:
+            res.append(num)
+    return res
 
 lst = [8,2,13,11,4,10,14]
 result = above_threshold(lst, 10)

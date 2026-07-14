@@ -1,5 +1,8 @@
 def factorial(n):
-    pass
+    res = 1
+    for num in range(n, 0, -1):
+        res *= num
+    return res
 
 print(factorial(3))
 

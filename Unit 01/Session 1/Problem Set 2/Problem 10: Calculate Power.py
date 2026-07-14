@@ -1,5 +1,8 @@
 def power(base, exponent):
-    pass
+    res = 1
+    for i in range(exponent):
+        res *= base
+    return res
 
 pow1 = power(2,5)
 print(pow1)
