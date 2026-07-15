@@ -1,6 +1,6 @@
 # Problem 4: Recursive Power of 2
 
-Given an integer `n`, return `True` if `n` is a power of two. Otherwise, return `False``.
+Given an integer `n`, return `True` if `n` is a power of two. Otherwise, return `False`.
 
 
 An integer `n` is a power of two if there exists an integer `x` such that `n == 2ˣ`.
