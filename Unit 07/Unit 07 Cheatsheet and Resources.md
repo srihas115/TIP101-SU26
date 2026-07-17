@@ -416,7 +416,7 @@ function_a()
 When one function calls a second function, the first function pauses executing any remaining steps until the second function is finished executing. Running the above example, results in the following output:
 
 
-```python
+```
 I'm Function A!
 I'm Function B!
 I'm Function C!
