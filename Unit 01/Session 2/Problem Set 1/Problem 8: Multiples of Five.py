@@ -1,5 +1,6 @@
 def multiples_of_five():
-    pass
+    for i in range(5, 105, 5):
+        print(i)
 
 # ==== AI-generated test cases (added by Claude via Claude Code) ====
 # These are AI-generated edge-case tests, not part of the original CodePath problem set.

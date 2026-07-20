@@ -1,5 +1,18 @@
 def max_difference(lst):
-    pass
+    if len(lst) == 0 or len(lst) == 1:
+        return 0
+    
+    min = lst[0]
+    max = lst[0]
+    
+    for num in lst:
+        if num > max:
+            max = num
+        if num < min:
+            min = num
+    
+    return max - min
+    
 
 lst = [5,22,8,10,2]
 max_diff = max_difference(lst)

@@ -1,8 +1,15 @@
 def linear_search(lst, target):
-    pass
+    for i in range(len(lst)):
+        if lst[i] == target:
+            return i
+    return -1
 
 lst = [1,4,5,2,8]
 position = linear_search(lst,5)
+print(position)
+
+lst = [1,4,5,2,8]
+position = linear_search(lst,10)
 print(position)
 
 # ==== AI-generated test cases (added by Claude via Claude Code) ====

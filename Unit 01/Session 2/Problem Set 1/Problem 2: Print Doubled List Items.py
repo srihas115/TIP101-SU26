@@ -1,5 +1,11 @@
 def doubled(lst):
-    pass
+    for item in lst:
+        print(int(item * 2))
+        
+lst = [1,2,3]
+print(doubled(lst))
+
+print()
 
 # ==== AI-generated test cases (added by Claude via Claude Code) ====
 # These are AI-generated edge-case tests, not part of the original CodePath problem set.

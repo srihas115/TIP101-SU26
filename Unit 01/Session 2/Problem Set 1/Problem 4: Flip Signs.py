@@ -1,5 +1,7 @@
 def flip_sign(lst):
-    pass
+    for i in range(len(lst)):
+        lst[i] = lst[i] * -1
+    return lst
 
 lst = [1,-2,-3,4]
 flipped_lst = flip_sign(lst)

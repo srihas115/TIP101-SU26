@@ -1,5 +1,7 @@
 def doubled(lst):
-    pass
+    for i in range(len(lst)):
+        lst[i] = lst[i] * 2
+    return lst
 
 lst = [1,2,3]
 new_lst = doubled(lst)
