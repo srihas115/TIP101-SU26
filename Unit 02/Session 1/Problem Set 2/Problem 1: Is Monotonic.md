@@ -36,7 +36,7 @@ print(is_monotonic(nums4))
 Example Output:
 
 
-```python
+```
 True
 True
 True

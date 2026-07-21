@@ -1,5 +1,10 @@
 def student_directory(student_names):
-    pass
+    res = {}
+    
+    for i in range(len(student_names)):
+        res[student_names[i]] = i + 1
+    
+    return res
 
 # ==== AI-generated test cases (added by Claude via Claude Code) ====
 # These are AI-generated edge-case tests, not part of the original CodePath problem set.

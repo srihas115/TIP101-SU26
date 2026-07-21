@@ -1,5 +1,16 @@
 def is_monotonic(nums):
-    pass
+    if len(nums) == 0:
+        return True
+    increasing = True
+    decreasing = True
+    
+    for i in range(1, len(nums)):
+        if nums[i] > nums[i - 1]:
+            increasing = False
+        if nums[i] < nums[i - 1]:
+            decreasing = False
+    
+    return increasing or decreasing
 
 nums1 = [1,2,2,3,10]
 print(is_monotonic(nums1))
