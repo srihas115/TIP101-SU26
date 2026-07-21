@@ -1,6 +1,0 @@
-print(dog.value)
-print(dog.next is cat)
-print(dog.next.value)
-print(cat.next is mouse)
-print(cat.next.value)
-print(mouse.next)
