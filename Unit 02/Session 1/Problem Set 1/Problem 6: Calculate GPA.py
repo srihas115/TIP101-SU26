@@ -1,5 +1,23 @@
 def calculate_gpa(report_card):
-    pass
+    gpa = 0.0
+    
+    for k, v in report_card.items():
+        if v == "A":
+            gpa += 4.0
+        elif v == "B":
+            gpa += 3.0
+        elif v == "C":
+            gpa += 2.0
+        elif v == "D":
+            gpa += 1.0
+        else:
+            gpa += 0.0
+            
+    if gpa == 0.0 or len(report_card.keys()) == 0:
+        return 0.0
+    
+    gpa /= len(report_card.keys())
+    return gpa
 
 report_card = {"Math": "A", "Science": "C", "History": "A", "Art": "B", "English": "B", "Spanish": "A"}
 print(calculate_gpa(report_card))

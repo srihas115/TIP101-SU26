@@ -1,5 +1,16 @@
 def keys_v_values(dictionary):
-    pass
+    sum_keys = 0
+    sum_vals = 0
+    for k, v in dictionary.items():
+        sum_keys += k
+        sum_vals += v
+    
+    if sum_keys > sum_vals:
+        return "keys"
+    elif sum_keys < sum_vals:
+        return "values"
+    else:
+        return "balanced"        
 
 dictionary1 = {1:10, 2:20, 3:30, 4:40, 5:50, 6:60}
 greater_sum = keys_v_values(dictionary1)

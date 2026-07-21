@@ -22,7 +22,7 @@ values = ['butter', 'fly', 'fish', 'corn', 'ship']
 Example Output:
 
 
-```python
+```
 {'peanut': 'butter', 'dragon': 'fly', 'star': 'fish', 'pop': 'corn', 'space': 'ship'}
 ```
 

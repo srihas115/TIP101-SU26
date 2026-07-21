@@ -21,7 +21,7 @@ print_pair(dictionary, "spongebob")
 Example Output:
 
 
-```python
+```
 Key: patrick
 Value: star
 That pair does not exist!

@@ -21,7 +21,7 @@ print(all_in(lst_2, lst_1))
 Example Output:
 
 
-```python
+```
 True
 False
 ```

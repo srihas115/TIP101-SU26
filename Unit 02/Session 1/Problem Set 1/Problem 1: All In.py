@@ -1,5 +1,13 @@
 def all_in(a, b):
-    pass
+    for x in a:
+        found = False
+        for y in b:
+            if x == y:
+                found = True
+                break
+        if not found:
+            return False
+    return True
 
 lst_1 = [1, 2]
 lst_2 = [1, 2, 3]

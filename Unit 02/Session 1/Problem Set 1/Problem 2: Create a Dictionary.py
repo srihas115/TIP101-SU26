@@ -1,5 +1,9 @@
 def create_dictionary(keys, values):
-    pass
+    res = {}
+    for i in range(len(keys)):
+        res[keys[i]] = values[i]
+    return res
+        
 
 keys = ['peanut', 'dragon', 'star', 'pop', 'space']
 values = ['butter', 'fly', 'fish', 'corn', 'ship']

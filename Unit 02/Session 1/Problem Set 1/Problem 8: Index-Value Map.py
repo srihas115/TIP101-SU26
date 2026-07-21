@@ -1,5 +1,8 @@
 def index_to_value_map(lst):
-    pass
+    res = {}
+    for i in range(len(lst)):
+        res[i] = lst[i]
+    return res
 
 # ==== AI-generated test cases (added by Claude via Claude Code) ====
 # These are AI-generated edge-case tests, not part of the original CodePath problem set.
