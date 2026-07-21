@@ -45,28 +45,34 @@ TIP101/
 │   ├── 💻 IDE Setup.md
 │   ├── ✨ Learning with AI.md
 │   └── ...
-├── Unit 01/
+├── Unit 01 - Python & Lists/
 │   ├── Session 1/
-│   │   ├── Problem Set 1/
-│   │   │   ├── Problem N: <Title>.md       ← problem statement from CodePath portal
-│   │   │   ├── Problem N: <Title>.py       ← my solution stub
+│   │   ├── Version 1/
+│   │   │   ├── 01_hello_world.md           ← problem statement from CodePath portal
+│   │   │   ├── 01_hello_world.py           ← my solution file
+│   │   │   ├── 02_todays_mood.md
+│   │   │   ├── 02_todays_mood.py
 │   │   │   └── ...
-│   │   ├── Problem Set 2/
+│   │   ├── Version 2/
 │   │   │   └── ...
-│   │   └── Problem Set 3/                  ← present when applicable
+│   │   └── Version 3/                      ← present when applicable
 │   ├── Session 2/
-│   │   ├── Problem Set 1/
-│   │   ├── Problem Set 2/
-│   │   └── Problem Set 3/                  ← present when applicable
+│   │   ├── Version 1/
+│   │   ├── Version 2/
+│   │   └── Version 3/                      ← present when applicable
 │   ├── Unit 01 Overview.md
 │   ├── Unit 01 Cheatsheet and Resources.md
 │   └── Unit Assets/
-├── Unit 02/
+├── Unit 02 - Dictionaries/
 │   └── ...
+├── codepath-staff-tip101-summer-26/
+│   ├── Staff/                              ← official reference templates
+│   ├── Student/                            ← official student validator templates
+│   └── ProblemSetSolutionValidator[DO_NOT_EDIT]/
 └── ...
 ```
 
-Every `.py` solution file has a matching `.md` file with the **same name** in the same folder. The Markdown file contains the original problem statement and instructions pulled from the CodePath course portal; the Python file contains only starter structure and example calls so I can fill in the solutions myself.
+Every `.py` solution file has a matching `.md` file with the **same name** in the same folder. The folder and file names now mirror CodePath's staff-provided validator layout (`Unit ## - Topic/Session #/Version #/NN_slug.py`) while preserving my Markdown problem statements and local Python solution files.
 
 # Getting Started
 
