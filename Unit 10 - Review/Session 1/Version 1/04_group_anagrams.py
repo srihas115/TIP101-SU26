@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 10: Review  ·  Session 1  ·  Version 1
-  Problem 4: Group Anagrams
+    Unit 10: Review  ·  Session 1  ·  Version 1
+    Problem 4: Group Anagrams
 
-  Given an array of strings `strs`, group **the anagrams** together. You can
-  return the answer in **any order**.
+    Given an array of strings `strs`, group **the anagrams** together. You can
+    return the answer in **any order**.
 
-  An **Anagram** is a word or phrase formed by rearranging the letters of a
-  different word or phrase, typically using all the original letters exactly
-  once.
+    An **Anagram** is a word or phrase formed by rearranging the letters of a
+    different word or phrase, typically using all the original letters exactly
+    once.
 
-  Write your solution for `group_anagrams` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `group_anagrams` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `group_anagrams` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `group_anagrams` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -32,7 +32,7 @@ def group_anagrams(strs):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib

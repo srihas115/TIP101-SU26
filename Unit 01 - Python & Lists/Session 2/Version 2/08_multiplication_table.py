@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
-  Problem 8: Multiplication Table
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+    Problem 8: Multiplication Table
 
-  Write a function `multiplication_table()` that takes in an integer `num`
-  and prints the multiples of that integer from 1 to 10.
+    Write a function `multiplication_table()` that takes in an integer `num`
+    and prints the multiples of that integer from 1 to 10.
 
-  Write your solution for `multiplication_table` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `multiplication_table` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `multiplication_table` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `multiplication_table` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -46,7 +46,7 @@ multiplication_table(-2)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -59,7 +59,7 @@ grade(multiplication_table)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(7, expected='7\n14\n21\n28\n35\n42\n49\n56\n63\n70')   # checks the printed output against this example

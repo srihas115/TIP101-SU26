@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 10: Review  ·  Session 2  ·  Version 1
-  Problem 1: Contains Duplicates
+    Unit 10: Review  ·  Session 2  ·  Version 1
+    Problem 1: Contains Duplicates
 
-  Given an integer array `nums`, return `True` if any value appears **at
-  least twice** in the array, and return `False` if every element is
-  distinct.
+    Given an integer array `nums`, return `True` if any value appears **at
+    least twice** in the array, and return `False` if every element is
+    distinct.
 
-  Write your solution for `contains_duplicate` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `contains_duplicate` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `contains_duplicate` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `contains_duplicate` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -29,7 +29,7 @@ def contains_duplicate(nums):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -42,7 +42,7 @@ grade(contains_duplicate)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 1], expected=True)   # checks the value your code returns against this example

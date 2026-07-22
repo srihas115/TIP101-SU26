@@ -1,27 +1,27 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 1  ·  Version 2
-  Problem 4: Second Minimum Value
+    Unit 9: Binary Trees II  ·  Session 1  ·  Version 2
+    Problem 4: Second Minimum Value
 
-  Given the `root` of a non-empty special binary tree consisting of nodes
-  with the non-negative value, where each node in this tree has exactly
-  `two` or `zero` children. If the node has two children, then this node's
-  value is the smaller value among its two children. More formally, the
-  property `root.val = min(root.left.val, root.right.val)` always holds.
+    Given the `root` of a non-empty special binary tree consisting of nodes
+    with the non-negative value, where each node in this tree has exactly
+    `two` or `zero` children. If the node has two children, then this node's
+    value is the smaller value among its two children. More formally, the
+    property `root.val = min(root.left.val, root.right.val)` always holds.
 
-  Given such a binary tree, write a function that returns the **second
-  minimum** value in the set made of all the nodes' value in the whole tree.
+    Given such a binary tree, write a function that returns the **second
+    minimum** value in the set made of all the nodes' value in the whole tree.
 
-  If no such second minimum value exists, output -1 instead.
+    If no such second minimum value exists, output -1 instead.
 
-  Evaluate the time complexity of the function.
+    Evaluate the time complexity of the function.
 
-  Write your solution for `find_second_minimum_value` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_second_minimum_value` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_second_minimum_value` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_second_minimum_value` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -44,7 +44,7 @@ def find_second_minimum_value(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -57,7 +57,7 @@ grade(find_second_minimum_value)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([2, 2, 5, None, None, 5, 7], expected=5)   # checks the value your code returns against this example

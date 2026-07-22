@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 2
-  Problem 6: How Many Smaller
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 2
+    Problem 6: How Many Smaller
 
-  Write a function `smaller_numbers_than_current()` that takes in a list of
-  numbers `nums` as a parameter. For each `nums[i]`, the function should
-  find out how many numbers in the list are smaller than it. (*For each
-  nums[i], count the number of valid `j`'s such that `j!=i` and `nums[j] <
-  nums[i]`*)
+    Write a function `smaller_numbers_than_current()` that takes in a list of
+    numbers `nums` as a parameter. For each `nums[i]`, the function should
+    find out how many numbers in the list are smaller than it. (*For each
+    nums[i], count the number of valid `j`'s such that `j!=i` and `nums[j] <
+    nums[i]`*)
 
-  Return the answers in a list.
+    Return the answers in a list.
 
-  Write your solution for `smaller_numbers_than_current` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `smaller_numbers_than_current` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `smaller_numbers_than_current` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `smaller_numbers_than_current` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", [0,1,2,3], "| got:", smaller_numbers_than_current([1,2,3,4]
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(smaller_numbers_than_current)   # ▶ Run this file to validate your solut
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([6, 1, 2, 2, 3], expected=[4, 0, 1, 1, 3])   # checks the value your code returns against this example

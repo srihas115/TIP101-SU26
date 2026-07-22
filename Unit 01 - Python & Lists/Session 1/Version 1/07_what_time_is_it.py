@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
-  Problem 7: What time is it?
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+    Problem 7: What time is it?
 
-  **Let's put what we learned in Problems 1-4 all together!** Write a
-  function named `what_time_is_it()` that takes an integer `hour` as a
-  parameter. If `hour` is 2, the function should return `"taco time 🌮"`. If
-  `hour` is 12, the function should return `"peanut butter jelly time 🥪”`.
-  Otherwise, the function should return `"nap time 😴"`.
+    **Let's put what we learned in Problems 1-4 all together!** Write a
+    function named `what_time_is_it()` that takes an integer `hour` as a
+    parameter. If `hour` is 2, the function should return `"taco time 🌮"`. If
+    `hour` is 12, the function should return `"peanut butter jelly time 🥪”`.
+    Otherwise, the function should return `"nap time 😴"`.
 
-  Example Usage:
+    Example Usage:
 
-  Write your solution for `what_time_is_it` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `what_time_is_it` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `what_time_is_it` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `what_time_is_it` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -64,7 +64,7 @@ print("  expected:", "nap time 😴", "| got:", what_time_is_it(100))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -77,7 +77,7 @@ grade(what_time_is_it)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(2, expected='taco time 🌮')   # checks the value your code returns against this example

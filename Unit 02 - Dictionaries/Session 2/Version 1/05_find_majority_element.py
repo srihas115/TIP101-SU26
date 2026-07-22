@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
-  Problem 5: Find Majority Element
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+    Problem 5: Find Majority Element
 
-  Write a function `find_majority_element()` that takes in a list of
-  integers `elements` and finds the majority element in the list. A majority
-  element is an element that appears more than `n/2` times where `n` is the
-  size of the list. If there is no majority element, return `None`.
+    Write a function `find_majority_element()` that takes in a list of
+    integers `elements` and finds the majority element in the list. A majority
+    element is an element that appears more than `n/2` times where `n` is the
+    size of the list. If there is no majority element, return `None`.
 
-  Write your solution for `find_majority_element` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_majority_element` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_majority_element` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_majority_element` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -49,7 +49,7 @@ print("  expected:", None, "| got:", find_majority_element([4,5]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -62,7 +62,7 @@ grade(find_majority_element)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([2, 2, 1, 1, 1, 2, 2], expected=2)   # checks the value your code returns against this example

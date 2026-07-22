@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 3
-  Problem 4: Sorted Squares
+    Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 3
+    Problem 4: Sorted Squares
 
-  Write a function `sorted_squares()` that takes in an integer list `nums`
-  that is *sorted* in non-decreasing order. The function returns a list of
-  the squares of each number also sorted in non-decreasing order.
+    Write a function `sorted_squares()` that takes in an integer list `nums`
+    that is *sorted* in non-decreasing order. The function returns a list of
+    the squares of each number also sorted in non-decreasing order.
 
-  Write your solution for `sorted_squares` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `sorted_squares` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `sorted_squares` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `sorted_squares` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", [0,0,0], "| got:", sorted_squares([0,0,0]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(sorted_squares)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 4], expected=[1, 4, 9, 16])   # checks the value your code returns against this example

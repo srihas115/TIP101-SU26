@@ -1,27 +1,27 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
-  Problem 7: Insert Value
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+    Problem 7: Insert Value
 
-  Write a function `ll_insert()` that takes in a `head` of a linked list, a
-  value `val`, and an index `i` as parameters.
+    Write a function `ll_insert()` that takes in a `head` of a linked list, a
+    value `val`, and an index `i` as parameters.
 
-  The function should insert a new `Node` with value `val` at index `i` of
-  the linked list, then return the head of the linked list. - If `i` is
-  greater than the length of the list, insert the new node at the end of the
-  list.
+    The function should insert a new `Node` with value `val` at index `i` of
+    the linked list, then return the head of the linked list. - If `i` is
+    greater than the length of the list, insert the new node at the end of the
+    list.
 
-  *Hint: Linked lists do not have built-in indices so you will need to track
-  the indices yourself.*
+    *Hint: Linked lists do not have built-in indices so you will need to track
+    the indices yourself.*
 
-  Write a helper function to help you print the new list!
+    Write a helper function to help you print the new list!
 
-  Write your solution for `ll_insert` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `ll_insert` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `ll_insert` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `ll_insert` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -89,7 +89,7 @@ print("  expected:", [5, 99], "| got:", _to_list(result4))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -102,7 +102,7 @@ grade(ll_insert)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([3, 8, 12, 9], 20, 2, expected=[3, 8, 20, 12, 9])   # checks the value your code returns against this example

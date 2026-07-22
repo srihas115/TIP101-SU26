@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
-  Problem 10: Length from Any Node
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+    Problem 10: Length from Any Node
 
-  Write a function `get_length()` that takes in a node at an unknown
-  position within a doubly linked list. The function should return the
-  length of the entire list.
+    Write a function `get_length()` that takes in a node at an unknown
+    position within a doubly linked list. The function should return the
+    length of the entire list.
 
-  Write your solution for `get_length` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `get_length` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `get_length` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `get_length` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -35,7 +35,7 @@ def get_length(node):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -48,7 +48,7 @@ grade(get_length)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([[3, 5, 6, 7], 2], expected=4)   # checks the value your code returns against this example

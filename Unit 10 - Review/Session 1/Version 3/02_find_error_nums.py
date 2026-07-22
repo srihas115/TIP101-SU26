@@ -1,25 +1,25 @@
 '''
 ==============================================================================
-  Unit 10: Review  ·  Session 1  ·  Version 3
-  Problem 2: Set Mismatch
+    Unit 10: Review  ·  Session 1  ·  Version 3
+    Problem 2: Set Mismatch
 
-  You have a set of integers `s`, which originally contains all the numbers
-  from `1` to `n`. Unfortunately, due to some error, one of the numbers in
-  `s` got duplicated to another number in the set, which results in
-  **repetition of one** number and **loss of another** number.
+    You have a set of integers `s`, which originally contains all the numbers
+    from `1` to `n`. Unfortunately, due to some error, one of the numbers in
+    `s` got duplicated to another number in the set, which results in
+    **repetition of one** number and **loss of another** number.
 
-  You are given a list of integers `nums` representing the data status of
-  this set after the error.
+    You are given a list of integers `nums` representing the data status of
+    this set after the error.
 
-  Find the number that occurs twice and the number that is missing and
-  return *them in the form of a list*.
+    Find the number that occurs twice and the number that is missing and
+    return *them in the form of a list*.
 
-  Write your solution for `find_error_nums` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_error_nums` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_error_nums` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_error_nums` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -36,7 +36,7 @@ def find_error_nums(nums):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -49,7 +49,7 @@ grade(find_error_nums)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 2, 4], expected=[2, 3])   # checks the value your code returns against this example

@@ -1,24 +1,24 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
-  Problem 6: Merge Binary Trees
+    Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
+    Problem 6: Merge Binary Trees
 
-  You are given two binary trees with roots root1 and root2.
+    You are given two binary trees with roots root1 and root2.
 
-  Imagine that when you put one of them to cover the other, some nodes of
-  the two trees are overlapped while the others are not. You need to merge
-  the two trees into a new binary tree. The merge rule is that if two nodes
-  overlap, then sum node values up as the new value of the merged node.
-  Otherwise, the NOT null node will be used as the node of the new tree.
+    Imagine that when you put one of them to cover the other, some nodes of
+    the two trees are overlapped while the others are not. You need to merge
+    the two trees into a new binary tree. The merge rule is that if two nodes
+    overlap, then sum node values up as the new value of the merged node.
+    Otherwise, the NOT null node will be used as the node of the new tree.
 
-  Return *the merged tree*.
+    Return *the merged tree*.
 
-  Write your solution for `merge_trees` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `merge_trees` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `merge_trees` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `merge_trees` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -35,7 +35,7 @@ def merge_trees(self, root1, root2):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -48,7 +48,7 @@ grade(merge_trees)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 3, 2, 5], [2, 1, 3, None, 4, None, 7], expected=[3, 4, 5, 5, 4, None, 7])   # checks the value your code returns against this example

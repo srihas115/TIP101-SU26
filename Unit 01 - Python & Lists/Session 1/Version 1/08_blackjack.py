@@ -1,26 +1,26 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
-  Problem 8: Blackjack
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+    Problem 8: Blackjack
 
-  In the game Blackjack, players try to draw a hand of cards that totals as
-  close to 21 as possible. Players "bust" if their cards total more than 21.
-  Players say "Hit me!" if they want the dealer to give them another card.
+    In the game Blackjack, players try to draw a hand of cards that totals as
+    close to 21 as possible. Players "bust" if their cards total more than 21.
+    Players say "Hit me!" if they want the dealer to give them another card.
 
-  Write a function called `blackjack()` that takes an integer `score` as a
-  parameter. If `score` equals 21, print `"Blackjack!"`. If `score` is
-  greater than 21, print `"Bust!"`. If `score` is greater than or equal to
-  17 and less than 21, print `"Nice hand!"`. If `score` is less than 17,
-  print `"Hit me!"`.
+    Write a function called `blackjack()` that takes an integer `score` as a
+    parameter. If `score` equals 21, print `"Blackjack!"`. If `score` is
+    greater than 21, print `"Bust!"`. If `score` is greater than or equal to
+    17 and less than 21, print `"Nice hand!"`. If `score` is less than 17,
+    print `"Hit me!"`.
 
-  Example Usage:
+    Example Usage:
 
-  Write your solution for `blackjack` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `blackjack` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `blackjack` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `blackjack` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -73,7 +73,7 @@ blackjack(100)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -86,7 +86,7 @@ grade(blackjack)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(21, expected='Blackjack!')   # checks the printed output against this example

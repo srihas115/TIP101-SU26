@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
-  Problem 2: Average Score
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+    Problem 2: Average Score
 
-  Write a function `average()` that takes in a list of integers `scores` as
-  a parameter and returns the average score.
+    Write a function `average()` that takes in a list of integers `scores` as
+    a parameter and returns the average score.
 
-  Write your solution for `average` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `average` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `average` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `average` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -23,10 +23,10 @@ Plan:
 
 
 def average(scores):
-  sum = 0
-  for score in scores:
-    sum += score
-  return sum / len(scores)
+    sum = 0
+    for score in scores:
+        sum += score
+    return sum / len(scores)
 
 scores = [84,73,92,95,88]
 avg_score = average(scores)
@@ -51,7 +51,7 @@ print("  expected:", -2.0, "| got:", average([-1,-2,-3]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -64,7 +64,7 @@ grade(average)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([84, 73, 92, 95, 88], expected=86.4)   # checks the value your code returns against this example

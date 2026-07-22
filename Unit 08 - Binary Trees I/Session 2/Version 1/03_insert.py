@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
-  Problem 3: BST Insert I
+    Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
+    Problem 3: BST Insert I
 
-  Given the `root` of a binary search tree, insert a new node with a given
-  `key` and `value` into the tree. Return the `root` of the modified tree.
-  The tree is sorted by key. If a node with the given `key` already exists,
-  update the the existing key’s value. You do not need to maintain a
-  balanced tree.
+    Given the `root` of a binary search tree, insert a new node with a given
+    `key` and `value` into the tree. Return the `root` of the modified tree.
+    The tree is sorted by key. If a node with the given `key` already exists,
+    update the the existing key’s value. You do not need to maintain a
+    balanced tree.
 
-  Evaluate the time complexity of your function.
+    Evaluate the time complexity of your function.
 
-  Write your solution for `insert` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `insert` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `insert` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `insert` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -40,7 +40,7 @@ def insert(root, key, value):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -53,7 +53,7 @@ grade(insert)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([10, 5, 15, 1, 6], 9, 'Naruto', expected=[10, 5, 15, 1, 6, None, None, None, None, None, 9])   # checks the value your code returns against this example

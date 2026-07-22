@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 2  ·  Version 2
-  Problem 3: Longest Common Prefix
+    Unit 3: Strings & Lists  ·  Session 2  ·  Version 2
+    Problem 3: Longest Common Prefix
 
-  Write a function `longest_common_prefix()` that takes in a list of strings
-  `strings` as a parameter. The function returns the longest common prefix
-  (*not substring*) of **all** strings and if there are none, it returns an
-  empty string `""`.
+    Write a function `longest_common_prefix()` that takes in a list of strings
+    `strings` as a parameter. The function returns the longest common prefix
+    (*not substring*) of **all** strings and if there are none, it returns an
+    empty string `""`.
 
-  Write your solution for `longest_common_prefix` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `longest_common_prefix` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `longest_common_prefix` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `longest_common_prefix` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -57,7 +57,7 @@ print("  expected:", "ab", "| got:", longest_common_prefix(["ab", "abc", "abcd"]
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -70,7 +70,7 @@ grade(longest_common_prefix)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(['flower', 'flow', 'flight'], expected='fl')   # checks the value your code returns against this example

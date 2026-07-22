@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
-  Problem 3: Merge Two Sorted Lists
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
+    Problem 3: Merge Two Sorted Lists
 
-  Given the heads of two sorted linked lists and return it as a new sorted
-  list. The new list should be made by splicing together the nodes of the
-  input lists. Return the head of the result list.
+    Given the heads of two sorted linked lists and return it as a new sorted
+    list. The new list should be made by splicing together the nodes of the
+    input lists. Return the head of the result list.
 
-  Evaluate the time and space complexity of your solution. Define your
-  variables and provide a rationale for why you believe your solution has
-  the stated time and space complexity.
+    Evaluate the time and space complexity of your solution. Define your
+    variables and provide a rationale for why you believe your solution has
+    the stated time and space complexity.
 
-  Write your solution for `merge_two_lists` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `merge_two_lists` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `merge_two_lists` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `merge_two_lists` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -78,7 +78,7 @@ print("  expected:", [1, 1, 1, 1], "| got:", _to_list(result3))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -91,7 +91,7 @@ grade(merge_two_lists)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 4], [1, 3, 4], expected=[1, 1, 2, 3, 4, 4])   # checks the value your code returns against this example

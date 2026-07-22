@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
-  Problem 11: Length of List
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+    Problem 11: Length of List
 
-  Without using the built-in `len()` function, write a function
-  `list_length()` that takes in a list `lst` as a parameter and returns the
-  length of the list.
+    Without using the built-in `len()` function, write a function
+    `list_length()` that takes in a list `lst` as a parameter and returns the
+    length of the list.
 
-  Write your solution for `list_length` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `list_length` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `list_length` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `list_length` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", 6, "| got:", list_length([1,2,3,4,5,6]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(list_length)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([2, 4, 6, 8, 10], expected=5)   # checks the value your code returns against this example

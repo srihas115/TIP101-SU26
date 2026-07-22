@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 1  ·  Version 2
-  Problem 6: Items to Restock
+    Unit 2: Dictionaries  ·  Session 1  ·  Version 2
+    Problem 6: Items to Restock
 
-  Write a function `get_items_to_restock()` that takes in a dictionary
-  `products` that maps product names to their quantities and an integer
-  `restock_threshold` as parameters. The function returns a list of products
-  that have a value less than `restock_threshold` and need to be restocked.
-  If `products` is empty, the function return an empty list.
+    Write a function `get_items_to_restock()` that takes in a dictionary
+    `products` that maps product names to their quantities and an integer
+    `restock_threshold` as parameters. The function returns a list of products
+    that have a value less than `restock_threshold` and need to be restocked.
+    If `products` is empty, the function return an empty list.
 
-  Write your solution for `get_items_to_restock` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `get_items_to_restock` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `get_items_to_restock` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `get_items_to_restock` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -57,7 +57,7 @@ print("  expected:", ["Product1"], "| got:", get_items_to_restock({"Product1": 1
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -70,7 +70,7 @@ grade(get_items_to_restock)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test({'Product1': 10, 'Product2': 2, 'Product3': 5, 'Product4': 3}, 5, expected=['Product2', 'Product4'])   # checks the value your code returns against this example

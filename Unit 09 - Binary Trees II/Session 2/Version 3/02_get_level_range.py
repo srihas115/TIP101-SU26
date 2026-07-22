@@ -1,23 +1,23 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 2  ·  Version 3
-  Problem 2: Node Values Between Given Levels
+    Unit 9: Binary Trees II  ·  Session 2  ·  Version 3
+    Problem 2: Node Values Between Given Levels
 
-  Given the `root` of a binary tree, return a list of all the node values
-  between to given levels `start_level` and `end_level` in a binary tree.
+    Given the `root` of a binary tree, return a list of all the node values
+    between to given levels `start_level` and `end_level` in a binary tree.
 
-  You may assume `1 <= start_level <= end_level <= tree depth`.
+    You may assume `1 <= start_level <= end_level <= tree depth`.
 
-  Evaluate the time complexity of your solution. Define your variables and
-  give a rationale as to why you believe your solution has the stated time
-  complexity.
+    Evaluate the time complexity of your solution. Define your variables and
+    give a rationale as to why you believe your solution has the stated time
+    complexity.
 
-  Write your solution for `get_level_range` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `get_level_range` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `get_level_range` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `get_level_range` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -40,7 +40,7 @@ def get_level_range(root, start_level, end_level):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -53,7 +53,7 @@ grade(get_level_range)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], 2, 4, expected=[5, 1, 6, 2, 0, 8, 7, 4])   # checks the value your code returns against this example

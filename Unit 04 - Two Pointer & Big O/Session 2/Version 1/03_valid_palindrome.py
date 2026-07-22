@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 1
-  Problem 3: Valid Palindrome
+    Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 1
+    Problem 3: Valid Palindrome
 
-  Write a function `valid_palindrome()` that takes in a string `s` as a
-  parameter and returns `True` if `s` can be a palindrome after deleting at
-  most one character from it and `False` otherwise.
+    Write a function `valid_palindrome()` that takes in a string `s` as a
+    parameter and returns `True` if `s` can be a palindrome after deleting at
+    most one character from it and `False` otherwise.
 
-  Write your solution for `valid_palindrome` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `valid_palindrome` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `valid_palindrome` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `valid_palindrome` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -79,7 +79,7 @@ print(valid_palindrome2(s3))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -92,7 +92,7 @@ grade(valid_palindrome)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('aba', expected=True)   # checks the value your code returns against this example

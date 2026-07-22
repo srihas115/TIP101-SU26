@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
-  Problem 7: Make Pairs
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+    Problem 7: Make Pairs
 
-  Write a function `divide_list()` that takes in an integer list `nums`
-  consisting of `2*n` integers as parameters. The function divides `nums`
-  into `n` pairs such that: - Each element belongs to exactly one pair - The
-  elements present in a pair are equal
+    Write a function `divide_list()` that takes in an integer list `nums`
+    consisting of `2*n` integers as parameters. The function divides `nums`
+    into `n` pairs such that: - Each element belongs to exactly one pair - The
+    elements present in a pair are equal
 
-  Return `True` if `nums` can be divided into `n` pairs, otherwise return
-  `False`.
+    Return `True` if `nums` can be divided into `n` pairs, otherwise return
+    `False`.
 
-  Write your solution for `divide_list` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `divide_list` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `divide_list` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `divide_list` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", False, "| got:", divide_list([1,1,1,2,2,2]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(divide_list)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([3, 2, 3, 2, 2, 2], expected=True)   # checks the value your code returns against this example

@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 1  ·  Version 2
-  Problem 2: Find Max
+    Unit 6: Linked Lists II  ·  Session 1  ·  Version 2
+    Problem 2: Find Max
 
-  Given the head of a linked list where each node is an integer value,
-  return the maximum value in the linked list.
+    Given the head of a linked list where each node is an integer value,
+    return the maximum value in the linked list.
 
-  Write your solution for `find_max` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_max` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_max` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_max` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -60,7 +60,7 @@ print("  expected:", 7, "| got:", find_max(dup1))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -73,7 +73,7 @@ grade(find_max)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([5, 6, 7, 8], expected=8)   # checks the value your code returns against this example

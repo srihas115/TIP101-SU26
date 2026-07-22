@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
-  Problem 1: Print List
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+    Problem 1: Print List
 
-  Write a function `print_list()` that takes in a list `lst` as a parameter
-  and prints out each item in the list.
+    Write a function `print_list()` that takes in a list `lst` as a parameter
+    and prints out each item in the list.
 
-  Write your solution for `print_list` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `print_list` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `print_list` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `print_list` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -49,7 +49,7 @@ print_list(["x", "x", "y"])
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -62,7 +62,7 @@ grade(print_list)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(['squirtle', 'gengar', 'charizard', 'pikachu'], expected='squirtle\ngengar\ncharizard\npikachu')   # checks the printed output against this example

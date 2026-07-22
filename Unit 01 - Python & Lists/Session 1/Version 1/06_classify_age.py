@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
-  Problem 6: Classify Age
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+    Problem 6: Classify Age
 
-  Write a function `classify_age()` that takes an integer `age` as a
-  parameter and returns `"child"` if the age is less than 18, and returns
-  `"adult"` otherwise.
+    Write a function `classify_age()` that takes an integer `age` as a
+    parameter and returns `"child"` if the age is less than 18, and returns
+    `"adult"` otherwise.
 
-  Example Usage:
+    Example Usage:
 
-  Write your solution for `classify_age` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `classify_age` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `classify_age` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `classify_age` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -60,7 +60,7 @@ print("  expected:", "adult", "| got:", classify_age(150))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -73,7 +73,7 @@ grade(classify_age)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(18, expected='adult')   # checks the value your code returns against this example

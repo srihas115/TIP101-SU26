@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 2
-  Problem 4: Find Odd Occurrences
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 2
+    Problem 4: Find Odd Occurrences
 
-  Write a function `find_odd_occurrences()` that takes in a list of integers
-  `numbers` where all numbers occur an even number of times except for two
-  unique numbers that occur an odd number of times. The function should find
-  the two unique numbers and return them as a list. Assume each problem has
-  exactly one solution.
+    Write a function `find_odd_occurrences()` that takes in a list of integers
+    `numbers` where all numbers occur an even number of times except for two
+    unique numbers that occur an odd number of times. The function should find
+    the two unique numbers and return them as a list. Assume each problem has
+    exactly one solution.
 
-  Write your solution for `find_odd_occurrences` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_odd_occurrences` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_odd_occurrences` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_odd_occurrences` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -48,7 +48,7 @@ print("  expected:", [-1, -2], "| got:", find_odd_occurrences([3,3,-1,-2]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -61,7 +61,7 @@ grade(find_odd_occurrences)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 4, 2, 3, 2, 3, 3, 4, 4, 4], expected=[1, 3])   # checks the value your code returns against this example

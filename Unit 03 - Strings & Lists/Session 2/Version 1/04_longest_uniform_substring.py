@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 2  ·  Version 1
-  Problem 4: Longest Uniform Substring
+    Unit 3: Strings & Lists  ·  Session 2  ·  Version 1
+    Problem 4: Longest Uniform Substring
 
-  Write a function `longest_uniform_substring()` that takes in a string `s`
-  and returns the length of the longest uniform substring. A uniform
-  substring consists of a single repeated character.
+    Write a function `longest_uniform_substring()` that takes in a string `s`
+    and returns the length of the longest uniform substring. A uniform
+    substring consists of a single repeated character.
 
-  Write your solution for `longest_uniform_substring` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `longest_uniform_substring` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `longest_uniform_substring` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `longest_uniform_substring` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -53,7 +53,7 @@ print("  expected:", 5, "| got:", longest_uniform_substring("abccccc"))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -66,7 +66,7 @@ grade(longest_uniform_substring)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('aabbbbCdAA', expected=4)   # checks the value your code returns against this example

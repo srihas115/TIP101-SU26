@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 3
-  Problem 5: Reverse Prefix
+    Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 3
+    Problem 5: Reverse Prefix
 
-  Write a function `reverse_prefix()` that takes in a 0-indexed string
-  `word` and a character `ch` as parameters. The function reverses the
-  segment of `word` that starts at index 0 and ends at the index of the
-  first occurrence of `ch` (inclusive) and keeps the rest of the string the
-  same. If `ch` does not exist in `word`, do nothing. Return the resulting
-  string.
+    Write a function `reverse_prefix()` that takes in a 0-indexed string
+    `word` and a character `ch` as parameters. The function reverses the
+    segment of `word` that starts at index 0 and ends at the index of the
+    first occurrence of `ch` (inclusive) and keeps the rest of the string the
+    same. If `ch` does not exist in `word`, do nothing. Return the resulting
+    string.
 
-  Write your solution for `reverse_prefix` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `reverse_prefix` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `reverse_prefix` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `reverse_prefix` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -60,7 +60,7 @@ print("  expected:", "cbaabc", "| got:", reverse_prefix("abcabc", "c"))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -73,7 +73,7 @@ grade(reverse_prefix)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('abcdefd', 'd', expected='dcbaefd')   # checks the value your code returns against this example

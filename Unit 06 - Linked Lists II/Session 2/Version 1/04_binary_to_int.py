@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
-  Problem 4: Convert Binary Linked List to Integer
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
+    Problem 4: Convert Binary Linked List to Integer
 
-  You are given the head of a linked list. Each value in the linked list is
-  either 0 or 1, and the entire linked list represents a binary number.
-  Return an integer that is the decimal value of the number represented by
-  the linked list. The most significant bit is at the head of the linked
-  list.
+    You are given the head of a linked list. Each value in the linked list is
+    either 0 or 1, and the entire linked list represents a binary number.
+    Return an integer that is the decimal value of the number represented by
+    the linked list. The most significant bit is at the head of the linked
+    list.
 
-  Write your solution for `binary_to_int` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `binary_to_int` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `binary_to_int` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `binary_to_int` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -64,7 +64,7 @@ print("  expected:", 13, "| got:", binary_to_int(b1))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -77,7 +77,7 @@ grade(binary_to_int)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 0, 1], expected=5)   # checks the value your code returns against this example

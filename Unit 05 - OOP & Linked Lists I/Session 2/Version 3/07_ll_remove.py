@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
-  Problem 7: Remove Node by Value
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+    Problem 7: Remove Node by Value
 
-  Write a function `ll_remove()` that takes in the `head` of a linked list
-  and a value `val` as parameters.
+    Write a function `ll_remove()` that takes in the `head` of a linked list
+    and a value `val` as parameters.
 
-  The function should remove the first node it finds in the linked list with
-  value `val` and return the `head` of the linked list. If no node can be
-  found with the value `val`, return the list unchanged.
+    The function should remove the first node it finds in the linked list with
+    value `val` and return the `head` of the linked list. If no node can be
+    found with the value `val`, return the list unchanged.
 
-  Write your solution for `ll_remove` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `ll_remove` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `ll_remove` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `ll_remove` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -80,7 +80,7 @@ print("  expected:", [1, 5], "| got:", _to_list(result4))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -93,7 +93,7 @@ grade(ll_remove)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([5, 6, 7, 8], 6, expected=[5, 7, 8])   # checks the value your code returns against this example

@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
-  Problem 5: Replace Node
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+    Problem 5: Replace Node
 
-  Using the `Node` class, write a function `ll_replace()` that updates in
-  place every node whose `value == original` to have `value = replacement`.
-  The function returns `None`.
+    Using the `Node` class, write a function `ll_replace()` that updates in
+    place every node whose `value == original` to have `value = replacement`.
+    The function returns `None`.
 
-  Write your solution for `ll_replace` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `ll_replace` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `ll_replace` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `ll_replace` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -63,7 +63,7 @@ print(to_string(head))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -76,7 +76,7 @@ grade(ll_replace)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([5, 6, 5], 5, 'banana', expected=['banana', 6, 'banana'])   # checks the updated first argument against this example

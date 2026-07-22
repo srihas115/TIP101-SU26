@@ -1,23 +1,23 @@
 '''
 ==============================================================================
-  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 2
-  Problem 2: Checking Subsequence
+    Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 2
+    Problem 2: Checking Subsequence
 
-  Write a function `is_subsequence` that takes in two strings `s` and `t` as
-  parameters and returns `True` if `s` is a subsequence of `t` and `False`
-  otherwise.
+    Write a function `is_subsequence` that takes in two strings `s` and `t` as
+    parameters and returns `True` if `s` is a subsequence of `t` and `False`
+    otherwise.
 
-  A **subsequence** of a string is a new string that is formed from the
-  original string by deleting some or none of the characters without
-  disturbing the relative positions of the remaining characters. (*i.e.,
-  "ace" is a subsequence of "abcde" while "aec" is not*).
+    A **subsequence** of a string is a new string that is formed from the
+    original string by deleting some or none of the characters without
+    disturbing the relative positions of the remaining characters. (*i.e.,
+    "ace" is a subsequence of "abcde" while "aec" is not*).
 
-  Write your solution for `is_subsequence` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_subsequence` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_subsequence` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_subsequence` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -58,7 +58,7 @@ print("  expected:", False, "| got:", is_subsequence("a", ""))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -71,7 +71,7 @@ grade(is_subsequence)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('abc', 'ahbgdc', expected=True)   # checks the value your code returns against this example

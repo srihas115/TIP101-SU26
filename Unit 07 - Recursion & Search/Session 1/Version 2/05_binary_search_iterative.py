@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 7: Recursion & Search  ·  Session 1  ·  Version 2
-  Problem 5: Binary Search II
+    Unit 7: Recursion & Search  ·  Session 1  ·  Version 2
+    Problem 5: Binary Search II
 
-  Binary search is a searching algorithm that allows us to efficiently find
-  the index of a given value within a sorted list. Given the recursive
-  solution for binary search below, implement an _iterative_ (non-recursive)
-  implementation of binary search.
+    Binary search is a searching algorithm that allows us to efficiently find
+    the index of a given value within a sorted list. Given the recursive
+    solution for binary search below, implement an _iterative_ (non-recursive)
+    implementation of binary search.
 
-  Evaluate the time and space complexity of your implementation.
+    Evaluate the time and space complexity of your implementation.
 
-  Write your solution for `binary_search_iterative` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `binary_search_iterative` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `binary_search_iterative` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `binary_search_iterative` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -51,7 +51,7 @@ def binary_search_iterative(arr, target):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -64,7 +64,7 @@ grade(binary_search_iterative)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 3, 5, 7, 9, 11, 13, 15], 11, expected=5)   # checks the value your code returns against this example

@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
-  Problem 10: BST Is Full
+    Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
+    Problem 10: BST Is Full
 
-  Given the `root` of a binary search tree, write a function
-  `is_full_tree()` that returns `True` if the tree is full and `False`
-  otherwise. A binary tree is full if every node has either zero or two
-  children.
+    Given the `root` of a binary search tree, write a function
+    `is_full_tree()` that returns `True` if the tree is full and `False`
+    otherwise. A binary tree is full if every node has either zero or two
+    children.
 
-  Write your solution for `is_full_tree` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_full_tree` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_full_tree` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_full_tree` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -33,7 +33,7 @@ def is_full_tree(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -46,7 +46,7 @@ grade(is_full_tree)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([4, 2, 5, 1, 3], expected=True)   # checks the value your code returns against this example

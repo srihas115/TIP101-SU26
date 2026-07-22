@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 1
-  Problem 6: Duplicates Within Range
+    Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 1
+    Problem 6: Duplicates Within Range
 
-  Write a function `contains_nearby_duplicate()` that takes in a list `lst`
-  and a positive number `k` as parameters. The function returns `True` if
-  the list contains any duplicate elements within the range `k` and `False`
-  otherwise. If `k` is more than the list's size, the solution should check
-  for duplicates in the complete list.
+    Write a function `contains_nearby_duplicate()` that takes in a list `lst`
+    and a positive number `k` as parameters. The function returns `True` if
+    the list contains any duplicate elements within the range `k` and `False`
+    otherwise. If `k` is more than the list's size, the solution should check
+    for duplicates in the complete list.
 
-  Write your solution for `contains_nearby_duplicate` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `contains_nearby_duplicate` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `contains_nearby_duplicate` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `contains_nearby_duplicate` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", False, "| got:", contains_nearby_duplicate([], 2))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(contains_nearby_duplicate)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 1, 2, 3], 2, expected=False)   # checks the value your code returns against this example

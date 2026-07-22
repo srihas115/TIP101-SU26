@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
-  Problem 3: Partition List Around Value
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
+    Problem 3: Partition List Around Value
 
-  Given the `head` of a linked list and a value `val`, partition a linked
-  list around `val` such that all nodes with values less than `val` come
-  before nodes with values greater than or equal to `val`.
+    Given the `head` of a linked list and a value `val`, partition a linked
+    list around `val` such that all nodes with values less than `val` come
+    before nodes with values greater than or equal to `val`.
 
-  Write your solution for `partition` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `partition` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `partition` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `partition` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic):
 Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
@@ -55,7 +55,7 @@ def partition(head, val):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib

@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
-  Problem 11: Odd Indices
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+    Problem 11: Odd Indices
 
-  Write a function `print_odd_indices()` that takes in a list `nums` as a
-  parameter and prints out items at odd indices in the list.
+    Write a function `print_odd_indices()` that takes in a list `nums` as a
+    parameter and prints out items at odd indices in the list.
 
-  Write your solution for `print_odd_indices` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `print_odd_indices` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `print_odd_indices` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `print_odd_indices` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -51,7 +51,7 @@ print_odd_indices([5,5,5,5])
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -64,7 +64,7 @@ grade(print_odd_indices)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([3, 4, 8, 1, 5, 2], expected='4\n1\n2')   # checks the printed output against this example

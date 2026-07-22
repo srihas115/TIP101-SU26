@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
-  Problem 7: Binary Tree Product
+    Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
+    Problem 7: Binary Tree Product
 
-  Given the `root` of a binary tree, write a function that returns the
-  product of all nodes’ values in a binary tree. If the tree is empty,
-  return `1`.
+    Given the `root` of a binary tree, write a function that returns the
+    product of all nodes’ values in a binary tree. If the tree is empty,
+    return `1`.
 
-  Evaluate the time complexity of your function.
+    Evaluate the time complexity of your function.
 
-  Write your solution for `product_tree` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `product_tree` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `product_tree` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `product_tree` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -34,7 +34,7 @@ def product_tree(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -47,7 +47,7 @@ grade(product_tree)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([4, 2, 5, 1, 3], expected=120)   # checks the value your code returns against this example

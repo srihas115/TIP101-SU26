@@ -1,16 +1,16 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
-  Problem 4: Sum of Two Integers
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+    Problem 4: Sum of Two Integers
 
-  The following function returns the sum of two integers: `a` and `b`.
+    The following function returns the sum of two integers: `a` and `b`.
 
-  Write your solution for `sum` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `sum` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `sum` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `sum` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -27,7 +27,7 @@ def sum(a, b):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -40,7 +40,7 @@ grade(sum)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(20, 8, expected=28)   # checks the value your code returns against this example

@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 2
-  Problem 1: Perfect Number
+    Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 2
+    Problem 1: Perfect Number
 
-  Write a function `is_perfect_number()` that takes in a positive integer
-  `n` and returns `True` if it is a perfect number and `False` otherwise. A
-  **perfect number** is a positive integer that is equal to the sum of its
-  proper divisors, excluding itself.
+    Write a function `is_perfect_number()` that takes in a positive integer
+    `n` and returns `True` if it is a perfect number and `False` otherwise. A
+    **perfect number** is a positive integer that is equal to the sum of its
+    proper divisors, excluding itself.
 
-  For example, 6 is a perfect number because its divisors or 1, 2, and 3 and
-  1 + 2 + 3 = 6.
+    For example, 6 is a perfect number because its divisors or 1, 2, and 3 and
+    1 + 2 + 3 = 6.
 
-  Write your solution for `is_perfect_number` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_perfect_number` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_perfect_number` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_perfect_number` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -50,7 +50,7 @@ print("  expected:", False, "| got:", is_perfect_number(10))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -63,7 +63,7 @@ grade(is_perfect_number)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(6, expected=True)   # checks the value your code returns against this example

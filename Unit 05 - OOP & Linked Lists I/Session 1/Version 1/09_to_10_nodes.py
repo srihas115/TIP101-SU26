@@ -1,14 +1,14 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 1  ·  Version 1
-  Problem 9: Node Class / Linking Nodes
-  Write your solution in the space provided below, then click ▶ Run to validate it.
-  (Full instructions and examples are in the problem set.)
+    Unit 5: OOP & Linked Lists I  ·  Session 1  ·  Version 1
+    Problem 9: Node Class / Linking Nodes
+    Write your solution in the space provided below, then click ▶ Run to validate it.
+    (Full instructions and examples are in the problem set.)
 
-  ⚠️  Keep every class, method, and function name exactly as the problem gives it,
-      and use the exact variable names it asks for — the problem set solution validator looks those up
-      by name (they're case-sensitive). If it can't find one, the results will tell
-      you which name is missing.
+    ⚠️  Keep every class, method, and function name exactly as the problem gives it,
+        and use the exact variable names it asks for — the problem set solution validator looks those up
+        by name (they're case-sensitive). If it can't find one, the results will tell
+        you which name is missing.
 ==============================================================================
 Understand (input, output, core logic):
 Problem 9: make two nodes and assign values to them
@@ -46,7 +46,7 @@ print(node_two.value)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib

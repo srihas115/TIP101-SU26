@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 2  ·  Version 2
-  Problem 4: Consecutive Characters
+    Unit 3: Strings & Lists  ·  Session 2  ·  Version 2
+    Problem 4: Consecutive Characters
 
-  Write a function `count_consecutive_characters()` that takes in a string
-  `str1` as a parameter and returns the count of the most frequent
-  consecutive character.
+    Write a function `count_consecutive_characters()` that takes in a string
+    `str1` as a parameter and returns the count of the most frequent
+    consecutive character.
 
-  Write your solution for `count_consecutive_characters` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `count_consecutive_characters` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `count_consecutive_characters` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `count_consecutive_characters` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", 2, "| got:", count_consecutive_characters("aabb"))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(count_consecutive_characters)   # ▶ Run this file to validate your solut
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('aaabbcaaaa', expected=4)   # checks the value your code returns against this example

@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
-  Problem 14: Multiply List
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+    Problem 14: Multiply List
 
-  Write a function `multiply_list()` that takes in a list of integers `lst`
-  and an integer `multiplier` as parameters. The function returns a new list
-  containing each value in `lst` multiplied by `multiplier`.
+    Write a function `multiply_list()` that takes in a list of integers `lst`
+    and an integer `multiplier` as parameters. The function returns a new list
+    containing each value in `lst` multiplied by `multiplier`.
 
-  Write your solution for `multiply_list` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `multiply_list` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `multiply_list` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `multiply_list` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -53,7 +53,7 @@ print("  expected:", [-2,-4], "| got:", multiply_list([-1,-2], 2))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -66,7 +66,7 @@ grade(multiply_list)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], 3, expected=[3, 6, 9])   # checks the value your code returns against this example

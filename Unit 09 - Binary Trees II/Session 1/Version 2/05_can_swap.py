@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 1  ·  Version 2
-  Problem 5: Transformable by Swapping Subtrees
+    Unit 9: Binary Trees II  ·  Session 1  ·  Version 2
+    Problem 5: Transformable by Swapping Subtrees
 
-  Given the roots of two binary trees `root1` and `root2`, write a function
-  `can_transform()` that returns `True` if the tree represented by `root1`
-  can be converted to the tree represented by `root2` by doing any number of
-  swaps of the first tree’s right and left branches.
+    Given the roots of two binary trees `root1` and `root2`, write a function
+    `can_transform()` that returns `True` if the tree represented by `root1`
+    can be converted to the tree represented by `root2` by doing any number of
+    swaps of the first tree’s right and left branches.
 
-  Evaluate the time complexity of the function.
+    Evaluate the time complexity of the function.
 
-  Write your solution for `can_swap` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `can_swap` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `can_swap` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `can_swap` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -39,7 +39,7 @@ def can_swap(root1, root2):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -52,7 +52,7 @@ grade(can_swap)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([6, 3, 8, 1, 7, 4, 2], [6, 8, 3, 2, 4, 7, 1], expected=True)   # checks the value your code returns against this example

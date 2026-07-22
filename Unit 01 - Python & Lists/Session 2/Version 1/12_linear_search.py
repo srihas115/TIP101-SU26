@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
-  Problem 12: Linear Search
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+    Problem 12: Linear Search
 
-  Write a function `linear_search()` that takes in a list `lst` and value
-  `target` as parameters. The function returns the index of `target` in
-  `lst` if found. If `target` is not found in `lst`, return `-1`.
+    Write a function `linear_search()` that takes in a list `lst` and value
+    `target` as parameters. The function returns the index of `target` in
+    `lst` if found. If `target` is not found in `lst`, return `-1`.
 
-  Write your solution for `linear_search` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `linear_search` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `linear_search` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `linear_search` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -62,7 +62,7 @@ print("  expected:", 3, "| got:", linear_search([1,2,3,4], 4))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -75,7 +75,7 @@ grade(linear_search)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 4, 5, 2, 8], 5, expected=2)   # checks the value your code returns against this example

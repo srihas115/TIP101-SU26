@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 10: Review  ·  Session 1  ·  Version 2
-  Problem 4: Sum Tree
+    Unit 10: Review  ·  Session 1  ·  Version 2
+    Problem 4: Sum Tree
 
-  Given the `root` of a binary tree, write a function that returns `True` if
-  the value of `root` is equal to the sum of the values of all its
-  descendants. Return `False` otherwise.
+    Given the `root` of a binary tree, write a function that returns `True` if
+    the value of `root` is equal to the sum of the values of all its
+    descendants. Return `False` otherwise.
 
-  Write your solution for `check_root_sum` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `check_root_sum` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `check_root_sum` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `check_root_sum` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -35,7 +35,7 @@ def check_root_sum(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -48,7 +48,7 @@ grade(check_root_sum)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([14, 4, 6, 3, 1], expected=True)   # checks the value your code returns against this example

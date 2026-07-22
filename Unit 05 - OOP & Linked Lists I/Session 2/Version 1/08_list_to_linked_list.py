@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
-  Problem 8: Linked Listify
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+    Problem 8: Linked Listify
 
-  Write a function `list_to_linked_list()` that takes in a list `lst` as a
-  parameter and converts it to a linked list. The function should return the
-  **head** of the linked list.
+    Write a function `list_to_linked_list()` that takes in a list `lst` as a
+    parameter and converts it to a linked list. The function should return the
+    **head** of the linked list.
 
-  Write your solution for `list_to_linked_list` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `list_to_linked_list` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `list_to_linked_list` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `list_to_linked_list` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -74,7 +74,7 @@ print("  expected:", ["X", "X", "X"], "| got:", _to_list(result3))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -87,7 +87,7 @@ grade(list_to_linked_list)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(['Betty', 'Veronica', 'Archie', 'Jughead'], expected=['Betty', 'Veronica', 'Archie', 'Jughead'])   # checks the value your code returns against this example

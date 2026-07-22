@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 1  ·  Version 2
-  Problem 4: Sum Even Values
+    Unit 2: Dictionaries  ·  Session 1  ·  Version 2
+    Problem 4: Sum Even Values
 
-  Write a function `sum_even_values()` that returns the sum of all even
-  values in a given `dictionary`. Assume the dictionary values are all
-  integers.
+    Write a function `sum_even_values()` that returns the sum of all even
+    values in a given `dictionary`. Assume the dictionary values are all
+    integers.
 
-  Write your solution for `sum_even_values` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `sum_even_values` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `sum_even_values` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `sum_even_values` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -54,7 +54,7 @@ print("  expected:", 10, "| got:", sum_even_values({"a": 10}))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -67,7 +67,7 @@ grade(sum_even_values)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test({'a': 4, 'b': 1, 'c': 2, 'd': 8}, expected=14)   # checks the value your code returns against this example

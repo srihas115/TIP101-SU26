@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
-  Problem 6: Minimum Distance
+    Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
+    Problem 6: Minimum Distance
 
-  Write a function `min_distance()` that takes in a list of strings `words`
-  and two strings `word1` and `word2'` as parameters. The function should
-  return the minimum distance between `word1` and `word2` in the list of
-  words. The distance between one word and an adjacent word in the list is
-  1.
+    Write a function `min_distance()` that takes in a list of strings `words`
+    and two strings `word1` and `word2'` as parameters. The function should
+    return the minimum distance between `word1` and `word2` in the list of
+    words. The distance between one word and an adjacent word in the list is
+    1.
 
-  Write your solution for `min_distance` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `min_distance` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `min_distance` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `min_distance` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -60,7 +60,7 @@ print("  expected:", 3, "| got:", min_distance(['the', 'quick', 'brown', 'fox', 
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -73,7 +73,7 @@ grade(min_distance)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(['the', 'quick', 'brown', 'fox', 'jumped', 'the'], 'quick', 'jumped', expected=3)   # checks the value your code returns against this example

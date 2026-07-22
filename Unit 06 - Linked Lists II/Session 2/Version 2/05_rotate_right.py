@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
-  Problem 5: Rotate Right by k
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
+    Problem 5: Rotate Right by k
 
-  Given the head of a linked list and a non-negative integer `k`, rotate the
-  list to the right by `k` places. Return the head of the linked list.
+    Given the head of a linked list and a non-negative integer `k`, rotate the
+    list to the right by `k` places. Return the head of the linked list.
 
-  Write your solution for `rotate_right` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `rotate_right` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `rotate_right` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `rotate_right` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -80,7 +80,7 @@ print("  expected:", [1, 2, 3], "| got:", _to_list(result3))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -93,7 +93,7 @@ grade(rotate_right)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 4, 5], 2, expected=[4, 5, 1, 2, 3])   # checks the value your code returns against this example

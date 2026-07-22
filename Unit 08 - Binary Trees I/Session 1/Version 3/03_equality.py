@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 1  ·  Version 3
-  Problem 3: 3-Node Equality
+    Unit 8: Binary Trees I  ·  Session 1  ·  Version 3
+    Problem 3: 3-Node Equality
 
-  You are given the `root` of a binary tree that has at most `3` nodes: the
-  root, its left child, and its right child.
+    You are given the `root` of a binary tree that has at most `3` nodes: the
+    root, its left child, and its right child.
 
-  Return `True` if the root’s children have equal value and `False`
-  otherwise.
+    Return `True` if the root’s children have equal value and `False`
+    otherwise.
 
-  Evaluate the time complexity of your function.
+    Evaluate the time complexity of your function.
 
-  Write your solution for `equality` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `equality` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `equality` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `equality` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -36,7 +36,7 @@ def equality(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -49,7 +49,7 @@ grade(equality)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 2], expected=True)   # checks the value your code returns against this example

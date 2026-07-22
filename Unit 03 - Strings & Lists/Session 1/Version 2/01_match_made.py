@@ -1,16 +1,16 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 1  ·  Version 2
-  Problem 1: Perfect Match
+    Unit 3: Strings & Lists  ·  Session 1  ·  Version 2
+    Problem 1: Perfect Match
 
-  Copy and paste the following function:
+    Copy and paste the following function:
 
-  Write your solution for `match_made` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `match_made` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `match_made` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `match_made` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -28,7 +28,7 @@ def match_made(dictionary):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -41,7 +41,7 @@ grade(match_made)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test({'Peanut butter': 'Jelly', 'Spongebob': 'Patrick', 'Ash': 'Pikachu'}, expected='Peanut butter and Jelly are a perfect match.\nSpongebob and Patrick are a perfect match.\nAsh and Pikachu are a perfect match.')   # checks the printed output against this example

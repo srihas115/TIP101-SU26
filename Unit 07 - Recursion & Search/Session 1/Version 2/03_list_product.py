@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 7: Recursion & Search  ·  Session 1  ·  Version 2
-  Problem 3: Recursive Product
+    Unit 7: Recursion & Search  ·  Session 1  ·  Version 2
+    Problem 3: Recursive Product
 
-  Write a function `list_product()` that calculates the product of all
-  values in a list recursively.
+    Write a function `list_product()` that calculates the product of all
+    values in a list recursively.
 
-  What is the time complexity of this function? What is the space
-  complexity?
+    What is the time complexity of this function? What is the space
+    complexity?
 
-  Write your solution for `list_product` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `list_product` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `list_product` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `list_product` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -33,7 +33,7 @@ def list_product(lst):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -46,7 +46,7 @@ grade(list_product)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 4, 5], expected=120)   # checks the value your code returns against this example

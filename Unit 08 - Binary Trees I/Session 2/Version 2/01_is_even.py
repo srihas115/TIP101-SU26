@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 2  ·  Version 2
-  Problem 1: Is Even-valued
+    Unit 8: Binary Trees I  ·  Session 2  ·  Version 2
+    Problem 1: Is Even-valued
 
-  Given the `root` of a binary tree, return `True` if every node in the tree
-  has an even value and `False` otherwise.
+    Given the `root` of a binary tree, return `True` if every node in the tree
+    has an even value and `False` otherwise.
 
-  Write your solution for `is_even` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_even` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_even` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_even` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -34,7 +34,7 @@ def is_even(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -47,7 +47,7 @@ grade(is_even)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([2, 4, 10, 6, 8, None, 12], expected=True)   # checks the value your code returns against this example

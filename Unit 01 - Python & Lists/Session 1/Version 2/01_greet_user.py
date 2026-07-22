@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
-  Problem 1: Hello User!
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+    Problem 1: Hello User!
 
-  Write a function `greet_user()` that takes in a string `name` as a
-  parameter and prints `"Hello <name>"`.
+    Write a function `greet_user()` that takes in a string `name` as a
+    parameter and prints `"Hello <name>"`.
 
-  Write your solution for `greet_user` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `greet_user` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `greet_user` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `greet_user` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -48,7 +48,7 @@ greet_user("Mary Jane")
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -61,7 +61,7 @@ grade(greet_user)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('Michael', expected='Hello Michael')   # checks the printed output against this example

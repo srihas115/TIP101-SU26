@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
-  Problem 3: Is Pangram
+    Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
+    Problem 3: Is Pangram
 
-  Write a function `is_pangram()` that takes in a string `my_str` as a
-  parameter and returns `True` if the string is a **pangram** and `False` if
-  not. A **pangram** is a sentence containing every letter in the English
-  alphabet.
+    Write a function `is_pangram()` that takes in a string `my_str` as a
+    parameter and returns `True` if the string is a **pangram** and `False` if
+    not. A **pangram** is a sentence containing every letter in the English
+    alphabet.
 
-  Write your solution for `is_pangram` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_pangram` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_pangram` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_pangram` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -58,7 +58,7 @@ print("  expected:", False, "| got:", is_pangram("abcdefghijklmnopqrstuvwxy"))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -71,7 +71,7 @@ grade(is_pangram)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('The quick brown fox jumps over the lazy dog', expected=True)   # checks the value your code returns against this example

@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 2  ·  Version 1
-  Problem 3: Odd/Even Level Sum Difference
+    Unit 9: Binary Trees II  ·  Session 2  ·  Version 1
+    Problem 3: Odd/Even Level Sum Difference
 
-  Given the `root` of a binary tree, return the difference between the sum
-  of all node values in odd levels and sum of all node values in even
-  levels.
+    Given the `root` of a binary tree, return the difference between the sum
+    of all node values in odd levels and sum of all node values in even
+    levels.
 
-  Evaluate the time complexity of your solution. Define your variables and
-  give a rationale as to why you believe your solution has the stated time
-  complexity.
+    Evaluate the time complexity of your solution. Define your variables and
+    give a rationale as to why you believe your solution has the stated time
+    complexity.
 
-  Write your solution for `level_difference` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `level_difference` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `level_difference` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `level_difference` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -39,7 +39,7 @@ def level_difference(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -52,7 +52,7 @@ grade(level_difference)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([6, 3, 8, 5, None, 4, 2, None, None, 1, 7, None, 3], expected=-5)   # checks the value your code returns against this example

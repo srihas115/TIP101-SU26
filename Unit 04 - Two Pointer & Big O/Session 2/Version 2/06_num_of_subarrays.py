@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 2
-  Problem 6: Greater Than Threshold
+    Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 2
+    Problem 6: Greater Than Threshold
 
-  Write a function `num_of_subarrays()` that takes in a list of integers
-  `nums` and two integers `k` and `threshold` as parameters. The function
-  returns the number of `subarrays` of size `k` whose average is greater
-  than or equal to `threshold`.
+    Write a function `num_of_subarrays()` that takes in a list of integers
+    `nums` and two integers `k` and `threshold` as parameters. The function
+    returns the number of `subarrays` of size `k` whose average is greater
+    than or equal to `threshold`.
 
-  Write your solution for `num_of_subarrays` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `num_of_subarrays` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `num_of_subarrays` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `num_of_subarrays` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -47,7 +47,7 @@ print("  expected:", 1, "| got:", num_of_subarrays([5,5,5], 3, 4))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -60,7 +60,7 @@ grade(num_of_subarrays)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([2, 2, 2, 2, 5, 5, 5, 8], 3, 4, expected=3)   # checks the value your code returns against this example

@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
-  Problem 1: Is Uni-valued
+    Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
+    Problem 1: Is Uni-valued
 
-  A binary tree is uni-valued if every node in the tree has the same value.
-  Given the `root` of a binary tree, return `True` if the given tree is uni-
-  valued and `False` otherwise.
+    A binary tree is uni-valued if every node in the tree has the same value.
+    Given the `root` of a binary tree, return `True` if the given tree is uni-
+    valued and `False` otherwise.
 
-  Evaluate the time complexity of your solution.
+    Evaluate the time complexity of your solution.
 
-  Write your solution for `is_univalued` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_univalued` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_univalued` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_univalued` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -37,7 +37,7 @@ def is_univalued(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -50,7 +50,7 @@ grade(is_univalued)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 1, 1, 1, 1, None, 1], expected=True)   # checks the value your code returns against this example

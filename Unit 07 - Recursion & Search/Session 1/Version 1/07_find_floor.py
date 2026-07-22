@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 7: Recursion & Search  ·  Session 1  ·  Version 1
-  Problem 7: Find Floor
+    Unit 7: Recursion & Search  ·  Session 1  ·  Version 1
+    Problem 7: Find Floor
 
-  Given a sorted list of integers and a value `x`, return the index of the
-  floor of `x`. The floor of `x` is the largest element in the array smaller
-  than or equal to `x`. If there is no floor of `x`, return `-1`.
+    Given a sorted list of integers and a value `x`, return the index of the
+    floor of `x`. The floor of `x` is the largest element in the array smaller
+    than or equal to `x`. If there is no floor of `x`, return `-1`.
 
-  Evaluate the time and space complexity of your function.
+    Evaluate the time and space complexity of your function.
 
-  Write your solution for `find_floor` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_floor` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_floor` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_floor` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -33,7 +33,7 @@ def find_floor(lst, x):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -46,7 +46,7 @@ grade(find_floor)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 8, 10, 11, 12, 19], 5, expected=1)   # checks the value your code returns against this example

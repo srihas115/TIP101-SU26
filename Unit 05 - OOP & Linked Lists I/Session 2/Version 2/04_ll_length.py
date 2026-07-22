@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
-  Problem 4: Linked List Length
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
+    Problem 4: Linked List Length
 
-  Write a function `ll_length()` that takes in a `head` of a linked list as
-  a parameter and returns the length of the linked list.
+    Write a function `ll_length()` that takes in a `head` of a linked list as
+    a parameter and returns the length of the linked list.
 
-  Write your solution for `ll_length` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `ll_length` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `ll_length` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `ll_length` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -60,7 +60,7 @@ print("  expected:", 5, "| got:", ll_length(n1))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -73,7 +73,7 @@ grade(ll_length)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], expected=3)   # checks the value your code returns against this example

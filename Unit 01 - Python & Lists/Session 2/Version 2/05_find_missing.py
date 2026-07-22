@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
-  Problem 5: Missing Number
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+    Problem 5: Missing Number
 
-  Write a function `find_missing()` that takes in a list `nums` containing
-  `n` unique numbers in the range `[0,n]`. The function returns the only
-  number in the range that is missing from the list.
+    Write a function `find_missing()` that takes in a list `nums` containing
+    `n` unique numbers in the range `[0,n]`. The function returns the only
+    number in the range that is missing from the list.
 
-  Write your solution for `find_missing` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_missing` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_missing` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_missing` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -49,7 +49,7 @@ print("  expected:", 2, "| got:", find_missing([3,0,1]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -62,7 +62,7 @@ grade(find_missing)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([2, 4, 1, 0, 5], expected=3)   # checks the value your code returns against this example

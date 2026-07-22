@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
-  Problem 1: Cast Vote
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+    Problem 1: Cast Vote
 
-  Write a function `cast_vote()` that records a vote for a candidate in an
-  election. The function accepts a dictionary `votes` that maps candidates
-  to their current number of votes and a string `candidate` that represents
-  the candidate the user would like to vote for. If the candidate doesn't
-  exist, add them to the dictionary. The function should return the updated
-  dictionary.
+    Write a function `cast_vote()` that records a vote for a candidate in an
+    election. The function accepts a dictionary `votes` that maps candidates
+    to their current number of votes and a string `candidate` that represents
+    the candidate the user would like to vote for. If the candidate doesn't
+    exist, add them to the dictionary. The function should return the updated
+    dictionary.
 
-  Write your solution for `cast_vote` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `cast_vote` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `cast_vote` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `cast_vote` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -38,7 +38,7 @@ print(votes)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -51,7 +51,7 @@ grade(cast_vote)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test({'Alice': 5, 'Bob': 3}, 'Alice', expected={'Alice': 6, 'Bob': 3})   # checks the value your code returns against this example

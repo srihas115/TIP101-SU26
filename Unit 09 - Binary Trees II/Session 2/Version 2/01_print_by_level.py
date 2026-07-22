@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 2  ·  Version 2
-  Problem 1: Print Level Order
+    Unit 9: Binary Trees II  ·  Session 2  ·  Version 2
+    Problem 1: Print Level Order
 
-  Given the following pseudocode and the root of a binary tree, print the
-  level order traversal of it’s nodes’ values (i.e., from left to right,
-  level by level).
+    Given the following pseudocode and the root of a binary tree, print the
+    level order traversal of it’s nodes’ values (i.e., from left to right,
+    level by level).
 
-  Evaluate the time complexity of your solution. Define your variables and
-  give a rationale as to why you believe your solution has the stated time
-  complexity.
+    Evaluate the time complexity of your solution. Define your variables and
+    give a rationale as to why you believe your solution has the stated time
+    complexity.
 
-  Write your solution for `print_by_level` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `print_by_level` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `print_by_level` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `print_by_level` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -53,7 +53,7 @@ def print_by_level(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -66,7 +66,7 @@ grade(print_by_level)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([4, 2, 6, 1, 3], expected='4\n2\n6\n1\n3')   # checks the printed output against this example

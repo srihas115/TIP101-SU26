@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
-  Problem 6: List Nodes
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+    Problem 6: List Nodes
 
-  Write a function `listify_first_n()` that takes in a `head` of a linked
-  list and a non-negative integer `n` as parameters.
+    Write a function `listify_first_n()` that takes in a `head` of a linked
+    list and a non-negative integer `n` as parameters.
 
-  The function returns a list of values of the first `n` nodes. - If `n` is
-  greater than the length of the linked list, return a list of the values of
-  all nodes in the linked list.
+    The function returns a list of values of the first `n` nodes. - If `n` is
+    greater than the length of the linked list, return a list of the values of
+    all nodes in the linked list.
 
-  Write your solution for `listify_first_n` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `listify_first_n` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `listify_first_n` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `listify_first_n` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -74,7 +74,7 @@ print("  expected:", ['a', 'b', 'c'], "| got:", listify_first_n(a, 3))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -87,7 +87,7 @@ grade(listify_first_n)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], 2, expected=[1, 2])   # checks the value your code returns against this example

@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
-  Problem 9: BST Is Leaf
+    Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
+    Problem 9: BST Is Leaf
 
-  Given a `value` and the `root` of a binary search tree, write a function
-  `is_leaf_bst()` that returns `True` if a node with the given value is a
-  leaf node and `False` otherwise. Assume the tree is balanced.
+    Given a `value` and the `root` of a binary search tree, write a function
+    `is_leaf_bst()` that returns `True` if a node with the given value is a
+    leaf node and `False` otherwise. Assume the tree is balanced.
 
-  Evaluate the time complexity of your solution.
+    Evaluate the time complexity of your solution.
 
-  Write your solution for `is_leaf_bst` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_leaf_bst` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_leaf_bst` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_leaf_bst` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -34,7 +34,7 @@ def is_leaf_bst(root, value):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -47,7 +47,7 @@ grade(is_leaf_bst)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([4, 2, 5, 1, 3], 5, expected=True)   # checks the value your code returns against this example

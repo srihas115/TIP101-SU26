@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
-  Problem 8: Multiples of Five
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+    Problem 8: Multiples of Five
 
-  Write a function `multiples_of_five()` that prints out multiples of 5
-  between 1 and 100 (inclusive).
+    Write a function `multiples_of_five()` that prints out multiples of 5
+    between 1 and 100 (inclusive).
 
-  Write your solution for `multiples_of_five` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `multiples_of_five` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `multiples_of_five` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `multiples_of_five` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -41,7 +41,7 @@ multiples_of_five()
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib

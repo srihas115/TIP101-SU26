@@ -1,25 +1,25 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 1  ·  Version 2
-  Problem 4: Middle Match
+    Unit 6: Linked Lists II  ·  Session 1  ·  Version 2
+    Problem 4: Middle Match
 
-  A variation of the two-pointer technique introduced in Unit 4 is to have a
-  slow and a fast pointer that increment at different rates. Given the head
-  of a linked list, and a value `val`, use the slow-fast pointer technique
-  to determine if `val` matches the middle node of the list. If there are
-  two middle nodes, return `True` if the second middle node matches the
-  value `val`.
+    A variation of the two-pointer technique introduced in Unit 4 is to have a
+    slow and a fast pointer that increment at different rates. Given the head
+    of a linked list, and a value `val`, use the slow-fast pointer technique
+    to determine if `val` matches the middle node of the list. If there are
+    two middle nodes, return `True` if the second middle node matches the
+    value `val`.
 
-  Evaluate the time and space complexity of your solution. Define your
-  variables and provide a rationale for why you believe your solution has
-  the stated time and space complexity.
+    Evaluate the time and space complexity of your solution. Define your
+    variables and provide a rationale for why you believe your solution has
+    the stated time and space complexity.
 
-  Write your solution for `middle_match` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `middle_match` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `middle_match` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `middle_match` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -75,7 +75,7 @@ print("  expected:", True, "| got:", middle_match(tw1, 'B'))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -88,7 +88,7 @@ grade(middle_match)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], 2, expected=True)   # checks the value your code returns against this example

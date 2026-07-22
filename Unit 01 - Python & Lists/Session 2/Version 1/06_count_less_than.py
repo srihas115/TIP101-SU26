@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
-  Problem 6: Below Threshold
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+    Problem 6: Below Threshold
 
-  Write a function `count_less_than()` that takes in a list of integers
-  `numbers` and an integer `threshold` as parameters and returns the number
-  of items in `numbers` that are less than `threshold`.
+    Write a function `count_less_than()` that takes in a list of integers
+    `numbers` and an integer `threshold` as parameters and returns the number
+    of items in `numbers` that are less than `threshold`.
 
-  Write your solution for `count_less_than` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `count_less_than` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `count_less_than` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `count_less_than` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -56,7 +56,7 @@ print("  expected:", 3, "| got:", count_less_than([1,2,3], 10))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -69,7 +69,7 @@ grade(count_less_than)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([12, 8, 2, 4, 4, 10], 5, expected=3)   # checks the value your code returns against this example

@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
-  Problem 4: Reverse String
+    Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
+    Problem 4: Reverse String
 
-  Write a function `reverse_string()` that takes a string `my_str` as a
-  parameter and returns the string reversed.
+    Write a function `reverse_string()` that takes a string `my_str` as a
+    parameter and returns the string reversed.
 
-  Write your solution for `reverse_string` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `reverse_string` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `reverse_string` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `reverse_string` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -53,7 +53,7 @@ print("  expected:", "racecar", "| got:", reverse_string("racecar"))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -66,7 +66,7 @@ grade(reverse_string)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('live', expected='evil')   # checks the value your code returns against this example

@@ -1,24 +1,24 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 1  ·  Version 1
-  Problem 4: Find the Middle
+    Unit 6: Linked Lists II  ·  Session 1  ·  Version 1
+    Problem 4: Find the Middle
 
-  A variation of the two-pointer technique introduced in Unit 4 is to have a
-  slow and a fast pointer that increment at different rates. Given the head
-  of a linked list, use the slow-fast pointer technique to find the middle
-  node of a linked list. If there are two middle nodes, return the second
-  middle node.
+    A variation of the two-pointer technique introduced in Unit 4 is to have a
+    slow and a fast pointer that increment at different rates. Given the head
+    of a linked list, use the slow-fast pointer technique to find the middle
+    node of a linked list. If there are two middle nodes, return the second
+    middle node.
 
-  Evaluate the time and space complexity of your solution. Define your
-  variables and provide a rationale for why you believe your solution has
-  the stated time and space complexity.
+    Evaluate the time and space complexity of your solution. Define your
+    variables and provide a rationale for why you believe your solution has
+    the stated time and space complexity.
 
-  Write your solution for `find_middle_element` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_middle_element` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_middle_element` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_middle_element` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic):
 input: head
@@ -92,7 +92,7 @@ else:
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -105,7 +105,7 @@ grade(find_middle_element)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], expected=2)   # checks the value your code returns against this example

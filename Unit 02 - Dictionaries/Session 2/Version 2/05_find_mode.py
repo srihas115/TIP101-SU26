@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 2
-  Problem 5: Find Mode
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 2
+    Problem 5: Find Mode
 
-  Write a function `find_mode()` that takes in a non-empty list of integers
-  `lst` as a parameter. The function returns the mode (*the most frequently
-  occurring number*) and if there is a tie, return the element which
-  appeared first in the list.
+    Write a function `find_mode()` that takes in a non-empty list of integers
+    `lst` as a parameter. The function returns the mode (*the most frequently
+    occurring number*) and if there is a tie, return the element which
+    appeared first in the list.
 
-  Write your solution for `find_mode` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_mode` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_mode` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_mode` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -47,7 +47,7 @@ print("  expected:", 6, "| got:", find_mode([6,6,6]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -60,7 +60,7 @@ grade(find_mode)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 2, 3, 3, 4, 4, 4, 4], expected=4)   # checks the value your code returns against this example

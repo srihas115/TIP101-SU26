@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 3
-  Problem 2: Dictionary Difference
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 3
+    Problem 2: Dictionary Difference
 
-  Write a function `dict_difference()` that takes two dictionaries and
-  returns a new dictionary that contains only the key-value pairs found only
-  in the first dictionary but not in the second.
+    Write a function `dict_difference()` that takes two dictionaries and
+    returns a new dictionary that contains only the key-value pairs found only
+    in the first dictionary but not in the second.
 
-  Write your solution for `dict_difference` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `dict_difference` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `dict_difference` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `dict_difference` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", {"x": 5}, "| got:", dict_difference({"x": 5}, {"x": 9}))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(dict_difference)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test({'a': 1, 'b': 2, 'c': 3, 'd': 4}, {'b': 2, 'd': 1}, expected={'a': 1, 'c': 3, 'd': 4})   # checks the value your code returns against this example

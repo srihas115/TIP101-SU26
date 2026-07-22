@@ -1,16 +1,16 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 1  ·  Version 3
-  Problem 1: Choose Your Pokemon
+    Unit 3: Strings & Lists  ·  Session 1  ·  Version 3
+    Problem 1: Choose Your Pokemon
 
-  Copy and paste the following function:
+    Copy and paste the following function:
 
-  Write your solution for `choose_pokemon` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `choose_pokemon` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `choose_pokemon` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `choose_pokemon` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -28,7 +28,7 @@ def choose_pokemon(my_pokemon):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -41,7 +41,7 @@ grade(choose_pokemon)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(['Pikachu', 'Charizard', 'Eevee'], expected='Pikachu I choose you!\nCharizard I choose you!\nEevee I choose you!')   # checks the printed output against this example

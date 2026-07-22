@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
-  Problem 4: Sleep Assessment
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+    Problem 4: Sleep Assessment
 
-  Write a function `sleep_assessment()` that takes in an integer parameter
-  `hours` indicating the number of hours the user slept. If `hours` is less
-  than 8, print `"Oof, go back to bed!"`. If `hours` is greater than or
-  equal to 8 and less than or equal to 10, print `"You got a good night's
-  rest!"`. If `hours` is greater than 10, print `"You're a sleep prodigy!"`.
+    Write a function `sleep_assessment()` that takes in an integer parameter
+    `hours` indicating the number of hours the user slept. If `hours` is less
+    than 8, print `"Oof, go back to bed!"`. If `hours` is greater than or
+    equal to 8 and less than or equal to 10, print `"You got a good night's
+    rest!"`. If `hours` is greater than 10, print `"You're a sleep prodigy!"`.
 
-  Write your solution for `sleep_assessment` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `sleep_assessment` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `sleep_assessment` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `sleep_assessment` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -41,7 +41,7 @@ sleep_assessment(9)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -54,7 +54,7 @@ grade(sleep_assessment)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(10, expected="You got a good night's rest!")   # checks the printed output against this example

@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 7: Recursion & Search  ·  Session 2  ·  Version 1
-  Problem 2: How Many 1s
+    Unit 7: Recursion & Search  ·  Session 2  ·  Version 1
+    Problem 2: How Many 1s
 
-  Given a sorted list of integers containing only 0s and 1s, count the total
-  number of 1’s in the array in `O(log n)` time.
+    Given a sorted list of integers containing only 0s and 1s, count the total
+    number of 1’s in the array in `O(log n)` time.
 
-  Write your solution for `count_ones` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `count_ones` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `count_ones` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `count_ones` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -59,7 +59,7 @@ print(count_ones_recursive([0, 0, 0, 0, 1, 1, 1]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -72,7 +72,7 @@ grade(count_ones)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([0, 0, 0, 0, 1, 1, 1], expected=3)   # checks the value your code returns against this example

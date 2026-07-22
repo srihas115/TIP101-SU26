@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
-  Problem 2: Detect and Remove Cycle
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
+    Problem 2: Detect and Remove Cycle
 
-  Given the head of a linked list, write a function that removes any cycles
-  in the linked list. Return the head of the list.
+    Given the head of a linked list, write a function that removes any cycles
+    in the linked list. Return the head of the list.
 
-  Evaluate the time and space complexity of your solution. Define your
-  variables and provide a rationale for why you believe your solution has
-  the stated time and space complexity.
+    Evaluate the time and space complexity of your solution. Define your
+    variables and provide a rationale for why you believe your solution has
+    the stated time and space complexity.
 
-  Write your solution for `detect_and_remove_cycle` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `detect_and_remove_cycle` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `detect_and_remove_cycle` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `detect_and_remove_cycle` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -76,7 +76,7 @@ print("  expected:", [1, 2], "| got:", vals2, ", still going:", still_going2)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -89,7 +89,7 @@ grade(detect_and_remove_cycle)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([[1, 2, 3], 0], expected=[1, 2, 3])   # checks the value your code returns against this example

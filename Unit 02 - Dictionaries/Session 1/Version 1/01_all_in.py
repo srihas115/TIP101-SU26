@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 1  ·  Version 1
-  Problem 1: All In
+    Unit 2: Dictionaries  ·  Session 1  ·  Version 1
+    Problem 1: All In
 
-  Write a function `all_in()` that takes in a list of integers `a` and a
-  list of integers `b` as parameters. Given these two lists, return `True`
-  if *every* element in list `a` is in list `b`. Return `False` otherwise.
+    Write a function `all_in()` that takes in a list of integers `a` and a
+    list of integers `b` as parameters. Given these two lists, return `True`
+    if *every* element in list `a` is in list `b`. Return `False` otherwise.
 
-  Write your solution for `all_in` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `all_in` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `all_in` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `all_in` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -64,7 +64,7 @@ print("  expected:", True, "| got:", all_in([1, 2, 3], [1, 2, 3]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -77,7 +77,7 @@ grade(all_in)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2], [1, 2, 3], expected=True)   # checks the value your code returns against this example

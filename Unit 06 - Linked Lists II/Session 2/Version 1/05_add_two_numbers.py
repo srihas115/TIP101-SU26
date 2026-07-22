@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
-  Problem 5: Add Two Numbers
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
+    Problem 5: Add Two Numbers
 
-  You are given two non-empty linked lists representing two non-negative
-  integers. The digits are stored in reverse order, and each of their nodes
-  contains a single digit. Add the two numbers and return the sum as a
-  linked list.
+    You are given two non-empty linked lists representing two non-negative
+    integers. The digits are stored in reverse order, and each of their nodes
+    contains a single digit. Add the two numbers and return the sum as a
+    linked list.
 
-  Write your solution for `add_two_numbers` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `add_two_numbers` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `add_two_numbers` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `add_two_numbers` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -74,7 +74,7 @@ print("  expected:", [0, 0, 1], "| got:", _to_list(result2))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -87,7 +87,7 @@ grade(add_two_numbers)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([2, 4, 3], [5, 6, 4], expected=[7, 0, 8])   # checks the value your code returns against this example

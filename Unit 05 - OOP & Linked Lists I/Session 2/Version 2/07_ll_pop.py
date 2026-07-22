@@ -1,24 +1,24 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
-  Problem 7: Pop Node
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
+    Problem 7: Pop Node
 
-  Write a function `ll_pop()` that takes in the `head` of a linked list and
-  an index `i` as parameters.
+    Write a function `ll_pop()` that takes in the `head` of a linked list and
+    an index `i` as parameters.
 
-  The function should remove the node at index `i` of the linked list and
-  return the `head` of the list. - If `i` is greater than the length of the
-  list, do nothing.
+    The function should remove the node at index `i` of the linked list and
+    return the `head` of the list. - If `i` is greater than the length of the
+    list, do nothing.
 
-  *Hint: Linked lists do not have built-in indices so you will need to track
-  the indices yourself.*
+    *Hint: Linked lists do not have built-in indices so you will need to track
+    the indices yourself.*
 
-  Write your solution for `ll_pop` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `ll_pop` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `ll_pop` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `ll_pop` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -78,7 +78,7 @@ print("  expected:", [], "| got:", _to_list(result3))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -91,7 +91,7 @@ grade(ll_pop)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], 1, expected=[1, 3])   # checks the value your code returns against this example

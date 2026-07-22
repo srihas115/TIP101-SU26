@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 1  ·  Version 2
-  Problem 2: Remove Char
+    Unit 3: Strings & Lists  ·  Session 1  ·  Version 2
+    Problem 2: Remove Char
 
-  Write a function `remove_char()` that takes in a string `s` and an integer
-  `n` as parameters, The function returns a new string with the `n`th
-  character removed where `0 < n < len(s)`.
+    Write a function `remove_char()` that takes in a string `s` and an integer
+    `n` as parameters, The function returns a new string with the `n`th
+    character removed where `0 < n < len(s)`.
 
-  Write your solution for `remove_char` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `remove_char` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `remove_char` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `remove_char` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", "hillo", "| got:", remove_char("hi llo", 2))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(remove_char)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('typpo', 2, expected='typo')   # checks the value your code returns against this example

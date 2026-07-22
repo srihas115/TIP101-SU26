@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 1
-  Problem 5: Palindrome
+    Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 1
+    Problem 5: Palindrome
 
-  Write a function `first_palindrome()` that takes in a list of strings
-  `words` as a parameter and returns the first palindromic string in the
-  list. A string is **palindromic** if it reads the same forward and
-  backward. If there is no such string, return an empty string `""`
+    Write a function `first_palindrome()` that takes in a list of strings
+    `words` as a parameter and returns the first palindromic string in the
+    list. A string is **palindromic** if it reads the same forward and
+    backward. If there is no such string, return an empty string `""`
 
-  Write your solution for `first_palindrome` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `first_palindrome` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `first_palindrome` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `first_palindrome` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -58,7 +58,7 @@ print("  expected:", "a", "| got:", first_palindrome(["a", "b"]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -71,7 +71,7 @@ grade(first_palindrome)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(['abc', 'car', 'ada', 'racecar', 'cool'], expected='ada')   # checks the value your code returns against this example

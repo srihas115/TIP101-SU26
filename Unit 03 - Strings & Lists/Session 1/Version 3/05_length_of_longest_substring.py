@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 3: Strings & Lists  ·  Session 1  ·  Version 3
-  Problem 5: Longest Substring
+    Unit 3: Strings & Lists  ·  Session 1  ·  Version 3
+    Problem 5: Longest Substring
 
-  Write a function that takes in a string `s` and returns the length of the
-  longest substring without repeating characters.
+    Write a function that takes in a string `s` and returns the length of the
+    longest substring without repeating characters.
 
-  Write your solution for `length_of_longest_substring` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `length_of_longest_substring` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `length_of_longest_substring` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `length_of_longest_substring` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -52,7 +52,7 @@ print("  expected:", 1, "| got:", length_of_longest_substring("aa"))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -65,7 +65,7 @@ grade(length_of_longest_substring)   # ▶ Run this file to validate your soluti
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('abcdeefghhhhh', expected=5)   # checks the value your code returns against this example

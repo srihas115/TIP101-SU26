@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 3
-  Problem 4: Group By Frequency
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 3
+    Problem 4: Group By Frequency
 
-  Write a function `group_by_frequency()` that takes in a list `lst` and
-  returns a dictionary where keys represent the frequency of unique elements
-  within `lst` and values represent a list of elements with the same
-  frequency.
+    Write a function `group_by_frequency()` that takes in a list `lst` and
+    returns a dictionary where keys represent the frequency of unique elements
+    within `lst` and values represent a list of elements with the same
+    frequency.
 
-  Write your solution for `group_by_frequency` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `group_by_frequency` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `group_by_frequency` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `group_by_frequency` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -49,7 +49,7 @@ print("  expected:", {1: ['z']}, "| got:", group_by_frequency(['z']))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -62,7 +62,7 @@ grade(group_by_frequency)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(['a', 'b', 'c', 'd', 'd', 'c', 'e', 'e', 'e'], expected={1: ['a', 'b'], 2: ['c', 'd'], 3: ['e']})   # checks the value your code returns against this example

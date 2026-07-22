@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
-  Problem 2: Print Doubled List Items
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+    Problem 2: Print Doubled List Items
 
-  Write a function `doubled()` that takes in a list of integers `lst` as a
-  parameter and prints each item in the list multiplied by two.
+    Write a function `doubled()` that takes in a list of integers `lst` as a
+    parameter and prints each item in the list multiplied by two.
 
-  Write your solution for `doubled` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `doubled` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `doubled` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `doubled` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -54,7 +54,7 @@ doubled([0, 3])
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -67,7 +67,7 @@ grade(doubled)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], expected='2\n4\n6')   # checks the printed output against this example

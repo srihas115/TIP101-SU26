@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 10: Review  ·  Session 2  ·  Version 3
-  Problem 4: Leaves of a Binary Tree
+    Unit 10: Review  ·  Session 2  ·  Version 3
+    Problem 4: Leaves of a Binary Tree
 
-  Given the `root` of a binary tree, collect a tree's nodes as if you were
-  doing this:
+    Given the `root` of a binary tree, collect a tree's nodes as if you were
+    doing this:
 
-  - Collect all the leaf nodes. - Remove all the leaf nodes. - Repeat until
-  the tree is empty.
+    - Collect all the leaf nodes. - Remove all the leaf nodes. - Repeat until
+    the tree is empty.
 
-  Write your solution for `find_leaves` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_leaves` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_leaves` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_leaves` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -37,7 +37,7 @@ def find_leaves(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib

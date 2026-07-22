@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 7: Recursion & Search  ·  Session 2  ·  Version 2
-  Problem 6: Circle Majority
+    Unit 7: Recursion & Search  ·  Session 2  ·  Version 2
+    Problem 6: Circle Majority
 
-  Given an array `nums` of size `n`, use a divide and conquer approach to
-  write a function return *the majority element*.
+    Given an array `nums` of size `n`, use a divide and conquer approach to
+    write a function return *the majority element*.
 
-  The majority element is the element that appears more than `⌊n / 2⌋`
-  times. You may assume that the majority element always exists in the
-  array.
+    The majority element is the element that appears more than `⌊n / 2⌋`
+    times. You may assume that the majority element always exists in the
+    array.
 
-  Write your solution for `majority_element` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `majority_element` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `majority_element` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `majority_element` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -34,7 +34,7 @@ def search_circular_list(nums, target):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -47,7 +47,7 @@ grade(majority_element)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([3, 2, 3], expected=3)   # checks the value your code returns against this example

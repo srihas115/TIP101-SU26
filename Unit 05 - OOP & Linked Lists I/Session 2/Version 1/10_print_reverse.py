@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
-  Problem 10: Print Backwards
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+    Problem 10: Print Backwards
 
-  Write a function `print_reverse()` that takes in the `tail` of a doubly
-  linked list as a parameter.
+    Write a function `print_reverse()` that takes in the `tail` of a doubly
+    linked list as a parameter.
 
-  It should print out the values of the linked list in reverse order, each
-  separated by a space.
+    It should print out the values of the linked list in reverse order, each
+    separated by a space.
 
-  Write your solution for `print_reverse` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `print_reverse` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `print_reverse` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `print_reverse` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -71,7 +71,7 @@ print_reverse(d3)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -84,7 +84,7 @@ grade(print_reverse)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], expected='3 2 1')   # checks the printed output against this example

@@ -1,23 +1,23 @@
 '''
 ==============================================================================
-  Unit 8: Binary Trees I  ·  Session 1  ·  Version 3
-  Problem 7: Binary Tree All Lesser
+    Unit 8: Binary Trees I  ·  Session 1  ·  Version 3
+    Problem 7: Binary Tree All Lesser
 
-  Given the `root` of a binary tree and a value `val`, write a function
-  `is_lesser()` that returns `True` if all the nodes in the tree have a
-  value less than `val` and `False` otherwise. If the tree is empty, return
-  `False`.
+    Given the `root` of a binary tree and a value `val`, write a function
+    `is_lesser()` that returns `True` if all the nodes in the tree have a
+    value less than `val` and `False` otherwise. If the tree is empty, return
+    `False`.
 
-  Evaluate the time complexity of your function.
+    Evaluate the time complexity of your function.
 
-  <!-- **ADD HINT: Balanced Trees** -->
+    <!-- **ADD HINT: Balanced Trees** -->
 
-  Write your solution for `is_lesser` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_lesser` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_lesser` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_lesser` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -37,7 +37,7 @@ def is_lesser(root, val):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -50,7 +50,7 @@ grade(is_lesser)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([4, 2, 5, 1, 3], 5, expected=False)   # checks the value your code returns against this example

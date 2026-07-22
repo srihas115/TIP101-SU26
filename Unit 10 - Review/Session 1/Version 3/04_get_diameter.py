@@ -1,24 +1,24 @@
 '''
 ==============================================================================
-  Unit 10: Review  ·  Session 1  ·  Version 3
-  Problem 4: Diameter of Binary Tree
+    Unit 10: Review  ·  Session 1  ·  Version 3
+    Problem 4: Diameter of Binary Tree
 
-  Given the `root` of a binary tree, return the *length of the **diameter**
-  of the tree.*
+    Given the `root` of a binary tree, return the *length of the **diameter**
+    of the tree.*
 
-  The **diameter** of a binary tree is the **length** of the longest path
-  between any two nodes in a tree. This path may or may not pass through the
-  `root`.
+    The **diameter** of a binary tree is the **length** of the longest path
+    between any two nodes in a tree. This path may or may not pass through the
+    `root`.
 
-  The **length** of a path between two nodes is represented by the number of
-  edges between them.
+    The **length** of a path between two nodes is represented by the number of
+    edges between them.
 
-  Write your solution for `get_diameter` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `get_diameter` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `get_diameter` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `get_diameter` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -41,7 +41,7 @@ def get_diameter(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -54,7 +54,7 @@ grade(get_diameter)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 4, 5], expected=3)   # checks the value your code returns against this example

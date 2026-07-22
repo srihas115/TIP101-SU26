@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 1  ·  Version 1
-  Problem 12: Printing Linked List
+    Unit 5: OOP & Linked Lists I  ·  Session 1  ·  Version 1
+    Problem 12: Printing Linked List
 
-  Write a function `print_linked_list()` that takes in a head node as a
-  parameter and prints the linked list using the string `" -> "` to separate
-  each node.
+    Write a function `print_linked_list()` that takes in a head node as a
+    parameter and prints the linked list using the string `" -> "` to separate
+    each node.
 
-  *Note: The "head" of a linked list is the first element in the linked
-  list, equivalent to `lst[0]` of a normal list.*
+    *Note: The "head" of a linked list is the first element in the linked
+    list, equivalent to `lst[0]` of a normal list.*
 
-  Write your solution for `print_linked_list` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `print_linked_list` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `print_linked_list` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `print_linked_list` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -58,7 +58,7 @@ print_linked_list(a)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -71,7 +71,7 @@ grade(print_linked_list)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 4, 5], expected='1 -> 2 -> 3 -> 4 -> 5')   # checks the printed output against this example

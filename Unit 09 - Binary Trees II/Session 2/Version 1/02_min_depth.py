@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 2  ·  Version 1
-  Problem 2: Minimum Depth
+    Unit 9: Binary Trees II  ·  Session 2  ·  Version 1
+    Problem 2: Minimum Depth
 
-  Given the `root` of a binary tree, return its minimum depth. The minimum
-  depth is the number of nodes along the shortest path from the `root` down
-  to the nearest leaf node.
+    Given the `root` of a binary tree, return its minimum depth. The minimum
+    depth is the number of nodes along the shortest path from the `root` down
+    to the nearest leaf node.
 
-  Evaluate the time complexity of your solution. Define your variables and
-  give a rationale as to why you believe your solution has the stated time
-  complexity.
+    Evaluate the time complexity of your solution. Define your variables and
+    give a rationale as to why you believe your solution has the stated time
+    complexity.
 
-  Write your solution for `min_depth` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `min_depth` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `min_depth` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `min_depth` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -40,7 +40,7 @@ def min_depth(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -53,7 +53,7 @@ grade(min_depth)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([3, 9, 20, None, None, 15, 7], expected=2)   # checks the value your code returns against this example

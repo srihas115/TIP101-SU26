@@ -1,14 +1,14 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 1  ·  Version 1
-  Problem 1: Nested Constructors
-  Write your solution in the space provided below, then click ▶ Run to validate it.
-  (Full instructions and examples are in the problem set.)
+    Unit 6: Linked Lists II  ·  Session 1  ·  Version 1
+    Problem 1: Nested Constructors
+    Write your solution in the space provided below, then click ▶ Run to validate it.
+    (Full instructions and examples are in the problem set.)
 
-  ⚠️  Keep every class, method, and function name exactly as the problem gives it,
-      and use the exact variable names it asks for — the problem set solution validator looks those up
-      by name (they're case-sensitive). If it can't find one, the results will tell
-      you which name is missing.
+    ⚠️  Keep every class, method, and function name exactly as the problem gives it,
+        and use the exact variable names it asks for — the problem set solution validator looks those up
+        by name (they're case-sensitive). If it can't find one, the results will tell
+        you which name is missing.
 ==============================================================================
 '''
 
@@ -29,7 +29,7 @@ while curr is not None:
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib

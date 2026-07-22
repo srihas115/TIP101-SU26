@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
-  Problem 13: Calculate the Squares
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+    Problem 13: Calculate the Squares
 
-  Write a function `squares()` that takes a list of integers `nums` as a
-  parameter and returns a new list containing the square of each number in
-  the original list.
+    Write a function `squares()` that takes a list of integers `nums` as a
+    parameter and returns a new list containing the square of each number in
+    the original list.
 
-  Write your solution for `squares` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `squares` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `squares` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `squares` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -50,7 +50,7 @@ print("  expected:", [16], "| got:", squares([4]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -63,7 +63,7 @@ grade(squares)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 4], expected=[1, 4, 9, 16])   # checks the value your code returns against this example

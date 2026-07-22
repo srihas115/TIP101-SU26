@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 1  ·  Version 3
-  Problem 3: Path Sum in Binary Tree
+    Unit 9: Binary Trees II  ·  Session 1  ·  Version 3
+    Problem 3: Path Sum in Binary Tree
 
-  Given the `root` of a binary tree and an integer `target_sum`, return
-  `True` if the tree has a **root-to-leaf** path such that adding up all the
-  values along the path equals `target_sum`. Return `False` otherwise.
+    Given the `root` of a binary tree and an integer `target_sum`, return
+    `True` if the tree has a **root-to-leaf** path such that adding up all the
+    values along the path equals `target_sum`. Return `False` otherwise.
 
-  A **leaf** is a node with no children.
+    A **leaf** is a node with no children.
 
-  Evaluate the time complexity of your function.
+    Evaluate the time complexity of your function.
 
-  Write your solution for `has_path_sum` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `has_path_sum` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `has_path_sum` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `has_path_sum` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -39,7 +39,7 @@ def has_path_sum(root, target_sum):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -52,7 +52,7 @@ grade(has_path_sum)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([5, 4, 8, 11, None, 13, 4, 7, 2, None, None, None, None, None, 1], 22, expected=True)   # checks the value your code returns against this example

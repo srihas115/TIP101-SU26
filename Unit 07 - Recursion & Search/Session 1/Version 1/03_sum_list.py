@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 7: Recursion & Search  ·  Session 1  ·  Version 1
-  Problem 3: Recursive Sum
+    Unit 7: Recursion & Search  ·  Session 1  ·  Version 1
+    Problem 3: Recursive Sum
 
-  Without using the built-in `sum()` function, write a function `sum_list()`
-  that calculates the sum of all values in a list recursively.
+    Without using the built-in `sum()` function, write a function `sum_list()`
+    that calculates the sum of all values in a list recursively.
 
-  What is the time complexity of this function? What is the space
-  complexity?
+    What is the time complexity of this function? What is the space
+    complexity?
 
-  Write your solution for `sum_list` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `sum_list` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `sum_list` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `sum_list` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic):
 input: list
@@ -67,7 +67,7 @@ print(sum_list2([]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -80,7 +80,7 @@ grade(sum_list)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 4, 5], expected=15)   # checks the value your code returns against this example

@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 7: Recursion & Search  ·  Session 1  ·  Version 3
-  Problem 7: Square Root
+    Unit 7: Recursion & Search  ·  Session 1  ·  Version 3
+    Problem 7: Square Root
 
-  Given a positive number, return the square root of it. If the number is
-  not a perfect square, return the floor of its square root.
+    Given a positive number, return the square root of it. If the number is
+    not a perfect square, return the floor of its square root.
 
-  Write your solution for `sqrt` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `sqrt` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `sqrt` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `sqrt` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -30,7 +30,7 @@ def sqrt(x):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -43,7 +43,7 @@ grade(sqrt)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(8, expected=2)   # checks the value your code returns against this example

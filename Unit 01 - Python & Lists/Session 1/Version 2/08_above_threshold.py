@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
-  Problem 8: Above the Threshold
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+    Problem 8: Above the Threshold
 
-  Write a function `above_threshold()` that takes in a list of integers
-  `lst` and an integer `threshold` as parameters. The function should
-  iterate through the original list and return a new list containing only
-  numbers that are greater than `threshold`.
+    Write a function `above_threshold()` that takes in a list of integers
+    `lst` and an integer `threshold` as parameters. The function should
+    iterate through the original list and return a new list containing only
+    numbers that are greater than `threshold`.
 
-  Write your solution for `above_threshold` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `above_threshold` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `above_threshold` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `above_threshold` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -57,7 +57,7 @@ print("  expected:", [9, 8], "| got:", above_threshold([1,9,3,8,2], 4))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -70,7 +70,7 @@ grade(above_threshold)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([8, 2, 13, 11, 4, 10, 14], 10, expected=[13, 11, 14])   # checks the value your code returns against this example

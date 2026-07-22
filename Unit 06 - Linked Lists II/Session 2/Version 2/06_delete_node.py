@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
-  Problem 6: Delete Node from a Circular List
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
+    Problem 6: Delete Node from a Circular List
 
-  Given the head of a circularly linked list and a value `val`, write a
-  function that deletes the first node in the list with value `val`. Return
-  the head of the modified list.
+    Given the head of a circularly linked list and a value `val`, write a
+    function that deletes the first node in the list with value `val`. Return
+    the head of the modified list.
 
-  Write your solution for `delete_node` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `delete_node` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `delete_node` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `delete_node` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -47,7 +47,7 @@ head = delete_node(head, 2)
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib

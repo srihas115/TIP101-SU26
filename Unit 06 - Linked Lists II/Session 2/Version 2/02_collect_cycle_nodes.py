@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
-  Problem 2: Collect Nodes of a Cycle
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
+    Problem 2: Collect Nodes of a Cycle
 
-  Given the `head` of a linked list, return the elements of any cycle in the
-  linked list as a list.
+    Given the `head` of a linked list, return the elements of any cycle in the
+    linked list as a list.
 
-  Write your solution for `collect_cycle_nodes` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `collect_cycle_nodes` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `collect_cycle_nodes` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `collect_cycle_nodes` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -64,7 +64,7 @@ print("  expected:", [], "| got:", [n.value for n in result2] if result2 else []
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -77,7 +77,7 @@ grade(collect_cycle_nodes)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([[1, 2, 3, 4], 1], expected=[2, 3, 4])   # checks the value your code returns against this example

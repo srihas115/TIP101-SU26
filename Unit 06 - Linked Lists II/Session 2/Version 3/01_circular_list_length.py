@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
-  Problem 1: Circular List Length
+    Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
+    Problem 1: Circular List Length
 
-  A circular linked list is a linked list where the tail node points at the
-  head node. Write a function that returns the length of the list.
+    A circular linked list is a linked list where the tail node points at the
+    head node. Write a function that returns the length of the list.
 
-  Evaluate the time and space complexity of your solution. Define your
-  variables and provide a rationale for why you believe your solution has
-  the stated time and space complexity.
+    Evaluate the time and space complexity of your solution. Define your
+    variables and provide a rationale for why you believe your solution has
+    the stated time and space complexity.
 
-  Write your solution for `circular_list_length` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `circular_list_length` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `circular_list_length` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `circular_list_length` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -62,7 +62,7 @@ print("  expected:", 5, "| got:", circular_list_length(d1))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -75,7 +75,7 @@ grade(circular_list_length)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3], expected=3)   # checks the value your code returns against this example

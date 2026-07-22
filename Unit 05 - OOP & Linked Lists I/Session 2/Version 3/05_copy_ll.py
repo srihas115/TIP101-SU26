@@ -1,21 +1,21 @@
 '''
 ==============================================================================
-  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
-  Problem 5: Copy Linked List
+    Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+    Problem 5: Copy Linked List
 
-  Write a function `copy_ll()` that takes in the `head` of a linked_list,
-  and creates a complete **copy** of that linked list.
+    Write a function `copy_ll()` that takes in the `head` of a linked_list,
+    and creates a complete **copy** of that linked list.
 
-  The function should return the `head` of a new linked list which is
-  identical to the given list in terms of its structure and contents, but
-  does not use any of the node objects from the original list.
+    The function should return the `head` of a new linked list which is
+    identical to the given list in terms of its structure and contents, but
+    does not use any of the node objects from the original list.
 
-  Write your solution for `copy_ll` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `copy_ll` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `copy_ll` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `copy_ll` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -73,7 +73,7 @@ print("  expected:", ['x', 'x'], "| got:", _to_list(copy3))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -86,7 +86,7 @@ grade(copy_ll)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([5, 6, 7], expected=[5, 6, 7])   # checks the value your code returns against this example

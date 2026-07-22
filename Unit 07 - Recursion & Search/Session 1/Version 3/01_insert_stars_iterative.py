@@ -1,27 +1,27 @@
 '''
 ==============================================================================
-  Unit 7: Recursion & Search  ·  Session 1  ·  Version 3
-  Problem 1: In The Stars
+    Unit 7: Recursion & Search  ·  Session 1  ·  Version 3
+    Problem 1: In The Stars
 
-  A recursive function is a function that calls itself within the body of
-  the function.
+    A recursive function is a function that calls itself within the body of
+    the function.
 
-  Step 1: Copy the recursive function `insert_stars()` into your IDE and run
-  it.
+    Step 1: Copy the recursive function `insert_stars()` into your IDE and run
+    it.
 
-  Step 2: Then create another function `insert_stars_iterative()` that
-  produces the same output without using recursion or the built-in `join()`
-  method.
+    Step 2: Then create another function `insert_stars_iterative()` that
+    produces the same output without using recursion or the built-in `join()`
+    method.
 
-  Compare your iterative (non-recursive) solution to the recursive solution
-  provided. What is similar? What is different?
+    Compare your iterative (non-recursive) solution to the recursive solution
+    provided. What is similar? What is different?
 
-  Write your solution for `insert_stars_iterative` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `insert_stars_iterative` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `insert_stars_iterative` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `insert_stars_iterative` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -45,7 +45,7 @@ insert_stars('abc')
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -58,7 +58,7 @@ grade(insert_stars_iterative)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('abc', expected='a*b*c')   # checks the value your code returns against this example

@@ -1,20 +1,20 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 1  ·  Version 1
-  Problem 1: Is Symmetric Tree
+    Unit 9: Binary Trees II  ·  Session 1  ·  Version 1
+    Problem 1: Is Symmetric Tree
 
-  Given the `root` of a binary tree, return `True` if the tree’s left and
-  right subtrees are mirrors of each other (i.e., tree is symmetric around
-  its center). Return `False` otherwise.
+    Given the `root` of a binary tree, return `True` if the tree’s left and
+    right subtrees are mirrors of each other (i.e., tree is symmetric around
+    its center). Return `False` otherwise.
 
-  Evaluate the time complexity of your function.
+    Evaluate the time complexity of your function.
 
-  Write your solution for `is_symmetric` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `is_symmetric` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `is_symmetric` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `is_symmetric` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -37,7 +37,7 @@ def is_symmetric(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -50,7 +50,7 @@ grade(is_symmetric)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 2, 3, 4, 4, 3], expected=True)   # checks the value your code returns against this example

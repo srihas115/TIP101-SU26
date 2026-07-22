@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 2  ·  Version 3
-  Problem 6: First Repeating Element
+    Unit 2: Dictionaries  ·  Session 2  ·  Version 3
+    Problem 6: First Repeating Element
 
-  Write a function `find_min_index_of_repeating()` that takes in an integer
-  list `nums` as a parameter and returns the minimum index of an element
-  that has a duplicate value. The function should only do a single traversal
-  of the list. If there are no repeating elements, return `None`.
+    Write a function `find_min_index_of_repeating()` that takes in an integer
+    list `nums` as a parameter and returns the minimum index of an element
+    that has a duplicate value. The function should only do a single traversal
+    of the list. If there are no repeating elements, return `None`.
 
-  Write your solution for `find_min_index_of_repeating` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_min_index_of_repeating` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_min_index_of_repeating` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_min_index_of_repeating` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -53,7 +53,7 @@ print("  expected:", None, "| got:", find_min_index_of_repeating([1,2,3,4]))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -66,7 +66,7 @@ grade(find_min_index_of_repeating)   # ▶ Run this file to validate your soluti
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([5, 6, 3, 4, 3, 6, 4], expected=1)   # checks the value your code returns against this example

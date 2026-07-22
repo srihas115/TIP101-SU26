@@ -1,22 +1,22 @@
 '''
 ==============================================================================
-  Unit 9: Binary Trees II  ·  Session 1  ·  Version 2
-  Problem 2: Find Lonely Nodes
+    Unit 9: Binary Trees II  ·  Session 1  ·  Version 2
+    Problem 2: Find Lonely Nodes
 
-  Given the `root` of a binary tree, return a list containing the values of
-  all lonely nodes in the tree. Return the list in any order.
+    Given the `root` of a binary tree, return a list containing the values of
+    all lonely nodes in the tree. Return the list in any order.
 
-  A lonely node is a node that is the only child of its parent node. The
-  root of the tree is not lonely because it does not have a parent node.
+    A lonely node is a node that is the only child of its parent node. The
+    root of the tree is not lonely because it does not have a parent node.
 
-  Evaluate the time complexity of your function.
+    Evaluate the time complexity of your function.
 
-  Write your solution for `find_lonely_nodes` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_lonely_nodes` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_lonely_nodes` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_lonely_nodes` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -39,7 +39,7 @@ def find_lonely_nodes(root):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -52,7 +52,7 @@ grade(find_lonely_nodes)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, None, 4], expected=[4])   # checks the value your code returns against this example

@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
-  Problem 12: List Occurrences
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+    Problem 12: List Occurrences
 
-  Write a function `find_all_occurrences()` that takes in a list `lst` and a
-  value `target` as parameters and returns a list of all indices where
-  `target` is found in `lst`.
+    Write a function `find_all_occurrences()` that takes in a list `lst` and a
+    value `target` as parameters and returns a list of all indices where
+    `target` is found in `lst`.
 
-  Write your solution for `find_all_occurrences` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `find_all_occurrences` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `find_all_occurrences` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `find_all_occurrences` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -49,7 +49,7 @@ print("  expected:", [0,1,2], "| got:", find_all_occurrences([7,7,7], 7))
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -62,7 +62,7 @@ grade(find_all_occurrences)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 6, 5, 2, 1, 3, 2, 2], 2, expected=[1, 4, 7, 8])   # checks the value your code returns against this example
