@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 1  ·  Version 3
+  Problem 3: Path Sum in Binary Tree
+
+  Given the `root` of a binary tree and an integer `target_sum`, return
+  `True` if the tree has a **root-to-leaf** path such that adding up all the
+  values along the path equals `target_sum`. Return `False` otherwise.
+
+  A **leaf** is a node with no children.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `has_path_sum` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `has_path_sum` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

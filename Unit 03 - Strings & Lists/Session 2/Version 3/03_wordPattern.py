@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 3
+  Problem 3: Word Follows Pattern
+
+  Write a function `wordPattern()` that takes in a string `pattern` and a
+  string `s` as parameters. The function returns `True` if `s` follows the
+  `pattern` and `False` otherwise. The string follows the pattern if there
+  is a 1:1 correspondence between a letter in the pattern and a non-empty
+  word in `s`.
+
+  Write your solution for `wordPattern` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `wordPattern` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def wordPattern(pattern, s):
     pass
 

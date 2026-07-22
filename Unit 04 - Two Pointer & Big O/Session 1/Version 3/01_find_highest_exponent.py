@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 3
+  Problem 1: Highest Exponent
+
+  Write a function `find_highest_exponent()` that takes in an integer `base`
+  and an integer `limit` as parameters. The function returns the highest
+  exponent for which a given `base` raised to that exponent is less than or
+  equal to `limit`.
+
+  Write your solution for `find_highest_exponent` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_highest_exponent` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_highest_exponent(base, limit):
     pass
 

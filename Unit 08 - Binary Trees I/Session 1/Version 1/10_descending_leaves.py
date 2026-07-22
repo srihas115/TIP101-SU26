@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 1
+  Problem 10: BST Descending Leaves
+
+  Given the `root` of a binary search tree, write a function
+  `descending_leaves()` that returns a list of the values of all leaves in
+  the BST in descending order. Assume the tree is balanced.
+
+  <!-- **ADD HINT: Leaves** -->
+
+  Write your solution for `descending_leaves` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `descending_leaves` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
      def __init__(self, val, left=None, right=None):
          self.val = val

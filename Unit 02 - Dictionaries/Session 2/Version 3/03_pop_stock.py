@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 3
+  Problem 3: Take from Stock
+
+  Write a function `pop_stock()` that takes a dictionary of items `items`
+  that keeps track of an item and its stock quantity, an `item_name`, and a
+  `quantity` to be removed as parameters. The function should remove the
+  specified `quantity` for that item. If the item does not exist, return the
+  string `"Item does not exist."` If the specified quantity is greater than
+  the stock, return a string `"Not enough stock."` If the specified item and
+  quantity do exist within `items`, decrement the item's stock by the
+  specified quantity and return the updated dictionary.
+
+  Write your solution for `pop_stock` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `pop_stock` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def pop_stock(items, item_name, quantity):
     pass
 

@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 1
+  Problem 9: BST Find
+
+  Given a `value` and the `root` of a binary search tree, write a function
+  `find_bst()` that returns `True` if there is a node with the given `value`
+  in the tree. Assume the tree is balanced.
+
+  Write your solution for `find_bst` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_bst` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
      def __init__(self, val, left=None, right=None):
          self.val = val

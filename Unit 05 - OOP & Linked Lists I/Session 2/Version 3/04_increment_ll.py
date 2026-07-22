@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+  Problem 4: Increment Node Values
+
+  Write a function `increment_ll()` that takes in the `head` of a linked
+  list of integer values and returns the same list, but with each node's
+  value incremented by 1. Return the `head` of the list.
+
+  Write your solution for `increment_ll` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `increment_ll` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

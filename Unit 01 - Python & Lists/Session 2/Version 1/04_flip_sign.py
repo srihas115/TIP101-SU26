@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+  Problem 4: Flip Signs
+
+  Write a function `flip_sign()` that takes in a list of integers `lst` as a
+  parameter and returns a new list where each number in the original list
+  has been multiplied by -1.
+
+  Write your solution for `flip_sign` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `flip_sign` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def flip_sign(lst):
     for i in range(len(lst)):
         lst[i] = lst[i] * -1

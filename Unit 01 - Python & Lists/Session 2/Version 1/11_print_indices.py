@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+  Problem 11: Print the Index
+
+  Write a function `print_indices()` that takes in an integer list `lst` as
+  a parameter and prints out the index of each item in the given list. *Use
+  the function `range()` to loop through the list indices.*
+
+  Write your solution for `print_indices` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `print_indices` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def print_indices(lst):
     for i in range(len(lst)):
         print(i)

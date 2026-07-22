@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 2: Average Score
+
+  Write a function `average()` that takes in a list of integers `scores` as
+  a parameter and returns the average score.
+
+  Write your solution for `average` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `average` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def average(scores):
     pass
 

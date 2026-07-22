@@ -1,3 +1,37 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+  Problem 7: Insert Value
+
+  Write a function `ll_insert()` that takes in a `head` of a linked list, a
+  value `val`, and an index `i` as parameters.
+
+  The function should insert a new `Node` with value `val` at index `i` of
+  the linked list, then return the head of the linked list. - If `i` is
+  greater than the length of the list, insert the new node at the end of the
+  list.
+
+  *Hint: Linked lists do not have built-in indices so you will need to track
+  the indices yourself.*
+
+  Write a helper function to help you print the new list!
+
+  Write your solution for `ll_insert` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `ll_insert` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

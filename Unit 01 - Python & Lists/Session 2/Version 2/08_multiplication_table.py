@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 8: Multiplication Table
+
+  Write a function `multiplication_table()` that takes in an integer `num`
+  and prints the multiples of that integer from 1 to 10.
+
+  Write your solution for `multiplication_table` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `multiplication_table` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def multiplication_table(num):
     pass
 

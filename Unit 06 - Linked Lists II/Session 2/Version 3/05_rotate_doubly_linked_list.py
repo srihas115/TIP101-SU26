@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
+  Problem 5: Rotate a Doubly Linked List Left by k
+
+  Given the head of a doubly linked list and a non-negative integer `k`,
+  rotate the list to the left by `k` places. Return the head of the linked
+  list.
+
+  Evaluate the time and space complexity of your solution. Define your
+  variables and provide a rationale for why you believe your solution has
+  the stated time and space complexity.
+
+  Write your solution for `rotate_doubly_linked_list` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `rotate_doubly_linked_list` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, prev=None, next=None):
         self.value = value

@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+  Problem 6: Has Duplicates
+
+  Write a function `has_duplicates()` that takes in a list of integers
+  `nums` and a positive number `k` as parameters. The function returns
+  `True` if the list contains any duplicate elements within `k` (inclusive)
+  indices of each other. In other words, return `True` if `nums[i]` has the
+  same value as any of the `k` neighboring elements to its left or right. If
+  `k` is greater than the list's length, the solution should check for
+  duplicates in the complete list. The function should return `False`
+  otherwise.
+
+  Write your solution for `has_duplicates` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `has_duplicates` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def has_duplicates(nums, k):
     pass
 

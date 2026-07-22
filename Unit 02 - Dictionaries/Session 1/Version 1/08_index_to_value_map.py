@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 1
+  Problem 8: Index-Value Map
+
+  Write a function `index_to_value_map()` that takes in a list `lst` and
+  returns a dictionary that maps the index of each element in `lst` to its
+  value.
+
+  Write your solution for `index_to_value_map` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `index_to_value_map` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def index_to_value_map(lst):
     res = {}
     for i in range(len(lst)):

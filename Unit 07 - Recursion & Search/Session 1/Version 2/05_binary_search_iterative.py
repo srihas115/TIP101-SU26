@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 2
+  Problem 5: Binary Search II
+
+  Binary search is a searching algorithm that allows us to efficiently find
+  the index of a given value within a sorted list. Given the recursive
+  solution for binary search below, implement an _iterative_ (non-recursive)
+  implementation of binary search.
+
+  Evaluate the time and space complexity of your implementation.
+
+  Write your solution for `binary_search_iterative` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `binary_search_iterative` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def binary_search_recursive(arr, target, left, right):
     if left > right:
         return -1  # Base case: target not found within bounds

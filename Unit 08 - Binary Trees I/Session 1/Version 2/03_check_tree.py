@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
+  Problem 3: 3-Node Product II
+
+  Given the `root` of a binary tree that has at most `3` nodes: the root,
+  its left child, and its right child, return `True` if the value of the
+  root is equal to the product of the values of its two children. Return
+  `False` otherwise. If the `root` has only one child, return `False`.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `check_tree` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `check_tree` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, value, left=None, right=None):
         pass

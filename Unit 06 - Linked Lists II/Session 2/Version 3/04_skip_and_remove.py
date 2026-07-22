@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
+  Problem 4: Skip m and Remove n
+
+  Given the head of a linked list and two integers `m` and `n`, traverse the
+  list such that you keep the first `m` nodes then delete the next `n`
+  nodes. Continue with this pattern until the end of the list is reached.
+  Return the head of the list.
+
+  Evaluate the time and space complexity of your solution. Define your
+  variables and provide a rationale for why you believe your solution has
+  the stated time and space complexity.
+
+  Write your solution for `skip_and_remove` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `skip_and_remove` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

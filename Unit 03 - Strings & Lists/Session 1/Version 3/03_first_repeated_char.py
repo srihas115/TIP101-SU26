@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 3
+  Problem 3: First Duplicate
+
+  Write a function `first_repeated_char()` that takes in a string `s` as a
+  parameter and returns the index of the first repeated character in the
+  string. Uppercase and lowercase letters are considered different
+  characters, and the function returns `None` if there are no repeated
+  characters.
+
+  Write your solution for `first_repeated_char` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `first_repeated_char` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def first_repeated_char(s):
     pass
 

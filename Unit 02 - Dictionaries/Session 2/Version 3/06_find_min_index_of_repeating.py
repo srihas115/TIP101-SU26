@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 3
+  Problem 6: First Repeating Element
+
+  Write a function `find_min_index_of_repeating()` that takes in an integer
+  list `nums` as a parameter and returns the minimum index of an element
+  that has a duplicate value. The function should only do a single traversal
+  of the list. If there are no repeating elements, return `None`.
+
+  Write your solution for `find_min_index_of_repeating` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_min_index_of_repeating` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_min_index_of_repeating(nums):
     pass
 

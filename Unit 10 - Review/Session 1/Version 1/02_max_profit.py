@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 10: Review  ·  Session 1  ·  Version 1
+  Problem 2: Best Time to Buy & Sell Stock
+
+  You are given a list of integers `prices` where `prices[i]` is the price
+  of a given stock on the `ith` day.
+
+  You want to maximize your profit by choosing a **single day** to buy one
+  stock and choosing a **different day in the future** to sell that stock.
+
+  Return *the maximum profit you can achieve from this transaction*. If you
+  cannot achieve any profit, return `0`.
+
+  Write your solution for `max_profit` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `max_profit` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def max_profit(prices):
     pass
 

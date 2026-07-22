@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
+  Problem 6: Post-order Traversal
+
+  Given the `root` of a binary tree, return a list representing the
+  postorder traversal of its nodes' values. In an postorder traversal we
+  traverse the left subtree, then the right subtree, then the current node.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `postorder_traversal` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `postorder_traversal` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
     def __init__(self, value, left=None, right=None):
         pass

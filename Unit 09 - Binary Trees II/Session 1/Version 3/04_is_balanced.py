@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 1  ·  Version 3
+  Problem 4: Check Balanced Binary Tree
+
+  Given the `root` of a binary tree, return `True` if the tree is balanced
+  and `False` otherwise.
+
+  A balanced binary tree is a binary tree in which the depth of the two
+  subtrees of every node never differs by more than one.
+
+  Write your solution for `is_balanced` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_balanced` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

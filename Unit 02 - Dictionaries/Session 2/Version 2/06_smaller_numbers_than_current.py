@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 2
+  Problem 6: How Many Smaller
+
+  Write a function `smaller_numbers_than_current()` that takes in a list of
+  numbers `nums` as a parameter. For each `nums[i]`, the function should
+  find out how many numbers in the list are smaller than it. (*For each
+  nums[i], count the number of valid `j`'s such that `j!=i` and `nums[j] <
+  nums[i]`*)
+
+  Return the answers in a list.
+
+  Write your solution for `smaller_numbers_than_current` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `smaller_numbers_than_current` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def smaller_numbers_than_current(nums):
     pass
 

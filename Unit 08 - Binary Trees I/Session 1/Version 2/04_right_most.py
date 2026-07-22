@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
+  Problem 4: Find Rightmost Node I
+
+  Given the `root` of a binary tree, write a function that finds the value
+  of the right most node in the tree.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `right_most` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `right_most` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, value, left=None, right=None):
         pass

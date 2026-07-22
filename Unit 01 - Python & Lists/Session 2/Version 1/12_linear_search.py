@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+  Problem 12: Linear Search
+
+  Write a function `linear_search()` that takes in a list `lst` and value
+  `target` as parameters. The function returns the index of `target` in
+  `lst` if found. If `target` is not found in `lst`, return `-1`.
+
+  Write your solution for `linear_search` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `linear_search` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def linear_search(lst, target):
     for i in range(len(lst)):
         if lst[i] == target:

@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 1  ·  Version 2
+  Problem 2: Find Max
+
+  Given the head of a linked list where each node is an integer value,
+  return the maximum value in the linked list.
+
+  Write your solution for `find_max` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_max` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+  Problem 2: Keys in Common
+
+  Write a function that takes in two dictionaries, `dict1` and `dict2` and
+  finds all keys common to both dictionaries. The function returns a list of
+  common keys.
+
+  Write your solution for `common_keys` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `common_keys` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def common_keys(dict1, dict2):
     pass
 

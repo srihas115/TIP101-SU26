@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 10: Review  ·  Session 2  ·  Version 2
+  Problem 4: Leaf-Similar Trees
+
+  Consider all the leaves of a binary tree, from left to right order, the
+  values of those leaves form a **leaf value sequence.**
+
+  Write your solution for `leaf_similar` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `leaf_similar` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

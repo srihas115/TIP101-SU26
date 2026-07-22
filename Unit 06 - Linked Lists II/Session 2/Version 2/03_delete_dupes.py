@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
+  Problem 3: Delete Duplicates
+
+  Given the `head` of a sorted linked list, delete all elements that occur
+  more than once in the list (*not just the duplicates*). The resulting list
+  should maintain sorted order. Return the head of the linked list.
+
+  Write your solution for `delete_dupes` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `delete_dupes` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

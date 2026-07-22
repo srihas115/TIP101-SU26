@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 2
+  Problem 2: Remove Char
+
+  Write a function `remove_char()` that takes in a string `s` and an integer
+  `n` as parameters, The function returns a new string with the `n`th
+  character removed where `0 < n < len(s)`.
+
+  Write your solution for `remove_char` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `remove_char` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def remove_char(s, n):
     pass
 

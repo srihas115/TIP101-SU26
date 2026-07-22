@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 11: Odd Indices
+
+  Write a function `print_odd_indices()` that takes in a list `nums` as a
+  parameter and prints out items at odd indices in the list.
+
+  Write your solution for `print_odd_indices` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `print_odd_indices` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def print_odd_indices(nums):
     pass
 

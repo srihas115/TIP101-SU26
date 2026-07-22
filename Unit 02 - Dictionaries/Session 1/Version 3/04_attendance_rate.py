@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 3
+  Problem 4: Attendance Rate
+
+  Write a function `attendance_rate()` that takes in a dictionary
+  `attendance_list` as a parameter. The function maps student names to their
+  attendance status (`"Present"` or `"Absent"`), and returns the percentage
+  of students who are present.
+
+  Write your solution for `attendance_rate` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `attendance_rate` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def attendance_rate(attendance_list):
     pass
 

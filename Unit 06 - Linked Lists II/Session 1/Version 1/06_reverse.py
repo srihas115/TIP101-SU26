@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 1  ·  Version 1
+  Problem 6: Put it in Reverse
+
+  Given the `head` of a singly linked list, reverse the list, and return the
+  reversed list. You must reverse the list in place. Return the head of the
+  reversed list.
+
+  Evaluate the time and space complexity of your solution. Define your
+  variables and provide a rationale for why you believe your solution has
+  the stated time and space complexity.
+
+  Write your solution for `reverse` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `reverse` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
    def __init__(self, value, next=None):
        self.value = value

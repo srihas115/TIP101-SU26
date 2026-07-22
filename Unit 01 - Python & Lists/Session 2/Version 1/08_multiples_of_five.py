@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+  Problem 8: Multiples of Five
+
+  Write a function `multiples_of_five()` that prints out multiples of 5
+  between 1 and 100 (inclusive).
+
+  Write your solution for `multiples_of_five` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `multiples_of_five` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def multiples_of_five():
     for i in range(5, 105, 5):
         print(i)

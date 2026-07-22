@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 2  ·  Version 2
+  Problem 1: Print Level Order
+
+  Given the following pseudocode and the root of a binary tree, print the
+  level order traversal of it’s nodes’ values (i.e., from left to right,
+  level by level).
+
+  Evaluate the time complexity of your solution. Define your variables and
+  give a rationale as to why you believe your solution has the stated time
+  complexity.
+
+  Write your solution for `print_by_level` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `print_by_level` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 from collections import deque # This is a popular library used for queues
 
 class TreeNode:

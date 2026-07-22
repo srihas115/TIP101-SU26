@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 12: List Occurrences
+
+  Write a function `find_all_occurrences()` that takes in a list `lst` and a
+  value `target` as parameters and returns a list of all indices where
+  `target` is found in `lst`.
+
+  Write your solution for `find_all_occurrences` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_all_occurrences` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_all_occurrences(lst, target):
     pass
 

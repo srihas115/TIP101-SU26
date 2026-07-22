@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 13: Calculate the Squares
+
+  Write a function `squares()` that takes a list of integers `nums` as a
+  parameter and returns a new list containing the square of each number in
+  the original list.
+
+  Write your solution for `squares` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `squares` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def squares(nums):
     for i in range(len(nums)):
         nums[i] = nums[i] ** 2

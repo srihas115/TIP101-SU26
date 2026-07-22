@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 1
+  Problem 5: Palindrome
+
+  Write a function `first_palindrome()` that takes in a list of strings
+  `words` as a parameter and returns the first palindromic string in the
+  list. A string is **palindromic** if it reads the same forward and
+  backward. If there is no such string, return an empty string `""`
+
+  Write your solution for `first_palindrome` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `first_palindrome` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def first_palindrome(words):
     pass
 

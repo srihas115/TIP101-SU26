@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 1
+  Problem 2: Remove Duplicates
+
+  Write a function `remove_duplicates()` that takes in a *sorted* list of
+  integers `nums` as a parameter and removes all duplicates in the list. The
+  function returns the modified list.
+
+  Write your solution for `remove_duplicates` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `remove_duplicates` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def remove_duplicates(nums):
     pass
 

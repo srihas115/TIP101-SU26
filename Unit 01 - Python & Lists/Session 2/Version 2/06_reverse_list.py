@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 6: Reverse List
+
+  Write a function `reverse_list()` that takes in a list `lst` as a
+  parameter and returns a new list containing the elements of `lst` in
+  reverse order.
+
+  Write your solution for `reverse_list` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `reverse_list` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def reverse_list(lst):
     pass
 

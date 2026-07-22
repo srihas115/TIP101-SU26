@@ -1,3 +1,26 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 3
+  Problem 1: Choose Your Pokemon
+
+  Copy and paste the following function:
+
+  Write your solution for `choose_pokemon` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `choose_pokemon` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def choose_pokemon(my_pokemon):
     for pokemon in my_pokemon:
         print(f"{pokemon} I choose you!")

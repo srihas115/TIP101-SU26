@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 3
+  Problem 5: Longest Substring
+
+  Write a function that takes in a string `s` and returns the length of the
+  longest substring without repeating characters.
+
+  Write your solution for `length_of_longest_substring` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `length_of_longest_substring` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def length_of_longest_substring(s):
     pass
 

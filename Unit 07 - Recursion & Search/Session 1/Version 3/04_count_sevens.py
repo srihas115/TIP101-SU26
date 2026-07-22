@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 3
+  Problem 4: Recursive Count 7s
+
+  Given a non-negative integer n, write a recursive function
+  `count_sevens()` that returns the count of the occurrences of `7` as a
+  digit.
+
+  Evaluate the time and space complexity of your solution.
+
+  Write your solution for `count_sevens` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `count_sevens` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def count_sevens(n):
     pass
 

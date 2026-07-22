@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
+  Problem 4: Linked List Length
+
+  Write a function `ll_length()` that takes in a `head` of a linked list as
+  a parameter and returns the length of the linked list.
+
+  Write your solution for `ll_length` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `ll_length` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

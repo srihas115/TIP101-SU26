@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 1  ·  Version 1
+  Problem 5: Is Palindrome?
+
+  Given the head of a singly linked list, return `True` if the values of the
+  linked list are palindromic and `False` otherwise. Use the two-pointer
+  technique in your solution.
+
+  Evaluate the time and space complexity of your solution. Define your
+  variables and provide a rationale for why you believe your solution has
+  the stated time and space complexity.
+
+  Write your solution for `is_palindrome` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_palindrome` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
    def __init__(self, value, next=None):
        self.value = value

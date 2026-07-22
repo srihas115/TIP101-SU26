@@ -1,3 +1,26 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 4: Sum of Two Integers
+
+  The following function returns the sum of two integers: `a` and `b`.
+
+  Write your solution for `sum` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sum` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sum(a, b):
     return a + b
 

@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 3
+  Problem 2: Binary Tree Min
+
+  Given the `root` of a binary tree, write a function `tree_min()` that
+  returns the node with the least value inside of a binary tree. If the tree
+  is empty return `None`.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `tree_min` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `tree_min` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
      def __init__(self, value, left=None, right=None):
          self.val = value

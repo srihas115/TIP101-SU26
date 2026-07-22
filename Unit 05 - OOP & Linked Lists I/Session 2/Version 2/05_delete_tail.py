@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
+  Problem 5: Delete Tail
+
+  Write a function `delete_tail()` that takes in a `head` of a linked list
+  as a parameter and removes the **tail** from the end of the list.
+
+  The function does not need to return any value, as it modifies the linked
+  list in place.
+
+  *Note: The "tail" of a list is the last element in the linked list.
+  Equivalent to `lst[-1]` in a normal list.*
+
+  Write your solution for `delete_tail` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `delete_tail` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 11: Counter
+
+  Write a function `counter()` that uses the `range` function to print
+  numbers between 1 and a given `stop` value (inclusive).
+
+  Write your solution for `counter` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `counter` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def counter(stop):
     for i in range(stop):
         print(i+1)

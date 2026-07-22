@@ -1,3 +1,34 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
+  Problem 6: Merge Binary Trees
+
+  You are given two binary trees with roots root1 and root2.
+
+  Imagine that when you put one of them to cover the other, some nodes of
+  the two trees are overlapped while the others are not. You need to merge
+  the two trees into a new binary tree. The merge rule is that if two nodes
+  overlap, then sum node values up as the new value of the merged node.
+  Otherwise, the NOT null node will be used as the node of the new tree.
+
+  Return *the merged tree*.
+
+  Write your solution for `merge_trees` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `merge_trees` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def merge_trees(self, root1, root2):
     pass
 

@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 3
+  Problem 7: Square Root
+
+  Given a positive number, return the square root of it. If the number is
+  not a perfect square, return the floor of its square root.
+
+  Write your solution for `sqrt` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sqrt` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sqrt(x):
     pass
 

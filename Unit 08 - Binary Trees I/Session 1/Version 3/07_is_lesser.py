@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 3
+  Problem 7: Binary Tree All Lesser
+
+  Given the `root` of a binary tree and a value `val`, write a function
+  `is_lesser()` that returns `True` if all the nodes in the tree have a
+  value less than `val` and `False` otherwise. If the tree is empty, return
+  `False`.
+
+  Evaluate the time complexity of your function.
+
+  <!-- **ADD HINT: Balanced Trees** -->
+
+  Write your solution for `is_lesser` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_lesser` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
     def __init__(self, value, left=None, right=None):
         pass

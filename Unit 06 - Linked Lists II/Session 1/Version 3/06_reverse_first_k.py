@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 1  ·  Version 3
+  Problem 6: Reverse Them, K?
+
+  Given the head of a singly linked list and an integer k, reverse the first
+  k elements of the linked list. Return the new head of the linked list. If
+  k is larger than the length of the list, reverse the entire list.
+
+  Evaluate the time and space complexity of your solution. Define your
+  variables and provide a rationale for why you believe your solution has
+  the stated time and space complexity.
+
+  Write your solution for `reverse_first_k` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `reverse_first_k` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
    def __init__(self, value, next=None):
        self.value = value

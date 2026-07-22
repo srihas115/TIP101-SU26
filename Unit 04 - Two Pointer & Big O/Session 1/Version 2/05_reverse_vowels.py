@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 2
+  Problem 5: Reverse Vowels
+
+  Write a function `reverse_vowels()` that takes in a string `s` as a
+  parameter and returns a string with all the vowels in the string reversed.
+  The consonants should remain in the same position. For this question, we
+  consider **a**, **e**, **i**, **o**, and **u** as vowels but not **y**.
+  The vowels can appear in both lower and upper cases, more than once.
+
+  Write your solution for `reverse_vowels` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `reverse_vowels` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def reverse_vowels(s):
     pass
 

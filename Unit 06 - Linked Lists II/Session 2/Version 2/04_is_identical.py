@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
+  Problem 4: Identical Linked Lists
+
+  Two linked lists are identical when they have the same values and the same
+  order of values. Given the heads of two linked lists, write a function
+  that returns `True` if the the linked lists are identical and `False`
+  otherwise.
+
+  Write your solution for `is_identical` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_identical` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

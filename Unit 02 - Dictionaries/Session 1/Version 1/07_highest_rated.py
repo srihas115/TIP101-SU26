@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 1
+  Problem 7: Best Book
+
+  Imagine you are working on a book review software like
+  [Goodreads](https://www.goodreads.com/). Write a function named
+  `highest_rated()` that returns the book with the highest rating.
+
+  The function should take in a **list of dictionaries** named `books` as a
+  parameter. Each dictionary represents data associated with a book,
+  including its title, author, and rating. The function should return the
+  dictionary for the book with the highest rating.
+
+  Write your solution for `highest_rated` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `highest_rated` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def highest_rated(books):
     if len(books) == 0:
         return None

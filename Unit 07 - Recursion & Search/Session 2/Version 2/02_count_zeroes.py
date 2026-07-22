@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 2  ·  Version 2
+  Problem 2: How Many 0s (Iterative)
+
+  Given a sorted list of integers containing only 0s and 1s, count the total
+  number of 0’s in the array in `O(log n)` time.
+
+  Write your solution for `count_zeroes` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `count_zeroes` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def count_zeroes(lst):
     pass
 

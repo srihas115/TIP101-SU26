@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 2
+  Problem 5: Find Mode
+
+  Write a function `find_mode()` that takes in a non-empty list of integers
+  `lst` as a parameter. The function returns the mode (*the most frequently
+  occurring number*) and if there is a tie, return the element which
+  appeared first in the list.
+
+  Write your solution for `find_mode` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_mode` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_mode(lst):
     pass
 

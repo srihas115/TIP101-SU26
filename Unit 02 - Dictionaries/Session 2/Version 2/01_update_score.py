@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 2
+  Problem 1: Update Score
+
+  Write a function `update_score()` that takes in a dictionary `scores` that
+  maps player names to current scores, a string `player`, and an integer
+  `points` as parameters. The function adds the `points` to the current
+  score of `player` in the dictionary and returns the updated dictionary. If
+  the player does not exist in `scores`, then add them.
+
+  Write your solution for `update_score` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `update_score` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def update_score(scores, players, points):
     pass
 

@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+  Problem 3: Add First
+
+  Write a function `add_first()` that takes in a `head` of a linked list and
+  a `new_node` from the `Node` class as parameters.
+
+  It should insert `new_node` as the new **head** of the linked_list. The
+  function returns `new_node`.
+
+  *Note: The "head" of a linked list is the first element in the linked
+  list. Equivalent to `lst[0]` of a normal list.*
+
+  Write your solution for `add_first` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `add_first` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

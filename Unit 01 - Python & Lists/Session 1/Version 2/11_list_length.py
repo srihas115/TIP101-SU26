@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 11: Length of List
+
+  Without using the built-in `len()` function, write a function
+  `list_length()` that takes in a list `lst` as a parameter and returns the
+  length of the list.
+
+  Write your solution for `list_length` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `list_length` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def list_length(lst):
     l = 0
     for num in lst:

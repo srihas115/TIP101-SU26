@@ -1,3 +1,26 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
+  Problem 1: Calling Mississippi
+
+  Copy and paste the following function:
+
+  Write your solution for `count_mississippi` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `count_mississippi` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def count_mississippi(limit):
     for num in range(1, limit):
         print( f"{num} mississippi")

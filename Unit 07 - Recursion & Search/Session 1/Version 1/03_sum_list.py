@@ -1,4 +1,31 @@
 '''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 1
+  Problem 3: Recursive Sum
+
+  Without using the built-in `sum()` function, write a function `sum_list()`
+  that calculates the sum of all values in a list recursively.
+
+  What is the time complexity of this function? What is the space
+  complexity?
+
+  Write your solution for `sum_list` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sum_list` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
+'''
 1. understand
     input: list
     output: sum of all values

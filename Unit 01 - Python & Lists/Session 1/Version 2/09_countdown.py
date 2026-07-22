@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 9: Countdown
+
+  Write a function `countdown()` that takes in two positive integers `m` and
+  `n` as parameters and prints numbers from `m` down to `n`.
+
+  Write your solution for `countdown` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `countdown` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def countdown(m,n):
     for num in range(m, n-1, -1):
         print(num)

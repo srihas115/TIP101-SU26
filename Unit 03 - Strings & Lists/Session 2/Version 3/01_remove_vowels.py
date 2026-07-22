@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 3
+  Problem 1: Remove Vowels
+
+  Write a function `remove_vowels()` that takes in a string `s` as a
+  parameter and returns a new string with all the vowels removed. For the
+  purposes of this exercise, consider **a**, **e**, **i**, **o**, and **u**
+  as vowels and not **y**. The function should preserve the case of the
+  original letters.
+
+  Write your solution for `remove_vowels` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `remove_vowels` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def remove_vowels(s):
     pass
 

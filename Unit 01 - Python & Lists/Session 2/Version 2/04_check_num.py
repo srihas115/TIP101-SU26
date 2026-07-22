@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 4: Check for Number
+
+  Write a function `check_num()` that takes in a list of integers `lst` and
+  an integer `num` as parameters and returns `True` if `num` is a value in
+  `lst` and `False` otherwise.
+
+  Write your solution for `check_num` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `check_num` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def check_num(lst, num):
     pass
 

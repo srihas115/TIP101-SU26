@@ -1,3 +1,26 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 12: Sum of 1 to 10
+
+  Write a function `sum_ten()` that returns the sum of numbers from 1 to 10.
+
+  Write your solution for `sum_ten` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sum_ten` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sum_ten():
     sum = 0
     for i in range(1,11):

@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+  Problem 7: Make Pairs
+
+  Write a function `divide_list()` that takes in an integer list `nums`
+  consisting of `2*n` integers as parameters. The function divides `nums`
+  into `n` pairs such that: - Each element belongs to exactly one pair - The
+  elements present in a pair are equal
+
+  Return `True` if `nums` can be divided into `n` pairs, otherwise return
+  `False`.
+
+  Write your solution for `divide_list` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `divide_list` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def divide_list(nums):
     pass
 

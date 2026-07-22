@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 10: Review  ·  Session 2  ·  Version 1
+  Problem 1: Contains Duplicates
+
+  Given an integer array `nums`, return `True` if any value appears **at
+  least twice** in the array, and return `False` if every element is
+  distinct.
+
+  Write your solution for `contains_duplicate` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `contains_duplicate` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def contains_duplicate(nums):
     pass
 

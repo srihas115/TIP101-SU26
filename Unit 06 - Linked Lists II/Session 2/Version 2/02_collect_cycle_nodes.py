@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
+  Problem 2: Collect Nodes of a Cycle
+
+  Given the `head` of a linked list, return the elements of any cycle in the
+  linked list as a list.
+
+  Write your solution for `collect_cycle_nodes` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `collect_cycle_nodes` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

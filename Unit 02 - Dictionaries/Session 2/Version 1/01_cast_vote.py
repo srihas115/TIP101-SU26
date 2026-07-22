@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+  Problem 1: Cast Vote
+
+  Write a function `cast_vote()` that records a vote for a candidate in an
+  election. The function accepts a dictionary `votes` that maps candidates
+  to their current number of votes and a string `candidate` that represents
+  the candidate the user would like to vote for. If the candidate doesn't
+  exist, add them to the dictionary. The function should return the updated
+  dictionary.
+
+  Write your solution for `cast_vote` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `cast_vote` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def cast_vote(votes, candidate):
     pass
 

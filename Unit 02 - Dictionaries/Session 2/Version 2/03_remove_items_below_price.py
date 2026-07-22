@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 2
+  Problem 3: Filter by Price
+
+  Write a function that takes in a dictionary of `items` and a
+  `price_threshold` as parameters. The function should iterate through the
+  dictionary and remove all items that has a value less than
+  `price_threshold`. The function also returns a list of all items that are
+  removed. If no item satisfies the condition, return `None`.
+
+  Write your solution for `remove_items_below_price` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `remove_items_below_price` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def remove_items_below_price(items, price_threshold):
     pass
 

@@ -1,3 +1,34 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 3
+  Problem 6: Merge Nodes Between Zeros
+
+  Given the head of a linked list which contains a series of integers
+  separated by 0s, merge the nodes lying between two zero nodes into a
+  single node whose value is the sum of all the merged nodes. The modified
+  list should not contain any zeroes. The head and tail of the list will be
+  nodes with value zero. Return the head of the merged list.
+
+  Evaluate the time and space complexity of your solution. Define your
+  variables and provide a rationale for why you believe your solution has
+  the stated time and space complexity.
+
+  Write your solution for `merge_nodes` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `merge_nodes` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

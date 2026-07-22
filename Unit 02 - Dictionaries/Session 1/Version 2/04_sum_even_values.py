@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 2
+  Problem 4: Sum Even Values
+
+  Write a function `sum_even_values()` that returns the sum of all even
+  values in a given `dictionary`. Assume the dictionary values are all
+  integers.
+
+  Write your solution for `sum_even_values` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sum_even_values` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sum_even_values(dictionary):
     pass
 

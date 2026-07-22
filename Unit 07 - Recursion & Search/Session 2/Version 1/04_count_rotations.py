@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 2  ·  Version 1
+  Problem 4: Count Rotations
+
+  You are given a circularly sorted list of integers. A circularly sorted
+  list of integers is a sorted list whose elements have then been rotated
+  some number of times such that the last element of the array becomes the
+  first element of the array. Write a function `count_rotations()` that
+  returns the total number of times the array is rotated. Assume there are
+  no duplicates in the array.
+
+  Write your solution for `count_rotations` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `count_rotations` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def count_rotations(nums):
     pass
 

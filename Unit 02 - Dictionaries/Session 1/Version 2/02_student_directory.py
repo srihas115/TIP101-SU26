@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 2
+  Problem 2: Student Directory
+
+  Write a function `student_directory()` that takes a list of
+  `student_names` as a parameter and returns a dictionary of students, where
+  each student in `student_names` is a key mapped to a unique numerical ;'
+  ID.
+
+  Write your solution for `student_directory` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `student_directory` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def student_directory(student_names):
     res = {}
     

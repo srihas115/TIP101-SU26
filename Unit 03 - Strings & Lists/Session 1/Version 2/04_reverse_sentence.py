@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 2
+  Problem 4: Reverse Sentence
+
+  Write a function `reverse_sentence()` that takes in a string `sentence` as
+  a parameter and returns the string with the sentence but with the order of
+  the words reversed. The sentence will only contain alphabetic characters
+  and spaces to separate the words. If there is only one word in the
+  sentence, the function returns the original string.
+
+  Write your solution for `reverse_sentence` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `reverse_sentence` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def reverse_sentence(sentence):
     pass
 

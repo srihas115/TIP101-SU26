@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
+  Problem 4: Convert Binary Linked List to Integer
+
+  You are given the head of a linked list. Each value in the linked list is
+  either 0 or 1, and the entire linked list represents a binary number.
+  Return an integer that is the decimal value of the number represented by
+  the linked list. The most significant bit is at the head of the linked
+  list.
+
+  Write your solution for `binary_to_int` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `binary_to_int` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

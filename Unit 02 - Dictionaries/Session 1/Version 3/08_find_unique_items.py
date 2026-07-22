@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 3
+  Problem 8: First Unique Items
+
+  Write a function `find_unique_items()` that takes two lists `list_a` and
+  `list_b` as parameters. The function identifies unique items from the
+  lists and returns a dictionary with the items as keys and a boolean value
+  as the value indicating whether the item is unique to the first list
+  (`True`) or not (`False`).
+
+  Write your solution for `find_unique_items` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_unique_items` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_unique_items(list_a, list_b):
     pass
 

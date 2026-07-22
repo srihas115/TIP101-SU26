@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 1
+  Problem 4: Longest Uniform Substring
+
+  Write a function `longest_uniform_substring()` that takes in a string `s`
+  and returns the length of the longest uniform substring. A uniform
+  substring consists of a single repeated character.
+
+  Write your solution for `longest_uniform_substring` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `longest_uniform_substring` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def longest_uniform_substring(s):
     pass
 

@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+  Problem 5: Find Majority Element
+
+  Write a function `find_majority_element()` that takes in a list of
+  integers `elements` and finds the majority element in the list. A majority
+  element is an element that appears more than `n/2` times where `n` is the
+  size of the list. If there is no majority element, return `None`.
+
+  Write your solution for `find_majority_element` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_majority_element` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_majority_element(elements):
     pass
 

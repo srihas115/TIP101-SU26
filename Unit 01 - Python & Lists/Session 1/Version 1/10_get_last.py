@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 10: Last Item
+
+  Write a function `get_last()` that takes in a list as a parameter and
+  returns the last item in the list. Return `None` if the list is empty.
+
+  Write your solution for `get_last` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `get_last` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def get_last(lst):
     if len(lst) == 0:
         return None

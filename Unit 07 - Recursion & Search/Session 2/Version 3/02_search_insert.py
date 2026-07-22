@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 2  ·  Version 3
+  Problem 2: Where Does it Go (Iterative)
+
+  Given a sorted array of distinct integers and a target value, return the
+  index if the target is found. If not, return the index where it would be
+  if it were inserted in order. You must write an algorithm with `O(log n)`
+  runtime complexity.
+
+  Write your solution for `search_insert` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `search_insert` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def search_insert(nums, target):
     pass
 

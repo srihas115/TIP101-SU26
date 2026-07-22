@@ -1,3 +1,18 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
+  Problem 9: Create Double Links
+  Write your solution in the space provided below, then click ▶ Run to validate it.
+  (Full instructions and examples are in the problem set.)
+
+  ⚠️  Keep every class, method, and function name exactly as the problem gives it,
+      and use the exact variable names it asks for — the problem set solution validator looks those up
+      by name (they're case-sensitive). If it can't find one, the results will tell
+      you which name is missing.
+==============================================================================
+'''
+
+
 class Node:
     def __init__(self, value, next = None):
         self.value = value

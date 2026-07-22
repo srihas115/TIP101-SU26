@@ -1,3 +1,35 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
+  Problem 5: BST In-order Successor
+
+  In the `remove_bst()` problem, we summarized the in-order successor of a
+  given node as the smallest node in the given node’s right subtree. This is
+  true if the given node has a right subtree.
+
+  More generally, the in-order successor is the node with the smallest key
+  greater than the key of the given node. Given the root of a binary search
+  tree, and a `TreeNode` `current`, write a function that returns the in-
+  order successor of the `current` node. Assume the tree is balanced.
+
+  Evaluate the time complexity of your solution.
+
+  Write your solution for `inorder_successor` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `inorder_successor` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
       def __init__(self, key, value=None, left=None, right=None):
             self.key = key

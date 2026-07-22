@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 1
+  Problem 4: Positive Negative Pairs
+
+  Write a function `find_largest_k()` that takes in a list of integers
+  `nums` that does not contain any zeroes as a parameter. The function finds
+  the **largest positive** integer `k` such that `-k` also exists in the
+  array and returns `k`. If there is no such integer, return `-1`.
+
+  Write your solution for `find_largest_k` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_largest_k` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_largest_k(nums):
     pass
 

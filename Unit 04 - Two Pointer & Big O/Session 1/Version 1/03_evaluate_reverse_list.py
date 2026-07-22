@@ -1,3 +1,11 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 1
+  Problem 3: Evaluating Solutions
+==============================================================================
+'''
+
+
 def reverse_list(lst):
     # Create a new reversed list
     reversed_lst = lst[::-1]

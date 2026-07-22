@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 5: Missing Number
+
+  Write a function `find_missing()` that takes in a list `nums` containing
+  `n` unique numbers in the range `[0,n]`. The function returns the only
+  number in the range that is missing from the list.
+
+  Write your solution for `find_missing` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_missing` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_missing(nums):
     pass
 

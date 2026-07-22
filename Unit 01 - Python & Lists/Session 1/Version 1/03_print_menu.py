@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 3: Lunch Menu
+
+  The following function accepts one parameter `menu`. Copy this code into
+  your IDE and add a function call so that `"Lunch today is: 🍕"` is printed
+  to the console.
+
+  Write your solution for `print_menu` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `print_menu` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def print_menu(menu):
     print("Lunch today is: " + menu)
 

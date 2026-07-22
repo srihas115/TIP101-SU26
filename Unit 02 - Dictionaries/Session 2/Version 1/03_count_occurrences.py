@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 1
+  Problem 3: Frequency Count
+
+  Write a function that takes in a list of integers `nums` and counts the
+  number of occurrences of each integer. The function returns the result as
+  a dictionary with integers as keys and their counts as values.
+
+  Write your solution for `count_occurrences` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `count_occurrences` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def count_occurrences(nums):
     pass
 

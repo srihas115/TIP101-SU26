@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 3
+  Problem 6: Pre-order Traversal
+
+  Given the `root` of a binary tree, return a list representing the preorder
+  traversal of its nodes' values. In a preorder traversal we traverse the
+  current node, then the left subtree, then the right subtree.
+
+  Write your solution for `preorder_traversal` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `preorder_traversal` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
     def __init__(self, value, left=None, right=None):
         pass

@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 3
+  Problem 4: Group By Frequency
+
+  Write a function `group_by_frequency()` that takes in a list `lst` and
+  returns a dictionary where keys represent the frequency of unique elements
+  within `lst` and values represent a list of elements with the same
+  frequency.
+
+  Write your solution for `group_by_frequency` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `group_by_frequency` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def group_by_frequency(lst):
     pass
 

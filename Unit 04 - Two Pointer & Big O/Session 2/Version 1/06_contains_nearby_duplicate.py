@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 1
+  Problem 6: Duplicates Within Range
+
+  Write a function `contains_nearby_duplicate()` that takes in a list `lst`
+  and a positive number `k` as parameters. The function returns `True` if
+  the list contains any duplicate elements within the range `k` and `False`
+  otherwise. If `k` is more than the list's size, the solution should check
+  for duplicates in the complete list.
+
+  Write your solution for `contains_nearby_duplicate` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `contains_nearby_duplicate` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def contains_nearby_duplicate(lst, k):
     pass
 

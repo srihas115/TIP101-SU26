@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+  Problem 3: Insert Node as Second Element
+
+  Write a function `add_second()` that takes in the `head` of a linked list
+  and a value object `val` as parameters. It should insert `val` as the
+  second node in the linked list and return the **head** of the linked list.
+  (You can assume `head` is not `None`.)
+
+  *Note: The "head" of a linked list is the first element in the linked
+  list. Equivalent to `lst[0]` of a normal list.*
+
+  Write your solution for `add_second` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `add_second` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

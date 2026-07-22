@@ -1,4 +1,34 @@
 '''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 1
+  Problem 4: Recursive Power of 2
+
+  Given an integer `n`, return `True` if `n` is a power of two. Otherwise,
+  return `False``.
+
+  An integer `n` is a power of two if there exists an integer `x` such that
+  `n == 2ˣ`.
+
+  Solve the problem recursively. What is the time complexity of this
+  function? What is the space complexity?
+
+  Write your solution for `is_power_of_two` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_power_of_two` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
+'''
 1. understand
     input: n
     output: return True if n is a power of two

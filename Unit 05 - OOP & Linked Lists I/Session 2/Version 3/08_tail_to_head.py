@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+  Problem 8: Move Tail to Front
+
+  Write a function `tail_to_head()` that takes in the `head` of a linked
+  list as a parameter, and moves the tail of the linked list to the front.
+
+  Write your solution for `tail_to_head` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `tail_to_head` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

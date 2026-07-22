@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 3
+  Problem 4: Sorted Squares
+
+  Write a function `sorted_squares()` that takes in an integer list `nums`
+  that is *sorted* in non-decreasing order. The function returns a list of
+  the squares of each number also sorted in non-decreasing order.
+
+  Write your solution for `sorted_squares` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sorted_squares` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sorted_squares(nums):
     pass
 

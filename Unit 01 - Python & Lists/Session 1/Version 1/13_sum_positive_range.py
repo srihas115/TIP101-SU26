@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 13: Total Sum
+
+  Write a function `sum_positive_range()` that returns the sum of numbers
+  from 1 to a given `stop` value (inclusive).
+
+  Write your solution for `sum_positive_range` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sum_positive_range` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sum_positive_range(stop):
     sum = 0
     for i in range(stop+1):

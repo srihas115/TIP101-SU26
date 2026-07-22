@@ -1,3 +1,37 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 3
+  Problem 1: In The Stars
+
+  A recursive function is a function that calls itself within the body of
+  the function.
+
+  Step 1: Copy the recursive function `insert_stars()` into your IDE and run
+  it.
+
+  Step 2: Then create another function `insert_stars_iterative()` that
+  produces the same output without using recursion or the built-in `join()`
+  method.
+
+  Compare your iterative (non-recursive) solution to the recursive solution
+  provided. What is similar? What is different?
+
+  Write your solution for `insert_stars_iterative` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `insert_stars_iterative` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def insert_stars(s):
     # If the string is empty or has only one character, return it as is
     if len(s) <= 1:

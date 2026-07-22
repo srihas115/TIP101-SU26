@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 2
+  Problem 6: Greater Than Threshold
+
+  Write a function `num_of_subarrays()` that takes in a list of integers
+  `nums` and two integers `k` and `threshold` as parameters. The function
+  returns the number of `subarrays` of size `k` whose average is greater
+  than or equal to `threshold`.
+
+  Write your solution for `num_of_subarrays` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `num_of_subarrays` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def num_of_subarrays(lst, k, threshold):
     pass
 

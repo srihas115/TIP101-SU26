@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 2
+  Problem 5: Merge Catalogs
+
+  Write a function `merge_catalogs()` that combines two product catalogs,
+  `catalog1` and `catalog2` as parameters. Each parameter is a dictionary
+  where each key-value pair represents a product name and its price,
+  respectively. If the same product exists in both catalogs, the price from
+  the second catalog should overwrite the price in the first. Return the
+  updated first catalog dictionary.
+
+  Write your solution for `merge_catalogs` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `merge_catalogs` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def merge_catalogs(catalog1, catalog2):
     pass
 

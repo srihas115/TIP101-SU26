@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 14: Multiply List
+
+  Write a function `multiply_list()` that takes in a list of integers `lst`
+  and an integer `multiplier` as parameters. The function returns a new list
+  containing each value in `lst` multiplied by `multiplier`.
+
+  Write your solution for `multiply_list` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `multiply_list` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def multiply_list(lst, multiplier):
     for i in range(len(lst)):
         lst[i] = lst[i] * multiplier

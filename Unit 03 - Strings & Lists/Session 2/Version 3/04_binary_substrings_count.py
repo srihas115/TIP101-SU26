@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 3
+  Problem 4: Binary Substrings
+
+  Write a function `binary_substrings_count()` that takes in a string `s`
+  representing a binary number as a parameter. The function counts the
+  number of substrings that satisfy all of the following conditions: -
+  contains an equal number of `0`s and `1`s - all the `0`s in the substring
+  are grouped consecutively - all the `1`s in the substrings are grouped
+  consecutively
+
+  Write your solution for `binary_substrings_count` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `binary_substrings_count` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def binary_substrings_count(s):
     pass
 

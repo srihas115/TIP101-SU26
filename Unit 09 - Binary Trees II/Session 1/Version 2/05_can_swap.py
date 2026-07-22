@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 1  ·  Version 2
+  Problem 5: Transformable by Swapping Subtrees
+
+  Given the roots of two binary trees `root1` and `root2`, write a function
+  `can_transform()` that returns `True` if the tree represented by `root1`
+  can be converted to the tree represented by `root2` by doing any number of
+  swaps of the first tree’s right and left branches.
+
+  Evaluate the time complexity of the function.
+
+  Write your solution for `can_swap` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `can_swap` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

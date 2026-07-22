@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 1
+  Problem 3: Reverse Letters
+
+  Write a function `reverse_only_letters()` that takes in a string `s` as a
+  parameter. The function reverses the order of the letters in the string
+  and returns the new string. Non-letter characters should remain in their
+  original positions.
+
+  Write your solution for `reverse_only_letters` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `reverse_only_letters` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def reverse_only_letters(s):
     pass
 

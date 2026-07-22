@@ -1,3 +1,35 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 1  ·  Version 2
+  Problem 4: Middle Match
+
+  A variation of the two-pointer technique introduced in Unit 4 is to have a
+  slow and a fast pointer that increment at different rates. Given the head
+  of a linked list, and a value `val`, use the slow-fast pointer technique
+  to determine if `val` matches the middle node of the list. If there are
+  two middle nodes, return `True` if the second middle node matches the
+  value `val`.
+
+  Evaluate the time and space complexity of your solution. Define your
+  variables and provide a rationale for why you believe your solution has
+  the stated time and space complexity.
+
+  Write your solution for `middle_match` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `middle_match` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
    def __init__(self, value, next=None):
        self.value = value

@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 1  ·  Version 3
+  Problem 5: Replace Node Value with Sum of Subtree
+
+  Given a binary tree, in-place replace each node’s value as the sum of all
+  elements present in its left and right subtree. You may assume the value
+  of an empty child node to be 0.
+
+  Return the root of the modified tree.
+
+  Write your solution for `sum_transform` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sum_transform` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

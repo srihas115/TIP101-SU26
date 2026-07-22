@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 10: Review  ·  Session 2  ·  Version 1
+  Problem 6: Add Two Numbers
+
+  You are given the heads of two **non-empty** linked lists `l1` and `l2`
+  representing two non-negative integers. The digits are stored in **reverse
+  order**, and each of their nodes contains a single digit. Add the two
+  numbers and return the sum as a linked list.
+
+  You may assume the two numbers do not contain any leading zero, except the
+  number 0 itself
+
+  Write your solution for `add_two_numbers` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `add_two_numbers` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, val=0, next=None):
         self.val = val

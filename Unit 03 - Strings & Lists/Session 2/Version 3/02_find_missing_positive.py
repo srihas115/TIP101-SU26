@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 3
+  Problem 2: Missing Integer
+
+  Write a function `find_missing_positive()` that takes in a *sorted* list
+  of integers `nums` that always starts at `1`, and returns the smallest
+  missing positive integer.
+
+  Write your solution for `find_missing_positive` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_missing_positive` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_missing_positive(nums):
     pass
 

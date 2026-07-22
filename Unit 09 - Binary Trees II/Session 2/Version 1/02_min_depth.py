@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 2  ·  Version 1
+  Problem 2: Minimum Depth
+
+  Given the `root` of a binary tree, return its minimum depth. The minimum
+  depth is the number of nodes along the shortest path from the `root` down
+  to the nearest leaf node.
+
+  Evaluate the time complexity of your solution. Define your variables and
+  give a rationale as to why you believe your solution has the stated time
+  complexity.
+
+  Write your solution for `min_depth` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `min_depth` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, value=0, left=None, right=None):
         self.val = value

@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 10: Review  ·  Session 1  ·  Version 2
+  Problem 4: Sum Tree
+
+  Given the `root` of a binary tree, write a function that returns `True` if
+  the value of `root` is equal to the sum of the values of all its
+  descendants. Return `False` otherwise.
+
+  Write your solution for `check_root_sum` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `check_root_sum` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+  Problem 5: Replace Node
+
+  Using the `Node` class, write a function `ll_replace()` that updates in
+  place every node whose `value == original` to have `value = replacement`.
+  The function returns `None`.
+
+  Write your solution for `ll_replace` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `ll_replace` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

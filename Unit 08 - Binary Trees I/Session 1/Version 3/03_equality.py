@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 3
+  Problem 3: 3-Node Equality
+
+  You are given the `root` of a binary tree that has at most `3` nodes: the
+  root, its left child, and its right child.
+
+  Return `True` if the root’s children have equal value and `False`
+  otherwise.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `equality` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `equality` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, value, left=None, right=None):
         pass

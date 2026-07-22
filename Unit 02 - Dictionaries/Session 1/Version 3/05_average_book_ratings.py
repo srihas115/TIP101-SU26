@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 3
+  Problem 5: Average Book Ratings
+
+  Write a function `average_book_ratings()`, that calculates the average
+  rating for each book in a collection. The function takes one parameter: a
+  dictionary `book_ratings` where each key-value pair represents a book
+  title and a list of its ratings, respectively. Ratings are represented as
+  floating-point numbers. The function should return a new dictionary with
+  book titles as keys and their average rating.
+
+  Write your solution for `average_book_ratings` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `average_book_ratings` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def average_book_ratings(book_ratings):
     pass
 

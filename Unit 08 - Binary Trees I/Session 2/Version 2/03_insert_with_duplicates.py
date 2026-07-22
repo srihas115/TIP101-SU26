@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 2
+  Problem 3: BST Insert II (duplicates right)
+
+  Given the `root` of a binary search tree, insert a new node with a given
+  `value` into the tree. Return the `root` of the modified tree. If a node
+  with the given value already exists, place the new node in the right
+  subtree. You do not need to maintain a balanced tree.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `insert_with_duplicates` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `insert_with_duplicates` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
      def __init__(self, value, left=None, right=None):
          self.val = value

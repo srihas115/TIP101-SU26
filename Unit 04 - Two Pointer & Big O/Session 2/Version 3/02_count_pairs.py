@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 3
+  Problem 2: Count Pairs
+
+  Write a function `count_pairs()` that takes in a *0-indexed* list of
+  integers `nums` of length `n` and an integer `target` as parameters. The
+  function returns the number of index pairs `(i, j)` where `0 <= i < j < n`
+  and `nums[i] + nums[j] < target`.
+
+  Write your solution for `count_pairs` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `count_pairs` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def count_pairs(nums, target):
     pass
 

@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
+  Problem 5: First Unique
+
+  Write a function `first_unique_char()` that given a string `my_str` as a
+  parameter, it finds the first non-repeating character in it and returns
+  its index. If it does not exist, then return `-1`.
+
+  Write your solution for `first_unique_char` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `first_unique_char` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def first_unique_char(my_str):
     pass
 

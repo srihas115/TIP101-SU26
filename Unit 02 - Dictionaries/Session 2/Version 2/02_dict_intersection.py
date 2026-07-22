@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 2
+  Problem 2: Dictionary Intersection
+
+  Write a function `dict_intersection()` that takes in two dictionaries as
+  parameters and returns a new dictionary containing the key-value pairs
+  found in both dictionaries.
+
+  Write your solution for `dict_intersection` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `dict_intersection` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def dict_intersection(d1, d2):
     pass
 

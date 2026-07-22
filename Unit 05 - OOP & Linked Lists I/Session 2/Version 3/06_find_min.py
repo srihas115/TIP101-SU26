@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+  Problem 6: Find Minimum
+
+  Write a function `find_min()` that takes in the `head` of a linked_list,
+  and returns the minimum value in the linked list. You can assume the
+  linked list will contain only numeric values.
+
+  Write your solution for `find_min` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_min` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 1
+  Problem 3: BST Insert I
+
+  Given the `root` of a binary search tree, insert a new node with a given
+  `key` and `value` into the tree. Return the `root` of the modified tree.
+  The tree is sorted by key. If a node with the given `key` already exists,
+  update the the existing key’s value. You do not need to maintain a
+  balanced tree.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `insert` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `insert` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
      def __init__(self, key, value, left=None, right=None):
             self.key = key

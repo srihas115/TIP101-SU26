@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 3: Increment by 1
+
+  Write a function `increment_values()` that takes in a list of integers
+  `lst` as a parameter and returns a new list containing each element
+  incremented by 1.
+
+  Write your solution for `increment_values` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `increment_values` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def increment_values(lst):
     pass
 

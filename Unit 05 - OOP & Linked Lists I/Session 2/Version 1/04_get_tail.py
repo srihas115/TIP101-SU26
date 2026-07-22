@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 1
+  Problem 4: Get Tail
+
+  Write a function `get_tail()` that takes in the `head` of a linked list as
+  a parameter.
+
+  Return the value of the `tail`. If the list is empty, return `None`.
+
+  *Note: The "tail" of a list is the last element in the linked list.
+  Equivalent to `lst[-1]` in a normal list.*
+
+  Write your solution for `get_tail` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `get_tail` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 10: Review  ·  Session 1  ·  Version 2
+  Problem 2: Reverse Linked List
+
+  Given the `head` of a singly linked list, reverse the list, and return the
+  head of the reversed list.
+
+  Write your solution for `reverse` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `reverse` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

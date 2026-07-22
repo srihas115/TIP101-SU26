@@ -1,3 +1,26 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 2
+  Problem 1: Perfect Match
+
+  Copy and paste the following function:
+
+  Write your solution for `match_made` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `match_made` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def match_made(dictionary):
     for key, value in dictionary.items():
         print( f"{key} and {value} are a perfect match.")

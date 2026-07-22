@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
+  Problem 5: Add Two Numbers
+
+  You are given two non-empty linked lists representing two non-negative
+  integers. The digits are stored in reverse order, and each of their nodes
+  contains a single digit. Add the two numbers and return the sum as a
+  linked list.
+
+  Write your solution for `add_two_numbers` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `add_two_numbers` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

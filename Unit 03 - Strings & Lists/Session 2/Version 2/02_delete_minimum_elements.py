@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 2
+  Problem 2: Delete Minimum
+
+  Write a function `delete_minimum_elements(nums)` that takes in a list of
+  integers `nums` as a parameter and continuously removes the minimum
+  element until the list is empty. The function returns a new list of all
+  the elements in `nums` in the order in which they were removed.
+
+  Write your solution for `delete_minimum_elements` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `delete_minimum_elements` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def delete_minimum_elements(nums):
     pass
 

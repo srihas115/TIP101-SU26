@@ -1,3 +1,42 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 1
+  Problem 1: Long Pressed
+
+  Write a function `is_long_pressed()` that takes in a string `name` and a
+  string `typed` as parameters. Imagine your friend is typing their `name`
+  into a keyboard and when typing a character, the key might get **long
+  pressed** and the character will be typed 1 or more times.
+
+  The function should examine the `typed` characters and return `True` if it
+  is possible that it was your friends name with some characters being long
+  pressed and `False` otherwise.
+
+  Use the **two-pointer approach** to solve the problem, which is a common
+  technique in which we initialize two variables (also called a pointer in
+  this context) to track different indices or places in a list or string,
+  then moves the pointers to point at new indices based on certain
+  conditions. A common variation of this technique is to point one variable
+  at the beginning of one string and a second pointer at the beginning of a
+  second string, then increment each pointer conditionally to solve a
+  problem.
+
+  Write your solution for `is_long_pressed` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_long_pressed` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 # Run-time: O(n)
 # Space-time: O(1)
 def is_long_pressed(name, typed):

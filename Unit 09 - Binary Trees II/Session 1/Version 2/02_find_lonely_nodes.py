@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 1  ·  Version 2
+  Problem 2: Find Lonely Nodes
+
+  Given the `root` of a binary tree, return a list containing the values of
+  all lonely nodes in the tree. Return the list in any order.
+
+  A lonely node is a node that is the only child of its parent node. The
+  root of the tree is not lonely because it does not have a parent node.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `find_lonely_nodes` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_lonely_nodes` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

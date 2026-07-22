@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 3
+  Problem 1: Return Book
+
+  Write a function `return_book()` that accepts a string `title` and a
+  dictionary `library` as parameters. `library` maps book titles to the
+  number of copies the library currently has in stock. The function should
+  increment the quantity of the book `title` in `library` by 1. If `title`
+  is not in the library, then add it and set quantity to 1. Return the
+  updated `library` dictionary.
+
+  Write your solution for `return_book` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `return_book` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def return_book(title, library):
     pass
 

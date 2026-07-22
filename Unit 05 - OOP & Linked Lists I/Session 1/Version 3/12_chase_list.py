@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 1  ·  Version 3
+  Problem 12: Chase String
+
+  Write a function `chase_list()` that takes in a head of a linked list and
+  returns a string linking together the **values** of the list with the
+  separator `"chases"`.
+
+  *Note: The "head" of a linked list is the first element in the linked
+  list. Equivalent to `lst[0]` of a normal list.*
+
+  Example Usage:
+
+  Write your solution for `chase_list` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `chase_list` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

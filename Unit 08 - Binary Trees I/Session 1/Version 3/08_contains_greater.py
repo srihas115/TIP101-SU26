@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 3
+  Problem 8: Binary Tree Any Greater
+
+  Given a `value` and the `root` of a binary tree, write a function
+  `contains_greater()` which returns `True` if any nodes greater than
+  `value` exist in the tree. If no node greater than value exist, return
+  `False`. Assume the tree is balanced.
+
+  Evaluate the time complexity of your solution.
+
+  Write your solution for `contains_greater` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `contains_greater` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
     def __init__(self, value, left=None, right=None):
         pass

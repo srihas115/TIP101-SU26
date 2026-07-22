@@ -1,3 +1,36 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 1
+  Problem 1: Hello Hello
+
+  A recursive function is a function that calls itself within the body of
+  the function.
+
+  Step 1: Copy the recursive function `repeat_hello()` into your IDE and run
+  it.
+
+  Step 2: Then create another function `repeat_hello_iterative()` that
+  produces the same output without using recursion.
+
+  Compare your iterative (non-recursive) solution to the recursive solution
+  provided. What is similar? What is different?
+
+  Write your solution for `repeat_hello_iterative` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `repeat_hello_iterative` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 # Time: O(n)
 # Space: O(n)
 def repeat_hello(n):

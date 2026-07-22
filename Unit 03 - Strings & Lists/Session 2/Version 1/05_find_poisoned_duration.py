@@ -1,3 +1,37 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 1
+  Problem 5: Teemo's Attack
+
+  In the game **League of Legends**, Teemo attacks his enemy Ashe with
+  poison arrows. Write a function `find_poisoned_duration()` that takes in
+  two parameters: `time_series` (*the time at which Teemo's attacks hits
+  Ashe*) and `time_duration` (*the duration of the poisoning effect*). The
+  function returns the total time that Ashe is in a poisoned condition.
+
+  `time_series` is a list of integers that represents the times at which
+  Teemo attacks and makes Ashe poisoned for the exact `time_duration`.
+
+  If Teemo hits Ashe while she is still poisoned, the poison's duration
+  starts over. For example, if Teemo attacks at times `1` and `4` for 3
+  seconds, the states at each time would be:
+
+  Write your solution for `find_poisoned_duration` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_poisoned_duration` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_poisoned_duration(time_series, duration):
     pass
 

@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
+  Problem 6: Minimum Distance
+
+  Write a function `min_distance()` that takes in a list of strings `words`
+  and two strings `word1` and `word2'` as parameters. The function should
+  return the minimum distance between `word1` and `word2` in the list of
+  words. The distance between one word and an adjacent word in the list is
+  1.
+
+  Write your solution for `min_distance` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `min_distance` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def min_distance(words, word1, word2):
     pass
 

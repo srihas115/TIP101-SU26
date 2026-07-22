@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 1  ·  Version 2
+  Problem 12: Print Linked List
+
+  Write a function `print_linked_list()` that takes in a head of a linked
+  list as a parameter. The function prints and returns a list of all the
+  values in the linked list in the order they appear in the linked list.
+
+  *Note: The "head" of a linked list is the first element in the linked
+  list, equivalent to `lst[0]` of a normal list.*
+
+  Write your solution for `print_linked_list` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `print_linked_list` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

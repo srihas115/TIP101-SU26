@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 3
+  Problem 5: BST Find Floor
+
+  Given a `value` and the `root` of a binary search tree, write a function
+  `find_floor()` that finds the largest value in the binary search tree less
+  than or equal to the given value. If no such node exists, return `None`.
+  Assume the tree is balanced.
+
+  Evaluate the time complexity of your solution.
+
+  Write your solution for `find_floor` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_floor` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, value, left=None, right=None):
         self.val = value

@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 7: Get Odd Numbers
+
+  Write a function `get_odds()` that takes in a list of integers `nums` and
+  returns a list of all odd numbers in `nums`.
+
+  Write your solution for `get_odds` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `get_odds` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def get_odds(nums):
     pass
 

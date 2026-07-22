@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 2: Calculate Difference
+
+  Write a function `difference()` that returns the difference between two
+  integers `a` and `b` (`b` should be subtracted from `a`).
+
+  Write your solution for `difference` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `difference` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def difference(a, b):
     return a-b
 

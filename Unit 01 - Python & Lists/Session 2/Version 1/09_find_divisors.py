@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 1
+  Problem 9: Divisors
+
+  Write a function `find_divisors()` that takes in an integer `n` as a
+  parameter that returns a list of all divisors of `n`.
+
+  Write your solution for `find_divisors` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_divisors` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_divisors(n):
     divisors = []
     for i in range(1,n+1):

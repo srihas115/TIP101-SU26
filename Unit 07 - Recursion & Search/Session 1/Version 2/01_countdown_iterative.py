@@ -1,3 +1,35 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 2
+  Problem 1: Counting Down
+
+  A recursive function is a function that calls itself within the body of
+  the function.
+
+  Step 1: Copy this code into your IDE and run it.
+
+  Step 2: Then create another function `countdown_iterative()` that produces
+  the same output without using recursion.
+
+  Compare your iterative (non-recursive) solution to the recursive solution
+  provided. What is similar? What is different?
+
+  Write your solution for `countdown_iterative` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `countdown_iterative` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def countdown(n):
     if n > 0:
         print(n)

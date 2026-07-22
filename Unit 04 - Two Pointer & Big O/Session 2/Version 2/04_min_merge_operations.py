@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 2
+  Problem 4: Merge to Palindrome
+
+  Write a function `min_merge_operations()` that takes in a list of non-
+  negative integers `nums` and returns the minimum number of merge
+  operations to make it a palindrome. A merge operation is adding two of the
+  integers.
+
+  Write your solution for `min_merge_operations` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `min_merge_operations` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def min_merge_operations(nums):
     pass
 

@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
+  Problem 2: Swap Ends
+
+  Write a function `swap_ends()` that accepts a string `my_str` as a
+  parameter and returns a new string where the first and last characters
+  from `my_str` are swapped.
+
+  Write your solution for `swap_ends` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `swap_ends` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def swap_ends(my_str):
     pass
 

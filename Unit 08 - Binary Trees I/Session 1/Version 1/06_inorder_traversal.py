@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 1
+  Problem 6: In-order Traversal
+
+  Given the `root` of a binary tree, return a list representing the inorder
+  traversal of its nodes' values. In an inorder traversal we traverse the
+  left subtree, then the current node, then the right subtree.
+
+  Write your solution for `inorder_traversal` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `inorder_traversal` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
      def __init__(self, val, left=None, right=None):
          self.val = val

@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 2
+  Problem 6: Interleave Lists
+
+  Write a function `interleave_lists()` that accepts two lists as
+  parameters. The function should return a new list that combines the given
+  lists by alternating which list it takes its next element from. It will
+  take elements in order, and if one list is longer it will append the
+  remaining elements to the end of the interleaved list.
+
+  Write your solution for `interleave_lists` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `interleave_lists` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def interleave_lists(lst1, lst2):
     pass
 

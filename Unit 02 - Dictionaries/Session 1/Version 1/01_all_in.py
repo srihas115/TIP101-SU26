@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 1
+  Problem 1: All In
+
+  Write a function `all_in()` that takes in a list of integers `a` and a
+  list of integers `b` as parameters. Given these two lists, return `True`
+  if *every* element in list `a` is in list `b`. Return `False` otherwise.
+
+  Write your solution for `all_in` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `all_in` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def all_in(a, b):
     for x in a:
         found = False

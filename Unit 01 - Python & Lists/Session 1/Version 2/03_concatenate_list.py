@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 3: List Concatenation
+
+  Given an integer list `nums` of length `n`, create a function
+  `concatenate_list()` that creates and returns a list `ans` of length `2n`
+  where `ans[i] == nums[i]` and `ans[i + n] == nums[i]` for `0 <= i < n`
+  (**0-indexed**). Specifically, `ans` is the **concatenation** of two
+  `nums` lists.
+
+  Write your solution for `concatenate_list` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `concatenate_list` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def concatenate_list(nums):
     res = []
     res.extend(nums)

@@ -1,3 +1,34 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
+  Problem 7: Pop Node
+
+  Write a function `ll_pop()` that takes in the `head` of a linked list and
+  an index `i` as parameters.
+
+  The function should remove the node at index `i` of the linked list and
+  return the `head` of the list. - If `i` is greater than the length of the
+  list, do nothing.
+
+  *Hint: Linked lists do not have built-in indices so you will need to track
+  the indices yourself.*
+
+  Write your solution for `ll_pop` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `ll_pop` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

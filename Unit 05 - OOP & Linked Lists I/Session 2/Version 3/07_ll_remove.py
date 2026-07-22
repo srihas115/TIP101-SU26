@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+  Problem 7: Remove Node by Value
+
+  Write a function `ll_remove()` that takes in the `head` of a linked list
+  and a value `val` as parameters.
+
+  The function should remove the first node it finds in the linked list with
+  value `val` and return the `head` of the linked list. If no node can be
+  found with the value `val`, return the list unchanged.
+
+  Write your solution for `ll_remove` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `ll_remove` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

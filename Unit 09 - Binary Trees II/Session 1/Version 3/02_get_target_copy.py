@@ -1,3 +1,37 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 1  ·  Version 3
+  Problem 2: Find Corresponding Node in Cloned Tree
+
+  You are given the `roots` of two binary trees, `original` and `cloned`.
+  You are also give a `TreeNode` `target` which is a reference to a node in
+  the `original` tree.
+
+  The cloned `tree` is a copy of the `original` tree.
+
+  Return a reference to the same node as `target` in the `cloned` tree.
+
+  You may not change any of the two trees or the `target node`. The answer
+  must be a reference to a node in the cloned tree.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `get_target_copy` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `get_target_copy` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

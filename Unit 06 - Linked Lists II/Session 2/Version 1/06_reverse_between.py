@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 1
+  Problem 6: Reverse Sublist Between m and n
+
+  Given the head of a linked list and indices `m` and `n`, reverse the
+  linked list between positions `m` and `n`. Assume the linked list uses
+  **1-based indexing** and the `0 <= m <= n <= length of list`. Return the
+  head of the list.
+
+  Write your solution for `reverse_between` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `reverse_between` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

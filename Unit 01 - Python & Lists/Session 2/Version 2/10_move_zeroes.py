@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+  Problem 10: Move Zeroes
+
+  Write a function `move_zeroes()` that takes in an integer list `nums` and
+  returns a new list with all the 0 values moved to the end of the list. The
+  relative non-zero elements in the original list should be maintained.
+
+  Write your solution for `move_zeroes` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `move_zeroes` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def move_zeroes(nums):
     pass
 

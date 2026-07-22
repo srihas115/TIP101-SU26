@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 2
+  Problem 3: Recursive Product
+
+  Write a function `list_product()` that calculates the product of all
+  values in a list recursively.
+
+  What is the time complexity of this function? What is the space
+  complexity?
+
+  Write your solution for `list_product` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `list_product` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def list_product(lst):
     pass
 

@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 3
+  Problem 2: Rotate Left
+
+  Write a function `rotate_left()` that takes in a string `s` and an integer
+  `n` as parameters. The function returns a new string with the first `n`
+  characters moved to the end of the string where `1 <= n <= len(str)`.
+
+  Write your solution for `rotate_left` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `rotate_left` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def rotate_left(s, n):
     pass
 

@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 3
+  Problem 3: Recursive Digits Sum
+
+  Given a non-negative integer n, write a function `sum_digits()` that
+  calculates and returns the sum of its digits recursively.
+
+  Evaluate the time and space complexity of your solution.
+
+  Write your solution for `sum_digits` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sum_digits` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sum_digits(n):
     pass
 

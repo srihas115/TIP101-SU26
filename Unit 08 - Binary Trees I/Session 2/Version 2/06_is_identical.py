@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 2
+  Problem 6: Identical Binary Trees
+
+  Given the roots of two binary trees `root1` and `root2`, write a function
+  that returns `True` if they are identical and `False` otherwise. Two
+  binary trees are considered the same if they are structurally identical
+  and the nodes have the same values.
+
+  Write your solution for `is_identical` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_identical` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def is_identical(root1, root2):
     pass
 

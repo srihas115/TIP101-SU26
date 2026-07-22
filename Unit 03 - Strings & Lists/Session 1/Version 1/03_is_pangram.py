@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 1
+  Problem 3: Is Pangram
+
+  Write a function `is_pangram()` that takes in a string `my_str` as a
+  parameter and returns `True` if the string is a **pangram** and `False` if
+  not. A **pangram** is a sentence containing every letter in the English
+  alphabet.
+
+  Write your solution for `is_pangram` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_pangram` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def is_pangram(my_str):
     pass
 

@@ -1,3 +1,35 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 2
+  Problem 5: BST In-order Predecessor
+
+  In the `remove_bst()` problem, we summarized the in-order predecessor of a
+  given node as the largest node in the given node’s left subtree. This is
+  true if the given node has a left subtree.
+
+  More generally, the in-order predecessor is the node with the largest key
+  *less* *than* the key of the given node. Given the `root` of a binary
+  search tree, and a `TreeNode` `current`, write a function that returns the
+  in-order predecessor of the `current` node. Assume the tree is balanced.
+
+  Evaluate the time complexity of your solution.
+
+  Write your solution for `inorder_predecessor` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `inorder_predecessor` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
       def __init__(self, key, value, left=None, right=None):
             self.key = key

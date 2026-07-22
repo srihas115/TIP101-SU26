@@ -1,3 +1,34 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 3
+  Problem 6: Nested Binary Trees (is_subtree)
+
+  Given the roots of two binary trees `root` and `sub_root`, return `True`
+  if there is a subtree of `root` with the same structure and node values of
+  `sub_root` and `False` otherwise.
+
+  A subtree of a binary tree is a tree that consists of a node in and all of
+  this node's descendants. The tree could also be considered as a subtree of
+  itself.
+
+  Evaluate the time complexity of your solution.
+
+  Write your solution for `is_subtree` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_subtree` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
      def __init__(self, value, left=None, right=None):
          self.val = value

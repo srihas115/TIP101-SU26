@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 2  ·  Version 3
+  Problem 4: Find Frequencies
+
+  Given a sorted list of integers containing duplicates, write a function
+  `find_frequencies()` that finds each element’s frequency in less than
+  `O(n)` time.
+
+  Write your solution for `find_frequencies` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_frequencies` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def find_frequencies(lst):
     pass
 

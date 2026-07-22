@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 1: Hello World!
+
+  Given the following lines of code, work with your group members to place
+  the lines in order and write and call your first Python function!
+
+  a. `print("Hello world!")` b. `def hello_world():` c. `hello_world()`
+
+  Write your solution for `hello_world` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `hello_world` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def hello_world():
     print("Hello world!")
 

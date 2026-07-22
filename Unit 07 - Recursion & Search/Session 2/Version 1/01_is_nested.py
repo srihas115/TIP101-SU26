@@ -1,4 +1,32 @@
 '''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 2  ·  Version 1
+  Problem 1: Neatly Nested
+
+  Given a string, return `True` if it is a nesting of zero or more pairs of
+  parentheses. Return `False` otherwise. A valid pair of parentheses is
+  defined as `()`. The input string will only contain the characters `(` or
+  `)`. Your solution must be recursive.
+
+  Evaluate the time and space complexity of your solution.
+
+  Write your solution for `is_nested` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_nested` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
+'''
 
 3. plan
     ((())) --> empty

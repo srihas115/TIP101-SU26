@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 1  ·  Version 3
+  Problem 4: Does it Cycle?
+
+  Given the head of a linked list, return `True` if the list has a cycle in
+  it and `False` otherwise. A linked list has a cycle if at some point in
+  the list, the node’s next pointer points back to a previous node in the
+  list.
+
+  Evaluate the time and space complexity of your solution. Define your
+  variables and provide a rationale for why you believe your solution has
+  the stated time and space complexity.
+
+  Write your solution for `has_cycle` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `has_cycle` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
    def __init__(self, value, next=None):
        self.value = value

@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 14: Total Sum in Range
+
+  Write a function `sum_range()` that returns the sum of numbers from a
+  given `start` value to a given `stop` value (inclusive).
+
+  Write your solution for `sum_range` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sum_range` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sum_range(start, stop):
     sum = 0
     for i in range(start, stop+1):

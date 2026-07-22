@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 1  ·  Version 2
+  Problem 7: Ternary Search
+
+  Ternary search is a search algorithm that, similar to binary search, works
+  on a sorted array. However, instead of dividing the search interval into
+  two halves (as in binary search), ternary search divides it into three
+  parts, using two midpoints. This reduces the problem size to approximately
+  one-third in each step, rather than one-half.
+
+  Given the pseudocode for `ternary_search()` below, implement the function.
+  Evaluate the time and space complexity of your solution
+
+  Write your solution for `ternary_search` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `ternary_search` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def ternary_search(lst, target):
     pass
   # Divide the array into three parts using two mid points (mid1 and mid2).

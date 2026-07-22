@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 9: Binary Trees II  ·  Session 1  ·  Version 1
+  Problem 3: Minimum Difference in BST
+
+  Given the `root` of a binary search tree, return the minimum difference
+  between the values of any two different nodes in the tree.
+
+  Evaluate the time complexity of your function.
+
+  Write your solution for `min_diff_in_bst` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `min_diff_in_bst` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

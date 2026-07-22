@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 10: Calculate Power
+
+  Write a function `power()` that takes in two integers `base` and
+  `exponent`. The function should return the value of the base number to the
+  power of the `exponent`.
+
+  Write your solution for `power` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `power` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def power(base, exponent):
     res = 1
     for i in range(exponent):

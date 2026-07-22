@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 1  ·  Version 1
+  Problem 1: Prime Number
+
+  Write a function `is_prime()` that takes in a positive integer `n` and
+  returns `True` if it is a prime number and `False` otherwise. A **prime
+  number** is a number greater than 1 that has no positive divisors other
+  than 1 and itself.
+
+  Write your solution for `is_prime` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_prime` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def is_prime(n):
     pass
 

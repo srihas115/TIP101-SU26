@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 2  ·  Version 2
+  Problem 1: Is Even-valued
+
+  Given the `root` of a binary tree, return `True` if every node in the tree
+  has an even value and `False` otherwise.
+
+  Write your solution for `is_even` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_even` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode():
      def __init__(self, value, left=None, right=None):
          self.val = value

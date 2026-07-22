@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 4: Sleep Assessment
+
+  Write a function `sleep_assessment()` that takes in an integer parameter
+  `hours` indicating the number of hours the user slept. If `hours` is less
+  than 8, print `"Oof, go back to bed!"`. If `hours` is greater than or
+  equal to 8 and less than or equal to 10, print `"You got a good night's
+  rest!"`. If `hours` is greater than 10, print `"You're a sleep prodigy!"`.
+
+  Write your solution for `sleep_assessment` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `sleep_assessment` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def sleep_assessment(hours):
     if hours < 8:
         print("Oof, go back to bed!")

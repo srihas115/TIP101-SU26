@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 7: Recursion & Search  ·  Session 2  ·  Version 1
+  Problem 3: Binary Search IV
+
+  Thus far, we’ve mostly been using an iterative implementation of the
+  binary search algorithm. Recursive implementations of binary search are
+  also very common. Implement `binary_search()` recursively.
+
+  Write your solution for `binary_search` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `binary_search` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def binary_search(nums, target):
     pass
 

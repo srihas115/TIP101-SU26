@@ -1,3 +1,34 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 3
+  Problem 7: Best Team
+
+  You're developing an analytics tool for a sports league. Your task is to
+  write a function named `team_with_best_average_score()` that returns the
+  team with the highest average score over a season.
+
+  The function should accept a list of dictionaries named `games` as a
+  parameter. Each dictionary represents data from a game, including the
+  `"team_name"`, and the `"score"` they achieved in that game. The function
+  calculates the average score for each team across all games and returns
+  the team with the highest average score.
+
+  Write your solution for `team_with_best_average_score` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `team_with_best_average_score` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def team_with_best_average_score(games):
     pass
 

@@ -1,3 +1,33 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 1  ·  Version 1
+  Problem 3: Remove Tail
+
+  The following code attempts to remove the tail of a singly linked list.
+  However, it has a bug!
+
+  Step 1: Copy this code into your IDE.
+
+  Step 2: Create your own test cases to run the code against, and use print
+  statements and the stack trace to identify and fix the bug so that the
+  function correctly removes the tail of the list.
+
+  Write your solution for `remove_tail` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `remove_tail` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value=None, next=None):
         self.value = value

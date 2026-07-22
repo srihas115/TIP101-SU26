@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 1: Hello User!
+
+  Write a function `greet_user()` that takes in a string `name` as a
+  parameter and prints `"Hello <name>"`.
+
+  Write your solution for `greet_user` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `greet_user` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def greet_user(name):
     print("Hello", name)
 

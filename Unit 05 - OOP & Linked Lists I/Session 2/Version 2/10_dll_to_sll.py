@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
+  Problem 10: Double to Single
+
+  Below are the node classes for a singly linked list and a doubly linked
+  list. Write a function `dll_to_sll()` that takes in the `head` of a doubly
+  linked list as a parameter and recreates it as a singly linked list.
+
+  The function returns the head of the new singly linked list.
+
+  Write your solution for `dll_to_sll` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `dll_to_sll` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class SLLNode:
     def __init__(self, value, next = None):
         self.value = value

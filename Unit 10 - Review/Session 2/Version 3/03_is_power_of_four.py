@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 10: Review  ·  Session 2  ·  Version 3
+  Problem 3: Power of Four
+
+  Given an integer `n`, return *`True` if it is a power of four. Otherwise,
+  return `False`*.
+
+  An integer `n` is a power of four, if there exists an integer `x` such
+  that `n == 4ˣ`.
+
+  Write your solution for `is_power_of_four` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `is_power_of_four` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def is_power_of_four(n):
     pass
 

@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 2  ·  Version 3
+  Problem 5: No Duplicates Allowed
+
+  Write a function that takes in a list of integers `nums` as a parameter
+  and removes all duplicates. The function should return a list containing
+  the unique elements in the order of their **last** occurrence in the
+  original list.
+
+  Write your solution for `remove_duplicates_from_front` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `remove_duplicates_from_front` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def remove_duplicates_from_front(nums):
     pass
 

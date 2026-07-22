@@ -1,3 +1,32 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 2
+  Problem 5: Calculate Tip
+
+  Write a function `calculate_tip()` that takes in a float `bill` and a
+  string `service_quality` as parameters. If `service_quality` is `"poor"`,
+  the function should return 10% of the `bill` value. If `service_quality`
+  is `"average"`, the function should return 15% of the `bill` value. If
+  `service_quality` is `"excellent"`, the function should return 20% of the
+  `bill` value. If `service_quality` is any other value, the function should
+  return `None`.
+
+  Write your solution for `calculate_tip` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `calculate_tip` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def calculate_tip(bill, service_quality):
     if service_quality == "poor":
         return .1 * bill

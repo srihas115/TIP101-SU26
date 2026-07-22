@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 1  ·  Version 2
+  Problem 3: Count Vowels
+
+  Write a function `vowel_count()` that takes in a string `s` as a parameter
+  and returns the number of vowels in the given string.
+
+  Write your solution for `vowel_count` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `vowel_count` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def vowel_count(s):
     pass
 

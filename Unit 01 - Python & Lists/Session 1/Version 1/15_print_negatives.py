@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+  Problem 15: Negative Numbers
+
+  Write a function `print_negatives()` that takes a list of integers `lst`
+  and prints all negative numbers in the list.
+
+  Write your solution for `print_negatives` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `print_negatives` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def print_negatives(lst):
     for num in lst:
         if num < 0:

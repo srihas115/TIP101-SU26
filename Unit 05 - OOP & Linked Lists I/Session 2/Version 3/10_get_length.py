@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 3
+  Problem 10: Length from Any Node
+
+  Write a function `get_length()` that takes in a node at an unknown
+  position within a doubly linked list. The function should return the
+  length of the entire list.
+
+  Write your solution for `get_length` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `get_length` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None, prev=None):
         self.value = value

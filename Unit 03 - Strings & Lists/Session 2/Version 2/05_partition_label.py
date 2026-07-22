@@ -1,3 +1,31 @@
+'''
+==============================================================================
+  Unit 3: Strings & Lists  ·  Session 2  ·  Version 2
+  Problem 5: Partition Labels
+
+  Write a function `partition_labels()` that takes in a string `s` as a
+  parameter. `s` consists of lowercase letters and represents the order of
+  characters as they appear in a document. The function partitions `s` into
+  as many parts as possible so that each unique letter appears in at most
+  one part, and returns a list of integers representing the size of these
+  parts.
+
+  Write your solution for `partition_label` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `partition_label` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def partition_label(s):
     pass
 

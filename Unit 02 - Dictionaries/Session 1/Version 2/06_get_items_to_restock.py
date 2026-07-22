@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 2: Dictionaries  ·  Session 1  ·  Version 2
+  Problem 6: Items to Restock
+
+  Write a function `get_items_to_restock()` that takes in a dictionary
+  `products` that maps product names to their quantities and an integer
+  `restock_threshold` as parameters. The function returns a list of products
+  that have a value less than `restock_threshold` and need to be restocked.
+  If `products` is empty, the function return an empty list.
+
+  Write your solution for `get_items_to_restock` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `get_items_to_restock` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 def get_items_to_restock(products, restock_threshold):
     pass
 

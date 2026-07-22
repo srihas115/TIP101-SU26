@@ -1,3 +1,29 @@
+'''
+==============================================================================
+  Unit 5: OOP & Linked Lists I  ·  Session 2  ·  Version 2
+  Problem 6: Greatest Node
+
+  Write a function `find_max()` that takes in a `head` of a linked list as a
+  parameter where each node is an integer value.
+
+  The function should return the maximum value in the linked list.
+
+  Write your solution for `find_max` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `find_max` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

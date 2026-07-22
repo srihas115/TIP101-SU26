@@ -1,3 +1,28 @@
+'''
+==============================================================================
+  Unit 4: Two Pointer & Big O  ·  Session 2  ·  Version 1
+  Problem 3: Valid Palindrome
+
+  Write a function `valid_palindrome()` that takes in a string `s` as a
+  parameter and returns `True` if `s` can be a palindrome after deleting at
+  most one character from it and `False` otherwise.
+
+  Write your solution for `valid_palindrome` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `valid_palindrome` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 # using iterators
 def valid_palindrome1(s):
     start = 0

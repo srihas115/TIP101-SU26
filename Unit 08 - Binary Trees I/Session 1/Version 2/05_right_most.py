@@ -1,3 +1,30 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 2
+  Problem 5: Find Rightmost Node II
+
+  If you implemented the previous `right_most()` function iteratively,
+  implement it recursively. If you implemented it recursively, implement it
+  recursively.
+
+  Evaluate the time complexity of the function.
+
+  Write your solution for `right_most` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `right_most` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, value, left=None, right=None):
         pass

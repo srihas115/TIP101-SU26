@@ -1,3 +1,18 @@
+'''
+==============================================================================
+  Unit 8: Binary Trees I  ·  Session 1  ·  Version 1
+  Problem 1: Build a Binary Tree I
+  Write your solution in the space provided below, then click ▶ Run to validate it.
+  (Full instructions and examples are in the problem set.)
+
+  ⚠️  Keep every class, method, and function name exactly as the problem gives it,
+      and use the exact variable names it asks for — the problem set solution validator looks those up
+      by name (they're case-sensitive). If it can't find one, the results will tell
+      you which name is missing.
+==============================================================================
+'''
+
+
 from __future__ import annotations
 from typing import Optional
 

@@ -1,3 +1,27 @@
+'''
+==============================================================================
+  Unit 6: Linked Lists II  ·  Session 2  ·  Version 2
+  Problem 5: Rotate Right by k
+
+  Given the head of a linked list and a non-negative integer `k`, rotate the
+  list to the right by `k` places. Return the head of the linked list.
+
+  Write your solution for `rotate_right` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `rotate_right` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

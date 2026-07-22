@@ -1,3 +1,34 @@
+'''
+==============================================================================
+  Unit 10: Review  ·  Session 1  ·  Version 3
+  Problem 4: Diameter of Binary Tree
+
+  Given the `root` of a binary tree, return the *length of the **diameter**
+  of the tree.*
+
+  The **diameter** of a binary tree is the **length** of the longest path
+  between any two nodes in a tree. This path may or may not pass through the
+  `root`.
+
+  The **length** of a path between two nodes is represented by the number of
+  edges between them.
+
+  Write your solution for `get_diameter` in the space below,
+  then click  ▶ Run  to grade it.
+  (The full problem, with examples, is in the problem set.)
+
+  ⚠️  Keep the function name `get_diameter` and its parameters exactly as given —
+      the problem set solution validator looks for that exact name.
+==============================================================================
+Understand (input, output, core logic): 
+
+Match:
+
+Plan:
+
+'''
+
+
 class TreeNode:
     def __init__(self, value=0, left=None, right=None):
         self.val = value
