@@ -43,3 +43,24 @@ books_missing = [
     {"title": "Has Rating", "author": "A", "rating": 3.5}
 ]
 print("  expected:", {"title": "Has Rating", "author": "A", "rating": 3.5}, "| got:", highest_rated(books_missing))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(highest_rated)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([{'title': 'T1', 'author': 'Zevin', 'rating': 4.18}, {'title': 'T2', 'author': 'Abdurraqib', 'rating': 4.47}, {'title': 'T3', 'author': 'Reid', 'rating': 4.4}], expected={'title': 'T2', 'author': 'Abdurraqib', 'rating': 4.47})   # checks the value your code returns against this example

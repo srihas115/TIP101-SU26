@@ -1,2 +1,10 @@
 .claude/settings.local.json
 .claude/*.local.json
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CodePath staff reference bundle
+codepath-staff-tip101-summer-26/

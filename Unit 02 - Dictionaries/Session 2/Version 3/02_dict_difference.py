@@ -23,3 +23,24 @@ print("  expected:", {"b": 2}, "| got:", dict_difference({"a": 1, "b": 2}, {"a":
 
 print("Test 4 - key present in both but with different value (included)")
 print("  expected:", {"x": 5}, "| got:", dict_difference({"x": 5}, {"x": 9}))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(dict_difference)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'a': 1, 'b': 2, 'c': 3, 'd': 4}, {'b': 2, 'd': 1}, expected={'a': 1, 'c': 3, 'd': 4})   # checks the value your code returns against this example

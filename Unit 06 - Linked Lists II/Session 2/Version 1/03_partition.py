@@ -20,7 +20,7 @@ create two linked lists: greater or less than the value
 def partition(head, val):
     smaller = None
     bigger = None
-    curr = 
+    curr = head
     
     
     pass
@@ -35,3 +35,17 @@ def partition(head, val):
 # head = 1, val = 3
 
 # i really want to work on this later - jessica
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade
+
+grade(partition)   # ▶ Run this file to validate your solution

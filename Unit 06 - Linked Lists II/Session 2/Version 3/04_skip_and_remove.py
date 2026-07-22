@@ -45,3 +45,24 @@ print("Test 3 - single-node list, m keeps it")
 single = Node(9)
 result3 = skip_and_remove(single, 1, 2)
 print("  expected:", [9], "| got:", _to_list(result3))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(skip_and_remove)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2, 3, expected=[1, 2, 6, 7])   # checks the value your code returns against this example

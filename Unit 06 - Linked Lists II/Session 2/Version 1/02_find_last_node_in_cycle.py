@@ -24,3 +24,24 @@ num2 = Node(2, num3)
 num1 = Node(1, num2)
 num4.next = num1
 print(find_last_node_in_cycle(num1).value) # type: ignore
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(find_last_node_in_cycle)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([[1, 2, 3, 4], 1], expected=4)   # checks the value your code returns against this example

@@ -34,3 +34,17 @@ print("  expected:", False, "| got:", is_two_pair(no_pair_hand))
 print("Test 3 - clear two-pair with different ranks")
 two_pair_hand = [Card("Hearts", "King"), Card("Diamonds", "King"), Card("Clubs", "Queen"), Card("Spades", "Queen"), Card("Hearts", "2")]
 print("  expected:", True, "| got:", is_two_pair(two_pair_hand))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade
+
+grade(is_two_pair)   # ▶ Run this file to validate your work

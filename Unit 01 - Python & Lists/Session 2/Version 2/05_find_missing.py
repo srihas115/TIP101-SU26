@@ -20,3 +20,24 @@ print("  expected:", 3, "| got:", find_missing([0,1,2]))
 
 print("Test 4 - missing number is in the middle")
 print("  expected:", 2, "| got:", find_missing([3,0,1]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(find_missing)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([2, 4, 1, 0, 5], expected=3)   # checks the value your code returns against this example

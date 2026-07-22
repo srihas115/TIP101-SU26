@@ -1,0 +1,1206 @@
+{
+"unit":6,
+"session":1,
+"problems":{
+"v1_p01":{
+"title":"Nested Constructors",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Build the linked list  4 -> 3 -> 2  and store it in a variable named `head`:\nhead = None  # your code here",
+"filename":"01_build_list_1",
+"cases":[
+{
+"code":"UkVTVUxUID0gaGVhZC52YWx1ZQ==",
+"observe":"return",
+"label":"head.value",
+"e":"NA=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0LnZhbHVl",
+"observe":"return",
+"label":"head.next.value",
+"e":"Mw=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0Lm5leHQudmFsdWU=",
+"observe":"return",
+"label":"head.next.next.value",
+"e":"Mg=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0Lm5leHQubmV4dA==",
+"observe":"return",
+"label":"the list ends (…next is None)",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v1_p02":{
+"title":"Find Frequency",
+"function":"count_element",
+"mode":"return",
+"match":"exact",
+"signature":"def count_element(head, val):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"cases":[
+{
+"args":"[[3, 1, 2, 1], 1]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"MA=="
+},
+{
+"args":"[[], 1]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[5, 5, 5], 5]",
+"e":"Mw=="
+},
+{
+"args":"[[1], 1]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 1, 2, 2, 2], 2]",
+"e":"Mw=="
+},
+{
+"args":"[[0, 0, 0], 0]",
+"e":"Mw=="
+},
+{
+"args":"[[7, 8, 9], 8]",
+"e":"MQ=="
+},
+{
+"args":"[[4, 4, 4, 4], 4]",
+"e":"NA=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 6]",
+"e":"MA=="
+},
+{
+"args":"[[], 9]",
+"e":"MA=="
+},
+{
+"args":"[[1, 3, 1, 7, 6], 9]",
+"e":"MA=="
+},
+{
+"args":"[[0, 2], 2]",
+"e":"MQ=="
+},
+{
+"args":"[[3, 9], 3]",
+"e":"MQ=="
+},
+{
+"args":"[[7, 2], 5]",
+"e":"MA=="
+}
+]
+},
+"v1_p03":{
+"title":"Remove Tail",
+"function":"remove_tail",
+"mode":"return",
+"match":"exact",
+"signature":"def remove_tail(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[5]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2]]",
+"e":"WzFd"
+},
+{
+"args":"[[9, 8, 7]]",
+"e":"WzksIDhd"
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"WzEsIDIsIDMsIDRd"
+},
+{
+"args":"[[0, 0]]",
+"e":"WzBd"
+},
+{
+"args":"[[10]]",
+"e":"W10="
+},
+{
+"args":"[[3, 1, 4, 1, 5]]",
+"e":"WzMsIDEsIDQsIDFd"
+},
+{
+"args":"[[2, 2, 2]]",
+"e":"WzIsIDJd"
+},
+{
+"args":"[[2, 4, 4]]",
+"e":"WzIsIDRd"
+},
+{
+"args":"[[6, 2, 4]]",
+"e":"WzYsIDJd"
+},
+{
+"args":"[[3, 8, 3, 2]]",
+"e":"WzMsIDgsIDNd"
+},
+{
+"args":"[[1, 8, 2]]",
+"e":"WzEsIDhd"
+},
+{
+"args":"[[6, 3, 9, 9]]",
+"e":"WzYsIDMsIDld"
+}
+]
+},
+"v1_p04":{
+"title":"Find the Middle",
+"function":"find_middle_element",
+"mode":"return",
+"match":"exact",
+"signature":"def find_middle_element(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"node_value",
+"cases":[
+{
+"args":"[[1, 2, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"Mw=="
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"Mw=="
+},
+{
+"args":"[[5, 6, 7, 8, 9, 10]]",
+"e":"OA=="
+},
+{
+"args":"[[10, 20]]",
+"e":"MjA="
+},
+{
+"args":"[[7]]",
+"e":"Nw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"NA=="
+},
+{
+"args":"[[9, 8, 7, 6]]",
+"e":"Nw=="
+},
+{
+"args":"[[16, 20, 1]]",
+"e":"MjA="
+},
+{
+"args":"[[3, 18, 9]]",
+"e":"MTg="
+},
+{
+"args":"[[10, 12, 5, 1, 3]]",
+"e":"NQ=="
+},
+{
+"args":"[[5, 15, 7, 2]]",
+"e":"Nw=="
+},
+{
+"args":"[[11, 12, 7, 18, 16]]",
+"e":"Nw=="
+}
+]
+},
+"v1_p05":{
+"title":"Is Palindrome?",
+"function":"is_palindrome",
+"mode":"return",
+"match":"exact",
+"signature":"def is_palindrome(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"cases":[
+{
+"args":"[[1, 2, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 2, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 2, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 5, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 4, 2, 4, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 4, 4, 3, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 5, 5]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p06":{
+"title":"Put it in Reverse",
+"function":"reverse",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"WzQsIDMsIDIsIDFd"
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2]]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[5, 4, 3, 2, 1]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[9, 8, 7]]",
+"e":"WzcsIDgsIDld"
+},
+{
+"args":"[[0, 0, 0]]",
+"e":"WzAsIDAsIDBd"
+},
+{
+"args":"[[10, 20, 30, 40]]",
+"e":"WzQwLCAzMCwgMjAsIDEwXQ=="
+},
+{
+"args":"[[7]]",
+"e":"Wzdd"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzMsIDIsIDFd"
+},
+{
+"args":"[[18]]",
+"e":"WzE4XQ=="
+},
+{
+"args":"[[15, 36]]",
+"e":"WzM2LCAxNV0="
+},
+{
+"args":"[[33]]",
+"e":"WzMzXQ=="
+},
+{
+"args":"[[9, 3, 19]]",
+"e":"WzE5LCAzLCA5XQ=="
+},
+{
+"args":"[[27, 24]]",
+"e":"WzI0LCAyN10="
+}
+]
+},
+"v2_p01":{
+"title":"One to Many",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Build the linked list  Mario -> Luigi -> Wario  and store it in a variable named `head`:\nhead = None  # your code here",
+"filename":"01_build_list_2",
+"cases":[
+{
+"code":"UkVTVUxUID0gaGVhZC52YWx1ZQ==",
+"observe":"return",
+"label":"head.value",
+"e":"J01hcmlvJw=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0LnZhbHVl",
+"observe":"return",
+"label":"head.next.value",
+"e":"J0x1aWdpJw=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0Lm5leHQudmFsdWU=",
+"observe":"return",
+"label":"head.next.next.value",
+"e":"J1dhcmlvJw=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0Lm5leHQubmV4dA==",
+"observe":"return",
+"label":"the list ends (…next is None)",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v2_p02":{
+"title":"Find Max",
+"function":"find_max",
+"mode":"return",
+"match":"exact",
+"signature":"def find_max(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"cases":[
+{
+"args":"[[5, 6, 7, 8]]",
+"e":"OA=="
+},
+{
+"args":"[[1]]",
+"e":"MQ=="
+},
+{
+"args":"[[9, 3, 7, 2]]",
+"e":"OQ=="
+},
+{
+"args":"[[-1, -5, -3]]",
+"e":"LTE="
+},
+{
+"args":"[[10, 10, 10]]",
+"e":"MTA="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"NQ=="
+},
+{
+"args":"[[100, 50]]",
+"e":"MTAw"
+},
+{
+"args":"[[0]]",
+"e":"MA=="
+},
+{
+"args":"[[3, 1, 4, 1, 5, 9, 2, 6]]",
+"e":"OQ=="
+},
+{
+"args":"[[-10, 0, 10]]",
+"e":"MTA="
+},
+{
+"args":"[[21, 59, 99, 53, 24, 40, 55, 56]]",
+"e":"OTk="
+},
+{
+"args":"[[41, 90]]",
+"e":"OTA="
+},
+{
+"args":"[[97, 57, 60]]",
+"e":"OTc="
+},
+{
+"args":"[[17, 37, 92]]",
+"e":"OTI="
+},
+{
+"args":"[[11, 95, 40, 21, 18, 73]]",
+"e":"OTU="
+}
+]
+},
+"v2_p03":{
+"title":"Remove First Value",
+"function":"remove_by_value",
+"mode":"return",
+"match":"exact",
+"signature":"def remove_by_value(head, val):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 4], 3]",
+"e":"WzEsIDIsIDRd"
+},
+{
+"args":"[[1, 2, 3, 4], 1]",
+"e":"WzIsIDMsIDRd"
+},
+{
+"args":"[[1, 2, 3, 4], 4]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[1, 2, 3, 4], 5]",
+"e":"WzEsIDIsIDMsIDRd"
+},
+{
+"args":"[[], 1]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5], 3]",
+"e":"WzVd"
+},
+{
+"args":"[[1, 1, 2], 1]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[2, 2, 2], 2]",
+"e":"WzIsIDJd"
+},
+{
+"args":"[[1, 2, 3, 2], 2]",
+"e":"WzEsIDMsIDJd"
+},
+{
+"args":"[[3], 0]",
+"e":"WzNd"
+},
+{
+"args":"[[], 3]",
+"e":"W10="
+},
+{
+"args":"[[5, 1, 1], 3]",
+"e":"WzUsIDEsIDFd"
+},
+{
+"args":"[[2, 5], 1]",
+"e":"WzIsIDVd"
+},
+{
+"args":"[[4, 4, 3, 5], -1]",
+"e":"WzQsIDQsIDMsIDVd"
+}
+]
+},
+"v2_p04":{
+"title":"Middle Match",
+"function":"middle_match",
+"mode":"return",
+"match":"exact",
+"signature":"def middle_match(head, val):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"cases":[
+{
+"args":"[[1, 2, 3], 2]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4], 2]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1], 1]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1], 2]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2], 2]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 6, 7], 6]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 20, 30, 40], 30]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6], 4]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[34, 14], 31]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[34], 23]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[36, 10, 5, 5, 2, 3], 25]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 21], 22]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[22, 5, 4, 12, 6, 36], 7]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p05":{
+"title":"Where Do We Begin?",
+"function":"get_loop_start",
+"mode":"return",
+"match":"exact",
+"signature":"def get_loop_start(head):",
+"arg_kinds":[
+"cyclic"
+],
+"ret_kind":"node_value",
+"cases":[
+{
+"args":"[[[1, 2, 3, 4], 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[[1, 2, 3, 4], -1]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3], 0]]",
+"e":"MQ=="
+},
+{
+"args":"[[[5], -1]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[[1, 2], 0]]",
+"e":"MQ=="
+},
+{
+"args":"[[[1, 2, 3, 4, 5], 2]]",
+"e":"Mw=="
+},
+{
+"args":"[[[7, 8, 9], -1]]",
+"e":"Tm9uZQ=="
+},
+{
+"args":"[[[1, 2, 3, 4], 3]]",
+"e":"NA=="
+},
+{
+"args":"[[[10, 20, 30], 1]]",
+"e":"MjA="
+},
+{
+"args":"[[[1], 0]]",
+"e":"MQ=="
+},
+{
+"args":"[[[-1, 2, 2], 0]]",
+"e":"LTE="
+},
+{
+"args":"[[[2, 0, -1, 2, 2], 4]]",
+"e":"Mg=="
+},
+{
+"args":"[[[3, -1], 0]]",
+"e":"Mw=="
+},
+{
+"args":"[[[0, 3, 1, 1], 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[[-1, 1, 0], 1]]",
+"e":"MQ=="
+}
+]
+},
+"v2_p06":{
+"title":"Was That a Crit?",
+"function":"count_critical_points",
+"mode":"return",
+"match":"exact",
+"signature":"def count_critical_points(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, 3, 3, 5, 1, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"MA=="
+},
+{
+"args":"[[3, 2, 1]]",
+"e":"MA=="
+},
+{
+"args":"[[1]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1, 5, 1, 5, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"MA=="
+},
+{
+"args":"[[5, 1, 5, 1, 5]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 3, 2, 4, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[2, 2, 2, 2]]",
+"e":"MA=="
+},
+{
+"args":"[[4, 5]]",
+"e":"MA=="
+},
+{
+"args":"[[1, 1, 1, 2, 4]]",
+"e":"MA=="
+},
+{
+"args":"[[3, 3, 3, 4, 1, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[4]]",
+"e":"MA=="
+},
+{
+"args":"[[2]]",
+"e":"MA=="
+}
+]
+},
+"v3_p01":{
+"title":"The Power of One",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Build the linked list  Ash -> Misty -> Brock  and store it in a variable named `head`:\nhead = None  # your code here",
+"filename":"01_build_list_3",
+"cases":[
+{
+"code":"UkVTVUxUID0gaGVhZC52YWx1ZQ==",
+"observe":"return",
+"label":"head.value",
+"e":"J0FzaCc="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0LnZhbHVl",
+"observe":"return",
+"label":"head.next.value",
+"e":"J01pc3R5Jw=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0Lm5leHQudmFsdWU=",
+"observe":"return",
+"label":"head.next.next.value",
+"e":"J0Jyb2NrJw=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0Lm5leHQubmV4dA==",
+"observe":"return",
+"label":"the list ends (…next is None)",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v3_p02":{
+"title":"Frequency Map",
+"function":"frequency_map",
+"mode":"return",
+"match":"exact",
+"signature":"def frequency_map(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 2, 3]]",
+"e":"ezE6IDEsIDI6IDIsIDM6IDIsIDQ6IDF9"
+},
+{
+"args":"[[1]]",
+"e":"ezE6IDF9"
+},
+{
+"args":"[[]]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[[5, 5, 5]]",
+"e":"ezU6IDN9"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"ezE6IDEsIDI6IDEsIDM6IDF9"
+},
+{
+"args":"[[0, 0, 1, 1, 1]]",
+"e":"ezA6IDIsIDE6IDN9"
+},
+{
+"args":"[[7]]",
+"e":"ezc6IDF9"
+},
+{
+"args":"[[9, 8, 9, 8]]",
+"e":"ezk6IDIsIDg6IDJ9"
+},
+{
+"args":"[[1, 1, 2, 3, 3, 3]]",
+"e":"ezE6IDIsIDI6IDEsIDM6IDN9"
+},
+{
+"args":"[[4, 4, 4, 4, 4]]",
+"e":"ezQ6IDV9"
+},
+{
+"args":"[[6, 9, 1]]",
+"e":"ezY6IDEsIDk6IDEsIDE6IDF9"
+},
+{
+"args":"[[4, 7, 0, 4]]",
+"e":"ezQ6IDIsIDc6IDEsIDA6IDF9"
+},
+{
+"args":"[[4, 0, 6, 1, 5, 3]]",
+"e":"ezQ6IDEsIDA6IDEsIDY6IDEsIDE6IDEsIDU6IDEsIDM6IDF9"
+},
+{
+"args":"[[5, 1, 1, 3, 0]]",
+"e":"ezU6IDEsIDE6IDIsIDM6IDEsIDA6IDF9"
+},
+{
+"args":"[[1, 5, 0, 4, 9, 3]]",
+"e":"ezE6IDEsIDU6IDEsIDA6IDEsIDQ6IDEsIDk6IDEsIDM6IDF9"
+}
+]
+},
+"v3_p03":{
+"title":"Get it Out of Here!",
+"function":"remove_by_value",
+"mode":"return",
+"match":"exact",
+"signature":"def remove_by_value(head, val):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 4], 3]",
+"e":"WzEsIDIsIDRd"
+},
+{
+"args":"[[1, 2, 3, 4], 1]",
+"e":"WzIsIDMsIDRd"
+},
+{
+"args":"[[1, 2, 3, 4], 4]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[1, 2, 3, 4], 5]",
+"e":"WzEsIDIsIDMsIDRd"
+},
+{
+"args":"[[], 1]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5], 3]",
+"e":"WzVd"
+},
+{
+"args":"[[1, 1, 2], 1]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[2, 2, 2], 2]",
+"e":"WzIsIDJd"
+},
+{
+"args":"[[1, 2, 3, 2], 2]",
+"e":"WzEsIDMsIDJd"
+},
+{
+"args":"[[], 3]",
+"e":"W10="
+},
+{
+"args":"[[5], 6]",
+"e":"WzVd"
+},
+{
+"args":"[[3, 1, 1, 3], 4]",
+"e":"WzMsIDEsIDEsIDNd"
+},
+{
+"args":"[[5, 4, 1], 2]",
+"e":"WzUsIDQsIDFd"
+},
+{
+"args":"[[1, 2], 1]",
+"e":"WzJd"
+}
+]
+},
+"v3_p04":{
+"title":"Does it Cycle?",
+"function":"has_cycle",
+"mode":"return",
+"match":"exact",
+"signature":"def has_cycle(head):",
+"arg_kinds":[
+"cyclic"
+],
+"cases":[
+{
+"args":"[[[1, 2, 3, 4], 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[1, 2, 3, 4], -1]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3], 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[5], -1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[5], 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[1, 2], 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[], -1]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3, 4, 5], 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[7, 8, 9], -1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[1, 2, 3], 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[0, 0, -1], 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[4, 4, 3, 4], 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[-1, -1, 0], 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[0, 3], 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[1, 4], 0]]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v3_p05":{
+"title":"Are We There Yet?",
+"function":"cycle_length",
+"mode":"return",
+"match":"exact",
+"signature":"def cycle_length(head):",
+"arg_kinds":[
+"cyclic"
+],
+"cases":[
+{
+"args":"[[[1, 2, 3, 4], 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[[1, 2, 3, 4], -1]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3], 0]]",
+"e":"Mw=="
+},
+{
+"args":"[[[5], 0]]",
+"e":"MQ=="
+},
+{
+"args":"[[[5], -1]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3, 4, 5], 2]]",
+"e":"Mw=="
+},
+{
+"args":"[[[1, 2], 0]]",
+"e":"Mg=="
+},
+{
+"args":"[[[7, 8, 9], -1]]",
+"e":"MA=="
+},
+{
+"args":"[[[1, 2, 3, 4], 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[[1, 2, 3, 4, 5, 6], 0]]",
+"e":"Ng=="
+},
+{
+"args":"[[[0, 3, 2, 3, 2], 2]]",
+"e":"Mw=="
+},
+{
+"args":"[[[3, 2, 0], 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[[1, 3, 3, 0], 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[[3, 3, 2, -1], 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[[3, 2, -1, 2], 0]]",
+"e":"NA=="
+}
+]
+},
+"v3_p06":{
+"title":"Reverse Them, K?",
+"function":"reverse_first_k",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse_first_k(head, k):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5], 3]",
+"e":"WzMsIDIsIDEsIDQsIDVd"
+},
+{
+"args":"[[1, 2, 3, 4, 5], 10]",
+"e":"WzUsIDQsIDMsIDIsIDFd",
+"edge":true
+},
+{
+"args":"[[1], 1]",
+"e":"WzFd"
+},
+{
+"args":"[[], 3]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2], 1]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1, 2, 3], 3]",
+"e":"WzMsIDIsIDFd"
+},
+{
+"args":"[[1, 2, 3, 4], 2]",
+"e":"WzIsIDEsIDMsIDRd"
+},
+{
+"args":"[[5, 4, 3, 2, 1], 5]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[10, 20, 30], 1]",
+"e":"WzEwLCAyMCwgMzBd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6], 4]",
+"e":"WzQsIDMsIDIsIDEsIDUsIDZd"
+}
+]
+}
+}
+}

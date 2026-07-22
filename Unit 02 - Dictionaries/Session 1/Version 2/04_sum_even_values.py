@@ -25,3 +25,24 @@ print("  expected:", -2, "| got:", sum_even_values({"a": -4, "b": 1, "c": 2}))
 
 print("Test 6 - single key-value pair, even value")
 print("  expected:", 10, "| got:", sum_even_values({"a": 10}))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(sum_even_values)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'a': 4, 'b': 1, 'c': 2, 'd': 8}, expected=14)   # checks the value your code returns against this example

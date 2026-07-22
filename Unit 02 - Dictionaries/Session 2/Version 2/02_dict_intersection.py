@@ -20,3 +20,24 @@ print("  expected:", {"x":1,"y":2}, "| got:", dict_intersection({"x":1,"y":2}, {
 
 print("Test 4 - key present in both but with different values (excluded)")
 print("  expected:", {}, "| got:", dict_intersection({"k":1}, {"k":2}))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(dict_intersection)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'a': 1, 'b': 2, 'c': 3}, {'b': 2, 'c': 4}, expected={'b': 2})   # checks the value your code returns against this example

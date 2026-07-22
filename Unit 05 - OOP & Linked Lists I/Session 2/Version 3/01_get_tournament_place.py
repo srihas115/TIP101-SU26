@@ -14,3 +14,17 @@ player3 = Player("Peach", "Standard", [3, 3, 2, 3, 1])
 
 opponents = [player2, player3]
 print(f"{player1.character} was number {player1.get_tournament_place(opponents)}")
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade
+
+grade(Player)   # ▶ Run this file to validate your work

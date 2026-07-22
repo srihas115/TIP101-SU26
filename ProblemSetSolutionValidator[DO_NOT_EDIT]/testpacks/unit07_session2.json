@@ -1,0 +1,1024 @@
+{
+"unit":7,
+"session":2,
+"problems":{
+"v1_p01":{
+"title":"Neatly Nested",
+"function":"is_nested",
+"mode":"return",
+"match":"exact",
+"signature":"def is_nested(s):",
+"cases":[
+{
+"args":"['(())']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['()']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['']",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"['(']",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[')(']",
+"e":"RmFsc2U="
+},
+{
+"args":"['()()']",
+"e":"RmFsc2U="
+},
+{
+"args":"['((()))']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['(()']",
+"e":"RmFsc2U="
+},
+{
+"args":"['())(']",
+"e":"RmFsc2U="
+},
+{
+"args":"['(()())']",
+"e":"RmFsc2U="
+},
+{
+"args":"['eace']",
+"e":"RmFsc2U="
+},
+{
+"args":"['e']",
+"e":"RmFsc2U="
+},
+{
+"args":"['bbacb']",
+"e":"RmFsc2U="
+},
+{
+"args":"['a dbb']",
+"e":"RmFsc2U="
+},
+{
+"args":"['eecd']",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p02":{
+"title":"How Many 1s",
+"function":"count_ones",
+"mode":"return",
+"match":"exact",
+"signature":"def count_ones(lst):",
+"cases":[
+{
+"args":"[[0, 0, 0, 0, 1, 1, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[0, 0, 0]]",
+"e":"MA=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[0, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[1]]",
+"e":"MQ=="
+},
+{
+"args":"[[0]]",
+"e":"MA=="
+},
+{
+"args":"[[0, 0, 1, 1, 1, 1]]",
+"e":"NA=="
+},
+{
+"args":"[[0, 0, 0, 0, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 1, 1, 1, 1]]",
+"e":"NQ=="
+}
+]
+},
+"v1_p03":{
+"title":"Binary Search IV",
+"function":"binary_search",
+"mode":"return",
+"match":"exact",
+"signature":"def binary_search(nums, target):",
+"cases":[
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 11]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 1]",
+"e":"MA=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 15]",
+"e":"Nw=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 8]",
+"e":"LTE="
+},
+{
+"args":"[[1, 2, 3], 2]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"MA=="
+},
+{
+"args":"[[], 1]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[10, 20, 30], 30]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 1]",
+"e":"MA=="
+},
+{
+"args":"[[7, 14, 21], 14]",
+"e":"MQ=="
+}
+]
+},
+"v1_p04":{
+"title":"Count Rotations",
+"function":"count_rotations",
+"mode":"return",
+"match":"exact",
+"signature":"def count_rotations(nums):",
+"cases":[
+{
+"args":"[[8, 9, 10, 2, 5, 6]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[2, 3, 4, 5, 1]]",
+"e":"NA=="
+},
+{
+"args":"[[5, 1, 2, 3, 4]]",
+"e":"MQ=="
+},
+{
+"args":"[[3, 4, 5, 1, 2]]",
+"e":"Mw=="
+},
+{
+"args":"[[1]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[2, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[10, 20, 30, 5]]",
+"e":"Mw=="
+},
+{
+"args":"[[4, 5, 6, 7, 0, 1, 2]]",
+"e":"NA=="
+},
+{
+"args":"[[15, 18, 2, 3, 6, 12]]",
+"e":"Mg=="
+}
+]
+},
+"v1_p05":{
+"title":"Merge Sort I",
+"function":"merge_sort",
+"mode":"return",
+"match":"exact",
+"signature":"def merge_sort(lst):",
+"cases":[
+{
+"args":"[[5, 3, 4, 2, 1]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[2, 1]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[3, 3, 3]]",
+"e":"WzMsIDMsIDNd"
+},
+{
+"args":"[[9, 8, 7, 6, 5, 4]]",
+"e":"WzQsIDUsIDYsIDcsIDgsIDld"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[5, 1, 4, 2, 3]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[-1, -5, 0, 3]]",
+"e":"Wy01LCAtMSwgMCwgM10="
+},
+{
+"args":"[[10, 20, 5, 15]]",
+"e":"WzUsIDEwLCAxNSwgMjBd"
+},
+{
+"args":"[[4, 10, 1, -5, 18, 10]]",
+"e":"Wy01LCAxLCA0LCAxMCwgMTAsIDE4XQ=="
+},
+{
+"args":"[[20, 8]]",
+"e":"WzgsIDIwXQ=="
+},
+{
+"args":"[[11]]",
+"e":"WzExXQ=="
+},
+{
+"args":"[[17, 9, 14, -3]]",
+"e":"Wy0zLCA5LCAxNCwgMTdd"
+},
+{
+"args":"[[8, 4, 16]]",
+"e":"WzQsIDgsIDE2XQ=="
+}
+]
+},
+"v1_p06":{
+"title":"Circle Search",
+"function":"search_circular_list",
+"mode":"return",
+"match":"exact",
+"signature":"def search_circular_list(nums, target):",
+"cases":[
+{
+"args":"[[8, 9, 10, 2, 5, 6], 10]",
+"e":"Mg=="
+},
+{
+"args":"[[8, 9, 10, 2, 5, 6], 5]",
+"e":"NA=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 4]",
+"e":"Mw=="
+},
+{
+"args":"[[4, 5, 6, 7, 0, 1, 2], 0]",
+"e":"NA=="
+},
+{
+"args":"[[4, 5, 6, 7, 0, 1, 2], 3]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"MA=="
+},
+{
+"args":"[[], 1]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[6, 7, 8, 1, 2, 3], 8]",
+"e":"Mg=="
+},
+{
+"args":"[[2, 3, 4, 5, 1], 1]",
+"e":"NA=="
+},
+{
+"args":"[[30, 40, 10, 20], 20]",
+"e":"Mw=="
+},
+{
+"args":"[[4, 5, 6, 7, 8, 9, 0, 1, 2, 3], 2]",
+"e":"OA=="
+},
+{
+"args":"[[4, 5, 6, 7, 8, 9, 0, 1, 2, 3], 0]",
+"e":"Ng=="
+},
+{
+"args":"[[19, 29, 34, 34], 10]",
+"e":"LTE="
+},
+{
+"args":"[[34, 10, 38, 30, 24], 11]",
+"e":"LTE="
+},
+{
+"args":"[[4], 2]",
+"e":"LTE="
+},
+{
+"args":"[[5], 20]",
+"e":"LTE="
+},
+{
+"args":"[[13, 38], 8]",
+"e":"LTE="
+}
+]
+},
+"v2_p01":{
+"title":"Substring Search",
+"function":"count_substring",
+"mode":"return",
+"match":"exact",
+"signature":"def count_substring(s, sub):",
+"cases":[
+{
+"args":"['abcdeabcde', 'abc']",
+"e":"Mg=="
+},
+{
+"args":"['aaa', 'a']",
+"e":"Mw=="
+},
+{
+"args":"['aaaa', 'aa']",
+"e":"Mg=="
+},
+{
+"args":"['abc', 'd']",
+"e":"MA=="
+},
+{
+"args":"['', 'a']",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"['abcabc', 'abc']",
+"e":"Mg=="
+},
+{
+"args":"['xyxyxy', 'xy']",
+"e":"Mw=="
+},
+{
+"args":"['hello', 'l']",
+"e":"Mg=="
+},
+{
+"args":"['mississippi', 'ss']",
+"e":"Mg=="
+},
+{
+"args":"['aaaaaa', 'aaa']",
+"e":"Mg=="
+}
+]
+},
+"v2_p02":{
+"title":"How Many 0s (Iterative)",
+"function":"count_zeroes",
+"mode":"return",
+"match":"exact",
+"signature":"def count_zeroes(lst):",
+"cases":[
+{
+"args":"[[0, 0, 0, 0, 1, 1, 1]]",
+"e":"NA=="
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"MA=="
+},
+{
+"args":"[[0, 0, 0]]",
+"e":"Mw=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[0, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[0]]",
+"e":"MQ=="
+},
+{
+"args":"[[1]]",
+"e":"MA=="
+},
+{
+"args":"[[0, 0, 0, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[0, 1, 1, 1, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[0, 0, 0, 0, 0]]",
+"e":"NQ=="
+}
+]
+},
+"v2_p03":{
+"title":"How Many 0s (Recursive)",
+"function":"count_zeroes",
+"mode":"return",
+"match":"exact",
+"signature":"def count_zeroes(lst):",
+"cases":[
+{
+"args":"[[0, 0, 0, 1, 1, 1, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 1]]",
+"e":"MA=="
+},
+{
+"args":"[[0, 0]]",
+"e":"Mg=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[0, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[0]]",
+"e":"MQ=="
+},
+{
+"args":"[[1]]",
+"e":"MA=="
+},
+{
+"args":"[[0, 0, 0, 0, 1]]",
+"e":"NA=="
+},
+{
+"args":"[[0, 1, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[0, 0, 1, 1, 1]]",
+"e":"Mg=="
+}
+]
+},
+"v2_p04":{
+"title":"Special Numbers",
+"function":"is_special",
+"mode":"return",
+"match":"exact",
+"signature":"def is_special(nums):",
+"cases":[
+{
+"args":"[[3, 5]]",
+"e":"Mg=="
+},
+{
+"args":"[[0, 0]]",
+"e":"LTE="
+},
+{
+"args":"[[0, 0, 3, 4, 4]]",
+"e":"Mw=="
+},
+{
+"args":"[[1]]",
+"e":"MQ=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1, 1]]",
+"e":"LTE="
+},
+{
+"args":"[[5, 5, 5, 5, 5]]",
+"e":"NQ=="
+},
+{
+"args":"[[0, 1, 2, 3, 4]]",
+"e":"LTE="
+},
+{
+"args":"[[2, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[7, 8, 9, 10]]",
+"e":"NA=="
+}
+]
+},
+"v2_p05":{
+"title":"Merge Sort II",
+"function":"merge",
+"mode":"return",
+"match":"exact",
+"signature":"def merge(left, right):",
+"cases":[
+{
+"args":"[[1, 3, 5], [2, 4]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[], [1, 2]]",
+"e":"WzEsIDJd",
+"edge":true
+},
+{
+"args":"[[1, 2], []]",
+"e":"WzEsIDJd",
+"edge":true
+},
+{
+"args":"[[], []]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1], [1]]",
+"e":"WzEsIDFd"
+},
+{
+"args":"[[1, 2, 3], [4, 5, 6]]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDZd"
+},
+{
+"args":"[[5, 6], [1, 2, 3, 4]]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDZd"
+},
+{
+"args":"[[-1, 0], [-2, 3]]",
+"e":"Wy0yLCAtMSwgMCwgM10="
+},
+{
+"args":"[[2], [1]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1, 4, 7], [2, 3, 8]]",
+"e":"WzEsIDIsIDMsIDQsIDcsIDhd"
+}
+]
+},
+"v2_p06":{
+"title":"Circle Majority",
+"function":"majority_element",
+"mode":"return",
+"match":"exact",
+"signature":"def majority_element(nums):",
+"cases":[
+{
+"args":"[[3, 2, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[2, 2, 1, 1, 1, 2, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[5, 5, 5]]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 1, 2]]",
+"e":"MQ=="
+},
+{
+"args":"[[4, 4, 4, 4, 1, 2]]",
+"e":"NA=="
+},
+{
+"args":"[[7, 7]]",
+"e":"Nw=="
+},
+{
+"args":"[[9, 8, 9, 8, 9]]",
+"e":"OQ=="
+},
+{
+"args":"[[2, 2, 2, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 1, 2, 1]]",
+"e":"MQ=="
+}
+]
+},
+"v3_p01":{
+"title":"Recursive Remove Char",
+"function":"remove_char",
+"mode":"return",
+"match":"exact",
+"signature":"def remove_char(s, char):",
+"cases":[
+{
+"args":"['xaxbxc', 'x']",
+"e":"J2FiYyc="
+},
+{
+"args":"['', 'a']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['aaa', 'a']",
+"e":"Jyc="
+},
+{
+"args":"['abc', 'd']",
+"e":"J2FiYyc="
+},
+{
+"args":"['a', 'a']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['hello', 'l']",
+"e":"J2hlbyc="
+},
+{
+"args":"['xxx', 'x']",
+"e":"Jyc="
+},
+{
+"args":"['banana', 'a']",
+"e":"J2Jubic="
+},
+{
+"args":"['mississippi', 's']",
+"e":"J21paWlwcGkn"
+},
+{
+"args":"['test', 'z']",
+"e":"J3Rlc3Qn"
+},
+{
+"args":"['e', 'd']",
+"e":"J2Un"
+},
+{
+"args":"['c', 'de  e']",
+"e":"J2Mn"
+},
+{
+"args":"['cd', 'ac']",
+"e":"J2NkJw=="
+},
+{
+"args":"['bdda', 'e']",
+"e":"J2JkZGEn"
+},
+{
+"args":"['eabc', 'dcc']",
+"e":"J2VhYmMn"
+}
+]
+},
+"v3_p02":{
+"title":"Where Does it Go (Iterative)",
+"function":"search_insert",
+"mode":"return",
+"match":"exact",
+"signature":"def search_insert(nums, target):",
+"cases":[
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 20]",
+"e":"OA=="
+},
+{
+"args":"[[1, 3, 5, 6], 5]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 3, 5, 6], 2]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 3, 5, 6], 7]",
+"e":"NA=="
+},
+{
+"args":"[[1, 3, 5, 6], 0]",
+"e":"MA=="
+},
+{
+"args":"[[], 5]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"MA=="
+},
+{
+"args":"[[5], 3]",
+"e":"MA=="
+},
+{
+"args":"[[5], 8]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 3]",
+"e":"Mg=="
+}
+]
+},
+"v3_p03":{
+"title":"Where Does it Go (Recursive)",
+"function":"search_insert_recursive",
+"mode":"return",
+"match":"exact",
+"signature":"def search_insert_recursive(nums, target):",
+"cases":[
+{
+"args":"[[1, 3, 5, 6], 5]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 3, 5, 6], 2]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 3, 5, 6], 7]",
+"e":"NA=="
+},
+{
+"args":"[[1, 3, 5, 6], 0]",
+"e":"MA=="
+},
+{
+"args":"[[], 5]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"MA=="
+},
+{
+"args":"[[5], 3]",
+"e":"MA=="
+},
+{
+"args":"[[5], 8]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3], 2]",
+"e":"MQ=="
+},
+{
+"args":"[[10, 20, 30], 25]",
+"e":"Mg=="
+}
+]
+},
+"v3_p04":{
+"title":"Find Frequencies",
+"function":"find_frequencies",
+"mode":"return",
+"match":"exact",
+"signature":"def find_frequencies(lst):",
+"cases":[
+{
+"args":"[[2, 2, 2, 4, 4, 4, 5, 5, 6, 8, 8, 9]]",
+"e":"ezI6IDMsIDQ6IDMsIDU6IDIsIDY6IDEsIDg6IDIsIDk6IDF9"
+},
+{
+"args":"[[1]]",
+"e":"ezE6IDF9"
+},
+{
+"args":"[[]]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[[3, 3, 3]]",
+"e":"ezM6IDN9"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"ezE6IDEsIDI6IDEsIDM6IDF9"
+},
+{
+"args":"[[5, 5, 6, 6, 6]]",
+"e":"ezU6IDIsIDY6IDN9"
+},
+{
+"args":"[[0, 0, 1]]",
+"e":"ezA6IDIsIDE6IDF9"
+},
+{
+"args":"[[7, 7, 7, 7]]",
+"e":"ezc6IDR9"
+},
+{
+"args":"[[1, 1, 2, 2, 3, 3]]",
+"e":"ezE6IDIsIDI6IDIsIDM6IDJ9"
+},
+{
+"args":"[[10, 20, 20, 30]]",
+"e":"ezEwOiAxLCAyMDogMiwgMzA6IDF9"
+}
+]
+},
+"v3_p05":{
+"title":"Merge Sort III",
+"function":"merge_sort",
+"mode":"return",
+"match":"exact",
+"signature":"def merge_sort(lst):",
+"cases":[
+{
+"args":"[[5, 3, 4, 2, 1]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[2, 1]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[3, 3, 3]]",
+"e":"WzMsIDMsIDNd"
+},
+{
+"args":"[[9, 8, 7, 6, 5, 4]]",
+"e":"WzQsIDUsIDYsIDcsIDgsIDld"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[5, 1, 4, 2, 3]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[-1, -5, 0, 3]]",
+"e":"Wy01LCAtMSwgMCwgM10="
+},
+{
+"args":"[[10, 20, 5, 15]]",
+"e":"WzUsIDEwLCAxNSwgMjBd"
+},
+{
+"args":"[[12, 4, -5, 0, 13, 8]]",
+"e":"Wy01LCAwLCA0LCA4LCAxMiwgMTNd"
+},
+{
+"args":"[[2, 4]]",
+"e":"WzIsIDRd"
+},
+{
+"args":"[[18, 12, 18, 11, 9]]",
+"e":"WzksIDExLCAxMiwgMTgsIDE4XQ=="
+},
+{
+"args":"[[15, 17, -4, 8, 3]]",
+"e":"Wy00LCAzLCA4LCAxNSwgMTdd"
+},
+{
+"args":"[[1, 5, 20, 19]]",
+"e":"WzEsIDUsIDE5LCAyMF0="
+}
+]
+},
+"v3_p06":{
+"title":"What a Nice String",
+"function":"longest_nice_substring",
+"mode":"return",
+"match":"exact",
+"signature":"def longest_nice_substring(s):",
+"cases":[
+{
+"args":"['YazaAay']",
+"e":"J2FBYSc="
+},
+{
+"args":"['Bb']",
+"e":"J0JiJw=="
+},
+{
+"args":"['c']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['aA']",
+"e":"J2FBJw=="
+},
+{
+"args":"['dDzeE']",
+"e":"J2REJw=="
+},
+{
+"args":"['abABB']",
+"e":"J2FiQUJCJw=="
+},
+{
+"args":"['xXyz']",
+"e":"J3hYJw=="
+},
+{
+"args":"['aAbBcC']",
+"e":"J2FBYkJjQyc="
+},
+{
+"args":"['Zz']",
+"e":"J1p6Jw=="
+}
+]
+}
+}
+}

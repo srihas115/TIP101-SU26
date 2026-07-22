@@ -20,3 +20,24 @@ print("  expected:", {"A": 1.0, "B": 1.0}, "| got:", build_inventory(["A","B"], 
 
 print("Test 4 - zero price")
 print("  expected:", {"Free Sample": 0.0}, "| got:", build_inventory(["Free Sample"], [0.0]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(build_inventory)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test(['Apple', 'Banana', 'Orange'], [0.99, 0.5, 0.75], expected={'Apple': 0.99, 'Banana': 0.5, 'Orange': 0.75})   # checks the value your code returns against this example

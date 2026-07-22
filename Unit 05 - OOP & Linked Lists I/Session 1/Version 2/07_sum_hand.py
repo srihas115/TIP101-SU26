@@ -57,3 +57,17 @@ h3 = Hand()
 h3.add_card(Card("Hearts", "5"))
 h3.add_card(Card("Spades", "Joker"))
 print("  expected:", None, "| got:", sum_hand(h3))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade
+
+grade(sum_hand)   # ▶ Run this file to validate your work

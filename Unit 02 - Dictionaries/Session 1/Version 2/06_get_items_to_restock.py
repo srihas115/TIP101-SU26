@@ -26,3 +26,24 @@ print("  expected:", [], "| got:", get_items_to_restock({"Product1": 3, "Product
 
 print("Test 6 - single product below threshold")
 print("  expected:", ["Product1"], "| got:", get_items_to_restock({"Product1": 1}, 5))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(get_items_to_restock)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'Product1': 10, 'Product2': 2, 'Product3': 5, 'Product4': 3}, 5, expected=['Product2', 'Product4'])   # checks the value your code returns against this example

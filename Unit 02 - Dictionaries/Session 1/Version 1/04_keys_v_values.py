@@ -41,3 +41,24 @@ print("  expected:", "keys", "| got:", keys_v_values({-1: -5}))
 
 print("Test 6 - all values equal across multiple keys, sums balanced")
 print("  expected:", "balanced", "| got:", keys_v_values({1: 2, 2: 1}))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(keys_v_values)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}, expected='values')   # checks the value your code returns against this example

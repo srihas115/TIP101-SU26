@@ -51,3 +51,24 @@ print("Test 4 - insert into a single-node list")
 h4 = Node(5)
 result4 = ll_insert(h4, 99, 1)
 print("  expected:", [5, 99], "| got:", _to_list(result4))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(ll_insert)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([3, 8, 12, 9], 20, 2, expected=[3, 8, 20, 12, 9])   # checks the value your code returns against this example

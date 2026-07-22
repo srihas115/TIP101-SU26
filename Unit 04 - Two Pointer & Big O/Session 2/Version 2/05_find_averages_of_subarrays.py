@@ -17,3 +17,24 @@ print("  expected:", [2.0], "| got:", find_averages_of_subarrays(3, [1, 2, 3]))
 
 print("Test 3 - k is 1 (each element is its own average)")
 print("  expected:", [1.0, 2.0, 3.0], "| got:", find_averages_of_subarrays(1, [1, 2, 3]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(find_averages_of_subarrays)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test(5, [1, 3, 2, 6, -1, 4, 1, 8, 2], expected=[2.2, 2.8, 2.4, 3.6, 2.8])   # checks the value your code returns against this example

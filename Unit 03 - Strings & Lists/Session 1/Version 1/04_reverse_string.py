@@ -25,3 +25,24 @@ print("  expected:", "!dlrow ,olleH", "| got:", reverse_string("Hello, world!"))
 
 print("Test 6 - palindrome string reverses to itself")
 print("  expected:", "racecar", "| got:", reverse_string("racecar"))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(reverse_string)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test('live', expected='evil')   # checks the value your code returns against this example

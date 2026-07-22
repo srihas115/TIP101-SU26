@@ -19,3 +19,24 @@ print("  expected:", [0], "| got:", smaller_numbers_than_current([7]))
 
 print("Test 4 - already-sorted ascending list")
 print("  expected:", [0,1,2,3], "| got:", smaller_numbers_than_current([1,2,3,4]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(smaller_numbers_than_current)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([6, 1, 2, 2, 3], expected=[4, 0, 1, 1, 3])   # checks the value your code returns against this example

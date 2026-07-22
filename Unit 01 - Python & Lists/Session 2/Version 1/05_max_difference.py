@@ -36,3 +36,24 @@ print("  expected:", 0, "| got:", max_difference([4,4,4]))
 
 print("Test 5 - already-sorted ascending list")
 print("  expected:", 4, "| got:", max_difference([1,2,3,4,5]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(max_difference)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([5, 22, 8, 10, 2], expected=20)   # checks the value your code returns against this example

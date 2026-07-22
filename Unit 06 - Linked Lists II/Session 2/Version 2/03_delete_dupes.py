@@ -44,3 +44,24 @@ b3 = Node(2, b4)
 b2 = Node(1, b3)
 b1 = Node(1, b2)
 print("  expected:", [2, 4, 5], "| got:", _to_list(delete_dupes(b1)))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(delete_dupes)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 3, 3, 4, 5], expected=[1, 2, 4, 5])   # checks the value your code returns against this example

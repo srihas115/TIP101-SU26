@@ -44,3 +44,24 @@ nc1 = Node(1, nc2)
 result2 = detect_and_remove_cycle(nc1)
 vals2, still_going2 = _to_list_bounded(result2)
 print("  expected:", [1, 2], "| got:", vals2, ", still going:", still_going2)
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(detect_and_remove_cycle)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([[1, 2, 3], 0], expected=[1, 2, 3])   # checks the value your code returns against this example

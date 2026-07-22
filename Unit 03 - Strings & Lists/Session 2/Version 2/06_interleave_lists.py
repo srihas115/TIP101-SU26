@@ -21,3 +21,24 @@ print("  expected:", [1,10,2,20], "| got:", interleave_lists([1,2], [10,20]))
 
 print("Test 4 - second list longer than the first")
 print("  expected:", [1,10,20,30], "| got:", interleave_lists([1], [10,20,30]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(interleave_lists)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 3, 4], [10, 20], expected=[1, 10, 2, 20, 3, 4])   # checks the value your code returns against this example

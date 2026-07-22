@@ -34,3 +34,24 @@ print("  expected:", "aa", "| got:", make_palindrome("aa"))
 
 print("Test 4 - two different characters (lexicographically smallest fix)")
 print("  expected:", "aa", "| got:", make_palindrome("ba"))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(make_palindrome)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test('egcfe', expected='efcfe')   # checks the value your code returns against this example

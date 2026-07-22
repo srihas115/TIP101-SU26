@@ -26,3 +26,24 @@ print("  expected:", 3, "| got:", sum_of_unique_elements([3,5,5], []))
 
 print("Test 4 - all elements of lst1 also appear in lst2 (all excluded)")
 print("  expected:", 0, "| got:", sum_of_unique_elements([1,2], [1,2]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(sum_of_unique_elements)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 3, 4], [3, 4, 5, 6], expected=3)   # checks the value your code returns against this example

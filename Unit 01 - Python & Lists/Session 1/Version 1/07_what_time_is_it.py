@@ -31,3 +31,24 @@ print("  expected:", "nap time 😴", "| got:", what_time_is_it(-3))
 
 print("Test 5 - large hour value (nap time)")
 print("  expected:", "nap time 😴", "| got:", what_time_is_it(100))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(what_time_is_it)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test(2, expected='taco time 🌮')   # checks the value your code returns against this example

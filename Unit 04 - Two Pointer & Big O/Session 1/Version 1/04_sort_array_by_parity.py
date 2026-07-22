@@ -41,3 +41,17 @@ print("Test 4 - mixed evens and odds")
 original4 = [5,2,8,1,4]
 result4 = sort_array_by_parity(original4)
 print("  expected:", True, "| got:", _is_valid_parity_sort(original4, result4))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade
+
+grade(sort_array_by_parity)   # ▶ Run this file to validate your solution

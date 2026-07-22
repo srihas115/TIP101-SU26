@@ -37,3 +37,24 @@ print("  expected:", {}, "| got:", restock_inventory({}, {}))
 
 print("Test 6 - multiple new items added at once")
 print("  expected:", {"apples": 30, "kiwis": 4, "mangoes": 2}, "| got:", restock_inventory({"apples": 30}, {"kiwis": 4, "mangoes": 2}))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(restock_inventory)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'apples': 30, 'bananas': 15, 'oranges': 10}, {'oranges': 20, 'apples': 10, 'pears': 5}, expected={'apples': 40, 'bananas': 15, 'oranges': 30, 'pears': 5})   # checks the value your code returns against this example

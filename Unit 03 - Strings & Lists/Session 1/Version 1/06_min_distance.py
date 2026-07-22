@@ -29,3 +29,24 @@ print("  expected:", 4, "| got:", min_distance(['a', 'x', 'y', 'z', 'b'], 'a', '
 
 print("Test 5 - order of word1/word2 swapped gives same distance")
 print("  expected:", 3, "| got:", min_distance(['the', 'quick', 'brown', 'fox', 'jumped', 'the'], 'jumped', 'quick'))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(min_distance)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test(['the', 'quick', 'brown', 'fox', 'jumped', 'the'], 'quick', 'jumped', expected=3)   # checks the value your code returns against this example

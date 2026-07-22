@@ -1,0 +1,1995 @@
+{
+"unit":8,
+"session":1,
+"problems":{
+"v1_p01":{
+"title":"Build a Binary Tree I",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class TreeNode:\n    def __init__(self, val, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\n\n# Build this tree and store its root in a variable named `root`:\n#       10\n#      /  \\\n#     4    6\nroot = None  # your code here",
+"filename":"01_build_tree_1",
+"cases":[
+{
+"code":"UkVTVUxUID0gcm9vdC52YWw=",
+"observe":"return",
+"label":"root.val",
+"e":"MTA="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5sZWZ0LnZhbA==",
+"observe":"return",
+"label":"root.left.val",
+"e":"NA=="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5yaWdodC52YWw=",
+"observe":"return",
+"label":"root.right.val",
+"e":"Ng=="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5sZWZ0LmxlZnQ=",
+"observe":"return",
+"label":"root.left.left",
+"e":"Tm9uZQ=="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5yaWdodC5yaWdodA==",
+"observe":"return",
+"label":"root.right.right",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v1_p02":{
+"title":"3-Node Sum I",
+"function":"check_tree",
+"mode":"return",
+"match":"exact",
+"signature":"def check_tree(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[10, 4, 6]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 3, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[8, 4, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[0, -1, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[100, 50, 50]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[7, 2, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[9, 9, 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 0, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[6, 2, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 3, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[54, 60, 71]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[60, 27, 31]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[38, 26, 87]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[60, 15, 24]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[59, 22, 50]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p03":{
+"title":"3-Node Sum II",
+"function":"check_tree",
+"mode":"return",
+"match":"exact",
+"signature":"def check_tree(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[10, 10]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 3, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, None, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[7]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[6, 2, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[3, None, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[8, 8, 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 1, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[0, 6, 9]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[7, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p04":{
+"title":"Find Leftmost Node I",
+"function":"left_most",
+"mode":"return",
+"match":"exact",
+"signature":"def left_most(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3]]",
+"e":"NA=="
+},
+{
+"args":"[[1, None, 2, None, None, 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[5, 3, 8]]",
+"e":"Mw=="
+},
+{
+"args":"[[10, 20]]",
+"e":"MjA="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"NA=="
+},
+{
+"args":"[[7, None, 8]]",
+"e":"Nw=="
+},
+{
+"args":"[[9, 6, 12, 4]]",
+"e":"NA=="
+},
+{
+"args":"[[2, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[7, 1, 18, 9, 8]]",
+"e":"OQ=="
+},
+{
+"args":"[[10]]",
+"e":"MTA="
+},
+{
+"args":"[[4, 16, 6, 1, 13]]",
+"e":"MQ=="
+},
+{
+"args":"[[12, 20, 17, 2, 5, 19]]",
+"e":"Mg=="
+},
+{
+"args":"[[5, 17, 20, 19, 10]]",
+"e":"MTk="
+}
+]
+},
+"v1_p05":{
+"title":"Find Leftmost Node II",
+"function":"left_most",
+"mode":"return",
+"match":"exact",
+"signature":"def left_most(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3]]",
+"e":"NA=="
+},
+{
+"args":"[[1, None, 2, None, None, 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[5, 3, 8]]",
+"e":"Mw=="
+},
+{
+"args":"[[10, 20]]",
+"e":"MjA="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"NA=="
+},
+{
+"args":"[[7, None, 8]]",
+"e":"Nw=="
+},
+{
+"args":"[[9, 6, 12, 4]]",
+"e":"NA=="
+},
+{
+"args":"[[2, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[5]]",
+"e":"NQ=="
+},
+{
+"args":"[[12]]",
+"e":"MTI="
+},
+{
+"args":"[[14, 19]]",
+"e":"MTk="
+},
+{
+"args":"[[18, 20, 10, 13, 6, 18]]",
+"e":"MTM="
+},
+{
+"args":"[[10, 12, 17]]",
+"e":"MTI="
+}
+]
+},
+"v1_p06":{
+"title":"In-order Traversal",
+"function":"inorder_traversal",
+"mode":"return",
+"match":"exact",
+"signature":"def inorder_traversal(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, None, 2, 3]]",
+"e":"WzEsIDMsIDJd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[4, 2, 6, 1, 3, 5, 7]]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDYsIDdd"
+},
+{
+"args":"[[2, 1, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[1, 2]]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[1, None, 2]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[5, 3, 8, 1]]",
+"e":"WzEsIDMsIDUsIDhd"
+},
+{
+"args":"[[10, 5, 15]]",
+"e":"WzUsIDEwLCAxNV0="
+},
+{
+"args":"[[3, 1, None, None, 2]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[2, 9]]",
+"e":"WzksIDJd"
+},
+{
+"args":"[[11, 5, 14, 7, 13, 2, 13]]",
+"e":"WzcsIDUsIDEzLCAxMSwgMiwgMTQsIDEzXQ=="
+},
+{
+"args":"[[9, 9, 13, 3, 10, 6, 11]]",
+"e":"WzMsIDksIDEwLCA5LCA2LCAxMywgMTFd"
+},
+{
+"args":"[[8, 1, 4]]",
+"e":"WzEsIDgsIDRd"
+},
+{
+"args":"[[15, 2, 12]]",
+"e":"WzIsIDE1LCAxMl0="
+}
+]
+},
+"v1_p07":{
+"title":"Binary Tree Size",
+"function":"size",
+"mode":"return",
+"match":"exact",
+"signature":"def size(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3]]",
+"e":"NQ=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, None, 2, None, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9]]",
+"e":"Nw=="
+},
+{
+"args":"[[2, 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[10]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[7, 3, 9, 1]]",
+"e":"NA=="
+},
+{
+"args":"[[1, 2, 7, 9, 4, 1, 6]]",
+"e":"Nw=="
+},
+{
+"args":"[[3, 7]]",
+"e":"Mg=="
+},
+{
+"args":"[[9, 1, 10, 7, 9]]",
+"e":"NQ=="
+},
+{
+"args":"[[4, 1, 7]]",
+"e":"Mw=="
+},
+{
+"args":"[[2, 8]]",
+"e":"Mg=="
+}
+]
+},
+"v1_p08":{
+"title":"Binary Tree Find",
+"function":"find",
+"mode":"return",
+"match":"exact",
+"signature":"def find(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 5, 4, 3], 10]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], 1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1], 1]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1], 2]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 2, 6, 1, 3], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 2, 6, 1, 3], 7]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 5, 15], 15]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], 4]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[8, 4, 12, 2], 2]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 13, 7], 13]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[6, 14, 15, 8, 14], 0]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 14], 1]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], 10]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[9], 17]",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p09":{
+"title":"BST Find",
+"function":"find_bst",
+"mode":"return",
+"match":"exact",
+"signature":"def find_bst(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 2, 5, 1, 3], 10]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], 1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5], 3]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 6]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 7]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 5, 15], 15]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[20, 10, 30], 25]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[50, 25, 75, 10], 10]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v1_p10":{
+"title":"BST Descending Leaves",
+"function":"descending_leaves",
+"mode":"return",
+"match":"exact",
+"signature":"def descending_leaves(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3]]",
+"e":"WzUsIDMsIDFd"
+},
+{
+"args":"[[10]]",
+"e":"WzEwXQ==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[2, 1, 3]]",
+"e":"WzMsIDFd"
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9]]",
+"e":"WzksIDcsIDQsIDFd"
+},
+{
+"args":"[[1, None, 2, None, 3]]",
+"e":"WzNd"
+},
+{
+"args":"[[8, 4, 12]]",
+"e":"WzEyLCA0XQ=="
+},
+{
+"args":"[[50, 25, 75]]",
+"e":"Wzc1LCAyNV0="
+},
+{
+"args":"[[6, 4, 8, 2, 5]]",
+"e":"WzgsIDUsIDJd"
+},
+{
+"args":"[[100]]",
+"e":"WzEwMF0="
+}
+]
+},
+"v2_p01":{
+"title":"Build A Binary Tree II",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class TreeNode:\n    def __init__(self, val, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\n\n# Build this tree and store its root in a variable named `root`:\n#       5\n#      / \\\n#     10  20\nroot = None  # your code here",
+"filename":"01_build_tree_2",
+"cases":[
+{
+"code":"UkVTVUxUID0gcm9vdC52YWw=",
+"observe":"return",
+"label":"root.val",
+"e":"NQ=="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5sZWZ0LnZhbA==",
+"observe":"return",
+"label":"root.left.val",
+"e":"MTA="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5yaWdodC52YWw=",
+"observe":"return",
+"label":"root.right.val",
+"e":"MjA="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5sZWZ0LmxlZnQ=",
+"observe":"return",
+"label":"root.left.left",
+"e":"Tm9uZQ=="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5yaWdodC5yaWdodA==",
+"observe":"return",
+"label":"root.right.right",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v2_p02":{
+"title":"3-Node Product I",
+"function":"check_tree",
+"mode":"return",
+"match":"exact",
+"signature":"def check_tree(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[10, 2, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 3, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[12, 3, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[0, 5, 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[6, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[100, 10, 10]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[7, 1, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[8, 2, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[9, 3, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[20, 4, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[100, 10, 87]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[36, 70, 41]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[37, 16, 63]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[47, 47, 31]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[19, 44, 20]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p03":{
+"title":"3-Node Product II",
+"function":"check_tree",
+"mode":"return",
+"match":"exact",
+"signature":"def check_tree(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[10, 2, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 3, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 10]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[5, None, 2]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[12, 3, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[6, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[8, 2, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[9, None, None]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[12, 12, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[12, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[9]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p04":{
+"title":"Find Rightmost Node I",
+"function":"right_most",
+"mode":"return",
+"match":"exact",
+"signature":"def right_most(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3]]",
+"e":"NQ=="
+},
+{
+"args":"[[1, None, 2, None, None, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[5, 3, 8]]",
+"e":"OA=="
+},
+{
+"args":"[[10, None, 20]]",
+"e":"MjA="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[7, 8]]",
+"e":"Nw=="
+},
+{
+"args":"[[9, 6, 12, None, None, None, 15]]",
+"e":"MTU="
+},
+{
+"args":"[[2, 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[3, 17, 20, 5, 7, 10]]",
+"e":"MjA="
+},
+{
+"args":"[[17]]",
+"e":"MTc="
+},
+{
+"args":"[[13, 10, 12]]",
+"e":"MTI="
+},
+{
+"args":"[[14, 1, 13, 11, 11, 8, 11]]",
+"e":"MTE="
+},
+{
+"args":"[[14, 2]]",
+"e":"MTQ="
+}
+]
+},
+"v2_p05":{
+"title":"Find Rightmost Node II",
+"function":"right_most",
+"mode":"return",
+"match":"exact",
+"signature":"def right_most(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3]]",
+"e":"NQ=="
+},
+{
+"args":"[[1, None, 2, None, None, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[5, 3, 8]]",
+"e":"OA=="
+},
+{
+"args":"[[10, None, 20]]",
+"e":"MjA="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[7, 8]]",
+"e":"Nw=="
+},
+{
+"args":"[[9, 6, 12, None, None, None, 15]]",
+"e":"MTU="
+},
+{
+"args":"[[2, 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[18, 9]]",
+"e":"MTg="
+},
+{
+"args":"[[14]]",
+"e":"MTQ="
+},
+{
+"args":"[[8, 12]]",
+"e":"OA=="
+},
+{
+"args":"[[9]]",
+"e":"OQ=="
+},
+{
+"args":"[[11, 7, 6, 20, 7, 14]]",
+"e":"Ng=="
+}
+]
+},
+"v2_p06":{
+"title":"Post-order Traversal",
+"function":"postorder_traversal",
+"mode":"return",
+"match":"exact",
+"signature":"def postorder_traversal(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5, None, 6]]",
+"e":"WzQsIDUsIDIsIDYsIDMsIDFd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[2, 1, 3]]",
+"e":"WzEsIDMsIDJd"
+},
+{
+"args":"[[1, None, 2, 3]]",
+"e":"WzMsIDIsIDFd"
+},
+{
+"args":"[[4, 2, 6, 1, 3, 5, 7]]",
+"e":"WzEsIDMsIDIsIDUsIDcsIDYsIDRd"
+},
+{
+"args":"[[1, 2]]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[5, 3, 8, 1]]",
+"e":"WzEsIDMsIDgsIDVd"
+},
+{
+"args":"[[1, None, 2]]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[10, 5, 15]]",
+"e":"WzUsIDE1LCAxMF0="
+},
+{
+"args":"[[4, 14, 13, 13, 6]]",
+"e":"WzEzLCA2LCAxNCwgMTMsIDRd"
+},
+{
+"args":"[[1, 7, 5, 15, 5, 6]]",
+"e":"WzE1LCA1LCA3LCA2LCA1LCAxXQ=="
+},
+{
+"args":"[[11]]",
+"e":"WzExXQ=="
+},
+{
+"args":"[[7, 13, 9, 1, 4, 14, 9]]",
+"e":"WzEsIDQsIDEzLCAxNCwgOSwgOSwgN10="
+},
+{
+"args":"[[11, 7]]",
+"e":"WzcsIDExXQ=="
+}
+]
+},
+"v2_p07":{
+"title":"Binary Tree Product",
+"function":"product_tree",
+"mode":"return",
+"match":"exact",
+"signature":"def product_tree(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3]]",
+"e":"MTIw"
+},
+{
+"args":"[[]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ=="
+},
+{
+"args":"[[2, 3, 4]]",
+"e":"MjQ="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Ng=="
+},
+{
+"args":"[[5, 5]]",
+"e":"MjU="
+},
+{
+"args":"[[10, None, 2]]",
+"e":"MjA="
+},
+{
+"args":"[[2, 2, 2, 2]]",
+"e":"MTY="
+},
+{
+"args":"[[3, 1, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[7]]",
+"e":"Nw=="
+},
+{
+"args":"[[3, 4]]",
+"e":"MTI="
+},
+{
+"args":"[[4]]",
+"e":"NA=="
+},
+{
+"args":"[[4, 10, 6, 3]]",
+"e":"NzIw"
+},
+{
+"args":"[[2, 4, 9]]",
+"e":"NzI="
+},
+{
+"args":"[[2, 6, 8, 2]]",
+"e":"MTky"
+}
+]
+},
+"v2_p08":{
+"title":"Binary Tree Is Leaf",
+"function":"is_leaf",
+"mode":"return",
+"match":"exact",
+"signature":"def is_leaf(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 5, 4], 2]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 5, 4, 3], 4]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 5, 4, 3], 1]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1], 1]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[], 1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[4, 2, 6, 1, 3], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 2, 6, 1, 3], 6]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 5, 4, 3], 99]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 5, 15], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[12, 13], 73]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], 47]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], 3]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[14, 12, 11, 4, 15], 95]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 11, 1, 6, 9], 24]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p09":{
+"title":"BST Is Leaf",
+"function":"is_leaf_bst",
+"mode":"return",
+"match":"exact",
+"signature":"def is_leaf_bst(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 2, 5, 1, 3], 4]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[4, 2, 5, 1, 3], 1]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 2, 5, 1, 3], 2]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[], 1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[8, 4, 12, 2, 6], 6]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[8, 4, 12, 2, 6], 8]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 2, 5, 1, 3], 99]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 5, 15], 15]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v2_p10":{
+"title":"BST Is Full",
+"function":"is_full_tree",
+"mode":"return",
+"match":"exact",
+"signature":"def is_full_tree(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 2, 1, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, None, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2, 1, 3, None, None, None, 4]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p01":{
+"title":"Build A Binary Tree III",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class TreeNode:\n    def __init__(self, val, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\n\n# Build this tree and store its root in a variable named `root`:\n#       a\n#      / \\\n#     b   c\n#          \\\n#           d\nroot = None  # your code here",
+"filename":"01_build_tree_3",
+"cases":[
+{
+"code":"UkVTVUxUID0gcm9vdC52YWw=",
+"observe":"return",
+"label":"root.val",
+"e":"J2En"
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5sZWZ0LnZhbA==",
+"observe":"return",
+"label":"root.left.val",
+"e":"J2In"
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5yaWdodC52YWw=",
+"observe":"return",
+"label":"root.right.val",
+"e":"J2Mn"
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5yaWdodC5yaWdodC52YWw=",
+"observe":"return",
+"label":"root.right.right.val",
+"e":"J2Qn"
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5yaWdodC5sZWZ0",
+"observe":"return",
+"label":"root.right.left",
+"e":"Tm9uZQ=="
+},
+{
+"code":"UkVTVUxUID0gcm9vdC5sZWZ0LmxlZnQ=",
+"observe":"return",
+"label":"root.left.left",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v3_p02":{
+"title":"3-Node Booleans",
+"function":"tree_expression",
+"mode":"return",
+"match":"exact",
+"signature":"def tree_expression(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[['OR', True, False]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['AND', True, False]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[['AND', True, True]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['OR', False, False]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[['AND', False, False]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[['OR', True, True]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['OR', False, True]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['AND', True, True]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['OR', True, False]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['AND', False, True]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p03":{
+"title":"3-Node Equality",
+"function":"equality",
+"mode":"return",
+"match":"exact",
+"signature":"def equality(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 5, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, None, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[0, 4, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 3, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2, 9, 9]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[6, 4, 0]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[7, 9, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[8]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 9, 1]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p04":{
+"title":"Find Leftmost Path I",
+"function":"left_path",
+"mode":"return",
+"match":"exact",
+"signature":"def left_path(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3]]",
+"e":"WzEsIDIsIDRd"
+},
+{
+"args":"[[1, None, 2, 3]]",
+"e":"WzFd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[5, 3, 8, 1]]",
+"e":"WzUsIDMsIDFd"
+},
+{
+"args":"[[10, 20]]",
+"e":"WzEwLCAyMF0="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"WzEsIDIsIDRd"
+},
+{
+"args":"[[7]]",
+"e":"Wzdd"
+},
+{
+"args":"[[9, 6, 12, 4, 5]]",
+"e":"WzksIDYsIDRd"
+},
+{
+"args":"[[2, 1, 3]]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[5, 5, 17, 16]]",
+"e":"WzUsIDUsIDE2XQ=="
+},
+{
+"args":"[[5, 2, 4, 3, 14]]",
+"e":"WzUsIDIsIDNd"
+},
+{
+"args":"[[20, 17, 20]]",
+"e":"WzIwLCAxN10="
+},
+{
+"args":"[[2, 19, 3, 14, 1]]",
+"e":"WzIsIDE5LCAxNF0="
+},
+{
+"args":"[[13, 11, 17, 1]]",
+"e":"WzEzLCAxMSwgMV0="
+}
+]
+},
+"v3_p05":{
+"title":"Find Leftmost Path II",
+"function":"left_path",
+"mode":"return",
+"match":"exact",
+"signature":"def left_path(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3]]",
+"e":"WzEsIDIsIDRd"
+},
+{
+"args":"[[1, None, 2, 3]]",
+"e":"WzFd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[5, 3, 8, 1]]",
+"e":"WzUsIDMsIDFd"
+},
+{
+"args":"[[10, 20]]",
+"e":"WzEwLCAyMF0="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"WzEsIDIsIDRd"
+},
+{
+"args":"[[7]]",
+"e":"Wzdd"
+},
+{
+"args":"[[9, 6, 12, 4, 5]]",
+"e":"WzksIDYsIDRd"
+},
+{
+"args":"[[2, 1, 3]]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[12, 10, 8, 9]]",
+"e":"WzEyLCAxMCwgOV0="
+},
+{
+"args":"[[18, 20, 16, 18]]",
+"e":"WzE4LCAyMCwgMThd"
+},
+{
+"args":"[[13, 20]]",
+"e":"WzEzLCAyMF0="
+},
+{
+"args":"[[9, 18, 15]]",
+"e":"WzksIDE4XQ=="
+},
+{
+"args":"[[8, 1]]",
+"e":"WzgsIDFd"
+}
+]
+},
+"v3_p06":{
+"title":"Pre-order Traversal",
+"function":"preorder_traversal",
+"mode":"return",
+"match":"exact",
+"signature":"def preorder_traversal(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 5, 4, 3]]",
+"e":"WzEsIDIsIDQsIDMsIDVd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[2, 1, 3]]",
+"e":"WzIsIDEsIDNd"
+},
+{
+"args":"[[1, None, 2, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[4, 2, 6, 1, 3, 5, 7]]",
+"e":"WzQsIDIsIDEsIDMsIDYsIDUsIDdd"
+},
+{
+"args":"[[1, 2]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[5, 3, 8, 1]]",
+"e":"WzUsIDMsIDEsIDhd"
+},
+{
+"args":"[[1, None, 2]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[10, 5, 15]]",
+"e":"WzEwLCA1LCAxNV0="
+},
+{
+"args":"[[15, 7]]",
+"e":"WzE1LCA3XQ=="
+},
+{
+"args":"[[5, 15, 7, 9, 4, 3, 1]]",
+"e":"WzUsIDE1LCA5LCA0LCA3LCAzLCAxXQ=="
+},
+{
+"args":"[[11, 15, 6, 7, 3]]",
+"e":"WzExLCAxNSwgNywgMywgNl0="
+},
+{
+"args":"[[4, 6, 13]]",
+"e":"WzQsIDYsIDEzXQ=="
+},
+{
+"args":"[[10]]",
+"e":"WzEwXQ=="
+}
+]
+},
+"v3_p07":{
+"title":"Binary Tree All Lesser",
+"function":"is_lesser",
+"mode":"return",
+"match":"exact",
+"signature":"def is_lesser(root, val):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3], 5]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 2, 5, 1, 3], 6]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[], 5]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1], 1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[3, 1, 2], 4]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[3, 1, 2], 3]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 5, 15], 20]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 5, 15], 12]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3], 100]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 11], 101]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[9, 14], 24]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[11, 6], 43]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[13], 31]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[8], 20]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v3_p08":{
+"title":"Binary Tree Any Greater",
+"function":"contains_greater",
+"mode":"return",
+"match":"exact",
+"signature":"def contains_greater(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[1, 5, 2, 4, 3], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 5, 2, 4, 3], 10]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], 1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[5], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5], 5]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], 2]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], 3]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 5, 15], 12]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 5, 15], 20]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[7, 3, 9, 1], 8]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[], 19]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 14, 2, 6], 13]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 3, 11, 11, 13], 1]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[15, 3, 15], 9]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 8, 11, 10], 22]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p09":{
+"title":"BST Any Greater",
+"function":"contains_greater_bst",
+"mode":"return",
+"match":"exact",
+"signature":"def contains_greater_bst(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 2, 5, 1, 3], 10]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], 1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[5], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5], 5]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[8, 4, 12, 2, 6], 10]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[8, 4, 12, 2, 6], 12]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 5, 15], 14]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 5, 15], 15]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[20, 10, 30], 25]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v3_p10":{
+"title":"BST Leaves Sum to Root",
+"function":"sum_leaves",
+"mode":"return",
+"match":"exact",
+"signature":"def sum_leaves(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, None, 1, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[6, 2, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 4, 6]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[8, 3, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, None, 2, None, None, None, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[7, 3, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 1, 1]]",
+"e":"VHJ1ZQ=="
+}
+]
+}
+}
+}

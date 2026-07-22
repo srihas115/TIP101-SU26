@@ -1,0 +1,1914 @@
+{
+"unit":5,
+"session":2,
+"problems":{
+"v1_p01":{
+"title":"Battle Pokemon",
+"function":"Pokemon",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Pokemon():",
+"student_code":"class Pokemon():\n    def __init__(self, name, hp, damage):\n        self.name = name\n        self.hp = hp          # hit points\n        self.damage = damage  # damage dealt to an opponent each attack\n\n    def attack(self, opponent):\n        pass  # write your solution here",
+"filename":"01_attack",
+"cases":[
+{
+"code":"cGlrYWNodSA9IFBva2Vtb24oIlBpa2FjaHUiLCAzNSwgMjApCmJ1bGJhc2F1ciA9IFBva2Vtb24oIkJ1bGJhc2F1ciIsIDQ1LCAzMCkKcGlrYWNodS5hdHRhY2soYnVsYmFzYXVyKQpSRVNVTFQgPSBidWxiYXNhdXIuaHA=",
+"observe":"return",
+"label":"pikachu.attack(bulbasaur) → bulbasaur.hp",
+"e":"MjU="
+},
+{
+"code":"cGlrYWNodSA9IFBva2Vtb24oIlBpa2FjaHUiLCAzNSwgMjApCmJ1bGJhc2F1ciA9IFBva2Vtb24oIkJ1bGJhc2F1ciIsIDQ1LCAzMCkKcGlrYWNodS5hdHRhY2soYnVsYmFzYXVyKQ==",
+"observe":"stdout",
+"label":"printed \"... dealt ... damage to ...\"",
+"e":"J1Bpa2FjaHUgZGVhbHQgMjAgZGFtYWdlIHRvIEJ1bGJhc2F1cic="
+},
+{
+"code":"YSA9IFBva2Vtb24oIkEiLCAxMDAsIDUwKQpiID0gUG9rZW1vbigiQiIsIDMwLCAxMCkKYS5hdHRhY2soYikKUkVTVUxUID0gYi5ocA==",
+"observe":"return",
+"label":"lethal hit clamps hp to 0",
+"e":"MA=="
+},
+{
+"code":"YSA9IFBva2Vtb24oIkEiLCAxMDAsIDIwKQpiID0gUG9rZW1vbigiQiIsIDEwMCwgMTUpCmEuYXR0YWNrKGIpCmIuYXR0YWNrKGEpClJFU1VMVCA9IFthLmhwLCBiLmhwXQ==",
+"observe":"return",
+"label":"two attacks, both hp values",
+"e":"Wzg1LCA4MF0="
+},
+{
+"code":"YSA9IFBva2Vtb24oIkEiLCAxMCwgNTApCmIgPSBQb2tlbW9uKCJCIiwgNTEsIDEwKQphLmF0dGFjayhiKQpSRVNVTFQgPSBiLmhw",
+"observe":"return",
+"label":"non-lethal leaves exact hp",
+"e":"MQ=="
+},
+{
+"code":"YSA9IFBva2Vtb24oIkEiLCAxMCwgNTApCmIgPSBQb2tlbW9uKCJCIiwgNTAsIDEwKQphLmF0dGFjayhiKQpSRVNVTFQgPSBiLmhw",
+"observe":"return",
+"label":"exactly-lethal hit → 0",
+"e":"MA=="
+},
+{
+"code":"Y2hhcml6YXJkID0gUG9rZW1vbigiQ2hhcml6YXJkIiwgNzgsIDQwKQpzcXVpcnRsZSA9IFBva2Vtb24oIlNxdWlydGxlIiwgMTAwLCAxMikKY2hhcml6YXJkLmF0dGFjayhzcXVpcnRsZSk=",
+"observe":"stdout",
+"label":"damage message names attacker & target",
+"e":"J0NoYXJpemFyZCBkZWFsdCA0MCBkYW1hZ2UgdG8gU3F1aXJ0bGUn"
+},
+{
+"code":"YSA9IFBva2Vtb24oIkEiLCA2MCwgMjUpCmIgPSBQb2tlbW9uKCJCIiwgNjAsIDI1KQphLmF0dGFjayhiKQpSRVNVTFQgPSBiLmhw",
+"observe":"return",
+"label":"single attack updates hp",
+"e":"MzU="
+}
+]
+},
+"v1_p02":{
+"title":"Convert to Linked List",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Build  Jigglypuff -> Wigglytuff  using variables node_1 and node_2:\nnode_1 = None  # your code here\nnode_2 = None  # your code here",
+"filename":"02_build_list",
+"cases":[
+{
+"code":"UkVTVUxUID0gbm9kZV8xLnZhbHVl",
+"observe":"return",
+"label":"node_1.value",
+"e":"J0ppZ2dseXB1ZmYn"
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8xLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"node_1.next.value",
+"e":"J1dpZ2dseXR1ZmYn"
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8yLnZhbHVl",
+"observe":"return",
+"label":"node_2.value",
+"e":"J1dpZ2dseXR1ZmYn"
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8yLm5leHQ=",
+"observe":"return",
+"label":"node_2.next is None",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v1_p03":{
+"title":"Add First",
+"function":"add_first",
+"mode":"return",
+"match":"exact",
+"signature":"def add_first(head, new_node):",
+"arg_kinds":[
+"linkedlist",
+"node"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3], 0]",
+"e":"WzAsIDEsIDIsIDNd"
+},
+{
+"args":"[[5], 9]",
+"e":"WzksIDVd"
+},
+{
+"args":"[[], 7]",
+"e":"Wzdd",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4], 100]",
+"e":"WzEwMCwgMSwgMiwgMywgNF0="
+},
+{
+"args":"[[2], 1]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[9, 8, 7], 10]",
+"e":"WzEwLCA5LCA4LCA3XQ=="
+},
+{
+"args":"[[1], 2]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[3, 3, 3], 4]",
+"e":"WzQsIDMsIDMsIDNd"
+},
+{
+"args":"[[10, 20], 5]",
+"e":"WzUsIDEwLCAyMF0="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 0]",
+"e":"WzAsIDEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[5], 102]",
+"e":"WzEwMiwgNV0="
+},
+{
+"args":"[[], 12]",
+"e":"WzEyXQ=="
+},
+{
+"args":"[[2, 15], 27]",
+"e":"WzI3LCAyLCAxNV0="
+},
+{
+"args":"[[17, 3, 3], 96]",
+"e":"Wzk2LCAxNywgMywgM10="
+},
+{
+"args":"[[4, 5], 1]",
+"e":"WzEsIDQsIDVd"
+}
+]
+},
+"v1_p04":{
+"title":"Get Tail",
+"function":"get_tail",
+"mode":"return",
+"match":"exact",
+"signature":"def get_tail(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[5]]",
+"e":"NQ=="
+},
+{
+"args":"[[]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"NQ=="
+},
+{
+"args":"[[9, 8]]",
+"e":"OA=="
+},
+{
+"args":"[[7]]",
+"e":"Nw=="
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"MzA="
+},
+{
+"args":"[[4, 3, 2, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[100]]",
+"e":"MTAw"
+},
+{
+"args":"[[30, 86, 62]]",
+"e":"NjI="
+},
+{
+"args":"[[51, 22, 5, 82, 73]]",
+"e":"NzM="
+},
+{
+"args":"[[74, 98, 65, 33]]",
+"e":"MzM="
+},
+{
+"args":"[[53]]",
+"e":"NTM="
+},
+{
+"args":"[[19]]",
+"e":"MTk="
+}
+]
+},
+"v1_p05":{
+"title":"Replace Node",
+"function":"ll_replace",
+"mode":"mutates_arg0",
+"match":"exact",
+"signature":"def ll_replace(head, original, replacement):",
+"arg_kinds":[
+"linkedlist",
+"plain",
+"plain"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[5, 6, 5], 5, 'banana']",
+"e":"WydiYW5hbmEnLCA2LCAnYmFuYW5hJ10="
+},
+{
+"args":"[[1, 2, 3], 2, 9]",
+"e":"WzEsIDksIDNd"
+},
+{
+"args":"[[1, 1, 1], 1, 0]",
+"e":"WzAsIDAsIDBd"
+},
+{
+"args":"[[1, 2, 3], 4, 9]",
+"e":"WzEsIDIsIDNd",
+"edge":true
+},
+{
+"args":"[[7], 7, 8]",
+"e":"Wzhd"
+},
+{
+"args":"[[], 1, 2]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[3, 5, 3, 5], 5, 0]",
+"e":"WzMsIDAsIDMsIDBd"
+},
+{
+"args":"[[2, 2, 2, 2], 2, 1]",
+"e":"WzEsIDEsIDEsIDFd"
+},
+{
+"args":"[[9, 8, 7], 8, 80]",
+"e":"WzksIDgwLCA3XQ=="
+},
+{
+"args":"[[1, 2, 3, 2, 1], 2, 20]",
+"e":"WzEsIDIwLCAzLCAyMCwgMV0="
+},
+{
+"args":"[[8, 5, 5], 2, 'ceabe']",
+"e":"WzgsIDUsIDVd"
+},
+{
+"args":"[[], 7, 'b']",
+"e":"W10="
+},
+{
+"args":"[[9, 7, 7, 6], 2, 'ad']",
+"e":"WzksIDcsIDcsIDZd"
+},
+{
+"args":"[[3, 8, 1], 4, 'bbd']",
+"e":"WzMsIDgsIDFd"
+},
+{
+"args":"[[9, 4, 4, 3], 9, 'ae']",
+"e":"WydhZScsIDQsIDQsIDNd"
+}
+]
+},
+"v1_p06":{
+"title":"List Nodes",
+"function":"listify_first_n",
+"mode":"return",
+"match":"exact",
+"signature":"def listify_first_n(head, n):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3], 2]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[], 3]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5], 1]",
+"e":"WzVd"
+},
+{
+"args":"[[5], 0]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5], 3]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[9, 8, 7], 0]",
+"e":"W10="
+},
+{
+"args":"[[1], 10]",
+"e":"WzFd"
+},
+{
+"args":"[[4, 3, 2, 1], 2]",
+"e":"WzQsIDNd"
+},
+{
+"args":"[[10, 20, 30], 100]",
+"e":"WzEwLCAyMCwgMzBd"
+},
+{
+"args":"[[20], 22]",
+"e":"WzIwXQ=="
+},
+{
+"args":"[[19, 7, 21, 13, 8], 6]",
+"e":"WzE5LCA3LCAyMSwgMTMsIDhd"
+},
+{
+"args":"[[2, 29, 28, 20, 8], 29]",
+"e":"WzIsIDI5LCAyOCwgMjAsIDhd"
+},
+{
+"args":"[[20, 6, 18, 20], 69]",
+"e":"WzIwLCA2LCAxOCwgMjBd"
+},
+{
+"args":"[[4, 16, 29], 15]",
+"e":"WzQsIDE2LCAyOV0="
+}
+]
+},
+"v1_p07":{
+"title":"Insert Value",
+"function":"ll_insert",
+"mode":"return",
+"match":"exact",
+"signature":"def ll_insert(head, val, i):",
+"arg_kinds":[
+"linkedlist",
+"plain",
+"plain"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[3, 8, 12, 9], 20, 2]",
+"e":"WzMsIDgsIDIwLCAxMiwgOV0="
+},
+{
+"args":"[[1, 2, 3], 9, 0]",
+"e":"WzksIDEsIDIsIDNd"
+},
+{
+"args":"[[1, 2, 3], 9, 10]",
+"e":"WzEsIDIsIDMsIDld"
+},
+{
+"args":"[[], 5, 0]",
+"e":"WzVd",
+"edge":true
+},
+{
+"args":"[[1], 2, 1]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1], 2, 0]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[5, 6, 7], 100, 3]",
+"e":"WzUsIDYsIDcsIDEwMF0="
+},
+{
+"args":"[[1, 2, 3, 4], 0, 1]",
+"e":"WzEsIDAsIDIsIDMsIDRd"
+},
+{
+"args":"[[10, 20], 15, 1]",
+"e":"WzEwLCAxNSwgMjBd"
+},
+{
+"args":"[[1, 2, 3], 4, 3]",
+"e":"WzEsIDIsIDMsIDRd"
+}
+]
+},
+"v1_p08":{
+"title":"Linked Listify",
+"function":"list_to_linked_list",
+"mode":"return",
+"match":"exact",
+"signature":"def list_to_linked_list(lst):",
+"arg_kinds":[
+"plain"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[['Betty', 'Veronica', 'Archie', 'Jughead']]",
+"e":"WydCZXR0eScsICdWZXJvbmljYScsICdBcmNoaWUnLCAnSnVnaGVhZCdd"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5]]",
+"e":"WzVd"
+},
+{
+"args":"[['a', 'b']]",
+"e":"WydhJywgJ2InXQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[9]]",
+"e":"Wzld"
+},
+{
+"args":"[[0, 0, 0]]",
+"e":"WzAsIDAsIDBd"
+},
+{
+"args":"[['x', 'y', 'z']]",
+"e":"Wyd4JywgJ3knLCAneidd"
+},
+{
+"args":"[[10, 20, 30, 40]]",
+"e":"WzEwLCAyMCwgMzAsIDQwXQ=="
+},
+{
+"args":"[['b', 'ef', 'ef', 'cd']]",
+"e":"WydiJywgJ2VmJywgJ2VmJywgJ2NkJ10="
+},
+{
+"args":"[['a', 'b', 'ef']]",
+"e":"WydhJywgJ2InLCAnZWYnXQ=="
+},
+{
+"args":"[['a', 'cd', 'a', 'a']]",
+"e":"WydhJywgJ2NkJywgJ2EnLCAnYSdd"
+},
+{
+"args":"[['a', 'cd']]",
+"e":"WydhJywgJ2NkJ10="
+},
+{
+"args":"[['ef', 'cd']]",
+"e":"WydlZicsICdjZCdd"
+}
+]
+},
+"v1_p09":{
+"title":"Doubly Linked List",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None, prev=None):\n        self.value = value\n        self.next = next\n        self.prev = prev\n\n\n# Build the doubly linked list  Poliwag <-> Poliwhirl <-> Poliwrath\n# using variables named poliwag, poliwhirl, and poliwrath:\npoliwag = None     # your code here\npoliwhirl = None   # your code here\npoliwrath = None   # your code here",
+"filename":"09_build_doubly",
+"cases":[
+{
+"code":"UkVTVUxUID0gcG9saXdoaXJsLnByZXYudmFsdWU=",
+"observe":"return",
+"label":"poliwhirl.prev.value",
+"e":"J1BvbGl3YWcn"
+},
+{
+"code":"UkVTVUxUID0gcG9saXdoaXJsLnZhbHVl",
+"observe":"return",
+"label":"poliwhirl.value",
+"e":"J1BvbGl3aGlybCc="
+},
+{
+"code":"UkVTVUxUID0gcG9saXdoaXJsLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"poliwhirl.next.value",
+"e":"J1BvbGl3cmF0aCc="
+},
+{
+"code":"UkVTVUxUID0gcG9saXdhZy5wcmV2",
+"observe":"return",
+"label":"poliwag.prev is None",
+"e":"Tm9uZQ=="
+},
+{
+"code":"UkVTVUxUID0gcG9saXdyYXRoLm5leHQ=",
+"observe":"return",
+"label":"poliwrath.next is None",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v1_p10":{
+"title":"Print Backwards",
+"function":"print_reverse",
+"mode":"stdout",
+"match":"exact",
+"signature":"def print_reverse(tail):",
+"arg_kinds":[
+"doubly_tail"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None, prev=None):\n        self.value = value\n        self.next = next\n        self.prev = prev",
+"cases":[
+{
+"args":"[[1, 2, 3]]",
+"e":"JzMgMiAxJw=="
+},
+{
+"args":"[[5]]",
+"e":"JzUn"
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"JzUgNCAzIDIgMSc="
+},
+{
+"args":"[['a', 'b', 'c']]",
+"e":"J2MgYiBhJw=="
+},
+{
+"args":"[[9, 8]]",
+"e":"JzggOSc="
+},
+{
+"args":"[[7]]",
+"e":"Jzcn"
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"JzMwIDIwIDEwJw=="
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"JzEgMSAxJw=="
+},
+{
+"args":"[['Poliwag', 'Poliwhirl', 'Poliwrath']]",
+"e":"J1BvbGl3cmF0aCBQb2xpd2hpcmwgUG9saXdhZyc="
+},
+{
+"args":"[[4, 3, 2, 1]]",
+"e":"JzEgMiAzIDQn"
+},
+{
+"args":"[[14, 2, 5, 13, 3]]",
+"e":"JzMgMTMgNSAyIDE0Jw=="
+},
+{
+"args":"[[5, 26, 29, 20, 18]]",
+"e":"JzE4IDIwIDI5IDI2IDUn"
+},
+{
+"args":"[[14, 7, 5, 21, 9]]",
+"e":"JzkgMjEgNSA3IDE0Jw=="
+},
+{
+"args":"[[14, 20, 19, 25, 20]]",
+"e":"JzIwIDI1IDE5IDIwIDE0Jw=="
+},
+{
+"args":"[[18]]",
+"e":"JzE4Jw=="
+}
+]
+},
+"v2_p01":{
+"title":"Poker Two-Pair Hand",
+"function":"is_two_pair",
+"mode":"scenario",
+"match":"exact",
+"signature":"def is_two_pair():",
+"student_code":"class Card():\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n\n\ndef is_two_pair(player_hand):\n    pass  # write your solution here",
+"filename":"01_is_two_pair",
+"cases":[
+{
+"code":"YzAgPSBDYXJkKCJIZWFydHMiLCAiQWNlIikKYzEgPSBDYXJkKCJIZWFydHMiLCAiNCIpCmMyID0gQ2FyZCgiRGlhbW9uZHMiLCAiQWNlIikKYzMgPSBDYXJkKCJEaWFtb25kcyIsICI0IikKYzQgPSBDYXJkKCJEaWFtb25kcyIsICI2IikKaGFuZCA9IFtjMCwgYzEsIGMyLCBjMywgYzRdClJFU1VMVCA9IGlzX3R3b19wYWlyKGhhbmQp",
+"observe":"return",
+"label":"two pair (A,A,4,4,6)",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"YzAgPSBDYXJkKCJIZWFydHMiLCAiNCIpCmMxID0gQ2FyZCgiRGlhbW9uZHMiLCAiQWNlIikKYzIgPSBDYXJkKCJEaWFtb25kcyIsICI0IikKYzMgPSBDYXJkKCJEaWFtb25kcyIsICI2IikKYzQgPSBDYXJkKCJDbHVicyIsICI3IikKaGFuZCA9IFtjMCwgYzEsIGMyLCBjMywgYzRdClJFU1VMVCA9IGlzX3R3b19wYWlyKGhhbmQp",
+"observe":"return",
+"label":"one pair (4,4,+3)",
+"e":"RmFsc2U="
+},
+{
+"code":"YzAgPSBDYXJkKCJIZWFydHMiLCAiS2luZyIpCmMxID0gQ2FyZCgiU3BhZGVzIiwgIktpbmciKQpjMiA9IENhcmQoIkNsdWJzIiwgIjIiKQpjMyA9IENhcmQoIkRpYW1vbmRzIiwgIjIiKQpjNCA9IENhcmQoIkhlYXJ0cyIsICI5IikKaGFuZCA9IFtjMCwgYzEsIGMyLCBjMywgYzRdClJFU1VMVCA9IGlzX3R3b19wYWlyKGhhbmQp",
+"observe":"return",
+"label":"two pair (K,K,2,2,9)",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"YzAgPSBDYXJkKCJIZWFydHMiLCAiMyIpCmMxID0gQ2FyZCgiU3BhZGVzIiwgIjUiKQpjMiA9IENhcmQoIkNsdWJzIiwgIjciKQpjMyA9IENhcmQoIkRpYW1vbmRzIiwgIjkiKQpjNCA9IENhcmQoIkhlYXJ0cyIsICJKYWNrIikKaGFuZCA9IFtjMCwgYzEsIGMyLCBjMywgYzRdClJFU1VMVCA9IGlzX3R3b19wYWlyKGhhbmQp",
+"observe":"return",
+"label":"no pair",
+"e":"RmFsc2U="
+},
+{
+"code":"YzAgPSBDYXJkKCJIZWFydHMiLCAiMTAiKQpjMSA9IENhcmQoIlNwYWRlcyIsICIxMCIpCmMyID0gQ2FyZCgiQ2x1YnMiLCAiSmFjayIpCmMzID0gQ2FyZCgiRGlhbW9uZHMiLCAiSmFjayIpCmM0ID0gQ2FyZCgiSGVhcnRzIiwgIlF1ZWVuIikKaGFuZCA9IFtjMCwgYzEsIGMyLCBjMywgYzRdClJFU1VMVCA9IGlzX3R3b19wYWlyKGhhbmQp",
+"observe":"return",
+"label":"two pair (10,10,J,J,Q)",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"YzAgPSBDYXJkKCJIZWFydHMiLCAiQWNlIikKYzEgPSBDYXJkKCJTcGFkZXMiLCAiQWNlIikKYzIgPSBDYXJkKCJDbHVicyIsICJLaW5nIikKYzMgPSBDYXJkKCJEaWFtb25kcyIsICIzIikKYzQgPSBDYXJkKCJIZWFydHMiLCAiNSIpCmhhbmQgPSBbYzAsIGMxLCBjMiwgYzMsIGM0XQpSRVNVTFQgPSBpc190d29fcGFpcihoYW5kKQ==",
+"observe":"return",
+"label":"one pair of aces",
+"e":"RmFsc2U="
+},
+{
+"code":"YzAgPSBDYXJkKCJIZWFydHMiLCAiNyIpCmMxID0gQ2FyZCgiU3BhZGVzIiwgIjciKQpjMiA9IENhcmQoIkNsdWJzIiwgIjgiKQpjMyA9IENhcmQoIkRpYW1vbmRzIiwgIjgiKQpjNCA9IENhcmQoIkhlYXJ0cyIsICI4IikKaGFuZCA9IFtjMCwgYzEsIGMyLCBjMywgYzRdClJFU1VMVCA9IGlzX3R3b19wYWlyKGhhbmQp",
+"observe":"return",
+"label":"aces? counts (7,7,8,8,8)",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"YzAgPSBDYXJkKCJIZWFydHMiLCAiMiIpCmMxID0gQ2FyZCgiU3BhZGVzIiwgIjMiKQpjMiA9IENhcmQoIkNsdWJzIiwgIjQiKQpjMyA9IENhcmQoIkRpYW1vbmRzIiwgIjUiKQpjNCA9IENhcmQoIkhlYXJ0cyIsICI2IikKaGFuZCA9IFtjMCwgYzEsIGMyLCBjMywgYzRdClJFU1VMVCA9IGlzX3R3b19wYWlyKGhhbmQp",
+"observe":"return",
+"label":"straight, no pair",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p02":{
+"title":"Barbie Linked List",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Build  Barbie -> President Barbie -> Weird Barbie -> Ken\n# using variables node_1, node_2, node_3, node_4:\nnode_1 = None\nnode_2 = None\nnode_3 = None\nnode_4 = None",
+"filename":"02_build_list",
+"cases":[
+{
+"code":"Y3VyID0gbm9kZV8xCnZhbHMgPSBbXQp3aGlsZSBjdXIgaXMgbm90IE5vbmU6CiAgICB2YWxzLmFwcGVuZChjdXIudmFsdWUpCiAgICBjdXIgPSBjdXIubmV4dApSRVNVTFQgPSB2YWxz",
+"observe":"return",
+"label":"chain values from node_1",
+"e":"WydCYXJiaWUnLCAnUHJlc2lkZW50IEJhcmJpZScsICdXZWlyZCBCYXJiaWUnLCAnS2VuJ10="
+},
+{
+"code":"UkVTVUxUID0gbm9kZV80Lm5leHQ=",
+"observe":"return",
+"label":"node_4.next is None",
+"e":"Tm9uZQ=="
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8yLnZhbHVl",
+"observe":"return",
+"label":"node_2.value",
+"e":"J1ByZXNpZGVudCBCYXJiaWUn"
+}
+]
+},
+"v2_p03":{
+"title":"Insert Value First",
+"function":"add_first",
+"mode":"return",
+"match":"exact",
+"signature":"def add_first(head, val):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3], 0]",
+"e":"WzAsIDEsIDIsIDNd"
+},
+{
+"args":"[[], 5]",
+"e":"WzVd",
+"edge":true
+},
+{
+"args":"[[9], 8]",
+"e":"WzgsIDld"
+},
+{
+"args":"[[1, 2, 3, 4], 100]",
+"e":"WzEwMCwgMSwgMiwgMywgNF0="
+},
+{
+"args":"[[7], 1]",
+"e":"WzEsIDdd"
+},
+{
+"args":"[[2, 4, 6], 0]",
+"e":"WzAsIDIsIDQsIDZd"
+},
+{
+"args":"[[1], 9]",
+"e":"WzksIDFd"
+},
+{
+"args":"[[3, 3], 3]",
+"e":"WzMsIDMsIDNd"
+},
+{
+"args":"[[10, 20, 30], 5]",
+"e":"WzUsIDEwLCAyMCwgMzBd"
+},
+{
+"args":"[[5, 4, 3, 2], 6]",
+"e":"WzYsIDUsIDQsIDMsIDJd"
+},
+{
+"args":"[[27, 3, 1, 22], 7]",
+"e":"WzcsIDI3LCAzLCAxLCAyMl0="
+},
+{
+"args":"[[], 79]",
+"e":"Wzc5XQ=="
+},
+{
+"args":"[[26, 9, 15, 16], 5]",
+"e":"WzUsIDI2LCA5LCAxNSwgMTZd"
+},
+{
+"args":"[[12], 56]",
+"e":"WzU2LCAxMl0="
+},
+{
+"args":"[[14], 17]",
+"e":"WzE3LCAxNF0="
+}
+]
+},
+"v2_p04":{
+"title":"Linked List Length",
+"function":"ll_length",
+"mode":"return",
+"match":"exact",
+"signature":"def ll_length(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[5]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"NQ=="
+},
+{
+"args":"[[9, 8]]",
+"e":"Mg=="
+},
+{
+"args":"[[7]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 1, 1, 1]]",
+"e":"NA=="
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"Mw=="
+},
+{
+"args":"[[4, 3, 2, 1, 0]]",
+"e":"NQ=="
+},
+{
+"args":"[[100]]",
+"e":"MQ=="
+},
+{
+"args":"[[51, 95, 15]]",
+"e":"Mw=="
+},
+{
+"args":"[[87, 41, 11]]",
+"e":"Mw=="
+},
+{
+"args":"[[28, 77, 94]]",
+"e":"Mw=="
+},
+{
+"args":"[[69, 16, 8, 65, 6]]",
+"e":"NQ=="
+},
+{
+"args":"[[96, 30, 33]]",
+"e":"Mw=="
+}
+]
+},
+"v2_p05":{
+"title":"Delete Tail",
+"function":"delete_tail",
+"mode":"mutates_arg0",
+"match":"exact",
+"signature":"def delete_tail(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1, 2]]",
+"e":"WzFd"
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"WzEsIDIsIDMsIDRd"
+},
+{
+"args":"[[9, 8]]",
+"e":"Wzld"
+},
+{
+"args":"[[5, 6, 7]]",
+"e":"WzUsIDZd"
+},
+{
+"args":"[[10, 20, 30, 40]]",
+"e":"WzEwLCAyMCwgMzBd"
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"WzEsIDFd"
+},
+{
+"args":"[[2, 4]]",
+"e":"WzJd"
+},
+{
+"args":"[[7, 8, 9, 10]]",
+"e":"WzcsIDgsIDld"
+},
+{
+"args":"[[3, 2, 1]]",
+"e":"WzMsIDJd"
+},
+{
+"args":"[[4, 8, 7]]",
+"e":"WzQsIDhd"
+},
+{
+"args":"[[9, 3]]",
+"e":"Wzld"
+},
+{
+"args":"[[39, 34, 29]]",
+"e":"WzM5LCAzNF0="
+},
+{
+"args":"[[37, 13, 23, 35, 33]]",
+"e":"WzM3LCAxMywgMjMsIDM1XQ=="
+},
+{
+"args":"[[16, 28, 7]]",
+"e":"WzE2LCAyOF0="
+}
+]
+},
+"v2_p06":{
+"title":"Greatest Node",
+"function":"find_max",
+"mode":"return",
+"match":"exact",
+"signature":"def find_max(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[20, 15, 30, 10]]",
+"e":"MzA="
+},
+{
+"args":"[[5]]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"NA=="
+},
+{
+"args":"[[-1, -5, -3]]",
+"e":"LTE="
+},
+{
+"args":"[[100, 50]]",
+"e":"MTAw"
+},
+{
+"args":"[[7, 7, 7]]",
+"e":"Nw=="
+},
+{
+"args":"[[3, 1, 4, 1, 5, 9, 2, 6]]",
+"e":"OQ=="
+},
+{
+"args":"[[0]]",
+"e":"MA=="
+},
+{
+"args":"[[-10, 0, 10]]",
+"e":"MTA="
+},
+{
+"args":"[[9, 8, 7, 6, 5]]",
+"e":"OQ=="
+},
+{
+"args":"[[33, -3, 73, 61, 12, 33, 23]]",
+"e":"NzM="
+},
+{
+"args":"[[10]]",
+"e":"MTA="
+},
+{
+"args":"[[35, 20, 70, -2]]",
+"e":"NzA="
+},
+{
+"args":"[[52, 12, 30, 9, -10, 44, -3]]",
+"e":"NTI="
+},
+{
+"args":"[[28, 22, -4, 7, 25, 52, -2]]",
+"e":"NTI="
+}
+]
+},
+"v2_p07":{
+"title":"Pop Node",
+"function":"ll_pop",
+"mode":"return",
+"match":"exact",
+"signature":"def ll_pop(head, i):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3], 1]",
+"e":"WzEsIDNd"
+},
+{
+"args":"[[1, 2, 3], 0]",
+"e":"WzIsIDNd"
+},
+{
+"args":"[[1, 2, 3], 2]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"WzEsIDIsIDNd",
+"edge":true
+},
+{
+"args":"[[5], 0]",
+"e":"W10="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 2]",
+"e":"WzEsIDIsIDQsIDVd"
+},
+{
+"args":"[[9, 8, 7], 1]",
+"e":"WzksIDdd"
+},
+{
+"args":"[[1, 2], 1]",
+"e":"WzFd"
+},
+{
+"args":"[[10, 20, 30, 40], 3]",
+"e":"WzEwLCAyMCwgMzBd"
+},
+{
+"args":"[[1, 2, 3], 10]",
+"e":"WzEsIDIsIDNd",
+"edge":true
+},
+{
+"args":"[[30, 4, 21], 8]",
+"e":"WzMwLCA0LCAyMV0="
+},
+{
+"args":"[[21, 16], 7]",
+"e":"WzIxLCAxNl0="
+},
+{
+"args":"[[12], 7]",
+"e":"WzEyXQ=="
+},
+{
+"args":"[[28, 15, 7, 14], 9]",
+"e":"WzI4LCAxNSwgNywgMTRd"
+},
+{
+"args":"[[15, 39], 8]",
+"e":"WzE1LCAzOV0="
+}
+]
+},
+"v2_p08":{
+"title":"Find Middle Node",
+"function":"find_middle_node",
+"mode":"return",
+"match":"exact",
+"signature":"def find_middle_node(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"node_value",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[1]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"Mw=="
+},
+{
+"args":"[[5, 6, 7, 8, 9, 10]]",
+"e":"Nw=="
+},
+{
+"args":"[[10, 20]]",
+"e":"MTA="
+},
+{
+"args":"[[7]]",
+"e":"Nw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"NA=="
+},
+{
+"args":"[[9, 8, 7, 6]]",
+"e":"OA=="
+},
+{
+"args":"[[15, 1, 20, 14, 9]]",
+"e":"MjA="
+},
+{
+"args":"[[19, 16, 19, 14, 20]]",
+"e":"MTk="
+},
+{
+"args":"[[17, 14, 3, 5]]",
+"e":"MTQ="
+},
+{
+"args":"[[19, 15, 2, 12, 18, 19]]",
+"e":"Mg=="
+},
+{
+"args":"[[3]]",
+"e":"Mw=="
+}
+]
+},
+"v2_p09":{
+"title":"Create Double Links",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None, prev=None):\n        self.value = value\n        self.next = next\n        self.prev = prev\n\nhead = Node(\"First\")\ntail = Node(\"Last\")\n\n# Make head <-> tail a doubly linked list (fill in the links):\nhead.next = tail\n# tail.prev = ???  <- your code",
+"filename":"09_double_links",
+"cases":[
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0LnZhbHVl",
+"observe":"return",
+"label":"head.next.value",
+"e":"J0xhc3Qn"
+},
+{
+"code":"UkVTVUxUID0gdGFpbC5wcmV2LnZhbHVl",
+"observe":"return",
+"label":"tail.prev.value",
+"e":"J0ZpcnN0Jw=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC52YWx1ZQ==",
+"observe":"return",
+"label":"head.value",
+"e":"J0ZpcnN0Jw=="
+}
+]
+},
+"v2_p10":{
+"title":"Double to Single",
+"function":"dll_to_sll",
+"mode":"return",
+"match":"exact",
+"signature":"def dll_to_sll(dll_head):",
+"arg_kinds":[
+"doubly"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None, prev=None):\n        self.value = value\n        self.next = next\n        self.prev = prev",
+"cases":[
+{
+"args":"[['Ice', 'Water', 'Steam']]",
+"e":"WydJY2UnLCAnV2F0ZXInLCAnU3RlYW0nXQ=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5]]",
+"e":"WzVd"
+},
+{
+"args":"[['a', 'b', 'c', 'd']]",
+"e":"WydhJywgJ2InLCAnYycsICdkJ10="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[9, 8]]",
+"e":"WzksIDhd"
+},
+{
+"args":"[[7]]",
+"e":"Wzdd"
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"WzEwLCAyMCwgMzBd"
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"WzEsIDEsIDFd"
+},
+{
+"args":"[['cd', 'cd']]",
+"e":"WydjZCcsICdjZCdd"
+},
+{
+"args":"[['b', 'cd', 'ef', 'b']]",
+"e":"WydiJywgJ2NkJywgJ2VmJywgJ2InXQ=="
+},
+{
+"args":"[['a', 'ef', 'ef', 'cd', 'ef']]",
+"e":"WydhJywgJ2VmJywgJ2VmJywgJ2NkJywgJ2VmJ10="
+},
+{
+"args":"[['b', 'b', 'b', 'b']]",
+"e":"WydiJywgJ2InLCAnYicsICdiJ10="
+},
+{
+"args":"[['a', 'a']]",
+"e":"WydhJywgJ2EnXQ=="
+}
+]
+},
+"v3_p01":{
+"title":"Calculate Tournament Placement",
+"function":"Player",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Player():",
+"student_code":"class Player:\n    def __init__(self, character, kart, outcomes):\n        self.character = character\n        self.kart = kart\n        self.items = []\n        self.race_outcomes = outcomes\n\n    def get_tournament_place(self, opponents):\n        pass  # write your solution here",
+"filename":"01_get_tournament_place",
+"cases":[
+{
+"code":"cDEgPSBQbGF5ZXIoIk1hcmlvIiwgIlN0YW5kYXJkIiwgWzEsIDIsIDEsIDEsIDNdKQpwMiA9IFBsYXllcigiTHVpZ2kiLCAiU3RhbmRhcmQiLCBbMiwgMSwgMywgMiwgMl0pCnAzID0gUGxheWVyKCJQZWFjaCIsICJTdGFuZGFyZCIsIFszLCAzLCAyLCAzLCAxXSkKUkVTVUxUID0gcDEuZ2V0X3RvdXJuYW1lbnRfcGxhY2UoW3AyLCBwM10p",
+"observe":"return",
+"label":"Mario 1st (avg 1.6 vs 2.0, 2.4)",
+"e":"MQ=="
+},
+{
+"code":"cDEgPSBQbGF5ZXIoIk1hcmlvIiwgIlN0YW5kYXJkIiwgWzEsIDIsIDEsIDEsIDNdKQpwMiA9IFBsYXllcigiTHVpZ2kiLCAiU3RhbmRhcmQiLCBbMiwgMSwgMywgMiwgMl0pCnAzID0gUGxheWVyKCJQZWFjaCIsICJTdGFuZGFyZCIsIFszLCAzLCAyLCAzLCAxXSkKUkVTVUxUID0gcDIuZ2V0X3RvdXJuYW1lbnRfcGxhY2UoW3AxLCBwM10p",
+"observe":"return",
+"label":"Luigi 2nd",
+"e":"Mg=="
+},
+{
+"code":"cDEgPSBQbGF5ZXIoIk1hcmlvIiwgIlN0YW5kYXJkIiwgWzEsIDIsIDEsIDEsIDNdKQpwMiA9IFBsYXllcigiTHVpZ2kiLCAiU3RhbmRhcmQiLCBbMiwgMSwgMywgMiwgMl0pCnAzID0gUGxheWVyKCJQZWFjaCIsICJTdGFuZGFyZCIsIFszLCAzLCAyLCAzLCAxXSkKUkVTVUxUID0gcDMuZ2V0X3RvdXJuYW1lbnRfcGxhY2UoW3AxLCBwMl0p",
+"observe":"return",
+"label":"Peach 3rd (worst avg)",
+"e":"Mw=="
+},
+{
+"code":"cCA9IFBsYXllcigiWW9zaGkiLCAiRWdnIiwgWzIsIDIsIDJdKQpSRVNVTFQgPSBwLmdldF90b3VybmFtZW50X3BsYWNlKFtdKQ==",
+"observe":"return",
+"label":"solo player is 1st",
+"e":"MQ=="
+},
+{
+"code":"YSA9IFBsYXllcigiQSIsICJrIiwgWzEsIDEsIDFdKQpiID0gUGxheWVyKCJCIiwgImsiLCBbMiwgMiwgMl0pCmMgPSBQbGF5ZXIoIkMiLCAiayIsIFszLCAzLCAzXSkKZCA9IFBsYXllcigiRCIsICJrIiwgWzQsIDQsIDRdKQpSRVNVTFQgPSBhLmdldF90b3VybmFtZW50X3BsYWNlKFtiLCBjLCBkXSk=",
+"observe":"return",
+"label":"clear winner among 4",
+"e":"MQ=="
+},
+{
+"code":"YSA9IFBsYXllcigiQSIsICJrIiwgWzEsIDEsIDFdKQpiID0gUGxheWVyKCJCIiwgImsiLCBbMiwgMiwgMl0pCmMgPSBQbGF5ZXIoIkMiLCAiayIsIFszLCAzLCAzXSkKZCA9IFBsYXllcigiRCIsICJrIiwgWzQsIDQsIDRdKQpSRVNVTFQgPSBkLmdldF90b3VybmFtZW50X3BsYWNlKFthLCBiLCBjXSk=",
+"observe":"return",
+"label":"last of 4",
+"e":"NA=="
+},
+{
+"code":"YSA9IFBsYXllcigiQSIsICJrIiwgWzEsIDNdKQpiID0gUGxheWVyKCJCIiwgImsiLCBbMSwgMV0pCmMgPSBQbGF5ZXIoIkMiLCAiayIsIFs0LCA0XSkKUkVTVUxUID0gYS5nZXRfdG91cm5hbWVudF9wbGFjZShbYiwgY10p",
+"observe":"return",
+"label":"middle placement",
+"e":"Mg=="
+}
+]
+},
+"v3_p02":{
+"title":"Update Linked List Sequence",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\nred = Node('red')\nyellow = Node('yellow')\nblue = Node('blue')\nred.next = yellow\nyellow.next = blue\n\n# Update the list  red -> yellow -> blue  to be\n#   red -> orange -> yellow -> green -> blue\n# (insert orange after red, and green after yellow):\n",
+"filename":"02_update_sequence",
+"cases":[
+{
+"code":"Y3VyID0gcmVkCnZhbHMgPSBbXQp3aGlsZSBjdXIgaXMgbm90IE5vbmU6CiAgICB2YWxzLmFwcGVuZChjdXIudmFsdWUpCiAgICBjdXIgPSBjdXIubmV4dApSRVNVTFQgPSB2YWxz",
+"observe":"return",
+"label":"full chain from red",
+"e":"WydyZWQnLCAnb3JhbmdlJywgJ3llbGxvdycsICdncmVlbicsICdibHVlJ10="
+}
+]
+},
+"v3_p03":{
+"title":"Insert Node as Second Element",
+"function":"add_second",
+"mode":"return",
+"match":"exact",
+"signature":"def add_second(head, val):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 3, 4], 2]",
+"e":"WzEsIDIsIDMsIDRd"
+},
+{
+"args":"[[1], 9]",
+"e":"WzEsIDld"
+},
+{
+"args":"[[5, 6], 0]",
+"e":"WzUsIDAsIDZd"
+},
+{
+"args":"[[1, 2, 3, 4], 100]",
+"e":"WzEsIDEwMCwgMiwgMywgNF0="
+},
+{
+"args":"[[7, 8], 1]",
+"e":"WzcsIDEsIDhd"
+},
+{
+"args":"[[10], 5]",
+"e":"WzEwLCA1XQ=="
+},
+{
+"args":"[[1, 2], 3]",
+"e":"WzEsIDMsIDJd"
+},
+{
+"args":"[[9, 8, 7], 0]",
+"e":"WzksIDAsIDgsIDdd"
+},
+{
+"args":"[[2, 4, 6, 8], 3]",
+"e":"WzIsIDMsIDQsIDYsIDhd"
+},
+{
+"args":"[[1, 3, 5, 7], 2]",
+"e":"WzEsIDIsIDMsIDUsIDdd"
+},
+{
+"args":"[[2, 1, 1, 7], 93]",
+"e":"WzIsIDkzLCAxLCAxLCA3XQ=="
+},
+{
+"args":"[[2, 10, 6], 84]",
+"e":"WzIsIDg0LCAxMCwgNl0="
+},
+{
+"args":"[[5], 26]",
+"e":"WzUsIDI2XQ=="
+},
+{
+"args":"[[7, 9, 3, 3], 38]",
+"e":"WzcsIDM4LCA5LCAzLCAzXQ=="
+},
+{
+"args":"[[8, 2], 7]",
+"e":"WzgsIDcsIDJd"
+}
+]
+},
+"v3_p04":{
+"title":"Increment Node Values",
+"function":"increment_ll",
+"mode":"return",
+"match":"exact",
+"signature":"def increment_ll(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[5, 6, 7]]",
+"e":"WzYsIDcsIDhd"
+},
+{
+"args":"[[1]]",
+"e":"WzJd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[0, 0, 0]]",
+"e":"WzEsIDEsIDFd"
+},
+{
+"args":"[[-1, -2, -3]]",
+"e":"WzAsIC0xLCAtMl0="
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"WzExLCAyMSwgMzFd"
+},
+{
+"args":"[[9]]",
+"e":"WzEwXQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"WzIsIDMsIDQsIDUsIDZd"
+},
+{
+"args":"[[100, 200]]",
+"e":"WzEwMSwgMjAxXQ=="
+},
+{
+"args":"[[7, 7, 7]]",
+"e":"WzgsIDgsIDhd"
+},
+{
+"args":"[[-2]]",
+"e":"Wy0xXQ=="
+},
+{
+"args":"[[57]]",
+"e":"WzU4XQ=="
+},
+{
+"args":"[[58, 41, 10, 100, 23]]",
+"e":"WzU5LCA0MiwgMTEsIDEwMSwgMjRd"
+},
+{
+"args":"[[2, 19]]",
+"e":"WzMsIDIwXQ=="
+},
+{
+"args":"[[78, 82, 24]]",
+"e":"Wzc5LCA4MywgMjVd"
+}
+]
+},
+"v3_p05":{
+"title":"Copy Linked List",
+"function":"copy_ll",
+"mode":"return",
+"match":"exact",
+"signature":"def copy_ll(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[5, 6, 7]]",
+"e":"WzUsIDYsIDdd"
+},
+{
+"args":"[[1]]",
+"e":"WzFd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[9, 8, 7]]",
+"e":"WzksIDgsIDdd"
+},
+{
+"args":"[[0]]",
+"e":"WzBd"
+},
+{
+"args":"[[10, 20]]",
+"e":"WzEwLCAyMF0="
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"WzEsIDEsIDFd"
+},
+{
+"args":"[['a', 'b', 'c']]",
+"e":"WydhJywgJ2InLCAnYydd"
+},
+{
+"args":"[[3, 2, 1]]",
+"e":"WzMsIDIsIDFd"
+},
+{
+"args":"[[15, 17]]",
+"e":"WzE1LCAxN10="
+},
+{
+"args":"[[13, 6]]",
+"e":"WzEzLCA2XQ=="
+},
+{
+"args":"[[12, 8, 4]]",
+"e":"WzEyLCA4LCA0XQ=="
+},
+{
+"args":"[[9, 17, 2, 3]]",
+"e":"WzksIDE3LCAyLCAzXQ=="
+},
+{
+"args":"[[2, 0, 17, 10, 10]]",
+"e":"WzIsIDAsIDE3LCAxMCwgMTBd"
+}
+]
+},
+"v3_p06":{
+"title":"Find Minimum",
+"function":"find_min",
+"mode":"return",
+"match":"exact",
+"signature":"def find_min(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[5, 6, 7, 8]]",
+"e":"NQ=="
+},
+{
+"args":"[[8, 5, 6, 7]]",
+"e":"NQ=="
+},
+{
+"args":"[[1]]",
+"e":"MQ=="
+},
+{
+"args":"[[3, 1, 4, 1, 5]]",
+"e":"MQ=="
+},
+{
+"args":"[[-1, -5, -3]]",
+"e":"LTU="
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"MTA="
+},
+{
+"args":"[[100]]",
+"e":"MTAw"
+},
+{
+"args":"[[9, 8, 7, 6, 5]]",
+"e":"NQ=="
+},
+{
+"args":"[[0, 0, 0]]",
+"e":"MA=="
+},
+{
+"args":"[[2, 1, 3, 1, 2]]",
+"e":"MQ=="
+},
+{
+"args":"[[24, 11, -3]]",
+"e":"LTM="
+},
+{
+"args":"[[-2, 51]]",
+"e":"LTI="
+},
+{
+"args":"[[32, 98, 72, 99]]",
+"e":"MzI="
+},
+{
+"args":"[[22, 8, 66]]",
+"e":"OA=="
+},
+{
+"args":"[[56, 34]]",
+"e":"MzQ="
+}
+]
+},
+"v3_p07":{
+"title":"Remove Node by Value",
+"function":"ll_remove",
+"mode":"return",
+"match":"exact",
+"signature":"def ll_remove(head, val):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[5, 6, 7, 8], 6]",
+"e":"WzUsIDcsIDhd"
+},
+{
+"args":"[[5, 6, 7, 8], 5]",
+"e":"WzYsIDcsIDhd"
+},
+{
+"args":"[[5, 6, 7, 8], 8]",
+"e":"WzUsIDYsIDdd"
+},
+{
+"args":"[[5, 6, 7, 8], 99]",
+"e":"WzUsIDYsIDcsIDhd",
+"edge":true
+},
+{
+"args":"[[], 1]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"W10="
+},
+{
+"args":"[[5], 3]",
+"e":"WzVd"
+},
+{
+"args":"[[1, 2, 2, 3], 2]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[1, 1, 1], 1]",
+"e":"WzEsIDFd"
+},
+{
+"args":"[[9, 8, 7], 8]",
+"e":"WzksIDdd"
+},
+{
+"args":"[[7, 4, 1], 39]",
+"e":"WzcsIDQsIDFd"
+},
+{
+"args":"[[], 21]",
+"e":"W10="
+},
+{
+"args":"[[4], 27]",
+"e":"WzRd"
+},
+{
+"args":"[[3, 8], 41]",
+"e":"WzMsIDhd"
+},
+{
+"args":"[[], 41]",
+"e":"W10="
+}
+]
+},
+"v3_p08":{
+"title":"Move Tail to Front",
+"function":"tail_to_head",
+"mode":"return",
+"match":"exact",
+"signature":"def tail_to_head(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"WzQsIDEsIDIsIDNd"
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[1, 2]]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[5, 6, 7]]",
+"e":"WzcsIDUsIDZd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[9, 8, 7, 6, 5]]",
+"e":"WzUsIDksIDgsIDcsIDZd"
+},
+{
+"args":"[[10, 20]]",
+"e":"WzIwLCAxMF0="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzMsIDEsIDJd"
+},
+{
+"args":"[[4, 3, 2, 1]]",
+"e":"WzEsIDQsIDMsIDJd"
+},
+{
+"args":"[[7, 7, 7]]",
+"e":"WzcsIDcsIDdd"
+},
+{
+"args":"[[11, 18, 15, 17, 19]]",
+"e":"WzE5LCAxMSwgMTgsIDE1LCAxN10="
+},
+{
+"args":"[[7, 9, 20, 19, 11]]",
+"e":"WzExLCA3LCA5LCAyMCwgMTld"
+},
+{
+"args":"[[12, 11, 2, 12]]",
+"e":"WzEyLCAxMiwgMTEsIDJd"
+},
+{
+"args":"[[3, 13, 6]]",
+"e":"WzYsIDMsIDEzXQ=="
+},
+{
+"args":"[[18, 12, 14]]",
+"e":"WzE0LCAxOCwgMTJd"
+}
+]
+},
+"v3_p09":{
+"title":"Singly to Doubly",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None, prev=None):\n        self.value = value\n        self.next = next\n        self.prev = prev\n\ncrazy_in_love = Node('Crazy in Love')\nformation = Node('Formation')\ntexas_hold_em = Node(\"Texas Hold 'Em\")\ncrazy_in_love.next = formation\nformation.next = texas_hold_em\n\n# Add the backward (prev) links to make this a doubly linked list:\n",
+"filename":"09_singly_to_doubly",
+"cases":[
+{
+"code":"UkVTVUxUID0gZm9ybWF0aW9uLnByZXYudmFsdWU=",
+"observe":"return",
+"label":"formation.prev.value",
+"e":"J0NyYXp5IGluIExvdmUn"
+},
+{
+"code":"UkVTVUxUID0gZm9ybWF0aW9uLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"formation.next.value",
+"e":"IlRleGFzIEhvbGQgJ0VtIg=="
+},
+{
+"code":"UkVTVUxUID0gdGV4YXNfaG9sZF9lbS5wcmV2LnZhbHVl",
+"observe":"return",
+"label":"texas.prev.value",
+"e":"J0Zvcm1hdGlvbic="
+}
+]
+},
+"v3_p10":{
+"title":"Length from Any Node",
+"function":"get_length",
+"mode":"return",
+"match":"exact",
+"signature":"def get_length(node):",
+"arg_kinds":[
+"doubly_at"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None, prev=None):\n        self.value = value\n        self.next = next\n        self.prev = prev",
+"cases":[
+{
+"args":"[[[3, 5, 6, 7], 2]]",
+"e":"NA=="
+},
+{
+"args":"[[[3, 5, 6, 7], 0]]",
+"e":"NA=="
+},
+{
+"args":"[[[3, 5, 6, 7], 3]]",
+"e":"NA=="
+},
+{
+"args":"[[[10], 0]]",
+"e":"MQ=="
+},
+{
+"args":"[[[1, 2], 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[[1, 2, 3, 4, 5], 2]]",
+"e":"NQ=="
+},
+{
+"args":"[[[9, 8, 7], 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[[100, 200, 300, 400], 3]]",
+"e":"NA=="
+},
+{
+"args":"[[[5, 6], 0]]",
+"e":"Mg=="
+},
+{
+"args":"[[[1, 2, 3, 4, 5, 6], 4]]",
+"e":"Ng=="
+},
+{
+"args":"[[[3, 4, 0], 2]]",
+"e":"Mw=="
+},
+{
+"args":"[[[0, 2, 4, 0], 2]]",
+"e":"NA=="
+},
+{
+"args":"[[[1, 3], 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[[4, 3, 1, 2], 2]]",
+"e":"NA=="
+},
+{
+"args":"[[[0, 4, 4, 0, 0], 1]]",
+"e":"NQ=="
+}
+]
+}
+}
+}

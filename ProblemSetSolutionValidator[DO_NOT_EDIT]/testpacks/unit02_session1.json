@@ -1,0 +1,1300 @@
+{
+"unit":2,
+"session":1,
+"problems":{
+"v1_p01":{
+"title":"All In",
+"function":"all_in",
+"mode":"return",
+"match":"exact",
+"signature":"def all_in(a, b):",
+"cases":[
+{
+"args":"[[1, 2], [1, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], [1, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], [1]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[5], [5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 1, 2], [1, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4], [1, 2, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3], [3, 2, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[7, 8], [7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], []]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[9, 9, 9], [9]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 9], []]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[6, 8, 6], [7, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3], [1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4], [1, 5, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[3, 8, 3], [9, 9]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p02":{
+"title":"Create a Dictionary",
+"function":"create_dictionary",
+"mode":"return",
+"match":"exact",
+"signature":"def create_dictionary(keys, values):",
+"cases":[
+{
+"args":"[['peanut', 'dragon', 'star', 'pop', 'space'], ['butter', 'fly', 'fish', 'corn', 'ship']]",
+"e":"eydwZWFudXQnOiAnYnV0dGVyJywgJ2RyYWdvbic6ICdmbHknLCAnc3Rhcic6ICdmaXNoJywgJ3BvcCc6ICdjb3JuJywgJ3NwYWNlJzogJ3NoaXAnfQ=="
+},
+{
+"args":"[['a'], [1]]",
+"e":"eydhJzogMX0="
+},
+{
+"args":"[[], []]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[['x', 'y'], [10, 20]]",
+"e":"eyd4JzogMTAsICd5JzogMjB9"
+},
+{
+"args":"[['k'], ['v']]",
+"e":"eydrJzogJ3YnfQ=="
+},
+{
+"args":"[['p', 'q', 'r'], [1, 2, 3]]",
+"e":"eydwJzogMSwgJ3EnOiAyLCAncic6IDN9"
+},
+{
+"args":"[['one', 'two'], [1, 2]]",
+"e":"eydvbmUnOiAxLCAndHdvJzogMn0="
+},
+{
+"args":"[['m'], [None]]",
+"e":"eydtJzogTm9uZX0="
+},
+{
+"args":"[['a', 'b'], ['a', 'b']]",
+"e":"eydhJzogJ2EnLCAnYic6ICdiJ30="
+},
+{
+"args":"[['z'], [0]]",
+"e":"eyd6JzogMH0="
+},
+{
+"args":"[['a'], ['a', 'cd']]",
+"e":"eydhJzogJ2EnfQ=="
+},
+{
+"args":"[['cd', 'b'], ['cd', 'b', 'b', 'a', 'cd']]",
+"e":"eydjZCc6ICdjZCcsICdiJzogJ2InfQ=="
+},
+{
+"args":"[['cd', 'cd'], ['ef', 'b', 'ef', 'b']]",
+"e":"eydjZCc6ICdiJ30="
+},
+{
+"args":"[['cd', 'b', 'a'], ['ef', 'a', 'ef', 'a']]",
+"e":"eydjZCc6ICdlZicsICdiJzogJ2EnLCAnYSc6ICdlZid9"
+},
+{
+"args":"[['cd', 'ef', 'ef', 'b', 'cd'], ['cd', 'ef', 'b', 'b', 'b']]",
+"e":"eydjZCc6ICdiJywgJ2VmJzogJ2InLCAnYic6ICdiJ30="
+}
+]
+},
+"v1_p03":{
+"title":"Print Pair",
+"function":"print_pair",
+"mode":"stdout",
+"match":"exact",
+"signature":"def print_pair(dictionary, target):",
+"cases":[
+{
+"args":"[{'spongebob': 'squarepants', 'patrick': 'star'}, 'patrick']",
+"e":"J0tleTogcGF0cmlja1xuVmFsdWU6IHN0YXIn"
+},
+{
+"args":"[{'spongebob': 'squarepants', 'patrick': 'star'}, 'plankton']",
+"e":"J1RoYXQgcGFpciBkb2VzIG5vdCBleGlzdCEn"
+},
+{
+"args":"[{'spongebob': 'squarepants'}, 'spongebob']",
+"e":"J0tleTogc3BvbmdlYm9iXG5WYWx1ZTogc3F1YXJlcGFudHMn"
+},
+{
+"args":"[{}, 'x']",
+"e":"J1RoYXQgcGFpciBkb2VzIG5vdCBleGlzdCEn",
+"edge":true
+},
+{
+"args":"[{'a': '1'}, 'a']",
+"e":"J0tleTogYVxuVmFsdWU6IDEn"
+},
+{
+"args":"[{'a': '1', 'b': '2'}, 'b']",
+"e":"J0tleTogYlxuVmFsdWU6IDIn"
+},
+{
+"args":"[{'a': '1'}, 'z']",
+"e":"J1RoYXQgcGFpciBkb2VzIG5vdCBleGlzdCEn"
+},
+{
+"args":"[{'cat': 'meow'}, 'cat']",
+"e":"J0tleTogY2F0XG5WYWx1ZTogbWVvdyc="
+},
+{
+"args":"[{'x': 'y', 'y': 'z'}, 'y']",
+"e":"J0tleTogeVxuVmFsdWU6IHon"
+},
+{
+"args":"[{'k': 'v'}, 'missing']",
+"e":"J1RoYXQgcGFpciBkb2VzIG5vdCBleGlzdCEn"
+}
+]
+},
+"v1_p04":{
+"title":"Keys Versus Values",
+"function":"keys_v_values",
+"mode":"return",
+"match":"exact",
+"signature":"def keys_v_values(dictionary):",
+"cases":[
+{
+"args":"[{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}]",
+"e":"J3ZhbHVlcyc="
+},
+{
+"args":"[{100: 10, 200: 20, 300: 30, 400: 40, 500: 50, 600: 60}]",
+"e":"J2tleXMn"
+},
+{
+"args":"[{5: 5}]",
+"e":"J2JhbGFuY2VkJw==",
+"edge":true
+},
+{
+"args":"[{1: 2, 3: 4}]",
+"e":"J3ZhbHVlcyc="
+},
+{
+"args":"[{10: 1, 20: 2}]",
+"e":"J2tleXMn"
+},
+{
+"args":"[{2: 2}]",
+"e":"J2JhbGFuY2VkJw==",
+"edge":true
+},
+{
+"args":"[{1: 1, 2: 2, 3: 3}]",
+"e":"J2JhbGFuY2VkJw=="
+},
+{
+"args":"[{7: 3, 8: 4}]",
+"e":"J2tleXMn"
+},
+{
+"args":"[{0: 5}]",
+"e":"J3ZhbHVlcyc="
+},
+{
+"args":"[{4: 4, 5: 5}]",
+"e":"J2JhbGFuY2VkJw=="
+}
+]
+},
+"v1_p05":{
+"title":"Restock Inventory",
+"function":"restock_inventory",
+"mode":"return",
+"match":"exact",
+"signature":"def restock_inventory(current_inventory, restock_list):",
+"cases":[
+{
+"args":"[{'apples': 30, 'bananas': 15, 'oranges': 10}, {'oranges': 20, 'apples': 10, 'pears': 5}]",
+"e":"eydhcHBsZXMnOiA0MCwgJ2JhbmFuYXMnOiAxNSwgJ29yYW5nZXMnOiAzMCwgJ3BlYXJzJzogNX0="
+},
+{
+"args":"[{}, {'a': 1}]",
+"e":"eydhJzogMX0=",
+"edge":true
+},
+{
+"args":"[{'a': 5}, {}]",
+"e":"eydhJzogNX0=",
+"edge":true
+},
+{
+"args":"[{'x': 1}, {'x': 1}]",
+"e":"eyd4JzogMn0="
+},
+{
+"args":"[{'a': 2, 'b': 3}, {'c': 4}]",
+"e":"eydhJzogMiwgJ2InOiAzLCAnYyc6IDR9"
+},
+{
+"args":"[{'a': 0}, {'a': 10}]",
+"e":"eydhJzogMTB9"
+},
+{
+"args":"[{'milk': 3}, {'milk': 2, 'eggs': 12}]",
+"e":"eydtaWxrJzogNSwgJ2VnZ3MnOiAxMn0="
+},
+{
+"args":"[{}, {}]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[{'p': 1, 'q': 2}, {'p': 10, 'q': 20}]",
+"e":"eydwJzogMTEsICdxJzogMjJ9"
+},
+{
+"args":"[{'z': 100}, {'z': 1, 'y': 1}]",
+"e":"eyd6JzogMTAxLCAneSc6IDF9"
+}
+]
+},
+"v1_p06":{
+"title":"Calculate GPA",
+"function":"calculate_gpa",
+"mode":"return",
+"match":"exact",
+"signature":"def calculate_gpa(report_card):",
+"cases":[
+{
+"args":"[{'Math': 'A', 'Science': 'C', 'History': 'A', 'Art': 'B', 'English': 'B', 'Spanish': 'A'}]",
+"e":"My4zMzMzMzMzMzMzMzMzMzM1"
+},
+{
+"args":"[{'a': 'A'}]",
+"e":"NC4w",
+"edge":true
+},
+{
+"args":"[{'a': 'F'}]",
+"e":"MC4w",
+"edge":true
+},
+{
+"args":"[{'a': 'A', 'b': 'B'}]",
+"e":"My41"
+},
+{
+"args":"[{'a': 'A', 'b': 'A', 'c': 'A'}]",
+"e":"NC4w"
+},
+{
+"args":"[{'a': 'C', 'b': 'C'}]",
+"e":"Mi4w"
+},
+{
+"args":"[{'x': 'D', 'y': 'F'}]",
+"e":"MC41"
+},
+{
+"args":"[{'m': 'B'}]",
+"e":"My4w"
+},
+{
+"args":"[{'a': 'A', 'b': 'F'}]",
+"e":"Mi4w"
+},
+{
+"args":"[{'p': 'A', 'q': 'B', 'r': 'C', 's': 'D', 't': 'F'}]",
+"e":"Mi4w"
+}
+]
+},
+"v1_p07":{
+"title":"Best Book",
+"function":"highest_rated",
+"mode":"return",
+"match":"exact",
+"signature":"def highest_rated(books):",
+"cases":[
+{
+"args":"[[{'title': 'T1', 'author': 'Zevin', 'rating': 4.18}, {'title': 'T2', 'author': 'Abdurraqib', 'rating': 4.47}, {'title': 'T3', 'author': 'Reid', 'rating': 4.4}]]",
+"e":"eyd0aXRsZSc6ICdUMicsICdhdXRob3InOiAnQWJkdXJyYXFpYicsICdyYXRpbmcnOiA0LjQ3fQ=="
+},
+{
+"args":"[[{'title': 'Only', 'author': 'A', 'rating': 3.0}]]",
+"e":"eyd0aXRsZSc6ICdPbmx5JywgJ2F1dGhvcic6ICdBJywgJ3JhdGluZyc6IDMuMH0=",
+"edge":true
+},
+{
+"args":"[[{'title': 'A', 'author': 'x', 'rating': 1.0}, {'title': 'B', 'author': 'y', 'rating': 5.0}]]",
+"e":"eyd0aXRsZSc6ICdCJywgJ2F1dGhvcic6ICd5JywgJ3JhdGluZyc6IDUuMH0="
+},
+{
+"args":"[[{'title': 'A', 'author': 'x', 'rating': 2.5}, {'title': 'B', 'author': 'y', 'rating': 2.4}, {'title': 'C', 'author': 'z', 'rating': 2.6}]]",
+"e":"eyd0aXRsZSc6ICdDJywgJ2F1dGhvcic6ICd6JywgJ3JhdGluZyc6IDIuNn0="
+},
+{
+"args":"[[{'title': 'Low', 'author': 'a', 'rating': 0.5}, {'title': 'Mid', 'author': 'b', 'rating': 3.3}, {'title': 'High', 'author': 'c', 'rating': 4.9}]]",
+"e":"eyd0aXRsZSc6ICdIaWdoJywgJ2F1dGhvcic6ICdjJywgJ3JhdGluZyc6IDQuOX0="
+}
+]
+},
+"v1_p08":{
+"title":"Index-Value Map",
+"function":"index_to_value_map",
+"mode":"return",
+"match":"exact",
+"signature":"def index_to_value_map(lst):",
+"cases":[
+{
+"args":"[['apple', 'banana', 'cherry']]",
+"e":"ezA6ICdhcHBsZScsIDE6ICdiYW5hbmEnLCAyOiAnY2hlcnJ5J30="
+},
+{
+"args":"[['only']]",
+"e":"ezA6ICdvbmx5J30="
+},
+{
+"args":"[[]]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"ezA6IDEwLCAxOiAyMCwgMjogMzB9"
+},
+{
+"args":"[['a']]",
+"e":"ezA6ICdhJ30="
+},
+{
+"args":"[[True, False]]",
+"e":"ezA6IFRydWUsIDE6IEZhbHNlfQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"ezA6IDEsIDE6IDIsIDI6IDMsIDM6IDQsIDQ6IDV9"
+},
+{
+"args":"[['x', 'y']]",
+"e":"ezA6ICd4JywgMTogJ3knfQ=="
+},
+{
+"args":"[[0]]",
+"e":"ezA6IDB9"
+},
+{
+"args":"[['p', 'q', 'r', 's']]",
+"e":"ezA6ICdwJywgMTogJ3EnLCAyOiAncicsIDM6ICdzJ30="
+},
+{
+"args":"[['cd', 'b']]",
+"e":"ezA6ICdjZCcsIDE6ICdiJ30="
+},
+{
+"args":"[['b', 'b']]",
+"e":"ezA6ICdiJywgMTogJ2InfQ=="
+},
+{
+"args":"[['a', 'b']]",
+"e":"ezA6ICdhJywgMTogJ2InfQ=="
+},
+{
+"args":"[['cd']]",
+"e":"ezA6ICdjZCd9"
+},
+{
+"args":"[['ef']]",
+"e":"ezA6ICdlZid9"
+}
+]
+},
+"v2_p01":{
+"title":"Is Monotonic",
+"function":"is_monotonic",
+"mode":"return",
+"match":"exact",
+"signature":"def is_monotonic(nums):",
+"cases":[
+{
+"args":"[[1, 2, 2, 3, 10]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[12, 9, 8, 3, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 9, 8, 3, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[5, 4, 3, 2, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 1, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 3, 2, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[9, 12, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 5, 8, 5, 9]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 6]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 12, 11, 9]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 10, 12, 1]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p02":{
+"title":"Student Directory",
+"function":"student_directory",
+"mode":"return",
+"match":"exact",
+"signature":"def student_directory(student_names):",
+"cases":[
+{
+"args":"[['Ada Lovelace', 'Tu Youyou', 'Mae Jemison', 'Rajeshwari Chatterjee', 'Alan Turing']]",
+"e":"eydBZGEgTG92ZWxhY2UnOiAxLCAnVHUgWW91eW91JzogMiwgJ01hZSBKZW1pc29uJzogMywgJ1JhamVzaHdhcmkgQ2hhdHRlcmplZSc6IDQsICdBbGFuIFR1cmluZyc6IDV9"
+},
+{
+"args":"[['Solo']]",
+"e":"eydTb2xvJzogMX0="
+},
+{
+"args":"[[]]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[['A', 'B']]",
+"e":"eydBJzogMSwgJ0InOiAyfQ=="
+},
+{
+"args":"[['x', 'y', 'z']]",
+"e":"eyd4JzogMSwgJ3knOiAyLCAneic6IDN9"
+},
+{
+"args":"[['one']]",
+"e":"eydvbmUnOiAxfQ=="
+},
+{
+"args":"[['p', 'q']]",
+"e":"eydwJzogMSwgJ3EnOiAyfQ=="
+},
+{
+"args":"[['Grace', 'Alan']]",
+"e":"eydHcmFjZSc6IDEsICdBbGFuJzogMn0="
+},
+{
+"args":"[['a', 'b', 'c', 'd']]",
+"e":"eydhJzogMSwgJ2InOiAyLCAnYyc6IDMsICdkJzogNH0="
+},
+{
+"args":"[['Only Name']]",
+"e":"eydPbmx5IE5hbWUnOiAxfQ=="
+},
+{
+"args":"[['cd']]",
+"e":"eydjZCc6IDF9"
+},
+{
+"args":"[['ef', 'b', 'cd', 'b', 'ef']]",
+"e":"eydlZic6IDUsICdiJzogNCwgJ2NkJzogM30="
+},
+{
+"args":"[['b']]",
+"e":"eydiJzogMX0="
+},
+{
+"args":"[['a', 'cd', 'cd']]",
+"e":"eydhJzogMSwgJ2NkJzogM30="
+},
+{
+"args":"[['b', 'ef']]",
+"e":"eydiJzogMSwgJ2VmJzogMn0="
+}
+]
+},
+"v2_p03":{
+"title":"Dictionary Description",
+"function":"get_description",
+"mode":"stdout",
+"match":"exact",
+"signature":"def get_description(info, keys):",
+"cases":[
+{
+"args":"[{'name': 'Tom', 'age': '30', 'occupation': 'engineer'}, ['name', 'occupation', 'salary']]",
+"e":"J1RvbVxuZW5naW5lZXJcbk5vbmUn"
+},
+{
+"args":"[{'a': '1'}, ['a']]",
+"e":"JzEn"
+},
+{
+"args":"[{'a': '1'}, ['b']]",
+"e":"J05vbmUn"
+},
+{
+"args":"[{}, ['x']]",
+"e":"J05vbmUn",
+"edge":true
+},
+{
+"args":"[{'k': 'v', 'm': 'n'}, ['k', 'm']]",
+"e":"J3Zcbm4n"
+},
+{
+"args":"[{'k': 'v'}, ['k', 'z']]",
+"e":"J3Zcbk5vbmUn"
+},
+{
+"args":"[{'x': 'y'}, ['missing', 'x']]",
+"e":"J05vbmVcbnkn"
+},
+{
+"args":"[{'a': '1', 'b': '2'}, ['a', 'b', 'c']]",
+"e":"JzFcbjJcbk5vbmUn"
+},
+{
+"args":"[{'only': 'one'}, ['only']]",
+"e":"J29uZSc="
+},
+{
+"args":"[{'p': 'q'}, ['p', 'p']]",
+"e":"J3FcbnEn"
+}
+]
+},
+"v2_p04":{
+"title":"Sum Even Values",
+"function":"sum_even_values",
+"mode":"return",
+"match":"exact",
+"signature":"def sum_even_values(dictionary):",
+"cases":[
+{
+"args":"[{'a': 4, 'b': 1, 'c': 2, 'd': 8}]",
+"e":"MTQ="
+},
+{
+"args":"[{'a': 1, 'b': 3}]",
+"e":"MA=="
+},
+{
+"args":"[{}]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[{'a': 2}]",
+"e":"Mg=="
+},
+{
+"args":"[{'a': 0, 'b': 5}]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[{'x': 10, 'y': 20, 'z': 30}]",
+"e":"NjA="
+},
+{
+"args":"[{'a': -2, 'b': 3}]",
+"e":"LTI="
+},
+{
+"args":"[{'a': 7}]",
+"e":"MA=="
+},
+{
+"args":"[{'a': 6, 'b': 6, 'c': 6}]",
+"e":"MTg="
+},
+{
+"args":"[{'a': 1, 'b': 2, 'c': 3, 'd': 4}]",
+"e":"Ng=="
+}
+]
+},
+"v2_p05":{
+"title":"Merge Catalogs",
+"function":"merge_catalogs",
+"mode":"return",
+"match":"exact",
+"signature":"def merge_catalogs(catalog1, catalog2):",
+"cases":[
+{
+"args":"[{'apple': 1.0, 'banana': 0.5}, {'banana': 0.75, 'cherry': 1.25}]",
+"e":"eydhcHBsZSc6IDEuMCwgJ2JhbmFuYSc6IDAuNzUsICdjaGVycnknOiAxLjI1fQ=="
+},
+{
+"args":"[{}, {'a': 1.0}]",
+"e":"eydhJzogMS4wfQ==",
+"edge":true
+},
+{
+"args":"[{'a': 2.0}, {}]",
+"e":"eydhJzogMi4wfQ==",
+"edge":true
+},
+{
+"args":"[{'x': 1.0}, {'x': 9.0}]",
+"e":"eyd4JzogOS4wfQ=="
+},
+{
+"args":"[{'a': 1.0}, {'b': 2.0}]",
+"e":"eydhJzogMS4wLCAnYic6IDIuMH0="
+},
+{
+"args":"[{}, {}]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[{'p': 1.0, 'q': 2.0}, {'q': 20.0}]",
+"e":"eydwJzogMS4wLCAncSc6IDIwLjB9"
+},
+{
+"args":"[{'milk': 3.5}, {'milk': 3.0, 'eggs': 2.0}]",
+"e":"eydtaWxrJzogMy4wLCAnZWdncyc6IDIuMH0="
+},
+{
+"args":"[{'a': 1.0, 'b': 2.0}, {'a': 10.0, 'b': 20.0}]",
+"e":"eydhJzogMTAuMCwgJ2InOiAyMC4wfQ=="
+},
+{
+"args":"[{'z': 0.99}, {'y': 1.5}]",
+"e":"eyd6JzogMC45OSwgJ3knOiAxLjV9"
+}
+]
+},
+"v2_p06":{
+"title":"Items to Restock",
+"function":"get_items_to_restock",
+"mode":"return",
+"match":"exact",
+"signature":"def get_items_to_restock(products, restock_threshold):",
+"cases":[
+{
+"args":"[{'Product1': 10, 'Product2': 2, 'Product3': 5, 'Product4': 3}, 5]",
+"e":"WydQcm9kdWN0MicsICdQcm9kdWN0NCdd"
+},
+{
+"args":"[{}, 5]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[{'a': 10}, 5]",
+"e":"W10="
+},
+{
+"args":"[{'a': 1, 'b': 2}, 5]",
+"e":"WydhJywgJ2InXQ=="
+},
+{
+"args":"[{'a': 5, 'b': 6}, 5]",
+"e":"W10="
+},
+{
+"args":"[{'x': 0}, 1]",
+"e":"Wyd4J10="
+},
+{
+"args":"[{'p': 100, 'q': 1}, 50]",
+"e":"WydxJ10="
+},
+{
+"args":"[{'a': 3}, 3]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[{'a': 2, 'b': 8, 'c': 1}, 5]",
+"e":"WydhJywgJ2MnXQ=="
+},
+{
+"args":"[{'only': 4}, 10]",
+"e":"Wydvbmx5J10="
+}
+]
+},
+"v2_p07":{
+"title":"Best Movie Genre",
+"function":"most_popular_genre",
+"mode":"return",
+"match":"exact",
+"signature":"def most_popular_genre(movies):",
+"cases":[
+{
+"args":"[[{'title': 'Inception', 'genre': 'Science Fiction', 'rating': 8.8}, {'title': 'The Matrix', 'genre': 'Science Fiction', 'rating': 8.7}, {'title': 'Pride and Prejudice', 'genre': 'Romance', 'rating': 7.8}, {'title': 'Sense and Sensibility', 'genre': 'Romance', 'rating': 7.7}]]",
+"e":"J1NjaWVuY2UgRmljdGlvbic="
+},
+{
+"args":"[[{'title': 'A', 'genre': 'Action', 'rating': 9.0}]]",
+"e":"J0FjdGlvbic=",
+"edge":true
+},
+{
+"args":"[[{'title': 'A', 'genre': 'X', 'rating': 5.0}, {'title': 'B', 'genre': 'Y', 'rating': 6.0}]]",
+"e":"J1kn"
+},
+{
+"args":"[[{'title': 'A', 'genre': 'Drama', 'rating': 7.0}, {'title': 'B', 'genre': 'Drama', 'rating': 9.0}, {'title': 'C', 'genre': 'Comedy', 'rating': 6.0}]]",
+"e":"J0RyYW1hJw=="
+},
+{
+"args":"[[{'title': 'A', 'genre': 'P', 'rating': 1.0}, {'title': 'B', 'genre': 'Q', 'rating': 2.0}, {'title': 'C', 'genre': 'Q', 'rating': 4.0}]]",
+"e":"J1En"
+}
+]
+},
+"v2_p08":{
+"title":"Quality Control",
+"function":"quality_control",
+"mode":"return",
+"match":"exact",
+"signature":"def quality_control(product_scores, threshold):",
+"cases":[
+{
+"args":"[{'x0123': 75, 'x0124': 40, 'x0125': 90, 'x0126': 55}, 60]",
+"e":"eyd4MDEyMyc6ICdwYXNzJywgJ3gwMTI0JzogJ2ZhaWwnLCAneDAxMjUnOiAncGFzcycsICd4MDEyNic6ICdmYWlsJ30="
+},
+{
+"args":"[{}, 50]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[{'a': 60}, 60]",
+"e":"eydhJzogJ3Bhc3MnfQ==",
+"edge":true
+},
+{
+"args":"[{'a': 59}, 60]",
+"e":"eydhJzogJ2ZhaWwnfQ=="
+},
+{
+"args":"[{'a': 100, 'b': 0}, 50]",
+"e":"eydhJzogJ3Bhc3MnLCAnYic6ICdmYWlsJ30="
+},
+{
+"args":"[{'p': 50, 'q': 50}, 50]",
+"e":"eydwJzogJ3Bhc3MnLCAncSc6ICdwYXNzJ30="
+},
+{
+"args":"[{'only': 30}, 40]",
+"e":"eydvbmx5JzogJ2ZhaWwnfQ=="
+},
+{
+"args":"[{'a': 90, 'b': 80, 'c': 70}, 75]",
+"e":"eydhJzogJ3Bhc3MnLCAnYic6ICdwYXNzJywgJ2MnOiAnZmFpbCd9"
+},
+{
+"args":"[{'z': 1}, 2]",
+"e":"eyd6JzogJ2ZhaWwnfQ=="
+},
+{
+"args":"[{'m': 100}, 100]",
+"e":"eydtJzogJ3Bhc3MnfQ=="
+}
+]
+},
+"v3_p01":{
+"title":"Mountain Peak",
+"function":"peak_index_in_mountain_list",
+"mode":"return",
+"match":"exact",
+"signature":"def peak_index_in_mountain_list(lst):",
+"cases":[
+{
+"args":"[[0, 3, 8, 0]]",
+"e":"Mg=="
+},
+{
+"args":"[[0, 1, 0]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1, 3, 5, 4, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[0, 10, 5]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3, 2, 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[2, 4, 6, 8, 0]]",
+"e":"Mw=="
+},
+{
+"args":"[[0, 5, 10, 15, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[3, 7, 2]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 100, 50, 25]]",
+"e":"MQ=="
+},
+{
+"args":"[[0, 2, 4, 6, 8, 1]]",
+"e":"NA=="
+}
+]
+},
+"v3_p02":{
+"title":"Build Inventory",
+"function":"build_inventory",
+"mode":"return",
+"match":"exact",
+"signature":"def build_inventory(product_names, product_prices):",
+"cases":[
+{
+"args":"[['Apple', 'Banana', 'Orange'], [0.99, 0.5, 0.75]]",
+"e":"eydBcHBsZSc6IDAuOTksICdCYW5hbmEnOiAwLjUsICdPcmFuZ2UnOiAwLjc1fQ=="
+},
+{
+"args":"[['Solo'], [1.0]]",
+"e":"eydTb2xvJzogMS4wfQ=="
+},
+{
+"args":"[[], []]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[['a', 'b'], [1.5, 2.5]]",
+"e":"eydhJzogMS41LCAnYic6IDIuNX0="
+},
+{
+"args":"[['x'], [0.0]]",
+"e":"eyd4JzogMC4wfQ=="
+},
+{
+"args":"[['p', 'q', 'r'], [1.0, 2.0, 3.0]]",
+"e":"eydwJzogMS4wLCAncSc6IDIuMCwgJ3InOiAzLjB9"
+},
+{
+"args":"[['Milk'], [3.49]]",
+"e":"eydNaWxrJzogMy40OX0="
+},
+{
+"args":"[['a', 'b', 'c', 'd'], [1, 2, 3, 4]]",
+"e":"eydhJzogMSwgJ2InOiAyLCAnYyc6IDMsICdkJzogNH0="
+},
+{
+"args":"[['Egg'], [0.25]]",
+"e":"eydFZ2cnOiAwLjI1fQ=="
+},
+{
+"args":"[['One', 'Two'], [9.99, 19.99]]",
+"e":"eydPbmUnOiA5Ljk5LCAnVHdvJzogMTkuOTl9"
+},
+{
+"args":"[['a', 'b'], [4, 3]]",
+"e":"eydhJzogNCwgJ2InOiAzfQ=="
+},
+{
+"args":"[['a'], [4, 4, 4, 4]]",
+"e":"eydhJzogNH0="
+},
+{
+"args":"[['b', 'cd', 'b', 'b'], [1, 2, 3, 3]]",
+"e":"eydiJzogMywgJ2NkJzogMn0="
+},
+{
+"args":"[['ef', 'cd'], [4, 2, 3]]",
+"e":"eydlZic6IDQsICdjZCc6IDJ9"
+},
+{
+"args":"[['a', 'b', 'b', 'a'], [3, 2, 2, 4]]",
+"e":"eydhJzogNCwgJ2InOiAyfQ=="
+}
+]
+},
+"v3_p03":{
+"title":"Update or Warn",
+"function":"update_or_warn",
+"mode":"mutates_arg0",
+"match":"exact",
+"signature":"def update_or_warn(records, item, update_value):",
+"cases":[
+{
+"args":"[{'apple': 1, 'banana': 2, 'orange': 3}, 'grape', 4]",
+"e":"eydhcHBsZSc6IDEsICdiYW5hbmEnOiAyLCAnb3JhbmdlJzogM30=",
+"edge":true
+},
+{
+"args":"[{'apple': 1, 'banana': 2, 'orange': 3}, 'banana', 5]",
+"e":"eydhcHBsZSc6IDEsICdiYW5hbmEnOiA1LCAnb3JhbmdlJzogM30="
+},
+{
+"args":"[{'a': 1}, 'a', 99]",
+"e":"eydhJzogOTl9"
+},
+{
+"args":"[{'a': 1}, 'z', 99]",
+"e":"eydhJzogMX0="
+},
+{
+"args":"[{}, 'x', 1]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[{'k': 5, 'm': 6}, 'm', 60]",
+"e":"eydrJzogNSwgJ20nOiA2MH0="
+},
+{
+"args":"[{'k': 5}, 'missing', 0]",
+"e":"eydrJzogNX0="
+},
+{
+"args":"[{'p': 1, 'q': 2}, 'p', 100]",
+"e":"eydwJzogMTAwLCAncSc6IDJ9"
+},
+{
+"args":"[{'only': 1}, 'only', 2]",
+"e":"eydvbmx5JzogMn0="
+},
+{
+"args":"[{'a': 0, 'b': 0}, 'b', 7]",
+"e":"eydhJzogMCwgJ2InOiA3fQ=="
+}
+]
+},
+"v3_p04":{
+"title":"Attendance Rate",
+"function":"attendance_rate",
+"mode":"return",
+"match":"exact",
+"signature":"def attendance_rate(attendance_list):",
+"cases":[
+{
+"args":"[{'Bluey': 'Present', 'Bingo': 'Absent', 'Snickers': 'Present', 'Winton': 'Absent'}]",
+"e":"NTAuMA=="
+},
+{
+"args":"[{'a': 'Present'}]",
+"e":"MTAwLjA=",
+"edge":true
+},
+{
+"args":"[{'a': 'Absent'}]",
+"e":"MC4w",
+"edge":true
+},
+{
+"args":"[{'a': 'Present', 'b': 'Present'}]",
+"e":"MTAwLjA="
+},
+{
+"args":"[{'a': 'Absent', 'b': 'Absent'}]",
+"e":"MC4w"
+},
+{
+"args":"[{'a': 'Present', 'b': 'Absent', 'c': 'Present'}]",
+"e":"NjYuNjY2NjY2NjY2NjY2NjY="
+},
+{
+"args":"[{'x': 'Present', 'y': 'Present', 'z': 'Present', 'w': 'Absent'}]",
+"e":"NzUuMA=="
+},
+{
+"args":"[{'solo': 'Absent'}]",
+"e":"MC4w"
+},
+{
+"args":"[{'a': 'Present', 'b': 'Absent'}]",
+"e":"NTAuMA=="
+},
+{
+"args":"[{'p': 'Present', 'q': 'Present', 'r': 'Absent', 's': 'Absent', 't': 'Present'}]",
+"e":"NjAuMA=="
+}
+]
+},
+"v3_p05":{
+"title":"Average Book Ratings",
+"function":"average_book_ratings",
+"mode":"return",
+"match":"exact",
+"signature":"def average_book_ratings(book_ratings):",
+"cases":[
+{
+"args":"[{'The Great Gatsby': [4.5, 3.0, 5.0], 'To Kill a Mockingbird': [4.8, 5.0, 4.0, 4.9]}]",
+"e":"eydUaGUgR3JlYXQgR2F0c2J5JzogNC4xNjY2NjY2NjY2NjY2NjcsICdUbyBLaWxsIGEgTW9ja2luZ2JpcmQnOiA0LjY3NX0="
+},
+{
+"args":"[{'Solo': [3.0]}]",
+"e":"eydTb2xvJzogMy4wfQ==",
+"edge":true
+},
+{
+"args":"[{'A': [1.0, 2.0]}]",
+"e":"eydBJzogMS41fQ=="
+},
+{
+"args":"[{'X': [5.0, 5.0, 5.0]}]",
+"e":"eydYJzogNS4wfQ=="
+},
+{
+"args":"[{'A': [0.0], 'B': [10.0]}]",
+"e":"eydBJzogMC4wLCAnQic6IDEwLjB9"
+},
+{
+"args":"[{'Book': [3.5, 4.5]}]",
+"e":"eydCb29rJzogNC4wfQ=="
+},
+{
+"args":"[{'P': [1.0, 2.0, 3.0]}]",
+"e":"eydQJzogMi4wfQ=="
+},
+{
+"args":"[{'A': [4.0], 'B': [2.0], 'C': [3.0]}]",
+"e":"eydBJzogNC4wLCAnQic6IDIuMCwgJ0MnOiAzLjB9"
+},
+{
+"args":"[{'Long': [1.0, 2.0, 3.0, 4.0, 5.0]}]",
+"e":"eydMb25nJzogMy4wfQ=="
+},
+{
+"args":"[{'Half': [2.0, 3.0]}]",
+"e":"eydIYWxmJzogMi41fQ=="
+}
+]
+},
+"v3_p06":{
+"title":"Odd Keys Even Values",
+"function":"odd_keys_even_values",
+"mode":"return",
+"match":"exact",
+"signature":"def odd_keys_even_values(dictionary):",
+"cases":[
+{
+"args":"[{1: 2, 2: 6, 3: 5, 4: 4, 5: 8}]",
+"e":"WzEsIDVd"
+},
+{
+"args":"[{1: 1}]",
+"e":"W10="
+},
+{
+"args":"[{2: 2}]",
+"e":"W10="
+},
+{
+"args":"[{1: 2}]",
+"e":"WzFd"
+},
+{
+"args":"[{}]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[{3: 4, 5: 6, 7: 8}]",
+"e":"WzMsIDUsIDdd"
+},
+{
+"args":"[{1: 1, 2: 2, 3: 3}]",
+"e":"W10="
+},
+{
+"args":"[{9: 10, 11: 13}]",
+"e":"Wzld"
+},
+{
+"args":"[{1: 4, 3: 6, 5: 7}]",
+"e":"WzEsIDNd"
+},
+{
+"args":"[{2: 4, 4: 6}]",
+"e":"W10="
+}
+]
+},
+"v3_p07":{
+"title":"Best Team",
+"function":"team_with_best_average_score",
+"mode":"return",
+"match":"exact",
+"signature":"def team_with_best_average_score(games):",
+"cases":[
+{
+"args":"[[{'team_name': 'Lions', 'score': 23}, {'team_name': 'Tigers', 'score': 30}, {'team_name': 'Lions', 'score': 27}, {'team_name': 'Bears', 'score': 20}, {'team_name': 'Tigers', 'score': 24}, {'team_name': 'Bears', 'score': 22}]]",
+"e":"J1RpZ2Vycyc="
+},
+{
+"args":"[[{'team_name': 'Solo', 'score': 10}]]",
+"e":"J1NvbG8n",
+"edge":true
+},
+{
+"args":"[[{'team_name': 'A', 'score': 5}, {'team_name': 'B', 'score': 9}]]",
+"e":"J0In"
+},
+{
+"args":"[[{'team_name': 'X', 'score': 10}, {'team_name': 'X', 'score': 20}, {'team_name': 'Y', 'score': 14}]]",
+"e":"J1gn"
+},
+{
+"args":"[[{'team_name': 'P', 'score': 1}, {'team_name': 'Q', 'score': 2}, {'team_name': 'Q', 'score': 4}, {'team_name': 'P', 'score': 2}]]",
+"e":"J1En"
+}
+]
+},
+"v3_p08":{
+"title":"First Unique Items",
+"function":"find_unique_items",
+"mode":"return",
+"match":"exact",
+"signature":"def find_unique_items(list_a, list_b):",
+"cases":[
+{
+"args":"[['apple', 'banana', 'carrot'], ['apple', 'banana', 'date']]",
+"e":"eydkYXRlJzogRmFsc2UsICdjYXJyb3QnOiBUcnVlfQ=="
+},
+{
+"args":"[['a'], ['a']]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[['a'], ['b']]",
+"e":"eydiJzogRmFsc2UsICdhJzogVHJ1ZX0="
+},
+{
+"args":"[[], ['x']]",
+"e":"eyd4JzogRmFsc2V9"
+},
+{
+"args":"[['x'], []]",
+"e":"eyd4JzogVHJ1ZX0="
+},
+{
+"args":"[['a', 'b', 'c'], ['c', 'd', 'e']]",
+"e":"eydkJzogRmFsc2UsICdhJzogVHJ1ZSwgJ2InOiBUcnVlLCAnZSc6IEZhbHNlfQ=="
+},
+{
+"args":"[['same'], ['same']]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[['1', '2'], ['2', '3']]",
+"e":"eycxJzogVHJ1ZSwgJzMnOiBGYWxzZX0="
+},
+{
+"args":"[['only_a'], ['only_b']]",
+"e":"eydvbmx5X2InOiBGYWxzZSwgJ29ubHlfYSc6IFRydWV9"
+},
+{
+"args":"[['p', 'q'], ['p', 'q']]",
+"e":"e30="
+},
+{
+"args":"[['ef', 'a', 'a'], ['ef', 'cd']]",
+"e":"eydjZCc6IEZhbHNlLCAnYSc6IFRydWV9"
+},
+{
+"args":"[['b', 'ef', 'ef'], ['a', 'cd']]",
+"e":"eydjZCc6IEZhbHNlLCAnYic6IFRydWUsICdhJzogRmFsc2UsICdlZic6IFRydWV9"
+},
+{
+"args":"[['b', 'cd', 'b'], ['cd', 'cd']]",
+"e":"eydiJzogVHJ1ZX0="
+},
+{
+"args":"[['cd', 'b', 'cd'], ['ef', 'b']]",
+"e":"eydjZCc6IFRydWUsICdlZic6IEZhbHNlfQ=="
+},
+{
+"args":"[['b', 'ef'], ['cd', 'cd', 'cd']]",
+"e":"eydjZCc6IEZhbHNlLCAnYic6IFRydWUsICdlZic6IFRydWV9"
+}
+]
+}
+}
+}

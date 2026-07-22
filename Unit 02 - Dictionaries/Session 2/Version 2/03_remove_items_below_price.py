@@ -22,3 +22,24 @@ print("  expected:", ["apple", "banana"], "| got:", remove_items_below_price({"a
 
 print("Test 4 - single item removed")
 print("  expected:", ["cheap"], "| got:", remove_items_below_price({"cheap": 0.50, "pricey": 9.99}, 1.00))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(remove_items_below_price)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'apple': 1.99, 'banana': 0.99, 'cherry': 3.49, 'date': 0.69}, 1.0, expected=['banana', 'date'])   # checks the value your code returns against this example

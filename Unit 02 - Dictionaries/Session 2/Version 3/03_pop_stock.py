@@ -28,3 +28,24 @@ print("  expected:", "Not enough stock.", "| got:", pop_stock({"candy": 5}, "can
 
 print("Test 4 - removing zero quantity (dict unchanged)")
 print("  expected:", {"candy": 5}, "| got:", pop_stock({"candy": 5}, "candy", 0))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(pop_stock)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'chocolate': 20, 'candy': 5, 'chips': 10}, 'candy', 2, expected={'chocolate': 20, 'candy': 3, 'chips': 10})   # checks the value your code returns against this example

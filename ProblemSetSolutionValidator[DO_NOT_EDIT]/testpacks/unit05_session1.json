@@ -1,0 +1,1190 @@
+{
+"unit":5,
+"session":1,
+"problems":{
+"v1_p01":{
+"title":"Pokemon Class",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Pokemon():\n    def __init__(self, name, types):\n        self.name = name\n        self.types = types\n        self.is_caught = False\n\n\n# Create a Pokemon named 'Pikachu' with types ['Electric'],\n# stored in a variable named my_pokemon:\nmy_pokemon = None  # your code",
+"filename":"01_my_pokemon",
+"cases":[
+{
+"code":"UkVTVUxUID0gbXlfcG9rZW1vbi5uYW1l",
+"observe":"return",
+"label":"my_pokemon.name",
+"e":"J1Bpa2FjaHUn"
+},
+{
+"code":"UkVTVUxUID0gbXlfcG9rZW1vbi50eXBlcw==",
+"observe":"return",
+"label":"my_pokemon.types",
+"e":"WydFbGVjdHJpYydd"
+},
+{
+"code":"UkVTVUxUID0gbXlfcG9rZW1vbi5pc19jYXVnaHQ=",
+"observe":"return",
+"label":"my_pokemon.is_caught",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p02":{
+"title":"Create Squirtle / Is Caught",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Pokemon():\n    def __init__(self, name, types):\n        self.name = name\n        self.types = types\n        self.is_caught = False\n    def print_pokemon(self):\n        print({'name': self.name, 'types': self.types, 'is_caught': self.is_caught})\n\n\n# Problem 2: create `squirtle` (name 'Squirtle', types ['Water']) and\n#            call squirtle.print_pokemon().\n# Problem 3: update squirtle so is_caught is True, then print again.\nsquirtle = None  # your code",
+"filename":"02_to_03_squirtle",
+"cases":[
+{
+"code":"UkVTVUxUID0gc3F1aXJ0bGUubmFtZQ==",
+"observe":"return",
+"label":"squirtle.name",
+"e":"J1NxdWlydGxlJw=="
+},
+{
+"code":"UkVTVUxUID0gW3QubG93ZXIoKSBmb3IgdCBpbiBzcXVpcnRsZS50eXBlc10=",
+"observe":"return",
+"label":"squirtle types (any case)",
+"e":"Wyd3YXRlcidd"
+},
+{
+"code":"UkVTVUxUID0gc3F1aXJ0bGUuaXNfY2F1Z2h0",
+"observe":"return",
+"label":"squirtle.is_caught is True",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v1_p04":{
+"title":"Catch Pokemon",
+"function":"Pokemon",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Pokemon():",
+"student_code":"class Pokemon():\n    def __init__(self, name, types):\n        self.name = name\n        self.types = types\n        self.is_caught = False\n\n    def catch(self):\n        pass  # write your solution here",
+"filename":"04_catch",
+"cases":[
+{
+"code":"cCA9IFBva2Vtb24oJ1JhdHRhdGEnLCBbJ05vcm1hbCddKQpwLmNhdGNoKCkKUkVTVUxUID0gcC5pc19jYXVnaHQ=",
+"observe":"return",
+"label":"after catch(), is_caught is True",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"cCA9IFBva2Vtb24oJ1Bpa2FjaHUnLCBbJ0VsZWN0cmljJ10pClJFU1VMVCA9IHAuY2F0Y2goKQ==",
+"observe":"return",
+"label":"catch() returns None",
+"e":"Tm9uZQ=="
+},
+{
+"code":"cCA9IFBva2Vtb24oJ0J1bGJhc2F1cicsIFsnR3Jhc3MnXSkKYiA9IHAuaXNfY2F1Z2h0CnAuY2F0Y2goKQpSRVNVTFQgPSBbYiwgcC5pc19jYXVnaHRd",
+"observe":"return",
+"label":"is_caught: False before, True after",
+"e":"W0ZhbHNlLCBUcnVlXQ=="
+},
+{
+"code":"cCA9IFBva2Vtb24oJ0VldmVlJywgWydOb3JtYWwnXSkKcC5jYXRjaCgpCnAuY2F0Y2goKQpSRVNVTFQgPSBwLmlzX2NhdWdodA==",
+"observe":"return",
+"label":"catch() twice stays True",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v1_p05":{
+"title":"Choose Pokemon",
+"function":"Pokemon",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Pokemon():",
+"student_code":"class Pokemon():\n    def __init__(self, name, types):\n        self.name = name\n        self.types = types\n        self.is_caught = False\n\n    def choose(self):\n        pass  # write your solution here",
+"filename":"05_choose",
+"cases":[
+{
+"code":"cCA9IFBva2Vtb24oJ1JhdHRhdGEnLCBbJ05vcm1hbCddKQpwLmNob29zZSgp",
+"observe":"stdout",
+"label":"wild Pokemon message",
+"e":"J1JhdHRhdGEgaXMgd2lsZCEgQ2F0Y2ggdGhlbSBpZiB5b3UgY2FuISc="
+},
+{
+"code":"cCA9IFBva2Vtb24oJ1JhdHRhdGEnLCBbJ05vcm1hbCddKQpwLmlzX2NhdWdodCA9IFRydWUKcC5jaG9vc2UoKQ==",
+"observe":"stdout",
+"label":"caught Pokemon message",
+"e":"J1JhdHRhdGEgSSBjaG9vc2UgeW91ISc="
+},
+{
+"code":"cCA9IFBva2Vtb24oJ1Bpa2FjaHUnLCBbJ0VsZWN0cmljJ10pCnAuY2hvb3NlKCkKcC5pc19jYXVnaHQgPSBUcnVlCnAuY2hvb3NlKCk=",
+"observe":"stdout",
+"label":"wild then caught",
+"e":"J1Bpa2FjaHUgaXMgd2lsZCEgQ2F0Y2ggdGhlbSBpZiB5b3UgY2FuIVxuUGlrYWNodSBJIGNob29zZSB5b3UhJw=="
+},
+{
+"code":"cCA9IFBva2Vtb24oJ0NoYXJpemFyZCcsIFsnRmlyZSddKQpwLmNob29zZSgp",
+"observe":"stdout",
+"label":"different name, wild",
+"e":"J0NoYXJpemFyZCBpcyB3aWxkISBDYXRjaCB0aGVtIGlmIHlvdSBjYW4hJw=="
+}
+]
+},
+"v1_p06":{
+"title":"Add Pokemon Type",
+"function":"Pokemon",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Pokemon():",
+"student_code":"class Pokemon():\n    def __init__(self, name, types):\n        self.name = name\n        self.types = types\n        self.is_caught = False\n\n    def add_type(self, new_type):\n        pass  # write your solution here",
+"filename":"06_add_type",
+"cases":[
+{
+"code":"cCA9IFBva2Vtb24oJ0ppZ2dseXB1ZmYnLCBbJ05vcm1hbCddKQpwLmFkZF90eXBlKCdGYWlyeScpClJFU1VMVCA9IHAudHlwZXM=",
+"observe":"return",
+"label":"add_type('Fairy')",
+"e":"WydOb3JtYWwnLCAnRmFpcnknXQ=="
+},
+{
+"code":"cCA9IFBva2Vtb24oJ1gnLCBbXSkKcC5hZGRfdHlwZSgnV2F0ZXInKQpSRVNVTFQgPSBwLnR5cGVz",
+"observe":"return",
+"label":"add to empty types",
+"e":"WydXYXRlcidd"
+},
+{
+"code":"cCA9IFBva2Vtb24oJ1knLCBbJ0dyYXNzJ10pCnAuYWRkX3R5cGUoJ1BvaXNvbicpCnAuYWRkX3R5cGUoJ0ZseWluZycpClJFU1VMVCA9IHAudHlwZXM=",
+"observe":"return",
+"label":"add two types in order",
+"e":"WydHcmFzcycsICdQb2lzb24nLCAnRmx5aW5nJ10="
+},
+{
+"code":"cCA9IFBva2Vtb24oJ1onLCBbJ0ZpcmUnLCAnRmx5aW5nJ10pCnAuYWRkX3R5cGUoJ0RyYWdvbicpClJFU1VMVCA9IHAudHlwZXM=",
+"observe":"return",
+"label":"existing types preserved",
+"e":"WydGaXJlJywgJ0ZseWluZycsICdEcmFnb24nXQ=="
+}
+]
+},
+"v1_p07":{
+"title":"Get Pokemon",
+"function":"get_by_type",
+"mode":"scenario",
+"match":"exact",
+"signature":"def get_by_type():",
+"student_code":"class Pokemon():\n    def __init__(self, name, types):\n        self.name = name\n        self.types = types\n        self.is_caught = False\n\n\ndef get_by_type(my_pokemon, pokemon_type):\n    pass  # write your solution here",
+"filename":"07_get_by_type",
+"cases":[
+{
+"code":"amlnZ2x5cHVmZiA9IFBva2Vtb24oJ0ppZ2dseXB1ZmYnLCBbJ05vcm1hbCcsICdGYWlyeSddKQpkaWdsZXR0ID0gUG9rZW1vbignRGlnbGV0dCcsIFsnR3JvdW5kJ10pCm1lb3d0aCA9IFBva2Vtb24oJ01lb3d0aCcsIFsnTm9ybWFsJ10pCnBpZGdlb3QgPSBQb2tlbW9uKCdQaWRnZW90JywgWydOb3JtYWwnLCAnRmx5aW5nJ10pCmJsYXN0b2lzZSA9IFBva2Vtb24oJ0JsYXN0b2lzZScsIFsnV2F0ZXInXSkKdGVhbSA9IFtqaWdnbHlwdWZmLCBkaWdsZXR0LCBtZW93dGgsIHBpZGdlb3QsIGJsYXN0b2lzZV0KUkVTVUxUID0gW3AubmFtZSBmb3IgcCBpbiBnZXRfYnlfdHlwZSh0ZWFtLCAnTm9ybWFsJyld",
+"observe":"return",
+"label":"get_by_type(team, 'Normal') names",
+"e":"WydKaWdnbHlwdWZmJywgJ01lb3d0aCcsICdQaWRnZW90J10="
+},
+{
+"code":"amlnZ2x5cHVmZiA9IFBva2Vtb24oJ0ppZ2dseXB1ZmYnLCBbJ05vcm1hbCcsICdGYWlyeSddKQpkaWdsZXR0ID0gUG9rZW1vbignRGlnbGV0dCcsIFsnR3JvdW5kJ10pCm1lb3d0aCA9IFBva2Vtb24oJ01lb3d0aCcsIFsnTm9ybWFsJ10pCnBpZGdlb3QgPSBQb2tlbW9uKCdQaWRnZW90JywgWydOb3JtYWwnLCAnRmx5aW5nJ10pCmJsYXN0b2lzZSA9IFBva2Vtb24oJ0JsYXN0b2lzZScsIFsnV2F0ZXInXSkKdGVhbSA9IFtqaWdnbHlwdWZmLCBkaWdsZXR0LCBtZW93dGgsIHBpZGdlb3QsIGJsYXN0b2lzZV0KUkVTVUxUID0gW3AubmFtZSBmb3IgcCBpbiBnZXRfYnlfdHlwZSh0ZWFtLCAnV2F0ZXInKV0=",
+"observe":"return",
+"label":"get_by_type(team, 'Water') names",
+"e":"WydCbGFzdG9pc2UnXQ=="
+},
+{
+"code":"amlnZ2x5cHVmZiA9IFBva2Vtb24oJ0ppZ2dseXB1ZmYnLCBbJ05vcm1hbCcsICdGYWlyeSddKQpkaWdsZXR0ID0gUG9rZW1vbignRGlnbGV0dCcsIFsnR3JvdW5kJ10pCm1lb3d0aCA9IFBva2Vtb24oJ01lb3d0aCcsIFsnTm9ybWFsJ10pCnBpZGdlb3QgPSBQb2tlbW9uKCdQaWRnZW90JywgWydOb3JtYWwnLCAnRmx5aW5nJ10pCmJsYXN0b2lzZSA9IFBva2Vtb24oJ0JsYXN0b2lzZScsIFsnV2F0ZXInXSkKdGVhbSA9IFtqaWdnbHlwdWZmLCBkaWdsZXR0LCBtZW93dGgsIHBpZGdlb3QsIGJsYXN0b2lzZV0KUkVTVUxUID0gW3AubmFtZSBmb3IgcCBpbiBnZXRfYnlfdHlwZSh0ZWFtLCAnRmFpcnknKV0=",
+"observe":"return",
+"label":"get_by_type(team, 'Fairy') names",
+"e":"WydKaWdnbHlwdWZmJ10="
+},
+{
+"code":"amlnZ2x5cHVmZiA9IFBva2Vtb24oJ0ppZ2dseXB1ZmYnLCBbJ05vcm1hbCcsICdGYWlyeSddKQpkaWdsZXR0ID0gUG9rZW1vbignRGlnbGV0dCcsIFsnR3JvdW5kJ10pCm1lb3d0aCA9IFBva2Vtb24oJ01lb3d0aCcsIFsnTm9ybWFsJ10pCnBpZGdlb3QgPSBQb2tlbW9uKCdQaWRnZW90JywgWydOb3JtYWwnLCAnRmx5aW5nJ10pCmJsYXN0b2lzZSA9IFBva2Vtb24oJ0JsYXN0b2lzZScsIFsnV2F0ZXInXSkKdGVhbSA9IFtqaWdnbHlwdWZmLCBkaWdsZXR0LCBtZW93dGgsIHBpZGdlb3QsIGJsYXN0b2lzZV0KUkVTVUxUID0gW3AubmFtZSBmb3IgcCBpbiBnZXRfYnlfdHlwZSh0ZWFtLCAnRHJhZ29uJyld",
+"observe":"return",
+"label":"no matches -> empty list",
+"e":"W10="
+},
+{
+"code":"UkVTVUxUID0gW3AubmFtZSBmb3IgcCBpbiBnZXRfYnlfdHlwZShbXSwgJ05vcm1hbCcpXQ==",
+"observe":"return",
+"label":"empty team -> empty list",
+"e":"W10="
+}
+]
+},
+"v1_p08":{
+"title":"Pokemon Evolution",
+"function":"get_evolutionary_line",
+"mode":"scenario",
+"match":"exact",
+"signature":"def get_evolutionary_line():",
+"student_code":"class Pokemon():\n    def __init__(self, name, types, evolution=None):\n        self.name = name\n        self.types = types\n        self.is_caught = False\n        self.evolution = evolution\n\n\ndef get_evolutionary_line(starter_pokemon):\n    pass  # write your solution here",
+"filename":"08_get_evolutionary_line",
+"cases":[
+{
+"code":"Y2hhcml6YXJkID0gUG9rZW1vbignQ2hhcml6YXJkJywgWydGaXJlJywgJ0ZseWluZyddKQpjaGFybWVsZW9uID0gUG9rZW1vbignQ2hhcm1lbGVvbicsIFsnRmlyZSddLCBjaGFyaXphcmQpCmNoYXJtYW5kZXIgPSBQb2tlbW9uKCdDaGFybWFuZGVyJywgWydGaXJlJ10sIGNoYXJtZWxlb24pClJFU1VMVCA9IFtwLm5hbWUgZm9yIHAgaW4gZ2V0X2V2b2x1dGlvbmFyeV9saW5lKGNoYXJtYW5kZXIpXQ==",
+"observe":"return",
+"label":"from charmander",
+"e":"WydDaGFybWFuZGVyJywgJ0NoYXJtZWxlb24nLCAnQ2hhcml6YXJkJ10="
+},
+{
+"code":"Y2hhcml6YXJkID0gUG9rZW1vbignQ2hhcml6YXJkJywgWydGaXJlJywgJ0ZseWluZyddKQpjaGFybWVsZW9uID0gUG9rZW1vbignQ2hhcm1lbGVvbicsIFsnRmlyZSddLCBjaGFyaXphcmQpCmNoYXJtYW5kZXIgPSBQb2tlbW9uKCdDaGFybWFuZGVyJywgWydGaXJlJ10sIGNoYXJtZWxlb24pClJFU1VMVCA9IFtwLm5hbWUgZm9yIHAgaW4gZ2V0X2V2b2x1dGlvbmFyeV9saW5lKGNoYXJtZWxlb24pXQ==",
+"observe":"return",
+"label":"from charmeleon",
+"e":"WydDaGFybWVsZW9uJywgJ0NoYXJpemFyZCdd"
+},
+{
+"code":"Y2hhcml6YXJkID0gUG9rZW1vbignQ2hhcml6YXJkJywgWydGaXJlJywgJ0ZseWluZyddKQpjaGFybWVsZW9uID0gUG9rZW1vbignQ2hhcm1lbGVvbicsIFsnRmlyZSddLCBjaGFyaXphcmQpCmNoYXJtYW5kZXIgPSBQb2tlbW9uKCdDaGFybWFuZGVyJywgWydGaXJlJ10sIGNoYXJtZWxlb24pClJFU1VMVCA9IFtwLm5hbWUgZm9yIHAgaW4gZ2V0X2V2b2x1dGlvbmFyeV9saW5lKGNoYXJpemFyZCld",
+"observe":"return",
+"label":"from charizard (final form)",
+"e":"WydDaGFyaXphcmQnXQ=="
+},
+{
+"code":"c29sbyA9IFBva2Vtb24oJ0RpdHRvJywgWydOb3JtYWwnXSkKUkVTVUxUID0gW3AubmFtZSBmb3IgcCBpbiBnZXRfZXZvbHV0aW9uYXJ5X2xpbmUoc29sbyld",
+"observe":"return",
+"label":"lone Pokemon, no evolution",
+"e":"WydEaXR0bydd"
+}
+]
+},
+"v1_p09":{
+"title":"Node Class / Linking Nodes",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Problem 9: create node_one (value 'a') and node_two (value 'b').\n# Problem 10: link node_one to node_two (node_one.next = node_two).\nnode_one = None  # your code\nnode_two = None  # your code",
+"filename":"09_to_10_nodes",
+"cases":[
+{
+"code":"UkVTVUxUID0gbm9kZV9vbmUudmFsdWU=",
+"observe":"return",
+"label":"node_one.value",
+"e":"J2En"
+},
+{
+"code":"UkVTVUxUID0gbm9kZV9vbmUubmV4dC52YWx1ZQ==",
+"observe":"return",
+"label":"node_one.next.value",
+"e":"J2In"
+},
+{
+"code":"UkVTVUxUID0gbm9kZV90d28udmFsdWU=",
+"observe":"return",
+"label":"node_two.value",
+"e":"J2In"
+},
+{
+"code":"UkVTVUxUID0gbm9kZV90d28ubmV4dA==",
+"observe":"return",
+"label":"node_two.next is None",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v1_p11":{
+"title":"Mario Party",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Build  Mario -> Luigi -> Wario -> Toad  using node_1, node_2, node_3, node_4:\nnode_1 = None\nnode_2 = None\nnode_3 = None\nnode_4 = None",
+"filename":"11_mario_party",
+"cases":[
+{
+"code":"UkVTVUxUID0gbm9kZV8xLnZhbHVl",
+"observe":"return",
+"label":"node_1.value",
+"e":"J01hcmlvJw=="
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8xLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"node_1.next.value",
+"e":"J0x1aWdpJw=="
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8yLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"node_2.next.value",
+"e":"J1dhcmlvJw=="
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8zLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"node_3.next.value",
+"e":"J1RvYWQn"
+},
+{
+"code":"UkVTVUxUID0gbm9kZV80Lm5leHQ=",
+"observe":"return",
+"label":"node_4.next is None",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v1_p12":{
+"title":"Printing Linked List",
+"function":"print_linked_list",
+"mode":"stdout",
+"match":"exact",
+"signature":"def print_linked_list(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"JzEgLT4gMiAtPiAzIC0+IDQgLT4gNSc="
+},
+{
+"args":"[['a', 'b', 'c', 'd', 'e']]",
+"e":"J2EgLT4gYiAtPiBjIC0+IGQgLT4gZSc="
+},
+{
+"args":"[[1]]",
+"e":"JzEn"
+},
+{
+"args":"[[5, 4, 3]]",
+"e":"JzUgLT4gNCAtPiAzJw=="
+},
+{
+"args":"[['x']]",
+"e":"J3gn"
+},
+{
+"args":"[[1, 2]]",
+"e":"JzEgLT4gMic="
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"JzEwIC0+IDIwIC0+IDMwJw=="
+},
+{
+"args":"[['Mario', 'Luigi']]",
+"e":"J01hcmlvIC0+IEx1aWdpJw=="
+},
+{
+"args":"[[9, 8, 7, 6]]",
+"e":"JzkgLT4gOCAtPiA3IC0+IDYn"
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"JzEgLT4gMSAtPiAxJw=="
+},
+{
+"args":"[[12, 10, 3]]",
+"e":"JzEyIC0+IDEwIC0+IDMn"
+},
+{
+"args":"[[4]]",
+"e":"JzQn"
+},
+{
+"args":"[[8, 16]]",
+"e":"JzggLT4gMTYn"
+},
+{
+"args":"[[23, 5]]",
+"e":"JzIzIC0+IDUn"
+},
+{
+"args":"[[8, 12, 18, 13]]",
+"e":"JzggLT4gMTIgLT4gMTggLT4gMTMn"
+}
+]
+},
+"v2_p01":{
+"title":"Card Class",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Card():\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n\n\n# Create a Card with suit 'Spades' and rank '8', stored in `card`:\ncard = None  # your code",
+"filename":"01_card",
+"cases":[
+{
+"code":"UkVTVUxUID0gY2FyZC5zdWl0",
+"observe":"return",
+"label":"card.suit",
+"e":"J1NwYWRlcyc="
+},
+{
+"code":"UkVTVUxUID0gY2FyZC5yYW5r",
+"observe":"return",
+"label":"card.rank",
+"e":"Jzgn"
+}
+]
+},
+"v2_p02":{
+"title":"Print Card / Verify Update",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Card():\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n    def print_card(self):\n        print(f'{self.rank} of {self.suit}')\n\n\n# Problem 2: create `card` (suit 'Clubs', rank 'Ace') and call card.print_card().\n# Problem 3: update card's suit to 'Hearts', then print again.\ncard = None  # your code",
+"filename":"02_to_03_card",
+"cases":[
+{
+"code":"UkVTVUxUID0gY2FyZC5yYW5r",
+"observe":"return",
+"label":"card.rank",
+"e":"J0FjZSc="
+},
+{
+"code":"UkVTVUxUID0gY2FyZC5zdWl0",
+"observe":"return",
+"label":"card.suit is 'Hearts' after update",
+"e":"J0hlYXJ0cyc="
+},
+{
+"code":"Y2FyZC5wcmludF9jYXJkKCk=",
+"observe":"stdout",
+"label":"print_card() output",
+"e":"J0FjZSBvZiBIZWFydHMn"
+}
+]
+},
+"v2_p04":{
+"title":"Valid Card",
+"function":"Card",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Card():",
+"student_code":"class Card():\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n\n    def is_valid(self):\n        pass  # write your solution here",
+"filename":"04_is_valid",
+"cases":[
+{
+"code":"YyA9IENhcmQoJ0hlYXJ0cycsICc3JykKUkVTVUxUID0gYy5pc192YWxpZCgp",
+"observe":"return",
+"label":"valid 7 of Hearts",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"YyA9IENhcmQoJ1NwYWRlcycsICdKb2tlcicpClJFU1VMVCA9IGMuaXNfdmFsaWQoKQ==",
+"observe":"return",
+"label":"invalid rank Joker",
+"e":"RmFsc2U="
+},
+{
+"code":"YyA9IENhcmQoJ1dpemFyZHMnLCAnMycpClJFU1VMVCA9IGMuaXNfdmFsaWQoKQ==",
+"observe":"return",
+"label":"invalid suit",
+"e":"RmFsc2U="
+},
+{
+"code":"YyA9IENhcmQoJ0RpYW1vbmRzJywgJ0FjZScpClJFU1VMVCA9IGMuaXNfdmFsaWQoKQ==",
+"observe":"return",
+"label":"valid Ace of Diamonds",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"YyA9IENhcmQoJ0NsdWJzJywgJ0tpbmcnKQpSRVNVTFQgPSBjLmlzX3ZhbGlkKCk=",
+"observe":"return",
+"label":"valid King of Clubs",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"YyA9IENhcmQoJ0NsdWJzJywgJzEnKQpSRVNVTFQgPSBjLmlzX3ZhbGlkKCk=",
+"observe":"return",
+"label":"invalid rank 1",
+"e":"RmFsc2U="
+},
+{
+"code":"YyA9IENhcmQoJ0hlYXJ0cycsICcxMCcpClJFU1VMVCA9IGMuaXNfdmFsaWQoKQ==",
+"observe":"return",
+"label":"valid 10 of Hearts",
+"e":"VHJ1ZQ=="
+},
+{
+"code":"YyA9IENhcmQoJ1N0YXJzJywgJ1F1ZWVuJykKUkVTVUxUID0gYy5pc192YWxpZCgp",
+"observe":"return",
+"label":"invalid suit Stars",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p05":{
+"title":"Get Value",
+"function":"Card",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Card():",
+"student_code":"class Card():\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n\n    def get_value(self):\n        pass  # write your solution here",
+"filename":"05_get_value",
+"cases":[
+{
+"code":"UkVTVUxUID0gQ2FyZCgnSGVhcnRzJywgJzcnKS5nZXRfdmFsdWUoKQ==",
+"observe":"return",
+"label":"7 -> 7",
+"e":"Nw=="
+},
+{
+"code":"UkVTVUxUID0gQ2FyZCgnU3BhZGVzJywgJ0phY2snKS5nZXRfdmFsdWUoKQ==",
+"observe":"return",
+"label":"Jack -> 11",
+"e":"MTE="
+},
+{
+"code":"UkVTVUxUID0gQ2FyZCgnQ2x1YnMnLCAnQWNlJykuZ2V0X3ZhbHVlKCk=",
+"observe":"return",
+"label":"Ace -> 1",
+"e":"MQ=="
+},
+{
+"code":"UkVTVUxUID0gQ2FyZCgnRGlhbW9uZHMnLCAnUXVlZW4nKS5nZXRfdmFsdWUoKQ==",
+"observe":"return",
+"label":"Queen -> 12",
+"e":"MTI="
+},
+{
+"code":"UkVTVUxUID0gQ2FyZCgnSGVhcnRzJywgJ0tpbmcnKS5nZXRfdmFsdWUoKQ==",
+"observe":"return",
+"label":"King -> 13",
+"e":"MTM="
+},
+{
+"code":"UkVTVUxUID0gQ2FyZCgnU3BhZGVzJywgJzEwJykuZ2V0X3ZhbHVlKCk=",
+"observe":"return",
+"label":"10 -> 10",
+"e":"MTA="
+},
+{
+"code":"UkVTVUxUID0gQ2FyZCgnSGVhcnRzJywgJ0pva2VyJykuZ2V0X3ZhbHVlKCk=",
+"observe":"return",
+"label":"invalid rank -> None",
+"e":"Tm9uZQ=="
+},
+{
+"code":"UkVTVUxUID0gQ2FyZCgnV2l6YXJkcycsICc1JykuZ2V0X3ZhbHVlKCk=",
+"observe":"return",
+"label":"invalid suit -> None",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v2_p06":{
+"title":"Hand Class",
+"function":"Hand",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Hand():",
+"student_code":"class Card():\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\nclass Hand:\n    def __init__(self):\n        self.cards = []\n    def add_card(self, card):\n        pass  # write your solution here\n\n    def remove_card(self, card):\n        pass  # write your solution here",
+"filename":"06_hand",
+"cases":[
+{
+"code":"aCA9IEhhbmQoKQpjMSA9IENhcmQoJ0hlYXJ0cycsICczJykKYzIgPSBDYXJkKCdTcGFkZXMnLCAnOCcpCmguYWRkX2NhcmQoYzEpCmguYWRkX2NhcmQoYzIpClJFU1VMVCA9IFtjLnJhbmsgZm9yIGMgaW4gaC5jYXJkc10=",
+"observe":"return",
+"label":"add two cards -> ranks",
+"e":"WyczJywgJzgnXQ=="
+},
+{
+"code":"aCA9IEhhbmQoKQpjMSA9IENhcmQoJ0hlYXJ0cycsICczJykKYzIgPSBDYXJkKCdTcGFkZXMnLCAnOCcpCmguYWRkX2NhcmQoYzEpCmguYWRkX2NhcmQoYzIpCmgucmVtb3ZlX2NhcmQoYzEpClJFU1VMVCA9IFtjLnJhbmsgZm9yIGMgaW4gaC5jYXJkc10=",
+"observe":"return",
+"label":"remove leaves the other",
+"e":"Wyc4J10="
+},
+{
+"code":"UkVTVUxUID0gSGFuZCgpLmNhcmRz",
+"observe":"return",
+"label":"new hand is empty",
+"e":"W10="
+},
+{
+"code":"aCA9IEhhbmQoKQpmb3IgciBpbiBbJzInLCAnNScsICc5J106CiAgICBoLmFkZF9jYXJkKENhcmQoJ0NsdWJzJywgcikpClJFU1VMVCA9IGxlbihoLmNhcmRzKQ==",
+"observe":"return",
+"label":"add three -> count",
+"e":"Mw=="
+},
+{
+"code":"aCA9IEhhbmQoKQpjID0gQ2FyZCgnSGVhcnRzJywgJ0FjZScpCmguYWRkX2NhcmQoYykKaC5yZW1vdmVfY2FyZChjKQpSRVNVTFQgPSBoLmNhcmRz",
+"observe":"return",
+"label":"remove all -> empty",
+"e":"W10="
+}
+]
+},
+"v2_p07":{
+"title":"Sum of Cards",
+"function":"sum_hand",
+"mode":"scenario",
+"match":"exact",
+"signature":"def sum_hand():",
+"student_code":"class Card():\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n    def get_value(self):\n        if self.suit not in ('Hearts', 'Spades', 'Clubs', 'Diamonds') or self.rank not in ('2','3','4','5','6','7','8','9','10','Jack','Queen','King','Ace'):\n            return None\n        if self.rank == 'Ace':\n            return 1\n        if self.rank == 'Jack':\n            return 11\n        if self.rank == 'Queen':\n            return 12\n        if self.rank == 'King':\n            return 13\n        return int(self.rank)\nclass Hand:\n    def __init__(self):\n        self.cards = []\n    def add_card(self, card):\n        self.cards.append(card)\n\n\ndef sum_hand(hand):\n    pass  # write your solution here",
+"filename":"07_sum_hand",
+"cases":[
+{
+"code":"aGFuZCA9IEhhbmQoKQpoYW5kLmFkZF9jYXJkKENhcmQoJ0hlYXJ0cycsICczJykpCmhhbmQuYWRkX2NhcmQoQ2FyZCgnSGVhcnRzJywgJ0phY2snKSkKaGFuZC5hZGRfY2FyZChDYXJkKCdTcGFkZXMnLCAnMycpKQpSRVNVTFQgPSBzdW1faGFuZChoYW5kKQ==",
+"observe":"return",
+"label":"3 + 11 + 3 = 17",
+"e":"MTc="
+},
+{
+"code":"UkVTVUxUID0gc3VtX2hhbmQoSGFuZCgpKQ==",
+"observe":"return",
+"label":"empty hand -> 0",
+"e":"MA=="
+},
+{
+"code":"aCA9IEhhbmQoKQpoLmFkZF9jYXJkKENhcmQoJ0hlYXJ0cycsICdBY2UnKSkKaC5hZGRfY2FyZChDYXJkKCdTcGFkZXMnLCAnQWNlJykpClJFU1VMVCA9IHN1bV9oYW5kKGgp",
+"observe":"return",
+"label":"aces count as 1",
+"e":"Mg=="
+},
+{
+"code":"aCA9IEhhbmQoKQpoLmFkZF9jYXJkKENhcmQoJ0hlYXJ0cycsICc1JykpCmguYWRkX2NhcmQoQ2FyZCgnSGVhcnRzJywgJ0pva2VyJykpClJFU1VMVCA9IHN1bV9oYW5kKGgp",
+"observe":"return",
+"label":"invalid card -> None",
+"e":"Tm9uZQ=="
+},
+{
+"code":"aCA9IEhhbmQoKQpmb3IgciBpbiBbJ0phY2snLCAnUXVlZW4nLCAnS2luZyddOgogICAgaC5hZGRfY2FyZChDYXJkKCdDbHVicycsIHIpKQpSRVNVTFQgPSBzdW1faGFuZChoKQ==",
+"observe":"return",
+"label":"face cards 11+12+13",
+"e":"MzY="
+}
+]
+},
+"v2_p08":{
+"title":"Print Hand",
+"function":"print_hand",
+"mode":"scenario",
+"match":"exact",
+"signature":"def print_hand():",
+"student_code":"class Card():\n    def __init__(self, suit, rank, next=None):\n        self.suit = suit\n        self.rank = rank\n        self.next = next\n\n\ndef print_hand(starting_card):\n    pass  # write your solution here",
+"filename":"08_print_hand",
+"cases":[
+{
+"code":"YzEgPSBDYXJkKCdIZWFydHMnLCAnMycpCmMyID0gQ2FyZCgnSGVhcnRzJywgJzQnKQpjMyA9IENhcmQoJ0RpYW1vbmRzJywgJ0tpbmcnKQpjMS5uZXh0ID0gYzIKYzIubmV4dCA9IGMzClJFU1VMVCA9IFtjLnJhbmsgZm9yIGMgaW4gcHJpbnRfaGFuZChjMSld",
+"observe":"return",
+"label":"from c1 -> 3 ranks",
+"e":"WyczJywgJzQnLCAnS2luZydd"
+},
+{
+"code":"YzEgPSBDYXJkKCdIZWFydHMnLCAnMycpCmMyID0gQ2FyZCgnSGVhcnRzJywgJzQnKQpjMyA9IENhcmQoJ0RpYW1vbmRzJywgJ0tpbmcnKQpjMS5uZXh0ID0gYzIKYzIubmV4dCA9IGMzClJFU1VMVCA9IFtjLnJhbmsgZm9yIGMgaW4gcHJpbnRfaGFuZChjMild",
+"observe":"return",
+"label":"from c2 -> 2 ranks",
+"e":"Wyc0JywgJ0tpbmcnXQ=="
+},
+{
+"code":"YzEgPSBDYXJkKCdIZWFydHMnLCAnMycpCmMyID0gQ2FyZCgnSGVhcnRzJywgJzQnKQpjMyA9IENhcmQoJ0RpYW1vbmRzJywgJ0tpbmcnKQpjMS5uZXh0ID0gYzIKYzIubmV4dCA9IGMzClJFU1VMVCA9IFtjLnJhbmsgZm9yIGMgaW4gcHJpbnRfaGFuZChjMyld",
+"observe":"return",
+"label":"from c3 -> 1 rank",
+"e":"WydLaW5nJ10="
+},
+{
+"code":"b25seSA9IENhcmQoJ1NwYWRlcycsICdBY2UnKQpSRVNVTFQgPSBbYy5yYW5rIGZvciBjIGluIHByaW50X2hhbmQob25seSld",
+"observe":"return",
+"label":"single card",
+"e":"WydBY2UnXQ=="
+}
+]
+},
+"v2_p09":{
+"title":"Head and Tail / Middle Node",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Problem 9: create head (value 100) and tail (value 200); head -> tail.\n# Problem 10: create middle (value 150) and insert it between head and tail.\nhead = None\ntail = None\nmiddle = None",
+"filename":"09_to_10_nodes",
+"cases":[
+{
+"code":"UkVTVUxUID0gaGVhZC5uZXh0LnZhbHVl",
+"observe":"return",
+"label":"head.next.value",
+"e":"MTUw"
+},
+{
+"code":"UkVTVUxUID0gbWlkZGxlLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"middle.next.value",
+"e":"MjAw"
+},
+{
+"code":"UkVTVUxUID0gdGFpbC5uZXh0",
+"observe":"return",
+"label":"tail.next is None",
+"e":"Tm9uZQ=="
+},
+{
+"code":"UkVTVUxUID0gaGVhZC52YWx1ZQ==",
+"observe":"return",
+"label":"head.value",
+"e":"MTAw"
+}
+]
+},
+"v2_p11":{
+"title":"Zodiac Signs",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Build  aries -> taurus -> gemini -> cancer  using node_1..node_4:\nnode_1 = None\nnode_2 = None\nnode_3 = None\nnode_4 = None",
+"filename":"11_zodiac",
+"cases":[
+{
+"code":"UkVTVUxUID0gbm9kZV8xLnZhbHVl",
+"observe":"return",
+"label":"node_1.value",
+"e":"J2FyaWVzJw=="
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8xLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"node_1.next.value",
+"e":"J3RhdXJ1cyc="
+},
+{
+"code":"UkVTVUxUID0gbm9kZV8zLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"node_3.next.value",
+"e":"J2NhbmNlcic="
+},
+{
+"code":"UkVTVUxUID0gbm9kZV80Lm5leHQ=",
+"observe":"return",
+"label":"node_4.next is None",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v2_p12":{
+"title":"Print Linked List",
+"function":"print_linked_list",
+"mode":"return",
+"match":"exact",
+"signature":"def print_linked_list(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[['a', 'b', 'c', 'd', 'e']]",
+"e":"WydhJywgJ2InLCAnYycsICdkJywgJ2UnXQ=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5]]",
+"e":"WzVd"
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[['x', 'y']]",
+"e":"Wyd4JywgJ3knXQ=="
+},
+{
+"args":"[[9]]",
+"e":"Wzld"
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"WzEwLCAyMCwgMzBd"
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"WzEsIDEsIDFd"
+},
+{
+"args":"[[7, 8, 9, 10]]",
+"e":"WzcsIDgsIDksIDEwXQ=="
+},
+{
+"args":"[['cd', 'b']]",
+"e":"WydjZCcsICdiJ10="
+},
+{
+"args":"[['a', 'a', 'cd']]",
+"e":"WydhJywgJ2EnLCAnY2QnXQ=="
+},
+{
+"args":"[['a', 'a', 'ef', 'b']]",
+"e":"WydhJywgJ2EnLCAnZWYnLCAnYidd"
+},
+{
+"args":"[['a']]",
+"e":"WydhJ10="
+},
+{
+"args":"[['ef', 'a', 'a']]",
+"e":"WydlZicsICdhJywgJ2EnXQ=="
+}
+]
+},
+"v3_p01":{
+"title":"Player Class / Get Player / Update Kart",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Player():\n    def __init__(self, character, kart):\n        self.character = character\n        self.kart = kart\n        self.items = []\n    def get_player(self):\n        return f'{self.character} driving the {self.kart}'\n\n\n# Problem 1: create player_one (character 'Yoshi', kart 'Super Blooper').\n# Problem 2: create player_two (character 'Bowser', kart 'Pirahna Prowler').\n# Problem 3: update player_one's kart to 'Dolphin Dasher'.\nplayer_one = None\nplayer_two = None",
+"filename":"01_to_03_players",
+"cases":[
+{
+"code":"UkVTVUxUID0gcGxheWVyX29uZS5jaGFyYWN0ZXI=",
+"observe":"return",
+"label":"player_one.character",
+"e":"J1lvc2hpJw=="
+},
+{
+"code":"UkVTVUxUID0gcGxheWVyX29uZS5rYXJ0",
+"observe":"return",
+"label":"player_one.kart is 'Dolphin Dasher'",
+"e":"J0RvbHBoaW4gRGFzaGVyJw=="
+},
+{
+"code":"UkVTVUxUID0gcGxheWVyX3R3by5jaGFyYWN0ZXI=",
+"observe":"return",
+"label":"player_two.character",
+"e":"J0Jvd3Nlcic="
+},
+{
+"code":"UkVTVUxUID0gcGxheWVyX3R3by5rYXJ0",
+"observe":"return",
+"label":"player_two.kart",
+"e":"J1BpcmFobmEgUHJvd2xlcic="
+},
+{
+"code":"UkVTVUxUID0gcGxheWVyX29uZS5nZXRfcGxheWVyKCk=",
+"observe":"return",
+"label":"player_one.get_player()",
+"e":"J1lvc2hpIGRyaXZpbmcgdGhlIERvbHBoaW4gRGFzaGVyJw=="
+}
+]
+},
+"v3_p04":{
+"title":"Set Character",
+"function":"Player",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Player():",
+"student_code":"class Player():\n    def __init__(self, character, kart):\n        self.character = character\n        self.kart = kart\n        self.items = []\n\n    def set_player(self, name):\n        pass  # write your solution here",
+"filename":"04_set_player",
+"cases":[
+{
+"code":"cCA9IFBsYXllcignWW9zaGknLCAnS2FydCcpCnAuc2V0X3BsYXllcignUGVhY2gnKQ==",
+"observe":"stdout",
+"label":"valid name prints 'Character updated'",
+"e":"J0NoYXJhY3RlciB1cGRhdGVkJw=="
+},
+{
+"code":"cCA9IFBsYXllcignWW9zaGknLCAnS2FydCcpCnAuc2V0X3BsYXllcignS2VybWl0Jyk=",
+"observe":"stdout",
+"label":"invalid name prints 'Invalid character'",
+"e":"J0ludmFsaWQgY2hhcmFjdGVyJw=="
+},
+{
+"code":"cCA9IFBsYXllcignWW9zaGknLCAnS2FydCcpCnAuc2V0X3BsYXllcignQm93c2VyJykKUkVTVUxUID0gcC5jaGFyYWN0ZXI=",
+"observe":"return",
+"label":"valid name updates character",
+"e":"J0Jvd3Nlcic="
+},
+{
+"code":"cCA9IFBsYXllcignWW9zaGknLCAnS2FydCcpCnAuc2V0X3BsYXllcignU29uaWMnKQpSRVNVTFQgPSBwLmNoYXJhY3Rlcg==",
+"observe":"return",
+"label":"invalid name leaves character",
+"e":"J1lvc2hpJw=="
+},
+{
+"code":"cCA9IFBsYXllcignTWFyaW8nLCAnS2FydCcpCnAuc2V0X3BsYXllcignRG9ua2V5IEtvbmcnKQ==",
+"observe":"stdout",
+"label":"Donkey Kong is valid",
+"e":"J0NoYXJhY3RlciB1cGRhdGVkJw=="
+}
+]
+},
+"v3_p05":{
+"title":"Add Special Item",
+"function":"Player",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Player():",
+"student_code":"class Player():\n    def __init__(self, character, kart):\n        self.character = character\n        self.kart = kart\n        self.items = []\n\n    def add_item(self, item_name):\n        pass  # write your solution here",
+"filename":"05_add_item",
+"cases":[
+{
+"code":"cCA9IFBsYXllcignWW9zaGknLCAnS2FydCcpCnAuYWRkX2l0ZW0oJ3JlZCBzaGVsbCcpCnAuYWRkX2l0ZW0oJ3N1cGVyIHN0YXInKQpSRVNVTFQgPSBwLml0ZW1z",
+"observe":"return",
+"label":"valid items added in order",
+"e":"WydyZWQgc2hlbGwnLCAnc3VwZXIgc3Rhcidd"
+},
+{
+"code":"cCA9IFBsYXllcignWW9zaGknLCAnS2FydCcpCnAuYWRkX2l0ZW0oJ3JlZCBzaGVsbCcpCnAuYWRkX2l0ZW0oJ3N1cGVyIHNtYXNoJykKUkVTVUxUID0gcC5pdGVtcw==",
+"observe":"return",
+"label":"invalid item ignored",
+"e":"WydyZWQgc2hlbGwnXQ=="
+},
+{
+"code":"UkVTVUxUID0gUGxheWVyKCdYJywgJ2snKS5pdGVtcw==",
+"observe":"return",
+"label":"start empty",
+"e":"W10="
+},
+{
+"code":"cCA9IFBsYXllcignWCcsICdrJykKcC5hZGRfaXRlbSgnc3dvcmQnKQpwLmFkZF9pdGVtKCdzaGllbGQnKQpSRVNVTFQgPSBwLml0ZW1z",
+"observe":"return",
+"label":"all invalid -> empty",
+"e":"W10="
+},
+{
+"code":"cCA9IFBsYXllcignWCcsICdrJykKcC5hZGRfaXRlbSgnYmFuYW5hJykKcC5hZGRfaXRlbSgnYm9iLW9tYicpClJFU1VMVCA9IHAuaXRlbXM=",
+"observe":"return",
+"label":"banana + bob-omb",
+"e":"WydiYW5hbmEnLCAnYm9iLW9tYidd"
+}
+]
+},
+"v3_p06":{
+"title":"Print Inventory",
+"function":"Player",
+"mode":"scenario",
+"match":"exact",
+"signature":"def Player():",
+"student_code":"class Player():\n    def __init__(self, character, kart):\n        self.character = character\n        self.kart = kart\n        self.items = []\n\n    def print_inventory(self):\n        pass  # write your solution here",
+"filename":"06_print_inventory",
+"cases":[
+{
+"code":"cCA9IFBsYXllcignWW9zaGknLCAnS2FydCcpCnAuaXRlbXMgPSBbJ2JhbmFuYScsICdib2Itb21iJywgJ2JhbmFuYScsICdzdXBlciBzdGFyJ10KcC5wcmludF9pbnZlbnRvcnkoKQ==",
+"observe":"stdout",
+"label":"counts each item",
+"e":"J0ludmVudG9yeTogYmFuYW5hOiAyLCBib2Itb21iOiAxLCBzdXBlciBzdGFyOiAxJw=="
+},
+{
+"code":"cCA9IFBsYXllcignUGVhY2gnLCAnS2FydCcpCnAucHJpbnRfaW52ZW50b3J5KCk=",
+"observe":"stdout",
+"label":"empty -> 'Inventory empty'",
+"e":"J0ludmVudG9yeSBlbXB0eSc="
+},
+{
+"code":"cCA9IFBsYXllcignWCcsICdrJykKcC5pdGVtcyA9IFsncmVkIHNoZWxsJ10KcC5wcmludF9pbnZlbnRvcnkoKQ==",
+"observe":"stdout",
+"label":"single item",
+"e":"J0ludmVudG9yeTogcmVkIHNoZWxsOiAxJw=="
+}
+]
+},
+"v3_p07":{
+"title":"Race Results",
+"function":"print_results",
+"mode":"scenario",
+"match":"exact",
+"signature":"def print_results():",
+"student_code":"class Player():\n    def __init__(self, character, kart):\n        self.character = character\n        self.kart = kart\n        self.items = []\n\n\ndef print_results(race_results):\n    pass  # write your solution here",
+"filename":"07_print_results",
+"cases":[
+{
+"code":"cGVhY2ggPSBQbGF5ZXIoJ1BlYWNoJywgJ0RheXRyaXBwZXInKQptYXJpbyA9IFBsYXllcignTWFyaW8nLCAnU3RhbmRhcmQgS2FydCBNJykKbHVpZ2kgPSBQbGF5ZXIoJ0x1aWdpJywgJ1N1cGVyIEJsb29wZXInKQpwcmludF9yZXN1bHRzKFtwZWFjaCwgbWFyaW8sIGx1aWdpXSk=",
+"observe":"stdout",
+"label":"three-player podium",
+"e":"JzEuIFBlYWNoXG4yLiBNYXJpb1xuMy4gTHVpZ2kn"
+},
+{
+"code":"c29sbyA9IFBsYXllcignVG9hZCcsICdLYXJ0JykKcHJpbnRfcmVzdWx0cyhbc29sb10p",
+"observe":"stdout",
+"label":"single racer",
+"e":"JzEuIFRvYWQn"
+},
+{
+"code":"cGVhY2ggPSBQbGF5ZXIoJ1BlYWNoJywgJ0RheXRyaXBwZXInKQptYXJpbyA9IFBsYXllcignTWFyaW8nLCAnU3RhbmRhcmQgS2FydCBNJykKbHVpZ2kgPSBQbGF5ZXIoJ0x1aWdpJywgJ1N1cGVyIEJsb29wZXInKQpwcmludF9yZXN1bHRzKFttYXJpbywgcGVhY2hdKQ==",
+"observe":"stdout",
+"label":"two racers, order matters",
+"e":"JzEuIE1hcmlvXG4yLiBQZWFjaCc="
+}
+]
+},
+"v3_p08":{
+"title":"Get Rank",
+"function":"get_place",
+"mode":"scenario",
+"match":"exact",
+"signature":"def get_place():",
+"student_code":"class Player:\n    def __init__(self, character, kart, opponent=None):\n        self.character = character\n        self.kart = kart\n        self.items = []\n        self.ahead = opponent\n\n\ndef get_place(my_player):\n    pass  # write your solution here",
+"filename":"08_get_place",
+"cases":[
+{
+"code":"cGVhY2ggPSBQbGF5ZXIoJ1BlYWNoJywgJ0RheXRyaXBwZXInKQptYXJpbyA9IFBsYXllcignTWFyaW8nLCAnU3RhbmRhcmQgS2FydCBNJywgcGVhY2gpCmx1aWdpID0gUGxheWVyKCdMdWlnaScsICdTdXBlciBCbG9vcGVyJywgbWFyaW8pClJFU1VMVCA9IGdldF9wbGFjZShsdWlnaSk=",
+"observe":"return",
+"label":"luigi (3rd)",
+"e":"Mw=="
+},
+{
+"code":"cGVhY2ggPSBQbGF5ZXIoJ1BlYWNoJywgJ0RheXRyaXBwZXInKQptYXJpbyA9IFBsYXllcignTWFyaW8nLCAnU3RhbmRhcmQgS2FydCBNJywgcGVhY2gpCmx1aWdpID0gUGxheWVyKCdMdWlnaScsICdTdXBlciBCbG9vcGVyJywgbWFyaW8pClJFU1VMVCA9IGdldF9wbGFjZShwZWFjaCk=",
+"observe":"return",
+"label":"peach (1st)",
+"e":"MQ=="
+},
+{
+"code":"cGVhY2ggPSBQbGF5ZXIoJ1BlYWNoJywgJ0RheXRyaXBwZXInKQptYXJpbyA9IFBsYXllcignTWFyaW8nLCAnU3RhbmRhcmQgS2FydCBNJywgcGVhY2gpCmx1aWdpID0gUGxheWVyKCdMdWlnaScsICdTdXBlciBCbG9vcGVyJywgbWFyaW8pClJFU1VMVCA9IGdldF9wbGFjZShtYXJpbyk=",
+"observe":"return",
+"label":"mario (2nd)",
+"e":"Mg=="
+},
+{
+"code":"c29sbyA9IFBsYXllcignVG9hZCcsICdLYXJ0JykKUkVTVUxUID0gZ2V0X3BsYWNlKHNvbG8p",
+"observe":"return",
+"label":"leader alone",
+"e":"MQ=="
+}
+]
+},
+"v3_p09":{
+"title":"Tom and Jerry / Chase List",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Problem 9: create cat ('Tom') -> mouse ('Jerry').\n# Problem 10: create dog ('Spike') and point it to cat: dog -> cat -> mouse.\nmouse = None\ncat = None\ndog = None",
+"filename":"09_to_10_chase",
+"cases":[
+{
+"code":"UkVTVUxUID0gZG9nLnZhbHVl",
+"observe":"return",
+"label":"dog.value",
+"e":"J1NwaWtlJw=="
+},
+{
+"code":"UkVTVUxUID0gZG9nLm5leHQudmFsdWU=",
+"observe":"return",
+"label":"dog.next.value",
+"e":"J1RvbSc="
+},
+{
+"code":"UkVTVUxUID0gZG9nLm5leHQubmV4dC52YWx1ZQ==",
+"observe":"return",
+"label":"dog.next.next.value",
+"e":"J0plcnJ5Jw=="
+},
+{
+"code":"UkVTVUxUID0gY2F0Lm5leHQudmFsdWU=",
+"observe":"return",
+"label":"cat.next.value",
+"e":"J0plcnJ5Jw=="
+},
+{
+"code":"UkVTVUxUID0gbW91c2UubmV4dA==",
+"observe":"return",
+"label":"mouse.next is None",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v3_p11":{
+"title":"Update Chase",
+"function":"",
+"mode":"scenario",
+"match":"exact",
+"signature":"def ():",
+"student_code":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\n\n# Build the linked list  cat -> mouse -> cheese  where\n# cat.value == 'Tom', mouse.value == 'Jerry', cheese.value == 'Gouda':\ncat = None\nmouse = None\ncheese = None",
+"filename":"11_chase",
+"cases":[
+{
+"code":"UkVTVUxUID0gY2F0LnZhbHVl",
+"observe":"return",
+"label":"cat.value",
+"e":"J1RvbSc="
+},
+{
+"code":"UkVTVUxUID0gY2F0Lm5leHQudmFsdWU=",
+"observe":"return",
+"label":"cat.next.value",
+"e":"J0plcnJ5Jw=="
+},
+{
+"code":"UkVTVUxUID0gbW91c2UubmV4dC52YWx1ZQ==",
+"observe":"return",
+"label":"mouse.next.value",
+"e":"J0dvdWRhJw=="
+},
+{
+"code":"UkVTVUxUID0gY2hlZXNlLm5leHQ=",
+"observe":"return",
+"label":"cheese.next is None",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v3_p12":{
+"title":"Chase String",
+"function":"chase_list",
+"mode":"return",
+"match":"exact",
+"signature":"def chase_list(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"preamble":"class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next",
+"cases":[
+{
+"args":"[['Spike', 'Tom', 'Jerry', 'Gouda']]",
+"e":"J1NwaWtlIGNoYXNlcyBUb20gY2hhc2VzIEplcnJ5IGNoYXNlcyBHb3VkYSc="
+},
+{
+"args":"[['Tom', 'Jerry']]",
+"e":"J1RvbSBjaGFzZXMgSmVycnkn"
+},
+{
+"args":"[['a']]",
+"e":"J2En"
+},
+{
+"args":"[['x', 'y', 'z']]",
+"e":"J3ggY2hhc2VzIHkgY2hhc2VzIHon"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"JzEgY2hhc2VzIDIgY2hhc2VzIDMn"
+},
+{
+"args":"[['cat', 'mouse']]",
+"e":"J2NhdCBjaGFzZXMgbW91c2Un"
+},
+{
+"args":"[['only']]",
+"e":"J29ubHkn"
+},
+{
+"args":"[['A', 'B', 'C', 'D']]",
+"e":"J0EgY2hhc2VzIEIgY2hhc2VzIEMgY2hhc2VzIEQn"
+},
+{
+"args":"[[5, 6, 7]]",
+"e":"JzUgY2hhc2VzIDYgY2hhc2VzIDcn"
+},
+{
+"args":"[['Spike', 'Tom']]",
+"e":"J1NwaWtlIGNoYXNlcyBUb20n"
+},
+{
+"args":"[['cd']]",
+"e":"J2NkJw=="
+},
+{
+"args":"[['a', 'ef', 'cd', 'ef']]",
+"e":"J2EgY2hhc2VzIGVmIGNoYXNlcyBjZCBjaGFzZXMgZWYn"
+},
+{
+"args":"[['ef', 'ef', 'cd']]",
+"e":"J2VmIGNoYXNlcyBlZiBjaGFzZXMgY2Qn"
+},
+{
+"args":"[['b', 'a', 'b', 'a']]",
+"e":"J2IgY2hhc2VzIGEgY2hhc2VzIGIgY2hhc2VzIGEn"
+},
+{
+"args":"[['a', 'b', 'cd', 'ef']]",
+"e":"J2EgY2hhc2VzIGIgY2hhc2VzIGNkIGNoYXNlcyBlZic="
+}
+]
+}
+}
+}

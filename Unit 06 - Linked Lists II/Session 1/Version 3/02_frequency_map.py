@@ -29,3 +29,24 @@ print("Test 3 - list with duplicate values")
 d2 = Node('y')
 d1 = Node('y', d2)
 print("  expected:", {'y': 2}, "| got:", frequency_map(d1))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(frequency_map)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 3, 4, 2, 3], expected={1: 1, 2: 2, 3: 2, 4: 1})   # checks the value your code returns against this example

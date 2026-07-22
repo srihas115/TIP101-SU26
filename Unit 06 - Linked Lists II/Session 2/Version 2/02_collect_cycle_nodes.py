@@ -36,3 +36,24 @@ print("  expected:", [9], "| got:", [n.value for n in result1] if result1 else [
 print("Test 2 - empty list (head is None)")
 result2 = collect_cycle_nodes(None)
 print("  expected:", [], "| got:", [n.value for n in result2] if result2 else [])
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(collect_cycle_nodes)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([[1, 2, 3, 4], 1], expected=[2, 3, 4])   # checks the value your code returns against this example

@@ -23,3 +23,24 @@ print("  expected:", "cODE", "| got:", remove_char("cODE".replace('O','O'), 0) i
 
 print("Test 5 - string with punctuation/whitespace character removed")
 print("  expected:", "hillo", "| got:", remove_char("hi llo", 2))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(remove_char)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test('typpo', 2, expected='typo')   # checks the value your code returns against this example

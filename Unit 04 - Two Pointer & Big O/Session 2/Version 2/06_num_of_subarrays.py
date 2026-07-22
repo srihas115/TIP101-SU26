@@ -17,3 +17,24 @@ print("  expected:", 3, "| got:", num_of_subarrays([10,10,10,10], 2, 5))
 
 print("Test 3 - k equals the length of the list (single subarray checked)")
 print("  expected:", 1, "| got:", num_of_subarrays([5,5,5], 3, 4))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(num_of_subarrays)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([2, 2, 2, 2, 5, 5, 5, 8], 3, 4, expected=3)   # checks the value your code returns against this example

@@ -1,0 +1,1159 @@
+{
+"unit":10,
+"session":2,
+"problems":{
+"v1_p01":{
+"title":"Contains Duplicates",
+"function":"contains_duplicate",
+"mode":"return",
+"match":"exact",
+"signature":"def contains_duplicate(nums):",
+"cases":[
+{
+"args":"[[1, 2, 3, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 1, 1, 3, 3, 4, 3, 2, 4, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[5]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[0, 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[9, 8, 7, 6]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[-1, -1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 0, 1, 3, 1, 9, 0, 3, 1, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[-1, 7, 7, 8, 6, 4, 1, -1, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[3, 1, 7, 7, 1, 1, 9, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[-1, 7, 9, 6, 0, 3, 6]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 1, 4]]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v1_p02":{
+"title":"Remove Element",
+"function":"remove_element",
+"mode":"inplace_length",
+"match":"exact",
+"signature":"def remove_element(nums, val):",
+"cases":[
+{
+"args":"[[3, 2, 2, 3], 3]",
+"e":"WzIsIFsyLCAyXV0="
+},
+{
+"args":"[[0, 1, 2, 2, 3, 0, 4, 2], 2]",
+"e":"WzUsIFswLCAwLCAxLCAzLCA0XV0="
+},
+{
+"args":"[[1], 1]",
+"e":"WzAsIFtdXQ==",
+"edge":true
+},
+{
+"args":"[[1], 2]",
+"e":"WzEsIFsxXV0=",
+"edge":true
+},
+{
+"args":"[[], 0]",
+"e":"WzAsIFtdXQ==",
+"edge":true
+},
+{
+"args":"[[2, 2, 2], 2]",
+"e":"WzAsIFtdXQ=="
+},
+{
+"args":"[[1, 2, 3, 4], 5]",
+"e":"WzQsIFsxLCAyLCAzLCA0XV0="
+},
+{
+"args":"[[4, 4, 4, 4], 4]",
+"e":"WzAsIFtdXQ=="
+},
+{
+"args":"[[1, 2, 3, 2, 1], 2]",
+"e":"WzMsIFsxLCAxLCAzXV0="
+},
+{
+"args":"[[5, 6, 7], 6]",
+"e":"WzIsIFs1LCA3XV0="
+},
+{
+"args":"[[0, 4, 5], 2]",
+"e":"WzMsIFswLCA0LCA1XV0="
+},
+{
+"args":"[[], 3]",
+"e":"WzAsIFtdXQ=="
+},
+{
+"args":"[[7, 0, 5, 7, 3, 1, 3, 4], 8]",
+"e":"WzgsIFswLCAxLCAzLCAzLCA0LCA1LCA3LCA3XV0="
+},
+{
+"args":"[[2, 5], 5]",
+"e":"WzEsIFsyXV0="
+},
+{
+"args":"[[0, 7, 6, 3, 4, 4, 1, 5], -1]",
+"e":"WzgsIFswLCAxLCAzLCA0LCA0LCA1LCA2LCA3XV0="
+}
+]
+},
+"v1_p03":{
+"title":"GCD of Strings",
+"function":"gcd_of_stings",
+"mode":"return",
+"match":"exact",
+"signature":"def gcd_of_stings(str1, str2):",
+"cases":[
+{
+"args":"['ABCABC', 'ABC']",
+"e":"J0FCQyc="
+},
+{
+"args":"['ABABAB', 'ABAB']",
+"e":"J0FCJw=="
+},
+{
+"args":"['LEET', 'CODE']",
+"e":"Jyc="
+},
+{
+"args":"['ABC', 'ABC']",
+"e":"J0FCQyc="
+},
+{
+"args":"['AAAA', 'AA']",
+"e":"J0FBJw=="
+},
+{
+"args":"['ABABABAB', 'ABAB']",
+"e":"J0FCQUIn"
+},
+{
+"args":"['A', 'A']",
+"e":"J0En"
+},
+{
+"args":"['XYZ', 'XYZXYZ']",
+"e":"J1hZWic="
+},
+{
+"args":"['AABB', 'AAB']",
+"e":"Jyc="
+},
+{
+"args":"['TAUXX', 'TAUXXTAUXX']",
+"e":"J1RBVVhYJw=="
+},
+{
+"args":"['ea  cb', 'abeb']",
+"e":"Jyc="
+},
+{
+"args":"['dcc', 'aaebd']",
+"e":"Jyc="
+},
+{
+"args":"['ae', 'd']",
+"e":"Jyc="
+},
+{
+"args":"['c dd c', 'abbeec']",
+"e":"Jyc="
+},
+{
+"args":"['bb', 'bea']",
+"e":"Jyc="
+}
+]
+},
+"v1_p04":{
+"title":"Check Balanced Binary Tree",
+"function":"is_balanced",
+"mode":"return",
+"match":"exact",
+"signature":"def is_balanced(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 2, 3, 3, None, None, 4, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, None, 3, None, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, None, 2, None, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 2, 3, None, None, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[13, 2, 8, 17, 11, 15, 10]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[3, 13, 5, 6, 18]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[7, 14, 5, 18]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 15, 18, 3, 12, 19, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 20, 3, 15, 12]]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v1_p05":{
+"title":"Subarray Sum Equals K",
+"function":"subarray_sum",
+"mode":"return",
+"match":"exact",
+"signature":"def subarray_sum(nums, k):",
+"cases":[
+{
+"args":"[[1, 1, 1], 2]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3], 3]",
+"e":"Mg=="
+},
+{
+"args":"[[1], 1]",
+"e":"MQ=="
+},
+{
+"args":"[[1], 2]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1, -1, 0], 0]",
+"e":"Mw=="
+},
+{
+"args":"[[3, 4, 7, 2, -3, 1, 4, 2], 7]",
+"e":"NA=="
+},
+{
+"args":"[[0, 0, 0], 0]",
+"e":"Ng=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 15]",
+"e":"MQ=="
+},
+{
+"args":"[[-1, -1, 1], 0]",
+"e":"MQ=="
+},
+{
+"args":"[[2, 2, 2], 4]",
+"e":"Mg=="
+},
+{
+"args":"[[5, -1, 5, 5, 1, 1], 11]",
+"e":"Mg=="
+},
+{
+"args":"[[-1, 2, 7, -2, 3, 7, -1], 10]",
+"e":"Mg=="
+},
+{
+"args":"[[-3], 17]",
+"e":"MA=="
+},
+{
+"args":"[[6, 5, -3, -2, 1, -3, 6, 3], -1]",
+"e":"Mg=="
+},
+{
+"args":"[[3, 7, 2, 1, 7, 6], 12]",
+"e":"MQ=="
+}
+]
+},
+"v1_p06":{
+"title":"Add Two Numbers",
+"function":"add_two_numbers",
+"mode":"return",
+"match":"exact",
+"signature":"def add_two_numbers(l1, l2):",
+"arg_kinds":[
+"linkedlist",
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"preamble":"class Node:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next",
+"cases":[
+{
+"args":"[[2, 4, 3], [5, 6, 4]]",
+"e":"WzcsIDAsIDhd"
+},
+{
+"args":"[[0], [0]]",
+"e":"WzBd",
+"edge":true
+},
+{
+"args":"[[9, 9, 9], [1]]",
+"e":"WzAsIDAsIDAsIDFd",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], [4, 5, 6]]",
+"e":"WzUsIDcsIDld"
+},
+{
+"args":"[[5], [5]]",
+"e":"WzAsIDFd"
+},
+{
+"args":"[[9, 9], [1]]",
+"e":"WzAsIDAsIDFd"
+},
+{
+"args":"[[1], [9, 9, 9]]",
+"e":"WzAsIDAsIDAsIDFd"
+},
+{
+"args":"[[7, 3], [8, 6]]",
+"e":"WzUsIDAsIDFd"
+},
+{
+"args":"[[0], [5, 6]]",
+"e":"WzUsIDZd"
+},
+{
+"args":"[[2, 4, 6], [3, 5, 7]]",
+"e":"WzUsIDksIDMsIDFd"
+}
+]
+},
+"v2_p01":{
+"title":"Flip Game",
+"function":"generate_possible_next_moves",
+"mode":"return",
+"match":"unordered",
+"signature":"def generate_possible_next_moves(current_state):",
+"cases":[
+{
+"args":"['++++']",
+"e":"WyctLSsrJywgJystLSsnLCAnKystLSdd"
+},
+{
+"args":"['+']",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"['++']",
+"e":"WyctLSdd"
+},
+{
+"args":"['--']",
+"e":"W10="
+},
+{
+"args":"['+++']",
+"e":"WyctLSsnLCAnKy0tJ10="
+},
+{
+"args":"['+-++']",
+"e":"WycrLS0tJ10="
+},
+{
+"args":"['']",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"['++--++']",
+"e":"WyctLS0tKysnLCAnKystLS0tJ10="
+},
+{
+"args":"['-+-+-']",
+"e":"W10="
+},
+{
+"args":"['+++++']",
+"e":"WyctLSsrKycsICcrLS0rKycsICcrKy0tKycsICcrKystLSdd"
+},
+{
+"args":"['db']",
+"e":"W10="
+},
+{
+"args":"['acaad']",
+"e":"W10="
+},
+{
+"args":"['deaeb']",
+"e":"W10="
+},
+{
+"args":"['ab']",
+"e":"W10="
+},
+{
+"args":"['eabd']",
+"e":"W10="
+}
+]
+},
+"v2_p02":{
+"title":"Intersection of Two Lists",
+"function":"intersection",
+"mode":"return",
+"match":"unordered",
+"signature":"def intersection(nums1, nums2):",
+"cases":[
+{
+"args":"[[1, 2, 2, 1], [2, 2]]",
+"e":"WzJd"
+},
+{
+"args":"[[4, 9, 5], [9, 4, 9, 8, 4]]",
+"e":"WzksIDRd"
+},
+{
+"args":"[[1, 2, 3], [4, 5, 6]]",
+"e":"W10="
+},
+{
+"args":"[[], [1, 2]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 1, 1], [1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], [2, 3, 4]]",
+"e":"WzIsIDNd"
+},
+{
+"args":"[[5], [5]]",
+"e":"WzVd"
+},
+{
+"args":"[[1, 2, 3, 4], []]",
+"e":"W10="
+},
+{
+"args":"[[7, 8, 9], [9, 8, 7]]",
+"e":"WzgsIDksIDdd"
+},
+{
+"args":"[[0], [0, 0]]",
+"e":"WzBd"
+},
+{
+"args":"[[6, 9, 2, 7], [8]]",
+"e":"W10="
+},
+{
+"args":"[[0, 2, 9, 0], [7, 6, 6]]",
+"e":"W10="
+},
+{
+"args":"[[1, 9, 1, 6], [7, 1, 8]]",
+"e":"WzFd"
+},
+{
+"args":"[[], [0]]",
+"e":"W10="
+},
+{
+"args":"[[6, 1], [5, 0]]",
+"e":"W10="
+}
+]
+},
+"v2_p03":{
+"title":"Buildings with an Ocean View",
+"function":"find_buildings",
+"mode":"return",
+"match":"exact",
+"signature":"def find_buildings(heights):",
+"cases":[
+{
+"args":"[[4, 2, 3, 1]]",
+"e":"WzAsIDIsIDNd"
+},
+{
+"args":"[[4, 3, 2, 1]]",
+"e":"WzAsIDEsIDIsIDNd"
+},
+{
+"args":"[[1, 3, 2, 4]]",
+"e":"WzNd"
+},
+{
+"args":"[[1]]",
+"e":"WzBd"
+},
+{
+"args":"[[2, 2, 2]]",
+"e":"WzJd"
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"WzNd"
+},
+{
+"args":"[[5, 3, 8, 3, 2]]",
+"e":"WzIsIDMsIDRd"
+},
+{
+"args":"[[10]]",
+"e":"WzBd"
+},
+{
+"args":"[[1, 1, 1, 1]]",
+"e":"WzNd"
+},
+{
+"args":"[[3, 1, 4, 1, 5]]",
+"e":"WzRd"
+},
+{
+"args":"[[4, 3, 2, 2, 6]]",
+"e":"WzRd"
+},
+{
+"args":"[[1, 4, 5, 8]]",
+"e":"WzNd"
+},
+{
+"args":"[[2, 1]]",
+"e":"WzAsIDFd"
+},
+{
+"args":"[[2, 3, 3]]",
+"e":"WzJd"
+},
+{
+"args":"[[4, 4, 10, 2]]",
+"e":"WzIsIDNd"
+}
+]
+},
+"v2_p04":{
+"title":"Leaf-Similar Trees",
+"function":"leaf_similar",
+"mode":"return",
+"match":"exact",
+"signature":"def leaf_similar(root1, root2):",
+"arg_kinds":[
+"tree",
+"tree"
+],
+"cases":[
+{
+"args":"[[3, 5, 1, 6, 2, 9, 8, None, None, 7, 4], [3, 5, 1, 6, 7, 4, 2, None, None, None, None, None, None, None, None, None, None, 9, 8]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3], [1, 3, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1], [1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1], [2]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[], []]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], [4, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 4, 8, 1], [5, 8, 4, None, None, None, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4, 5], [1, 2, 3, 4, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2], [2, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, None, 2], [3, None, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 3, 9, 8, 1], [7, 8, 9, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2, 3, 7, 6, 4, 9, 8, 4, 2, 5], [8, 6, 1, 2, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 5, 3, 3, 7, 8, 9], [7, 6, 7, 3, 7, 3, 6, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 1, 7, 6, 9, 8], [5, 2, 6, 2, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[6, 5, 7, 4], [3, 5, 6, 9, 7, 2, 8]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p05":{
+"title":"Insert into Sorted Circular Linked List",
+"function":"insert",
+"mode":"return",
+"match":"predicate",
+"signature":"def insert(start_node, insert_val):",
+"predicate":"sorted_circular_insert",
+"arg_kinds":[
+"circular_at",
+"plain"
+],
+"preamble":"class Node:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next",
+"cases":[
+{
+"args":"[[[1, 3, 4], 1], 2]"
+},
+{
+"args":"[[[], 0], 1]",
+"edge":true
+},
+{
+"args":"[[[1, 3, 5], 0], 4]"
+},
+{
+"args":"[[[1, 3, 5], 1], 0]"
+},
+{
+"args":"[[[1, 3, 5], 2], 6]"
+},
+{
+"args":"[[[2, 2, 2], 0], 2]"
+},
+{
+"args":"[[[1], 0], 5]"
+},
+{
+"args":"[[[1, 2, 4, 5], 2], 3]"
+},
+{
+"args":"[[[5, 10, 15], 1], 12]"
+},
+{
+"args":"[[[1, 3, 3, 5], 0], 3]"
+}
+]
+},
+"v2_p06":{
+"title":"Sequential Digits",
+"function":"sequential_digits",
+"mode":"return",
+"match":"exact",
+"signature":"def sequential_digits(low, high):",
+"cases":[
+{
+"args":"[100, 300]",
+"e":"WzEyMywgMjM0XQ=="
+},
+{
+"args":"[1000, 13000]",
+"e":"WzEyMzQsIDIzNDUsIDM0NTYsIDQ1NjcsIDU2NzgsIDY3ODksIDEyMzQ1XQ=="
+},
+{
+"args":"[10, 100]",
+"e":"WzEyLCAyMywgMzQsIDQ1LCA1NiwgNjcsIDc4LCA4OV0="
+},
+{
+"args":"[10, 99]",
+"e":"WzEyLCAyMywgMzQsIDQ1LCA1NiwgNjcsIDc4LCA4OV0="
+},
+{
+"args":"[58, 155]",
+"e":"WzY3LCA3OCwgODksIDEyM10="
+},
+{
+"args":"[10, 100000]",
+"e":"WzEyLCAyMywgMzQsIDQ1LCA1NiwgNjcsIDc4LCA4OSwgMTIzLCAyMzQsIDM0NSwgNDU2LCA1NjcsIDY3OCwgNzg5LCAxMjM0LCAyMzQ1LCAzNDU2LCA0NTY3LCA1Njc4LCA2Nzg5LCAxMjM0NSwgMjM0NTYsIDM0NTY3LCA0NTY3OCwgNTY3ODld"
+},
+{
+"args":"[123, 456]",
+"e":"WzEyMywgMjM0LCAzNDUsIDQ1Nl0="
+},
+{
+"args":"[1000, 2000]",
+"e":"WzEyMzRd"
+},
+{
+"args":"[234, 234]",
+"e":"WzIzNF0="
+},
+{
+"args":"[98, 654]",
+"e":"WzEyMywgMjM0LCAzNDUsIDQ1NiwgNTY3XQ=="
+},
+{
+"args":"[66, 98]",
+"e":"WzY3LCA3OCwgODld"
+},
+{
+"args":"[71, 102]",
+"e":"Wzc4LCA4OV0="
+},
+{
+"args":"[44, 98]",
+"e":"WzQ1LCA1NiwgNjcsIDc4LCA4OV0="
+},
+{
+"args":"[36, 102]",
+"e":"WzQ1LCA1NiwgNjcsIDc4LCA4OV0="
+},
+{
+"args":"[43, 97]",
+"e":"WzQ1LCA1NiwgNjcsIDc4LCA4OV0="
+}
+]
+},
+"v3_p01":{
+"title":"Count of Matches in Tournament",
+"function":"number_of_matches",
+"mode":"return",
+"match":"exact",
+"signature":"def number_of_matches(n):",
+"cases":[
+{
+"args":"[7]",
+"e":"Ng=="
+},
+{
+"args":"[14]",
+"e":"MTM="
+},
+{
+"args":"[1]",
+"e":"MA=="
+},
+{
+"args":"[2]",
+"e":"MQ=="
+},
+{
+"args":"[3]",
+"e":"Mg=="
+},
+{
+"args":"[100]",
+"e":"OTk="
+},
+{
+"args":"[16]",
+"e":"MTU="
+},
+{
+"args":"[5]",
+"e":"NA=="
+},
+{
+"args":"[25]",
+"e":"MjQ="
+},
+{
+"args":"[1000]",
+"e":"OTk5"
+},
+{
+"args":"[33]",
+"e":"MzI="
+},
+{
+"args":"[102]",
+"e":"MTAx"
+},
+{
+"args":"[66]",
+"e":"NjU="
+},
+{
+"args":"[76]",
+"e":"NzU="
+},
+{
+"args":"[37]",
+"e":"MzY="
+}
+]
+},
+"v3_p02":{
+"title":"Intersection of Two Linked Lists",
+"function":"find_intersection",
+"mode":"scenario",
+"match":"exact",
+"signature":"def find_intersection():",
+"student_code":"class Node:\n    def __init__(self, val=0, next_node=None):\n        self.val = val\n        self.next = next_node\n\n\ndef find_intersection(headA, headB):\n    pass  # write your solution here",
+"filename":"02_find_intersection",
+"cases":[
+{
+"code":"YzMgPSBOb2RlKDgpCmMyID0gTm9kZSg0LCBjMykKYzEgPSBOb2RlKDEsIGMyKQphMiA9IE5vZGUoOSkKYTEgPSBOb2RlKDMsIGEyKQphMi5uZXh0ID0gYzEKYjEgPSBOb2RlKDUpCmIxLm5leHQgPSBjMQpyID0gZmluZF9pbnRlcnNlY3Rpb24oYTEsIGIxKQpSRVNVTFQgPSByLnZhbCBpZiByIGVsc2UgTm9uZQ==",
+"observe":"return",
+"label":"lists share tail at value 1",
+"e":"MQ=="
+},
+{
+"code":"YzMgPSBOb2RlKDgpCmMyID0gTm9kZSg0LCBjMykKYzEgPSBOb2RlKDEsIGMyKQphMiA9IE5vZGUoOSkKYTEgPSBOb2RlKDMsIGEyKQphMi5uZXh0ID0gYzEKYjEgPSBOb2RlKDUpCmIxLm5leHQgPSBjMQpyID0gZmluZF9pbnRlcnNlY3Rpb24oYjEsIGExKQpSRVNVTFQgPSByLnZhbCBpZiByIGVsc2UgTm9uZQ==",
+"observe":"return",
+"label":"intersection from B's head",
+"e":"MQ=="
+},
+{
+"code":"eCA9IE5vZGUoMSwgTm9kZSgyLCBOb2RlKDMpKSkKeSA9IE5vZGUoNCwgTm9kZSg1KSkKciA9IGZpbmRfaW50ZXJzZWN0aW9uKHgsIHkpClJFU1VMVCA9IHIudmFsIGlmIHIgZWxzZSBOb25l",
+"observe":"return",
+"label":"no intersection -> None",
+"e":"Tm9uZQ=="
+},
+{
+"code":"dGFpbCA9IE5vZGUoOTkpCnAgPSBOb2RlKDEsIHRhaWwpCnEgPSBOb2RlKDIsIE5vZGUoMywgdGFpbCkpCnIgPSBmaW5kX2ludGVyc2VjdGlvbihwLCBxKQpSRVNVTFQgPSByLnZhbCBpZiByIGVsc2UgTm9uZQ==",
+"observe":"return",
+"label":"intersection at the very last node",
+"e":"OTk="
+},
+{
+"code":"c2hhcmVkID0gTm9kZSg3LCBOb2RlKDgsIE5vZGUoOSkpKQpyID0gZmluZF9pbnRlcnNlY3Rpb24oc2hhcmVkLCBzaGFyZWQpClJFU1VMVCA9IHIudmFsIGlmIHIgZWxzZSBOb25l",
+"observe":"return",
+"label":"whole lists identical (share head)",
+"e":"Nw=="
+}
+]
+},
+"v3_p03":{
+"title":"Power of Four",
+"function":"is_power_of_four",
+"mode":"return",
+"match":"exact",
+"signature":"def is_power_of_four(n):",
+"cases":[
+{
+"args":"[16]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[5]",
+"e":"RmFsc2U="
+},
+{
+"args":"[1]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[0]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[4]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[64]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[15]",
+"e":"RmFsc2U="
+},
+{
+"args":"[256]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[-4]",
+"e":"RmFsc2U="
+},
+{
+"args":"[1024]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[90]",
+"e":"RmFsc2U="
+},
+{
+"args":"[70]",
+"e":"RmFsc2U="
+},
+{
+"args":"[26]",
+"e":"RmFsc2U="
+},
+{
+"args":"[31]",
+"e":"RmFsc2U="
+},
+{
+"args":"[2]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p04":{
+"title":"Leaves of a Binary Tree",
+"function":"find_leaves",
+"mode":"return",
+"match":"predicate",
+"signature":"def find_leaves(root):",
+"predicate":"leaf_layers",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5]]"
+},
+{
+"args":"[[1]]"
+},
+{
+"args":"[[]]",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]"
+},
+{
+"args":"[[1, 2, None, 3]]"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]"
+},
+{
+"args":"[[1, None, 2, None, 3]]"
+},
+{
+"args":"[[5, 4, 8, 1, 2]]"
+},
+{
+"args":"[[1, 2, 2, 3, 3, 3, 3]]"
+},
+{
+"args":"[[10, 5, 15, 2, 7]]"
+},
+{
+"args":"[[11, 5, 6, 9, 1, 3]]"
+},
+{
+"args":"[[4]]"
+},
+{
+"args":"[[7, 6, 4, 1, 1]]"
+},
+{
+"args":"[[11, 9, 10, 5, 3, 1, 11]]"
+},
+{
+"args":"[[4, 14, 1, 4, 13, 10, 5]]"
+}
+]
+},
+"v3_p05":{
+"title":"Custom Sort String",
+"function":"custom_sort_string",
+"mode":"return",
+"match":"predicate",
+"signature":"def custom_sort_string(order, s):",
+"predicate":"custom_sorted",
+"cases":[
+{
+"args":"['cba', 'abcd']"
+},
+{
+"args":"['bcafg', 'abcd']"
+},
+{
+"args":"['kqep', 'pekeq']"
+},
+{
+"args":"['', 'abc']"
+},
+{
+"args":"['abc', '']",
+"edge":true
+},
+{
+"args":"['xyz', 'zzyyxx']",
+"edge":true
+},
+{
+"args":"['a', 'aaa']"
+},
+{
+"args":"['cba', 'aaabbbccc']"
+},
+{
+"args":"['edcba', 'abcde']"
+},
+{
+"args":"['dcba', 'dddcba']"
+}
+]
+},
+"v3_p06":{
+"title":"Find Sum Pair",
+"function":"find_sum_pair",
+"mode":"return",
+"match":"predicate",
+"signature":"def find_sum_pair(numbers):",
+"predicate":"sum_pair",
+"cases":[
+{
+"args":"[[3, 10, 4, 5, 2, 14]]"
+},
+{
+"args":"[[60, 0, 10, -35, 90]]"
+},
+{
+"args":"[[1, 2, 3, 4]]"
+},
+{
+"args":"[[1, 2, 3]]",
+"edge":true
+},
+{
+"args":"[[0, 1, 2, 3, 4]]"
+},
+{
+"args":"[[5, 5, 5, 5]]"
+},
+{
+"args":"[[1, 8, 3, 6]]"
+},
+{
+"args":"[[10, 20, 30]]"
+},
+{
+"args":"[[1, 2, 4, 8]]"
+},
+{
+"args":"[[2, 4, 6, 8, 10, 12]]"
+},
+{
+"args":"[[76, -10, -26, -16, 74, 4]]"
+},
+{
+"args":"[[-22, 7, 84, -8, 83]]"
+},
+{
+"args":"[[4, 83, 58]]"
+},
+{
+"args":"[[-31, 25, 8, 60, -16]]"
+},
+{
+"args":"[[-15, 11, 35, 14, 4]]"
+}
+]
+}
+}
+}

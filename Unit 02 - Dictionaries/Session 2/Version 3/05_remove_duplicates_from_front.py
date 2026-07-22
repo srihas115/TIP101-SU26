@@ -19,3 +19,24 @@ print("  expected:", [5], "| got:", remove_duplicates_from_front([5,5,5]))
 
 print("Test 4 - single-element list")
 print("  expected:", [9], "| got:", remove_duplicates_from_front([9]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(remove_duplicates_from_front)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([6, 5, 3, 5, 2, 8, 3], expected=[6, 5, 2, 8, 3])   # checks the value your code returns against this example

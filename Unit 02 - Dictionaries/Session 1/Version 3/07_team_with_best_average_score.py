@@ -44,3 +44,24 @@ print("  expected:", "Wolves", "| got:", team_with_best_average_score([
     {"team_name": "Wolves", "score": 60},
     {"team_name": "Wolves", "score": 60}
 ]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(team_with_best_average_score)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([{'team_name': 'Lions', 'score': 23}, {'team_name': 'Tigers', 'score': 30}, {'team_name': 'Lions', 'score': 27}, {'team_name': 'Bears', 'score': 20}, {'team_name': 'Tigers', 'score': 24}, {'team_name': 'Bears', 'score': 22}], expected='Tigers')   # checks the value your code returns against this example

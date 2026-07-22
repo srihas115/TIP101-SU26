@@ -39,3 +39,24 @@ print("  expected:", ['Y', 'X'], "| got:", _to_list(result2))
 print("Test 3 - longer list, chain preserved")
 result3 = add_first(node_a, -1)
 print("  expected:", [-1, 'A', 'B', 'C'], "| got:", _to_list(result3))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(add_first)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 3], 0, expected=[0, 1, 2, 3])   # checks the value your code returns against this example

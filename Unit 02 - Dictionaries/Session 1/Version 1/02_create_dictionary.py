@@ -26,3 +26,24 @@ print("  expected:", {'a': 1, 'b': 1, 'c': 1}, "| got:", create_dictionary(['a',
 
 print("Test 5 - integer keys and values")
 print("  expected:", {1: 10, 2: 20, 3: 30}, "| got:", create_dictionary([1, 2, 3], [10, 20, 30]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(create_dictionary)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test(['peanut', 'dragon', 'star', 'pop', 'space'], ['butter', 'fly', 'fish', 'corn', 'ship'], expected={'peanut': 'butter', 'dragon': 'fly', 'star': 'fish', 'pop': 'corn', 'space': 'ship'})   # checks the value your code returns against this example

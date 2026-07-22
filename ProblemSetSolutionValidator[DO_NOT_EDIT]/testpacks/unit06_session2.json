@@ -1,0 +1,1200 @@
+{
+"unit":6,
+"session":2,
+"problems":{
+"v1_p01":{
+"title":"Detect Circular Linked List",
+"function":"is_circular",
+"mode":"return",
+"match":"exact",
+"signature":"def is_circular(head):",
+"arg_kinds":[
+"cyclic"
+],
+"cases":[
+{
+"args":"[[[1, 2, 3], 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[1, 2, 3], -1]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3, 4], 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[5], 0]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[[5], -1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[1, 2], 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[1, 2, 3, 4, 5], 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[1, 2, 3, 4], 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[7, 8, 9, 10], 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[], -1]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[[2, -1, -1, 3], 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[0, 1, 0], 0]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[[1, 2, 2, -1, 3], 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[2, 2, 2], 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[[1, 0, 3, 0, 3], 0]]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v1_p02":{
+"title":"Find Last Node in a Cycle",
+"function":"find_last_node_in_cycle",
+"mode":"return",
+"match":"exact",
+"signature":"def find_last_node_in_cycle(head):",
+"arg_kinds":[
+"cyclic"
+],
+"ret_kind":"node_value",
+"cases":[
+{
+"args":"[[[1, 2, 3, 4], 1]]",
+"e":"NA=="
+},
+{
+"args":"[[[1, 2, 3, 4], -1]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3], 0]]",
+"e":"Mw=="
+},
+{
+"args":"[[[5], 0]]",
+"e":"NQ=="
+},
+{
+"args":"[[[5], -1]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3, 4, 5], 2]]",
+"e":"NQ=="
+},
+{
+"args":"[[[1, 2], 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[[7, 8, 9, 10], 0]]",
+"e":"MTA="
+},
+{
+"args":"[[[1, 2, 3, 4, 5, 6], 3]]",
+"e":"Ng=="
+},
+{
+"args":"[[[], -1]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[[-1, 0], 0]]",
+"e":"MA=="
+},
+{
+"args":"[[[3, 2], 1]]",
+"e":"Mg=="
+},
+{
+"args":"[[[1, -1, -1, 3], 2]]",
+"e":"Mw=="
+},
+{
+"args":"[[[-1, 3, 1], 2]]",
+"e":"MQ=="
+},
+{
+"args":"[[[1, 2, 2], 0]]",
+"e":"Mg=="
+}
+]
+},
+"v1_p03":{
+"title":"Partition List Around Value",
+"function":"partition",
+"mode":"return",
+"match":"predicate",
+"signature":"def partition(head, val):",
+"predicate":"partition_around",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"cases":[
+{
+"args":"[[1, 4, 3, 2, 5, 2], 3]"
+},
+{
+"args":"[[1, 2, 3], 2]"
+},
+{
+"args":"[[], 5]",
+"edge":true
+},
+{
+"args":"[[5, 4, 3, 2, 1], 3]"
+},
+{
+"args":"[[1, 1, 1], 2]"
+},
+{
+"args":"[[3, 3, 3], 2]"
+},
+{
+"args":"[[2, 1], 2]"
+},
+{
+"args":"[[9, 8, 7, 6, 5], 10]"
+},
+{
+"args":"[[0], 0]",
+"edge":true
+},
+{
+"args":"[[4, 2, 4, 2, 4], 3]"
+},
+{
+"args":"[[5, 9, 8, 1, 8, 1], 6]"
+},
+{
+"args":"[[7, 2, 0, 1, 0, 8], -2]"
+},
+{
+"args":"[[8, 7, 0, 9, 1, 6], 1]"
+},
+{
+"args":"[[], -2]"
+},
+{
+"args":"[[], 7]"
+}
+]
+},
+"v1_p04":{
+"title":"Convert Binary Linked List to Integer",
+"function":"binary_to_int",
+"mode":"return",
+"match":"exact",
+"signature":"def binary_to_int(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"cases":[
+{
+"args":"[[1, 0, 1]]",
+"e":"NQ=="
+},
+{
+"args":"[[0]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1, 1, 1, 1]]",
+"e":"MTU="
+},
+{
+"args":"[[1, 0, 0, 0]]",
+"e":"OA=="
+},
+{
+"args":"[[0, 0, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 1, 0, 1, 0]]",
+"e":"MjY="
+},
+{
+"args":"[[1, 0, 1, 0, 1, 0]]",
+"e":"NDI="
+},
+{
+"args":"[[0, 0, 0, 0]]",
+"e":"MA=="
+},
+{
+"args":"[[1, 1, 1, 1, 1, 1, 1, 1]]",
+"e":"MjU1"
+},
+{
+"args":"[[1, 0, 0, 1, 1, 1, 0, 1]]",
+"e":"MTU3"
+},
+{
+"args":"[[0, 0, 0, 0, 1, 0, 0]]",
+"e":"NA=="
+},
+{
+"args":"[[1, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[0, 0, 0, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[0, 1]]",
+"e":"MQ=="
+}
+]
+},
+"v1_p05":{
+"title":"Add Two Numbers",
+"function":"add_two_numbers",
+"mode":"return",
+"match":"exact",
+"signature":"def add_two_numbers(head_a, head_b):",
+"arg_kinds":[
+"linkedlist",
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[2, 4, 3], [5, 6, 4]]",
+"e":"WzcsIDAsIDhd"
+},
+{
+"args":"[[0], [0]]",
+"e":"WzBd",
+"edge":true
+},
+{
+"args":"[[9, 9, 9], [1]]",
+"e":"WzAsIDAsIDAsIDFd",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], [4, 5, 6]]",
+"e":"WzUsIDcsIDld"
+},
+{
+"args":"[[5], [5]]",
+"e":"WzAsIDFd"
+},
+{
+"args":"[[9, 9], [1]]",
+"e":"WzAsIDAsIDFd"
+},
+{
+"args":"[[1], [9, 9, 9]]",
+"e":"WzAsIDAsIDAsIDFd"
+},
+{
+"args":"[[7, 3], [8, 6]]",
+"e":"WzUsIDAsIDFd"
+},
+{
+"args":"[[0], [5, 6]]",
+"e":"WzUsIDZd"
+},
+{
+"args":"[[2, 4, 6], [3, 5, 7]]",
+"e":"WzUsIDksIDMsIDFd"
+}
+]
+},
+"v1_p06":{
+"title":"Reverse Sublist Between m and n",
+"function":"reverse_between",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse_between(head, m, n):",
+"arg_kinds":[
+"linkedlist",
+"plain",
+"plain"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5], 2, 5]",
+"e":"WzEsIDUsIDQsIDMsIDJd"
+},
+{
+"args":"[[1, 2, 3, 4, 5], 1, 5]",
+"e":"WzUsIDQsIDMsIDIsIDFd"
+},
+{
+"args":"[[1, 2, 3, 4, 5], 2, 4]",
+"e":"WzEsIDQsIDMsIDIsIDVd"
+},
+{
+"args":"[[1], 1, 1]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[1, 2], 1, 2]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[1, 2, 3], 2, 2]",
+"e":"WzEsIDIsIDNd",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6], 3, 5]",
+"e":"WzEsIDIsIDUsIDQsIDMsIDZd"
+},
+{
+"args":"[[10, 20, 30, 40], 1, 3]",
+"e":"WzMwLCAyMCwgMTAsIDQwXQ=="
+},
+{
+"args":"[[5, 4, 3, 2, 1], 2, 4]",
+"e":"WzUsIDIsIDMsIDQsIDFd"
+},
+{
+"args":"[[1, 2, 3, 4], 1, 1]",
+"e":"WzEsIDIsIDMsIDRd"
+}
+]
+},
+"v2_p01":{
+"title":"Convert to Circular Linked List",
+"function":"make_circular",
+"mode":"return",
+"match":"predicate",
+"signature":"def make_circular(head):",
+"predicate":"circular_after",
+"arg_kinds":[
+"linkedlist"
+],
+"cases":[
+{
+"args":"[[1, 2, 3]]"
+},
+{
+"args":"[[5]]",
+"edge":true
+},
+{
+"args":"[[1, 2]]"
+},
+{
+"args":"[[4, 3, 2, 1]]"
+},
+{
+"args":"[[7]]"
+},
+{
+"args":"[[1, 2, 3, 4, 5]]"
+},
+{
+"args":"[[9, 8]]"
+},
+{
+"args":"[[0, 0, 0]]"
+},
+{
+"args":"[[10, 20, 30, 40]]"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]"
+},
+{
+"args":"[[20, 9, 16, 13, 10, 26, 14]]"
+},
+{
+"args":"[[19, 34]]"
+},
+{
+"args":"[[26, 28, 34, 18, 1, 40]]"
+},
+{
+"args":"[[2, 18, 23, 0]]"
+},
+{
+"args":"[[0]]"
+}
+]
+},
+"v2_p02":{
+"title":"Collect Nodes of a Cycle",
+"function":"collect_cycle_nodes",
+"mode":"return",
+"match":"exact",
+"signature":"def collect_cycle_nodes(head):",
+"arg_kinds":[
+"cyclic"
+],
+"ret_kind":"node_value_list",
+"cases":[
+{
+"args":"[[[1, 2, 3, 4], 1]]",
+"e":"WzIsIDMsIDRd"
+},
+{
+"args":"[[[1, 2, 3, 4], -1]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3], 0]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[[5], 0]]",
+"e":"WzVd"
+},
+{
+"args":"[[[5], -1]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3, 4, 5], 2]]",
+"e":"WzMsIDQsIDVd"
+},
+{
+"args":"[[[1, 2], 1]]",
+"e":"WzJd"
+},
+{
+"args":"[[[7, 8, 9, 10], 3]]",
+"e":"WzEwXQ=="
+},
+{
+"args":"[[[1, 2, 3, 4, 5, 6], 0]]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDZd"
+},
+{
+"args":"[[[], -1]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[[1, 0, 3], 1]]",
+"e":"WzAsIDNd"
+},
+{
+"args":"[[[3, 1, 3], 0]]",
+"e":"WzMsIDEsIDNd"
+},
+{
+"args":"[[[0, 3, -1], 1]]",
+"e":"WzMsIC0xXQ=="
+},
+{
+"args":"[[[1, -1, 3], 0]]",
+"e":"WzEsIC0xLCAzXQ=="
+},
+{
+"args":"[[[2, -1], 0]]",
+"e":"WzIsIC0xXQ=="
+}
+]
+},
+"v2_p03":{
+"title":"Delete Duplicates",
+"function":"delete_dupes",
+"mode":"return",
+"match":"exact",
+"signature":"def delete_dupes(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 3, 4, 5]]",
+"e":"WzEsIDIsIDQsIDVd"
+},
+{
+"args":"[[1, 1, 2, 3]]",
+"e":"WzIsIDNd"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 1, 2, 2, 3, 3]]",
+"e":"W10="
+},
+{
+"args":"[[1, 2, 2, 3, 4, 4, 5]]",
+"e":"WzEsIDMsIDVd"
+},
+{
+"args":"[[5]]",
+"e":"WzVd"
+},
+{
+"args":"[[1, 1, 2, 3, 3]]",
+"e":"WzJd"
+},
+{
+"args":"[[0, 0, 1, 2, 2]]",
+"e":"WzFd"
+}
+]
+},
+"v2_p04":{
+"title":"Identical Linked Lists",
+"function":"is_identical",
+"mode":"return",
+"match":"exact",
+"signature":"def is_identical(head_a, head_b):",
+"arg_kinds":[
+"linkedlist",
+"linkedlist"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, 4], [1, 2, 3, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4], [1, 3, 4, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], []]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1], [1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1], [2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2], [1, 2, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3], [1, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 5, 5], [5, 5, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[], [1]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], [1, 2, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 2, 4], [2, 2, 1, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 3, 1], [3, 1, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 1, 2], [4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2], [1, 1, 5, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2, 4], [4]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p05":{
+"title":"Rotate Right by k",
+"function":"rotate_right",
+"mode":"return",
+"match":"exact",
+"signature":"def rotate_right(head, k):",
+"arg_kinds":[
+"linkedlist",
+"plain"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5], 2]",
+"e":"WzQsIDUsIDEsIDIsIDNd"
+},
+{
+"args":"[[1, 2, 3], 4]",
+"e":"WzMsIDEsIDJd"
+},
+{
+"args":"[[1, 2, 3], 0]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[1], 5]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[], 3]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5], 5]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[1, 2], 1]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[1, 2, 3, 4], 1]",
+"e":"WzQsIDEsIDIsIDNd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6], 3]",
+"e":"WzQsIDUsIDYsIDEsIDIsIDNd"
+},
+{
+"args":"[[10, 20, 30], 2]",
+"e":"WzIwLCAzMCwgMTBd"
+},
+{
+"args":"[[], 0]",
+"e":"W10="
+},
+{
+"args":"[[], -1]",
+"e":"W10="
+},
+{
+"args":"[[9, 9, 17, 30], 7]",
+"e":"WzksIDE3LCAzMCwgOV0="
+},
+{
+"args":"[[7, 29], 0]",
+"e":"WzcsIDI5XQ=="
+},
+{
+"args":"[[19, 2, 13], 7]",
+"e":"WzEzLCAxOSwgMl0="
+}
+]
+},
+"v2_p06":{
+"title":"Delete Node from a Circular List",
+"function":"delete_node",
+"mode":"return",
+"match":"predicate",
+"signature":"def delete_node(head, val):",
+"predicate":"circular_delete",
+"arg_kinds":[
+"circular",
+"plain"
+],
+"cases":[
+{
+"args":"[[1, 2, 3], 2]"
+},
+{
+"args":"[[1, 2, 3], 1]"
+},
+{
+"args":"[[1, 2, 3], 3]"
+},
+{
+"args":"[[1, 2, 3], 9]",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"edge":true
+},
+{
+"args":"[[5], 3]"
+},
+{
+"args":"[[1, 2, 3, 4], 1]"
+},
+{
+"args":"[[1, 2, 2, 3], 2]"
+},
+{
+"args":"[[1, 2, 3, 4, 5], 5]"
+},
+{
+"args":"[[7, 8], 7]"
+},
+{
+"args":"[[2, 8, 5], 11]"
+},
+{
+"args":"[[7], 1]"
+},
+{
+"args":"[[6, 5, 2], 0]"
+},
+{
+"args":"[[1, 2, 1], 7]"
+},
+{
+"args":"[[8, 7], 9]"
+}
+]
+},
+"v3_p01":{
+"title":"Circular List Length",
+"function":"circular_list_length",
+"mode":"return",
+"match":"exact",
+"signature":"def circular_list_length(head):",
+"arg_kinds":[
+"circular"
+],
+"cases":[
+{
+"args":"[[1, 2, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[5]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"NQ=="
+},
+{
+"args":"[[7, 8, 9, 10]]",
+"e":"NA=="
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"Nw=="
+},
+{
+"args":"[[0]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[9, 8]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"NA=="
+},
+{
+"args":"[[10, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[9, 0]]",
+"e":"Mg=="
+},
+{
+"args":"[[5, 10, 1, 3]]",
+"e":"NA=="
+},
+{
+"args":"[[8, 4, 5, 5, 7]]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 3, 7, 7, 8, 2]]",
+"e":"Ng=="
+}
+]
+},
+"v3_p02":{
+"title":"Detect and Remove Cycle",
+"function":"detect_and_remove_cycle",
+"mode":"return",
+"match":"exact",
+"signature":"def detect_and_remove_cycle(head):",
+"arg_kinds":[
+"cyclic"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[[1, 2, 3], 0]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[[1, 2, 3, 4], -1]]",
+"e":"WzEsIDIsIDMsIDRd",
+"edge":true
+},
+{
+"args":"[[[1, 2, 3, 4], 1]]",
+"e":"WzEsIDIsIDMsIDRd"
+},
+{
+"args":"[[[5], 0]]",
+"e":"WzVd"
+},
+{
+"args":"[[[5], -1]]",
+"e":"WzVd",
+"edge":true
+},
+{
+"args":"[[[1, 2], 0]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[[1, 2, 3, 4, 5], 2]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[[1, 2, 3, 4, 5, 6], 3]]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDZd"
+},
+{
+"args":"[[[7, 8, 9], -1]]",
+"e":"WzcsIDgsIDld"
+},
+{
+"args":"[[[], -1]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[[0, -1, 2], 2]]",
+"e":"WzAsIC0xLCAyXQ=="
+},
+{
+"args":"[[[1, 1, 3, -1, -1], 4]]",
+"e":"WzEsIDEsIDMsIC0xLCAtMV0="
+},
+{
+"args":"[[[1, 1, 2, 0, 3], 4]]",
+"e":"WzEsIDEsIDIsIDAsIDNd"
+},
+{
+"args":"[[[3, 2, 1, -1], 1]]",
+"e":"WzMsIDIsIDEsIC0xXQ=="
+},
+{
+"args":"[[[-1, 0, 0, -1], 1]]",
+"e":"Wy0xLCAwLCAwLCAtMV0="
+}
+]
+},
+"v3_p03":{
+"title":"Merge Two Sorted Lists",
+"function":"merge_two_lists",
+"mode":"return",
+"match":"exact",
+"signature":"def merge_two_lists(head_a, head_b):",
+"arg_kinds":[
+"linkedlist",
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 4], [1, 3, 4]]",
+"e":"WzEsIDEsIDIsIDMsIDQsIDRd"
+},
+{
+"args":"[[], [0]]",
+"e":"WzBd",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], []]",
+"e":"WzEsIDIsIDNd",
+"edge":true
+},
+{
+"args":"[[], []]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5], [1]]",
+"e":"WzEsIDVd"
+},
+{
+"args":"[[1, 3, 5], [2, 4, 6]]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDZd"
+},
+{
+"args":"[[1, 1, 1], [1, 1]]",
+"e":"WzEsIDEsIDEsIDEsIDFd"
+},
+{
+"args":"[[2, 4], [1, 3, 5]]",
+"e":"WzEsIDIsIDMsIDQsIDVd"
+},
+{
+"args":"[[10], [20, 30]]",
+"e":"WzEwLCAyMCwgMzBd"
+},
+{
+"args":"[[1, 2, 3], [4, 5, 6]]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDZd"
+}
+]
+},
+"v3_p04":{
+"title":"Skip m and Remove n",
+"function":"skip_and_remove",
+"mode":"return",
+"match":"exact",
+"signature":"def skip_and_remove(head, m, n):",
+"arg_kinds":[
+"linkedlist",
+"plain",
+"plain"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2, 3]",
+"e":"WzEsIDIsIDYsIDdd"
+},
+{
+"args":"[[1, 2, 3, 4, 5], 1, 1]",
+"e":"WzEsIDMsIDVd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6], 2, 2]",
+"e":"WzEsIDIsIDUsIDZd"
+},
+{
+"args":"[[1, 2, 3], 5, 2]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[1, 2, 3, 4], 2, 10]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1], 1, 1]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[], 3, 2]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7, 8], 3, 1]",
+"e":"WzEsIDIsIDMsIDUsIDYsIDdd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7, 8, 9], 2, 2]",
+"e":"WzEsIDIsIDUsIDYsIDld"
+},
+{
+"args":"[[1, 2, 3, 4, 5], 3, 3]",
+"e":"WzEsIDIsIDNd"
+}
+]
+},
+"v3_p05":{
+"title":"Rotate a Doubly Linked List Left by k",
+"function":"rotate_doubly_linked_list",
+"mode":"return",
+"match":"exact",
+"signature":"def rotate_doubly_linked_list(head, k):",
+"arg_kinds":[
+"doubly",
+"plain"
+],
+"ret_kind":"doubly",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5], 2]",
+"e":"W1szLCA0LCA1LCAxLCAyXSwgVHJ1ZV0="
+},
+{
+"args":"[[0, 1, 2], 4]",
+"e":"W1sxLCAyLCAwXSwgVHJ1ZV0="
+},
+{
+"args":"[[1, 2, 3], 0]",
+"e":"W1sxLCAyLCAzXSwgVHJ1ZV0="
+},
+{
+"args":"[[1], 5]",
+"e":"W1sxXSwgVHJ1ZV0=",
+"edge":true
+},
+{
+"args":"[[1, 2], 1]",
+"e":"W1syLCAxXSwgVHJ1ZV0="
+},
+{
+"args":"[[1, 2, 3, 4], 2]",
+"e":"W1szLCA0LCAxLCAyXSwgVHJ1ZV0="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6], 3]",
+"e":"W1s0LCA1LCA2LCAxLCAyLCAzXSwgVHJ1ZV0="
+},
+{
+"args":"[[10, 20, 30], 1]",
+"e":"W1syMCwgMzAsIDEwXSwgVHJ1ZV0="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 5]",
+"e":"W1sxLCAyLCAzLCA0LCA1XSwgVHJ1ZV0="
+},
+{
+"args":"[[5, 6, 7, 8], 3]",
+"e":"W1s4LCA1LCA2LCA3XSwgVHJ1ZV0="
+},
+{
+"args":"[[8, 19, 23, 27, 7, 20], 3]",
+"e":"W1syNywgNywgMjAsIDgsIDE5LCAyM10sIFRydWVd"
+},
+{
+"args":"[[0], 1]",
+"e":"W1swXSwgVHJ1ZV0="
+},
+{
+"args":"[[21, 0, 8, 27, 11], -2]",
+"e":"W1syNywgMTEsIDIxLCAwLCA4XSwgVHJ1ZV0="
+},
+{
+"args":"[[18, 23], 0]",
+"e":"W1sxOCwgMjNdLCBUcnVlXQ=="
+},
+{
+"args":"[[7, 22, 0], 3]",
+"e":"W1s3LCAyMiwgMF0sIFRydWVd"
+}
+]
+},
+"v3_p06":{
+"title":"Merge Nodes Between Zeros",
+"function":"merge_nodes",
+"mode":"return",
+"match":"exact",
+"signature":"def merge_nodes(head):",
+"arg_kinds":[
+"linkedlist"
+],
+"ret_kind":"linkedlist",
+"cases":[
+{
+"args":"[[0, 3, 1, 0, 4, 5, 2, 0]]",
+"e":"WzQsIDExXQ=="
+},
+{
+"args":"[[0, 1, 0, 3, 0, 2, 2, 0]]",
+"e":"WzEsIDMsIDRd"
+},
+{
+"args":"[[0, 1, 0]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[0, 5, 5, 5, 0]]",
+"e":"WzE1XQ=="
+},
+{
+"args":"[[0, 1, 2, 3, 0]]",
+"e":"WzZd"
+},
+{
+"args":"[[0, 10, 0, 20, 0]]",
+"e":"WzEwLCAyMF0="
+},
+{
+"args":"[[0, 1, 0, 2, 0, 3, 0]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[0, 7, 0]]",
+"e":"Wzdd"
+},
+{
+"args":"[[0, 2, 4, 6, 8, 0]]",
+"e":"WzIwXQ=="
+},
+{
+"args":"[[0, 1, 1, 0, 2, 2, 0, 3, 3, 0]]",
+"e":"WzIsIDQsIDZd"
+}
+]
+}
+}
+}

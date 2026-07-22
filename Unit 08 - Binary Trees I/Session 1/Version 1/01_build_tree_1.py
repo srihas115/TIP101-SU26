@@ -7,7 +7,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
-tree = TreeNode(10, TreeNode(4), TreeNode(6))
+root = TreeNode(10, TreeNode(4), TreeNode(6))
 
 '''
   10
@@ -15,5 +15,19 @@ tree = TreeNode(10, TreeNode(4), TreeNode(6))
 4    6
 '''
 
-assert tree.left is not None and tree.right is not None
-print(tree.val, tree.left.val, tree.right.val)
+assert root.left is not None and root.right is not None
+print(root.val, root.left.val, root.right.val)
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import check_setup
+
+check_setup()   # ▶ Run this file to validate your work

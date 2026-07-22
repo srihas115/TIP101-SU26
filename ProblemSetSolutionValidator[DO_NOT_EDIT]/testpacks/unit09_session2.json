@@ -1,0 +1,1089 @@
+{
+"unit":9,
+"session":2,
+"problems":{
+"v1_p01":{
+"title":"Level Order Traversal",
+"function":"level_order",
+"mode":"return",
+"match":"exact",
+"signature":"def level_order(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 6, 1, 3]]",
+"e":"WzQsIDIsIDYsIDEsIDNd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"WzFd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDYsIDdd"
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"WzMsIDksIDIwLCAxNSwgN10="
+},
+{
+"args":"[[1, None, 2]]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[5, 4, 8, 11, None, 13, 4]]",
+"e":"WzUsIDQsIDgsIDExLCAxMywgNF0="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[10, 5, 15, 3]]",
+"e":"WzEwLCA1LCAxNSwgM10="
+},
+{
+"args":"[[9]]",
+"e":"Wzld"
+},
+{
+"args":"[[13, 20, 20, 1, 8, 12, 5]]",
+"e":"WzEzLCAyMCwgMjAsIDEsIDgsIDEyLCA1XQ=="
+},
+{
+"args":"[[15, 19, 20, 18, 3]]",
+"e":"WzE1LCAxOSwgMjAsIDE4LCAzXQ=="
+},
+{
+"args":"[[2, 7, 17, 10, 17, 12, 13]]",
+"e":"WzIsIDcsIDE3LCAxMCwgMTcsIDEyLCAxM10="
+},
+{
+"args":"[[10, 7, 6, 2, 3, 20]]",
+"e":"WzEwLCA3LCA2LCAyLCAzLCAyMF0="
+}
+]
+},
+"v1_p02":{
+"title":"Minimum Depth",
+"function":"min_depth",
+"mode":"return",
+"match":"exact",
+"signature":"def min_depth(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"Mg=="
+},
+{
+"args":"[[2, None, 3, None, None, None, 4, None, None, None, None, None, None, None, 5]]",
+"e":"Mg=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, None, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, None, None, 4, 5]]",
+"e":"Mg=="
+},
+{
+"args":"[[5, 4, 8, 11]]",
+"e":"Mg=="
+},
+{
+"args":"[[12, 19, 16, 15, 7, 5, 3, 12, 15, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[14, 20, 3, 20, 16, 20, 4, 7]]",
+"e":"Mw=="
+},
+{
+"args":"[[8, 1, 9, 14, 8]]",
+"e":"Mg=="
+},
+{
+"args":"[[14, 12, 3, 8, 7]]",
+"e":"Mg=="
+},
+{
+"args":"[[11, 15, 12, 2, 7, 6]]",
+"e":"Mw=="
+}
+]
+},
+"v1_p03":{
+"title":"Odd/Even Level Sum Difference",
+"function":"level_difference",
+"mode":"return",
+"match":"exact",
+"signature":"def level_difference(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[6, 3, 8, 5, None, 4, 2, None, None, 1, 7, None, 3]]",
+"e":"LTU="
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"LTQ="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"MTg="
+},
+{
+"args":"[[5, 10, 15]]",
+"e":"LTIw"
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[10, 20, 30, 40]]",
+"e":"MA=="
+},
+{
+"args":"[[100]]",
+"e":"MTAw"
+},
+{
+"args":"[[2, 4, 6, 8, 10]]",
+"e":"MTA="
+},
+{
+"args":"[[56, 21, 60, 63, 45]]",
+"e":"ODM="
+},
+{
+"args":"[[53]]",
+"e":"NTM="
+},
+{
+"args":"[[86, 6, 62]]",
+"e":"MTg="
+},
+{
+"args":"[[39, 46, 79, 11, 85]]",
+"e":"MTA="
+},
+{
+"args":"[[5, 28]]",
+"e":"LTIz"
+}
+]
+},
+"v1_p04":{
+"title":"Level Order (Nested Lists)",
+"function":"level_order",
+"mode":"return",
+"match":"exact",
+"signature":"def level_order(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"W1szXSwgWzksIDIwXSwgWzE1LCA3XV0="
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"W1sxXV0="
+},
+{
+"args":"[[4, 2, 6, 1, 3]]",
+"e":"W1s0XSwgWzIsIDZdLCBbMSwgM11d"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"W1sxXSwgWzIsIDNdLCBbNCwgNSwgNiwgN11d"
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"W1sxXSwgWzJdLCBbM11d"
+},
+{
+"args":"[[1, None, 2]]",
+"e":"W1sxXSwgWzJdXQ=="
+},
+{
+"args":"[[5, 4, 8]]",
+"e":"W1s1XSwgWzQsIDhdXQ=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"W1sxXSwgWzIsIDNdXQ=="
+},
+{
+"args":"[[10, 5, 15, 2, 7]]",
+"e":"W1sxMF0sIFs1LCAxNV0sIFsyLCA3XV0="
+},
+{
+"args":"[[8, 4]]",
+"e":"W1s4XSwgWzRdXQ=="
+},
+{
+"args":"[[1, 13, 10, 11]]",
+"e":"W1sxXSwgWzEzLCAxMF0sIFsxMV1d"
+},
+{
+"args":"[[18, 9, 20, 15, 13]]",
+"e":"W1sxOF0sIFs5LCAyMF0sIFsxNSwgMTNdXQ=="
+},
+{
+"args":"[[19, 19, 17, 6, 2, 11]]",
+"e":"W1sxOV0sIFsxOSwgMTddLCBbNiwgMiwgMTFdXQ=="
+},
+{
+"args":"[[4, 8, 4, 1, 20, 14]]",
+"e":"W1s0XSwgWzgsIDRdLCBbMSwgMjAsIDE0XV0="
+}
+]
+},
+"v1_p05":{
+"title":"Sum of Node Tilts",
+"function":"find_tilt",
+"mode":"return",
+"match":"exact",
+"signature":"def find_tilt(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[4, 2, 9, 3, 5, None, 7]]",
+"e":"MTU="
+},
+{
+"args":"[[1]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"Nw=="
+},
+{
+"args":"[[1, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, None, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"MTA="
+},
+{
+"args":"[[5, 3, 8, 1, 4]]",
+"e":"Mw=="
+},
+{
+"args":"[[2, 1, 3, None, None, 4, 5]]",
+"e":"MTI="
+},
+{
+"args":"[[13, 20, 1]]",
+"e":"MTk="
+},
+{
+"args":"[[28, 11]]",
+"e":"MTE="
+},
+{
+"args":"[[30, 23, 23, 26, 25, 4]]",
+"e":"NTI="
+},
+{
+"args":"[[20]]",
+"e":"MA=="
+},
+{
+"args":"[[22, 3, 28, 1]]",
+"e":"MjU="
+}
+]
+},
+"v2_p01":{
+"title":"Print Level Order",
+"function":"print_by_level",
+"mode":"stdout",
+"match":"exact",
+"signature":"def print_by_level(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 6, 1, 3]]",
+"e":"JzRcbjJcbjZcbjFcbjMn"
+},
+{
+"args":"[[1]]",
+"e":"JzEn"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"JzFcbjJcbjNcbjRcbjVcbjZcbjcn"
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"JzFcbjJcbjMn"
+},
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"JzNcbjlcbjIwXG4xNVxuNyc="
+},
+{
+"args":"[[10]]",
+"e":"JzEwJw=="
+},
+{
+"args":"[[1, None, 2]]",
+"e":"JzFcbjIn"
+},
+{
+"args":"[[5, 4, 8, 11, None, 13, 4]]",
+"e":"JzVcbjRcbjhcbjExXG4xM1xuNCc="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"JzFcbjJcbjMn"
+},
+{
+"args":"[[7, 3, 9, 1]]",
+"e":"JzdcbjNcbjlcbjEn"
+},
+{
+"args":"[[2, 18, 14, 9, 17, 5, 20]]",
+"e":"JzJcbjE4XG4xNFxuOVxuMTdcbjVcbjIwJw=="
+},
+{
+"args":"[[1, 18, 18]]",
+"e":"JzFcbjE4XG4xOCc="
+},
+{
+"args":"[[16, 6, 1, 19, 2, 18]]",
+"e":"JzE2XG42XG4xXG4xOVxuMlxuMTgn"
+},
+{
+"args":"[[10, 14, 13, 18, 3, 11, 18]]",
+"e":"JzEwXG4xNFxuMTNcbjE4XG4zXG4xMVxuMTgn"
+},
+{
+"args":"[[12, 9, 8, 2, 2, 14, 19]]",
+"e":"JzEyXG45XG44XG4yXG4yXG4xNFxuMTkn"
+}
+]
+},
+"v2_p02":{
+"title":"Sum of Node Values by Level",
+"function":"level_sum",
+"mode":"return",
+"match":"exact",
+"signature":"def level_sum(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 6, 1, 3]]",
+"e":"WzQsIDgsIDRd"
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"WzFd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"WzEsIDUsIDIyXQ=="
+},
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"WzMsIDI5LCAyMl0="
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"WzEsIDIsIDNd"
+},
+{
+"args":"[[10]]",
+"e":"WzEwXQ=="
+},
+{
+"args":"[[5, 4, 8]]",
+"e":"WzUsIDEyXQ=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzEsIDVd"
+},
+{
+"args":"[[10, 5, 15, 2, 7, 12, 20]]",
+"e":"WzEwLCAyMCwgNDFd"
+},
+{
+"args":"[[20, 9, 1, 15, 16]]",
+"e":"WzIwLCAxMCwgMzFd"
+},
+{
+"args":"[[19]]",
+"e":"WzE5XQ=="
+},
+{
+"args":"[[1, 18, 17, 18, 13]]",
+"e":"WzEsIDM1LCAzMV0="
+},
+{
+"args":"[[6, 6, 11, 19, 1]]",
+"e":"WzYsIDE3LCAyMF0="
+},
+{
+"args":"[[14, 13, 13, 2]]",
+"e":"WzE0LCAyNiwgMl0="
+}
+]
+},
+"v2_p03":{
+"title":"Maximum Nodes at Any Level",
+"function":"level_max",
+"mode":"return",
+"match":"exact",
+"signature":"def level_max(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 6, 1, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"NA=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, None, 2]]",
+"e":"MQ=="
+},
+{
+"args":"[[5, 4, 8, 11]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[10, 5, 15, 2, 7, 12, 20, 1]]",
+"e":"NA=="
+},
+{
+"args":"[[6, 7, 6, 11, 15, 8, 13]]",
+"e":"NA=="
+},
+{
+"args":"[[20, 15, 12]]",
+"e":"Mg=="
+},
+{
+"args":"[[19, 9, 15, 18, 16]]",
+"e":"Mg=="
+},
+{
+"args":"[[10, 5]]",
+"e":"MQ=="
+},
+{
+"args":"[[3, 7, 5, 5, 17, 17, 7, 17]]",
+"e":"NA=="
+}
+]
+},
+"v2_p04":{
+"title":"Vertical Order Traversal",
+"function":"vertical_order",
+"mode":"return",
+"match":"exact",
+"signature":"def vertical_order(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"W1s5XSwgWzMsIDE1XSwgWzIwXSwgWzddXQ=="
+},
+{
+"args":"[[3, 9, 8, 4, 0, 1, 7]]",
+"e":"W1s0XSwgWzldLCBbMywgMCwgMV0sIFs4XSwgWzddXQ=="
+},
+{
+"args":"[[3, 9, 8, 4, 0, 1, 7, None, None, None, 2, 5]]",
+"e":"W1s0XSwgWzksIDVdLCBbMywgMCwgMV0sIFs4LCAyXSwgWzddXQ=="
+},
+{
+"args":"[[]]",
+"e":"W10="
+},
+{
+"args":"[[1]]",
+"e":"W1sxXV0=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"W1syXSwgWzFdLCBbM11d"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"W1s0XSwgWzJdLCBbMSwgNSwgNl0sIFszXSwgWzddXQ=="
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"W1szXSwgWzJdLCBbMV1d"
+},
+{
+"args":"[[1, None, 2]]",
+"e":"W1sxXSwgWzJdXQ=="
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9]]",
+"e":"W1sxXSwgWzNdLCBbNSwgNCwgN10sIFs4XSwgWzldXQ=="
+},
+{
+"args":"[[3, 20]]",
+"e":"W1syMF0sIFszXV0="
+},
+{
+"args":"[[16]]",
+"e":"W1sxNl1d"
+},
+{
+"args":"[[0, 4, 2, 5, 19, 7, 11, 4]]",
+"e":"W1s0XSwgWzVdLCBbNF0sIFswLCAxOSwgN10sIFsyXSwgWzExXV0="
+},
+{
+"args":"[[12, 18, 3, 5, 13]]",
+"e":"W1s1XSwgWzE4XSwgWzEyLCAxM10sIFszXV0="
+},
+{
+"args":"[[17, 7, 5, 20, 5]]",
+"e":"W1syMF0sIFs3XSwgWzE3LCA1XSwgWzVdXQ=="
+}
+]
+},
+"v2_p05":{
+"title":"Diameter of Binary Tree",
+"function":"find_diameter",
+"mode":"return",
+"match":"exact",
+"signature":"def find_diameter(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"Mw=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, None, 3, None, 4]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"NA=="
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[4, 2, 6, 1, 3, 5, 7]]",
+"e":"NA=="
+},
+{
+"args":"[[1, 2]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3, 4, None, None, 5, 6]]",
+"e":"NQ=="
+},
+{
+"args":"[[2, 5, 6, 5, 1, 6, 3]]",
+"e":"NA=="
+},
+{
+"args":"[[1, 3, 2, 6, 6, 4, 2, 7]]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 6, 6]]",
+"e":"Mg=="
+},
+{
+"args":"[[2, 4, 4, 5, 6, 7, 3, 4]]",
+"e":"NQ=="
+},
+{
+"args":"[[5, 5, 4, 2, 1, 4, 7, 1]]",
+"e":"NQ=="
+}
+]
+},
+"v3_p01":{
+"title":"Level Order Traversal in a Dictionary",
+"function":"level_dict",
+"mode":"return",
+"match":"exact",
+"signature":"def level_dict(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 6, 1, 3]]",
+"e":"ezE6IFs0XSwgMjogWzIsIDZdLCAzOiBbMSwgM119"
+},
+{
+"args":"[[]]",
+"e":"e30=",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"ezE6IFsxXX0="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"ezE6IFsxXSwgMjogWzIsIDNdLCAzOiBbNCwgNSwgNiwgN119"
+},
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"ezE6IFszXSwgMjogWzksIDIwXSwgMzogWzE1LCA3XX0="
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"ezE6IFsxXSwgMjogWzJdLCAzOiBbM119"
+},
+{
+"args":"[[1, None, 2]]",
+"e":"ezE6IFsxXSwgMjogWzJdfQ=="
+},
+{
+"args":"[[5, 4, 8]]",
+"e":"ezE6IFs1XSwgMjogWzQsIDhdfQ=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"ezE6IFsxXSwgMjogWzIsIDNdfQ=="
+},
+{
+"args":"[[10, 5, 15, 2, 7]]",
+"e":"ezE6IFsxMF0sIDI6IFs1LCAxNV0sIDM6IFsyLCA3XX0="
+},
+{
+"args":"[[7]]",
+"e":"ezE6IFs3XX0="
+},
+{
+"args":"[[12, 10, 13, 13, 6]]",
+"e":"ezE6IFsxMl0sIDI6IFsxMCwgMTNdLCAzOiBbMTMsIDZdfQ=="
+},
+{
+"args":"[[9, 9, 20, 13, 20, 2, 5]]",
+"e":"ezE6IFs5XSwgMjogWzksIDIwXSwgMzogWzEzLCAyMCwgMiwgNV19"
+},
+{
+"args":"[[7, 1, 17, 15, 3, 10, 16]]",
+"e":"ezE6IFs3XSwgMjogWzEsIDE3XSwgMzogWzE1LCAzLCAxMCwgMTZdfQ=="
+},
+{
+"args":"[[18, 8]]",
+"e":"ezE6IFsxOF0sIDI6IFs4XX0="
+}
+]
+},
+"v3_p02":{
+"title":"Node Values Between Given Levels",
+"function":"get_level_range",
+"mode":"return",
+"match":"exact",
+"signature":"def get_level_range(root, start_level, end_level):",
+"arg_kinds":[
+"tree",
+"plain",
+"plain"
+],
+"cases":[
+{
+"args":"[[3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], 2, 4]",
+"e":"WzUsIDEsIDYsIDIsIDAsIDgsIDcsIDRd"
+},
+{
+"args":"[[4, 2, 6, 1, 3], 1, 1]",
+"e":"WzRd"
+},
+{
+"args":"[[4, 2, 6, 1, 3], 2, 3]",
+"e":"WzIsIDYsIDEsIDNd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 1, 3]",
+"e":"WzEsIDIsIDMsIDQsIDUsIDYsIDdd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 3, 3]",
+"e":"WzQsIDUsIDYsIDdd"
+},
+{
+"args":"[[1], 1, 1]",
+"e":"WzFd"
+},
+{
+"args":"[[1, 2, 3], 2, 2]",
+"e":"WzIsIDNd"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 2, 2]",
+"e":"WzIsIDNd"
+},
+{
+"args":"[[10, 5, 15, 2, 7], 1, 3]",
+"e":"WzEwLCA1LCAxNSwgMiwgN10="
+},
+{
+"args":"[[1, 2, 3, 4], 1, 3]",
+"e":"WzEsIDIsIDMsIDRd"
+},
+{
+"args":"[[13, 8, 10, 13], 3, 2]",
+"e":"W10="
+},
+{
+"args":"[[11, 7, 10, 3, 11, 7], -1, 5]",
+"e":"WzExLCA3LCAxMCwgMywgMTEsIDdd"
+},
+{
+"args":"[[14, 10, 10, 4, 15, 1], 2, 0]",
+"e":"W10="
+},
+{
+"args":"[[9, 0, 13], 3, 1]",
+"e":"W10="
+},
+{
+"args":"[[7, 3, 8, 0, 14, 4, 2], 1, 0]",
+"e":"W10="
+}
+]
+},
+"v3_p03":{
+"title":"Cousins in Binary Tree",
+"function":"is_cousins",
+"mode":"return",
+"match":"exact",
+"signature":"def is_cousins(root, x, y):",
+"arg_kinds":[
+"tree",
+"plain",
+"plain"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, 4], 4, 3]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, None, 4, None, 5], 5, 4]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, None, 4, None, 5], 2, 3]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 4, 6]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 4, 5]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 5, 7]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], 2, 3]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4, None, None, 7], 4, 7]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 4, 5]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4, None, 6], 4, 6]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[7, 4, 1, 4], 7, 4]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[6, 7, 2, 1, 6, 4], 6, 2]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2, 1, 3], 2, 3]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 3, 2, 5, 6, 1, 4], 4, 1]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 5, 5, 4], 4, 4]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p04":{
+"title":"Print Corner Nodes of Each Level",
+"function":"print_corner_nodes",
+"mode":"stdout",
+"match":"exact",
+"signature":"def print_corner_nodes(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[6, 3, 8, 5, None, 4, 2, None, None, 1, 7, None, 3]]",
+"e":"JzZcbjNcbjhcbjVcbjJcbjFcbjMn"
+},
+{
+"args":"[[1]]",
+"e":"JzEn"
+},
+{
+"args":"[[4, 2, 6, 1, 3]]",
+"e":"JzRcbjJcbjZcbjFcbjMn"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"JzFcbjJcbjNcbjRcbjcn"
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"JzFcbjJcbjMn"
+},
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"JzNcbjlcbjIwXG4xNVxuNyc="
+},
+{
+"args":"[[1, None, 2]]",
+"e":"JzFcbjIn"
+},
+{
+"args":"[[5, 4, 8, 11]]",
+"e":"JzVcbjRcbjhcbjExJw=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"JzFcbjJcbjMn"
+},
+{
+"args":"[[10, 5, 15, 2, 7, 12, 20]]",
+"e":"JzEwXG41XG4xNVxuMlxuMjAn"
+},
+{
+"args":"[[6, 3, 12, 12]]",
+"e":"JzZcbjNcbjEyXG4xMic="
+},
+{
+"args":"[[15]]",
+"e":"JzE1Jw=="
+},
+{
+"args":"[[11, 5, 1, 4, 11]]",
+"e":"JzExXG41XG4xXG40XG4xMSc="
+},
+{
+"args":"[[9, 2, 7, 17, 11, 12, 10]]",
+"e":"JzlcbjJcbjdcbjE3XG4xMCc="
+},
+{
+"args":"[[17, 19, 12, 7, 4]]",
+"e":"JzE3XG4xOVxuMTJcbjdcbjQn"
+}
+]
+},
+"v3_p05":{
+"title":"Lowest Common Ancestor",
+"function":"find_lca",
+"mode":"return",
+"match":"exact",
+"signature":"def find_lca(root, p, q):",
+"arg_kinds":[
+"tree",
+"plain",
+"plain"
+],
+"ret_kind":"node_value",
+"cases":[
+{
+"args":"[[3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], 5, 1]",
+"e":"Mw=="
+},
+{
+"args":"[[3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], 5, 4]",
+"e":"NQ=="
+},
+{
+"args":"[[3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], 7, 4]",
+"e":"Mg=="
+},
+{
+"args":"[[3, 5, 1, 6, 2, 0, 8, None, None, 7, 4], 6, 4]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 2, 3], 2, 3]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3], 1, 3]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2], 1, 2]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 4, 5]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 4, 7]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 5, 6]",
+"e":"MQ=="
+}
+]
+}
+}
+}

@@ -21,3 +21,24 @@ print("  expected:", True, "| got:", contains_nearby_duplicate([1,2,3,1], 3))
 
 print("Test 4 - empty list")
 print("  expected:", False, "| got:", contains_nearby_duplicate([], 2))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(contains_nearby_duplicate)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 3, 1, 2, 3], 2, expected=False)   # checks the value your code returns against this example

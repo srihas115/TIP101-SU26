@@ -23,3 +23,24 @@ print("  expected:", {}, "| got:", find_unique_items([], []))
 
 print("Test 5 - list_a empty, list_b has items")
 print("  expected:", {"z": False}, "| got:", find_unique_items([], ["z"]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(find_unique_items)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test(['apple', 'banana', 'carrot'], ['apple', 'banana', 'date'], expected={'date': False, 'carrot': True})   # checks the value your code returns against this example

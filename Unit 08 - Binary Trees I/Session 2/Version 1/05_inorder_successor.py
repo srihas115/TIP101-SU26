@@ -32,3 +32,24 @@ succ = inorder_successor(n10, n5)
 # Example 2: current = node with key 6 → successor is node with key 8
 succ = inorder_successor(n10, n6)
 # Expected: succ is a TreeNode; succ.key == 8
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(inorder_successor)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([10, 5, 15, 1, 8, None, None, None, None, 6, 9], 5, expected=6)   # checks the value your code returns against this example

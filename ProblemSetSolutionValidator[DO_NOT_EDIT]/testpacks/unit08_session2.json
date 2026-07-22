@@ -1,0 +1,1203 @@
+{
+"unit":8,
+"session":2,
+"problems":{
+"v1_p01":{
+"title":"Is Uni-valued",
+"function":"is_univalued",
+"mode":"return",
+"match":"exact",
+"signature":"def is_univalued(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 1, 1, 1, 1, None, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 1, 2, 1, 1, None, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[7, 7, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[3, 3, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[9, 9, 9, 9]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 2, 2, None, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[8, 8, 8, 8, 8, 8, 8]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 8]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 1, 2, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 5, 1, 1, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[3, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 3, 7, 5, 3]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p02":{
+"title":"Binary Tree Height",
+"function":"height",
+"mode":"return",
+"match":"exact",
+"signature":"def height(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[4]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, None, 2, None, None, None, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[10, 5, 15]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[1, None, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[5, 3, 8, 1, None, 7]]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 15]]",
+"e":"Mg=="
+},
+{
+"args":"[[13, 4]]",
+"e":"Mg=="
+},
+{
+"args":"[[10, 13, 8, 13, 1]]",
+"e":"Mw=="
+},
+{
+"args":"[[6, 7]]",
+"e":"Mg=="
+},
+{
+"args":"[[3, 2, 4, 9]]",
+"e":"Mw=="
+}
+]
+},
+"v1_p03":{
+"title":"BST Insert I",
+"function":"insert",
+"mode":"return",
+"match":"exact",
+"signature":"def insert(root, key, value):",
+"arg_kinds":[
+"keytree",
+"plain",
+"plain"
+],
+"ret_kind":"keytree",
+"cases":[
+{
+"args":"[[10, 5, 15, 1, 6], 9, 'Naruto']",
+"e":"WzEwLCA1LCAxNSwgMSwgNiwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSwgOV0="
+},
+{
+"args":"[[], 4, 'Sailor Moon']",
+"e":"WzRd",
+"edge":true
+},
+{
+"args":"[[10, 5, 15], 12, 'x']",
+"e":"WzEwLCA1LCAxNSwgTm9uZSwgTm9uZSwgMTJd"
+},
+{
+"args":"[[10, 5, 15], 5, 'update']",
+"e":"WzEwLCA1LCAxNV0="
+},
+{
+"args":"[[50], 30, 'a']",
+"e":"WzUwLCAzMF0="
+},
+{
+"args":"[[50], 70, 'b']",
+"e":"WzUwLCBOb25lLCA3MF0="
+},
+{
+"args":"[[20, 10, 30, 5, 15], 25, 'c']",
+"e":"WzIwLCAxMCwgMzAsIDUsIDE1LCAyNV0="
+},
+{
+"args":"[[20, 10, 30], 1, 'd']",
+"e":"WzIwLCAxMCwgMzAsIDFd"
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 7, 'e']",
+"e":"WzgsIDQsIDEyLCAyLCA2LCAxMCwgMTQsIE5vbmUsIE5vbmUsIE5vbmUsIDdd"
+},
+{
+"args":"[[8, 4, 12], 100, 'f']",
+"e":"WzgsIDQsIDEyLCBOb25lLCBOb25lLCBOb25lLCAxMDBd"
+}
+]
+},
+"v1_p04":{
+"title":"BST Remove I",
+"function":"remove_bst",
+"mode":"return",
+"match":"exact",
+"signature":"def remove_bst(root, key):",
+"arg_kinds":[
+"keytree",
+"plain"
+],
+"ret_kind":"keytree",
+"cases":[
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 10]",
+"e":"WzEzLCA1LCAxNSwgMSwgOCwgTm9uZSwgMTZd"
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 5]",
+"e":"WzEwLCA4LCAxNSwgMSwgTm9uZSwgMTMsIDE2XQ=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 1]",
+"e":"WzEwLCA1LCAxNSwgTm9uZSwgOCwgMTMsIDE2XQ=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 16]",
+"e":"WzEwLCA1LCAxNSwgMSwgOCwgMTNd"
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 99]",
+"e":"WzEwLCA1LCAxNSwgMSwgOCwgMTMsIDE2XQ==",
+"edge":true
+},
+{
+"args":"[[10, 5, 15], 10]",
+"e":"WzE1LCA1XQ=="
+},
+{
+"args":"[[50, 30, 70, 20, 40], 30]",
+"e":"WzUwLCA0MCwgNzAsIDIwXQ=="
+},
+{
+"args":"[[5], 5]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[5], 3]",
+"e":"WzVd"
+},
+{
+"args":"[[20, 10, 30, 5, 15, 25, 35], 20]",
+"e":"WzI1LCAxMCwgMzAsIDUsIDE1LCBOb25lLCAzNV0="
+},
+{
+"args":"[[10, 5, 15, 1], 5]",
+"e":"WzEwLCAxLCAxNV0="
+},
+{
+"args":"[[10, 5, 15, None, 8], 5]",
+"e":"WzEwLCA4LCAxNV0="
+}
+]
+},
+"v1_p05":{
+"title":"BST In-order Successor",
+"function":"inorder_successor",
+"mode":"return",
+"match":"exact",
+"signature":"def inorder_successor(root, current):",
+"arg_kinds":[
+"keytree",
+"node_by_key"
+],
+"ret_kind":"node_key",
+"cases":[
+{
+"args":"[[10, 5, 15, 1, 8, None, None, None, None, 6, 9], 5]",
+"e":"Ng=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, None, None, None, None, 6, 9], 6]",
+"e":"OA=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, None, None, None, None, 6, 9], 9]",
+"e":"MTA=",
+"edge":true
+},
+{
+"args":"[[10, 5, 15, 1, 8, None, None, None, None, 6, 9], 15]",
+"e":"Tm9uZQ=="
+},
+{
+"args":"[[10, 5, 15], 5]",
+"e":"MTA="
+},
+{
+"args":"[[10, 5, 15], 10]",
+"e":"MTU="
+},
+{
+"args":"[[10, 5, 15], 15]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[20, 10, 30, 5, 15, 25, 35], 15]",
+"e":"MjA="
+},
+{
+"args":"[[20, 10, 30, 5, 15, 25, 35], 35]",
+"e":"Tm9uZQ=="
+},
+{
+"args":"[[50, 25, 75], 25]",
+"e":"NTA="
+}
+]
+},
+"v1_p06":{
+"title":"Merge Binary Trees",
+"function":"merge_trees",
+"mode":"return",
+"match":"exact",
+"signature":"def merge_trees(root1, root2):",
+"arg_kinds":[
+"tree",
+"tree"
+],
+"ret_kind":"tree",
+"cases":[
+{
+"args":"[[1, 3, 2, 5], [2, 1, 3, None, 4, None, 7]]",
+"e":"WzMsIDQsIDUsIDUsIDQsIE5vbmUsIDdd"
+},
+{
+"args":"[[], [1, 2, 3]]",
+"e":"WzEsIDIsIDNd",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], []]",
+"e":"WzEsIDIsIDNd",
+"edge":true
+},
+{
+"args":"[[], []]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1], [1]]",
+"e":"WzJd"
+},
+{
+"args":"[[1, 2], [3, None, 4]]",
+"e":"WzQsIDIsIDRd"
+},
+{
+"args":"[[5, 3, 8], [1, 1, 1]]",
+"e":"WzYsIDQsIDld"
+},
+{
+"args":"[[10], [None, 2, 3]]",
+"e":"WzEwXQ=="
+},
+{
+"args":"[[1, 2, 3, 4], [1, 2, 3, 4]]",
+"e":"WzIsIDQsIDYsIDhd"
+},
+{
+"args":"[[7, None, 7], [7, 7]]",
+"e":"WzE0LCA3LCA3XQ=="
+},
+{
+"args":"[[], [3, 2, 4, 2]]",
+"e":"WzMsIDIsIDQsIDJd"
+},
+{
+"args":"[[], [3]]",
+"e":"WzNd"
+},
+{
+"args":"[[8, 3, 7, 1], [5, 5, 4, 5, 3, 6, 1]]",
+"e":"WzEzLCA4LCAxMSwgNiwgMywgNiwgMV0="
+},
+{
+"args":"[[], [3, 6, 6, 4, 5, 1, 6]]",
+"e":"WzMsIDYsIDYsIDQsIDUsIDEsIDZd"
+},
+{
+"args":"[[6, 3, 7, 1], [7, 4, 2, 2, 5, 6, 4]]",
+"e":"WzEzLCA3LCA5LCAzLCA1LCA2LCA0XQ=="
+}
+]
+},
+"v2_p01":{
+"title":"Is Even-valued",
+"function":"is_even",
+"mode":"return",
+"match":"exact",
+"signature":"def is_even(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[2, 4, 10, 6, 8, None, 12]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 4, 2, 1, 6, None, 8]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[4, 2, 6]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 2, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[8, 8, 8, 8]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 4, 6, None, 10]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 20, 30, 40, 50, 60, 70]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[68, 31, 35, 44, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[18, 64, 39, 38]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[47, 56, 39, 20, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[56, 62, 9]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[55, 60, 49, 12, 36, 38]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p02":{
+"title":"Binary Tree Max",
+"function":"tree_max",
+"mode":"return",
+"match":"exact",
+"signature":"def tree_max(root):",
+"arg_kinds":[
+"tree"
+],
+"ret_kind":"node_value",
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3]]",
+"e":"NQ=="
+},
+{
+"args":"[[]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[7]]",
+"e":"Nw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"Nw=="
+},
+{
+"args":"[[10, 20, 5]]",
+"e":"MjA="
+},
+{
+"args":"[[-1, -5, -3]]",
+"e":"LTE="
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9]]",
+"e":"OQ=="
+},
+{
+"args":"[[100]]",
+"e":"MTAw"
+},
+{
+"args":"[[1, 50, 2]]",
+"e":"NTA="
+},
+{
+"args":"[[3, 3, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[89, 23, 30, 96, 26]]",
+"e":"OTY="
+},
+{
+"args":"[[27, 76, 55, 44, 13, 40, 95]]",
+"e":"OTU="
+},
+{
+"args":"[[23]]",
+"e":"MjM="
+},
+{
+"args":"[[78, 34, 23]]",
+"e":"Nzg="
+},
+{
+"args":"[[45, 55, 94]]",
+"e":"OTQ="
+}
+]
+},
+"v2_p03":{
+"title":"BST Insert II (duplicates right)",
+"function":"insert_with_duplicates",
+"mode":"return",
+"match":"exact",
+"signature":"def insert_with_duplicates(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"ret_kind":"tree",
+"cases":[
+{
+"args":"[[10, 8, 15, 1, 6], 9]",
+"e":"WzEwLCA4LCAxNSwgMSwgNiwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSwgOV0="
+},
+{
+"args":"[[10, 8, 15, 1, 6], 8]",
+"e":"WzEwLCA4LCAxNSwgMSwgNiwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSwgOF0="
+},
+{
+"args":"[[], 4]",
+"e":"WzRd",
+"edge":true
+},
+{
+"args":"[[50], 30]",
+"e":"WzUwLCAzMF0="
+},
+{
+"args":"[[50], 70]",
+"e":"WzUwLCBOb25lLCA3MF0="
+},
+{
+"args":"[[50], 50]",
+"e":"WzUwLCBOb25lLCA1MF0="
+},
+{
+"args":"[[20, 10, 30], 25]",
+"e":"WzIwLCAxMCwgMzAsIE5vbmUsIE5vbmUsIDI1XQ=="
+},
+{
+"args":"[[20, 10, 30, 5, 15], 15]",
+"e":"WzIwLCAxMCwgMzAsIDUsIDE1LCBOb25lLCBOb25lLCBOb25lLCBOb25lLCBOb25lLCAxNV0="
+},
+{
+"args":"[[8, 4, 12], 100]",
+"e":"WzgsIDQsIDEyLCBOb25lLCBOb25lLCBOb25lLCAxMDBd"
+},
+{
+"args":"[[8, 4, 12, 2, 6], 3]",
+"e":"WzgsIDQsIDEyLCAyLCA2LCBOb25lLCBOb25lLCBOb25lLCAzXQ=="
+}
+]
+},
+"v2_p04":{
+"title":"BST Remove II",
+"function":"remove_bst",
+"mode":"return",
+"match":"exact",
+"signature":"def remove_bst(root, key):",
+"arg_kinds":[
+"keytree",
+"plain"
+],
+"ret_kind":"keytree",
+"cases":[
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 10]",
+"e":"WzgsIDUsIDE1LCAxLCBOb25lLCAxMywgMTZd"
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 8]",
+"e":"WzEwLCA1LCAxNSwgMSwgTm9uZSwgMTMsIDE2XQ=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 5]",
+"e":"WzEwLCAxLCAxNSwgTm9uZSwgOCwgMTMsIDE2XQ=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 13]",
+"e":"WzEwLCA1LCAxNSwgMSwgOCwgTm9uZSwgMTZd"
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 42]",
+"e":"WzEwLCA1LCAxNSwgMSwgOCwgMTMsIDE2XQ==",
+"edge":true
+},
+{
+"args":"[[10, 5, 15], 15]",
+"e":"WzEwLCA1XQ=="
+},
+{
+"args":"[[50, 30, 70, 60, 80], 70]",
+"e":"WzUwLCAzMCwgTm9uZSwgNjAsIDgwXQ=="
+},
+{
+"args":"[[5], 5]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[9], 4]",
+"e":"Wzld"
+},
+{
+"args":"[[20, 10, 30, 5, 15, 25, 35], 30]",
+"e":"WzIwLCAxMCwgMjUsIDUsIDE1LCBOb25lLCAzNV0="
+},
+{
+"args":"[[10, 5, 15, 1], 5]",
+"e":"WzEwLCAxLCAxNV0="
+},
+{
+"args":"[[10, 5, 15, None, 8], 5]",
+"e":"WzEwLCA4LCAxNV0="
+}
+]
+},
+"v2_p05":{
+"title":"BST In-order Predecessor",
+"function":"inorder_predecessor",
+"mode":"return",
+"match":"exact",
+"signature":"def inorder_predecessor(root, current):",
+"arg_kinds":[
+"keytree",
+"node_by_key"
+],
+"ret_kind":"node_key",
+"cases":[
+{
+"args":"[[10, 5, 15, 2, 8, None, None, 1, 3], 5]",
+"e":"Mw=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, None, None, None, None, 6, 9], 9]",
+"e":"OA=="
+},
+{
+"args":"[[10, 5, 15, 2, 8, None, None, 1, 3], 2]",
+"e":"MQ=="
+},
+{
+"args":"[[10, 5, 15, 2, 8, None, None, 1, 3], 10]",
+"e":"OA=="
+},
+{
+"args":"[[10, 5, 15], 15]",
+"e":"MTA=",
+"edge":true
+},
+{
+"args":"[[10, 5, 15], 10]",
+"e":"NQ=="
+},
+{
+"args":"[[10, 5, 15], 5]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[20, 10, 30, 5, 15, 25, 35], 25]",
+"e":"MjA="
+},
+{
+"args":"[[20, 10, 30, 5, 15, 25, 35], 5]",
+"e":"Tm9uZQ=="
+},
+{
+"args":"[[50, 25, 75], 75]",
+"e":"NTA="
+}
+]
+},
+"v2_p06":{
+"title":"Identical Binary Trees",
+"function":"is_identical",
+"mode":"return",
+"match":"exact",
+"signature":"def is_identical(root1, root2):",
+"arg_kinds":[
+"tree",
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 3], [1, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2], [1, None, 2]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 1], [1, 1, 2]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[], []]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[5], [5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5], [6]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4], [1, 2, 3, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], [1, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], [1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[7, 8, 9], [7, 8, 10]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2], [10, 10]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], [5, 1, 9, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 3, 7], [9, 3, 5, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[6, 5, 9, 2], [5, 4, 3, 9]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[9], []]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p01":{
+"title":"Count Odd-valued Nodes",
+"function":"count_odds",
+"mode":"return",
+"match":"exact",
+"signature":"def count_odds(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[2, 3, 5, 6, 7, None, 12]]",
+"e":"Mw=="
+},
+{
+"args":"[[2, 4, 2, 1, 6, None, 8]]",
+"e":"MQ=="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"MQ=="
+},
+{
+"args":"[[2]]",
+"e":"MA=="
+},
+{
+"args":"[[1, 3, 5, 7, 9]]",
+"e":"NQ=="
+},
+{
+"args":"[[2, 4, 6, 8]]",
+"e":"MA=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"NA=="
+},
+{
+"args":"[[11, 13, 15]]",
+"e":"Mw=="
+},
+{
+"args":"[[10, 21, 30, 41]]",
+"e":"Mg=="
+},
+{
+"args":"[[24, 32, 15, 3, 19, 39, 17]]",
+"e":"NQ=="
+},
+{
+"args":"[[22, 2, 8, 29, 16]]",
+"e":"MQ=="
+},
+{
+"args":"[[34, 30, 38]]",
+"e":"MA=="
+},
+{
+"args":"[[38, 34, 41, 40]]",
+"e":"MQ=="
+},
+{
+"args":"[[5, 28, 30, 31]]",
+"e":"Mg=="
+}
+]
+},
+"v3_p02":{
+"title":"Binary Tree Min",
+"function":"tree_min",
+"mode":"return",
+"match":"exact",
+"signature":"def tree_min(root):",
+"arg_kinds":[
+"tree"
+],
+"ret_kind":"node_value",
+"cases":[
+{
+"args":"[[4, 2, 5, 1, 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[]]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[7]]",
+"e":"Nw=="
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9]]",
+"e":"MQ=="
+},
+{
+"args":"[[10, 20, 5]]",
+"e":"NQ=="
+},
+{
+"args":"[[-1, -5, -3]]",
+"e":"LTU="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"MQ=="
+},
+{
+"args":"[[100]]",
+"e":"MTAw"
+},
+{
+"args":"[[50, 1, 60]]",
+"e":"MQ=="
+},
+{
+"args":"[[3, 3, 3]]",
+"e":"Mw=="
+},
+{
+"args":"[[100, 3, 47, 55, 26, 2, 99]]",
+"e":"Mg=="
+},
+{
+"args":"[[88, 52, 15]]",
+"e":"MTU="
+},
+{
+"args":"[[64, 88, 82, 93, 6, 81, 48]]",
+"e":"Ng=="
+},
+{
+"args":"[[93, 90, 71, 85, 93, 87]]",
+"e":"NzE="
+},
+{
+"args":"[[11]]",
+"e":"MTE="
+}
+]
+},
+"v3_p03":{
+"title":"BST Insert III (duplicates left)",
+"function":"insert_with_duplicates",
+"mode":"return",
+"match":"exact",
+"signature":"def insert_with_duplicates(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"ret_kind":"tree",
+"cases":[
+{
+"args":"[[10, 8, 15, 1, 6], 9]",
+"e":"WzEwLCA4LCAxNSwgMSwgNiwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSwgOV0="
+},
+{
+"args":"[[10, 8, 15, 1, 6], 8]",
+"e":"WzEwLCA4LCAxNSwgMSwgNiwgTm9uZSwgTm9uZSwgTm9uZSwgOF0="
+},
+{
+"args":"[[], 4]",
+"e":"WzRd",
+"edge":true
+},
+{
+"args":"[[50], 30]",
+"e":"WzUwLCAzMF0="
+},
+{
+"args":"[[50], 70]",
+"e":"WzUwLCBOb25lLCA3MF0="
+},
+{
+"args":"[[50], 50]",
+"e":"WzUwLCA1MF0="
+},
+{
+"args":"[[20, 10, 30], 25]",
+"e":"WzIwLCAxMCwgMzAsIE5vbmUsIE5vbmUsIDI1XQ=="
+},
+{
+"args":"[[20, 10, 30, 5, 15], 15]",
+"e":"WzIwLCAxMCwgMzAsIDUsIDE1LCBOb25lLCBOb25lLCBOb25lLCBOb25lLCAxNV0="
+},
+{
+"args":"[[8, 4, 12], 100]",
+"e":"WzgsIDQsIDEyLCBOb25lLCBOb25lLCBOb25lLCAxMDBd"
+},
+{
+"args":"[[8, 4, 12, 2, 6], 3]",
+"e":"WzgsIDQsIDEyLCAyLCA2LCBOb25lLCBOb25lLCBOb25lLCAzXQ=="
+}
+]
+},
+"v3_p04":{
+"title":"BST Remove III (merge)",
+"function":"remove_bst",
+"mode":"return",
+"match":"exact",
+"signature":"def remove_bst(root, key):",
+"arg_kinds":[
+"keytree",
+"plain"
+],
+"ret_kind":"keytree",
+"cases":[
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 10]",
+"e":"WzUsIDEsIDgsIE5vbmUsIE5vbmUsIE5vbmUsIDE1LCAxMywgMTZd"
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 8]",
+"e":"WzEwLCA1LCAxNSwgMSwgTm9uZSwgMTMsIDE2XQ=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 5]",
+"e":"WzEwLCAxLCAxNSwgTm9uZSwgOCwgMTMsIDE2XQ=="
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 15]",
+"e":"WzEwLCA1LCAxMywgMSwgOCwgTm9uZSwgMTZd"
+},
+{
+"args":"[[10, 5, 15, 1, 8, 13, 16], 77]",
+"e":"WzEwLCA1LCAxNSwgMSwgOCwgMTMsIDE2XQ==",
+"edge":true
+},
+{
+"args":"[[10, 5, 15], 10]",
+"e":"WzUsIE5vbmUsIDE1XQ=="
+},
+{
+"args":"[[50, 30, 70, 20, 40], 50]",
+"e":"WzMwLCAyMCwgNDAsIE5vbmUsIE5vbmUsIE5vbmUsIDcwXQ=="
+},
+{
+"args":"[[5], 5]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[9], 4]",
+"e":"Wzld"
+},
+{
+"args":"[[20, 10, 30, 5, 15], 10]",
+"e":"WzIwLCA1LCAzMCwgTm9uZSwgMTVd"
+},
+{
+"args":"[[10, 5, 15, 1], 5]",
+"e":"WzEwLCAxLCAxNV0="
+},
+{
+"args":"[[10, 5, 15, None, 8], 5]",
+"e":"WzEwLCA4LCAxNV0="
+}
+]
+},
+"v3_p05":{
+"title":"BST Find Floor",
+"function":"find_floor",
+"mode":"return",
+"match":"exact",
+"signature":"def find_floor(root, value):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 7]",
+"e":"Ng=="
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 8]",
+"e":"OA=="
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 1]",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 100]",
+"e":"MTQ=",
+"edge":true
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 13]",
+"e":"MTI="
+},
+{
+"args":"[[50], 50]",
+"e":"NTA="
+},
+{
+"args":"[[50], 20]",
+"e":"Tm9uZQ=="
+},
+{
+"args":"[[50], 90]",
+"e":"NTA="
+},
+{
+"args":"[[20, 10, 30, 5, 15, 25, 35], 27]",
+"e":"MjU="
+},
+{
+"args":"[[], 5]",
+"e":"Tm9uZQ==",
+"edge":true
+}
+]
+},
+"v3_p06":{
+"title":"Nested Binary Trees (is_subtree)",
+"function":"is_subtree",
+"mode":"return",
+"match":"exact",
+"signature":"def is_subtree(root, sub_root):",
+"arg_kinds":[
+"tree",
+"tree"
+],
+"cases":[
+{
+"args":"[[2, 3, 5, 6, 7, None, 12], [3, 6, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 3, 5, 6, 7, None, 12], [3, 1, 2]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3], [2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], [4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3], [1, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1], [1]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1], [2]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[3, 4, 5, 1, 2], [4, 1, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[3, 4, 5, 1, 2], [4, 1, 2, None, None, 0]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 1], [1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 9, 8, 8, 11, 7, 3], [6]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[12], [4, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 2, 4, 9, 1, 4, 2], [3, 2, 7, 4, 1]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 6, 11, 6, 2, 10], [3, 1, 0, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[11, 4, 8, 8], [7, 0, 3, 5, 1, 3]]",
+"e":"RmFsc2U="
+}
+]
+}
+}
+}

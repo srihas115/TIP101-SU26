@@ -60,3 +60,24 @@ e1 = Node(1, next=e2)
 e2.prev = e1
 result5 = rotate_doubly_linked_list(e1, 3)
 print("  expected:", [1, 2, 3], "| got:", _to_list(result5))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(rotate_doubly_linked_list)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 3, 4, 5], 2, expected=[[3, 4, 5, 1, 2], True])   # checks the value your code returns against this example

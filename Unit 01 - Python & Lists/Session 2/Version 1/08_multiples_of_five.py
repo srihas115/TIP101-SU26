@@ -13,3 +13,17 @@ multiples_of_five()
 print("Test 2 - calling again produces the same output")
 print("  expected printed output: same 20 lines again")
 multiples_of_five()
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade
+
+grade(multiples_of_five)   # ▶ Run this file to validate your solution

@@ -44,3 +44,24 @@ try:
     print("  got:", calculate_gpa({}))
 except ZeroDivisionError:
     print("  got: ZeroDivisionError raised")
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(calculate_gpa)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'Math': 'A', 'Science': 'C', 'History': 'A', 'Art': 'B', 'English': 'B', 'Spanish': 'A'}, expected=3.3333333333333335)   # checks the value your code returns against this example

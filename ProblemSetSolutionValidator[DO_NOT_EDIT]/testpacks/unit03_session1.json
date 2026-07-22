@@ -1,0 +1,1128 @@
+{
+"unit":3,
+"session":1,
+"problems":{
+"v1_p01":{
+"title":"Calling Mississippi",
+"function":"count_mississippi",
+"mode":"stdout",
+"match":"exact",
+"signature":"def count_mississippi(limit):",
+"cases":[
+{
+"args":"[6]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGlcbjQgbWlzc2lzc2lwcGlcbjUgbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[2]",
+"e":"JzEgbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[4]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[1]",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"[3]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[7]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGlcbjQgbWlzc2lzc2lwcGlcbjUgbWlzc2lzc2lwcGlcbjYgbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[10]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGlcbjQgbWlzc2lzc2lwcGlcbjUgbWlzc2lzc2lwcGlcbjYgbWlzc2lzc2lwcGlcbjcgbWlzc2lzc2lwcGlcbjggbWlzc2lzc2lwcGlcbjkgbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[5]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGlcbjQgbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[8]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGlcbjQgbWlzc2lzc2lwcGlcbjUgbWlzc2lzc2lwcGlcbjYgbWlzc2lzc2lwcGlcbjcgbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[9]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGlcbjQgbWlzc2lzc2lwcGlcbjUgbWlzc2lzc2lwcGlcbjYgbWlzc2lzc2lwcGlcbjcgbWlzc2lzc2lwcGlcbjggbWlzc2lzc2lwcGkn"
+},
+{
+"args":"[0]",
+"e":"Jyc="
+},
+{
+"args":"[-1]",
+"e":"Jyc="
+},
+{
+"args":"[12]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGlcbjQgbWlzc2lzc2lwcGlcbjUgbWlzc2lzc2lwcGlcbjYgbWlzc2lzc2lwcGlcbjcgbWlzc2lzc2lwcGlcbjggbWlzc2lzc2lwcGlcbjkgbWlzc2lzc2lwcGlcbjEwIG1pc3Npc3NpcHBpXG4xMSBtaXNzaXNzaXBwaSc="
+},
+{
+"args":"[11]",
+"e":"JzEgbWlzc2lzc2lwcGlcbjIgbWlzc2lzc2lwcGlcbjMgbWlzc2lzc2lwcGlcbjQgbWlzc2lzc2lwcGlcbjUgbWlzc2lzc2lwcGlcbjYgbWlzc2lzc2lwcGlcbjcgbWlzc2lzc2lwcGlcbjggbWlzc2lzc2lwcGlcbjkgbWlzc2lzc2lwcGlcbjEwIG1pc3Npc3NpcHBpJw=="
+}
+]
+},
+"v1_p02":{
+"title":"Swap Ends",
+"function":"swap_ends",
+"mode":"return",
+"match":"exact",
+"signature":"def swap_ends(my_str):",
+"cases":[
+{
+"args":"['boat']",
+"e":"J3RvYWIn"
+},
+{
+"args":"['a']",
+"e":"J2En",
+"edge":true
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['ab']",
+"e":"J2JhJw=="
+},
+{
+"args":"['hello']",
+"e":"J29lbGxoJw=="
+},
+{
+"args":"['xy']",
+"e":"J3l4Jw=="
+},
+{
+"args":"['racecar']",
+"e":"J3JhY2VjYXIn"
+},
+{
+"args":"['12345']",
+"e":"JzUyMzQxJw=="
+},
+{
+"args":"['no']",
+"e":"J29uJw=="
+},
+{
+"args":"['python']",
+"e":"J255dGhvcCc="
+},
+{
+"args":"['ada']",
+"e":"J2FkYSc="
+},
+{
+"args":"['abac']",
+"e":"J2NiYWEn"
+},
+{
+"args":"['edbace']",
+"e":"J2VkYmFjZSc="
+},
+{
+"args":"['cca']",
+"e":"J2FjYyc="
+},
+{
+"args":"['cbbacd']",
+"e":"J2RiYmFjYyc="
+}
+]
+},
+"v1_p03":{
+"title":"Is Pangram",
+"function":"is_pangram",
+"mode":"return",
+"match":"exact",
+"signature":"def is_pangram(my_str):",
+"cases":[
+{
+"args":"['The quick brown fox jumps over the lazy dog']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['The dog jumped']",
+"e":"RmFsc2U="
+},
+{
+"args":"['']",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"['abcdefghijklmnopqrstuvwxyz']",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"['Pack my box with five dozen liquor jugs']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['hello']",
+"e":"RmFsc2U="
+},
+{
+"args":"['ABCDEFGHIJKLMNOPQRSTUVWXYZ']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['the quick brown fox']",
+"e":"RmFsc2U="
+},
+{
+"args":"['aA bB cC']",
+"e":"RmFsc2U="
+},
+{
+"args":"['Sphinx of black quartz, judge my vow']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['ee dc']",
+"e":"RmFsc2U="
+},
+{
+"args":"['deddd']",
+"e":"RmFsc2U="
+},
+{
+"args":"['eac']",
+"e":"RmFsc2U="
+},
+{
+"args":"['a']",
+"e":"RmFsc2U="
+},
+{
+"args":"['bc']",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p04":{
+"title":"Reverse String",
+"function":"reverse_string",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse_string(my_str):",
+"cases":[
+{
+"args":"['live']",
+"e":"J2V2aWwn"
+},
+{
+"args":"['a']",
+"e":"J2En",
+"edge":true
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['hello']",
+"e":"J29sbGVoJw=="
+},
+{
+"args":"['racecar']",
+"e":"J3JhY2VjYXIn"
+},
+{
+"args":"['ab']",
+"e":"J2JhJw=="
+},
+{
+"args":"['Python']",
+"e":"J25vaHR5UCc="
+},
+{
+"args":"['12345']",
+"e":"JzU0MzIxJw=="
+},
+{
+"args":"['  x  ']",
+"e":"JyAgeCAgJw=="
+},
+{
+"args":"['noon']",
+"e":"J25vb24n"
+},
+{
+"args":"['ebbac']",
+"e":"J2NhYmJlJw=="
+},
+{
+"args":"['ad']",
+"e":"J2RhJw=="
+},
+{
+"args":"['eedad']",
+"e":"J2RhZGVlJw=="
+},
+{
+"args":"['cd']",
+"e":"J2RjJw=="
+},
+{
+"args":"['cdba']",
+"e":"J2FiZGMn"
+}
+]
+},
+"v1_p05":{
+"title":"First Unique",
+"function":"first_unique_char",
+"mode":"return",
+"match":"exact",
+"signature":"def first_unique_char(my_str):",
+"cases":[
+{
+"args":"['leetcode']",
+"e":"MA=="
+},
+{
+"args":"['loveleetcode']",
+"e":"Mg=="
+},
+{
+"args":"['aabb']",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"['']",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"['x']",
+"e":"MA=="
+},
+{
+"args":"['aabbccd']",
+"e":"Ng=="
+},
+{
+"args":"['abcabc']",
+"e":"LTE="
+},
+{
+"args":"['zzz']",
+"e":"LTE="
+},
+{
+"args":"['swiss']",
+"e":"MQ=="
+},
+{
+"args":"['aabbc']",
+"e":"NA=="
+},
+{
+"args":"['bd']",
+"e":"MA=="
+},
+{
+"args":"['eca']",
+"e":"MA=="
+},
+{
+"args":"['ab']",
+"e":"MA=="
+},
+{
+"args":"['c']",
+"e":"MA=="
+},
+{
+"args":"['eb d']",
+"e":"MA=="
+}
+]
+},
+"v1_p06":{
+"title":"Minimum Distance",
+"function":"min_distance",
+"mode":"return",
+"match":"exact",
+"signature":"def min_distance(words, word1, word2):",
+"cases":[
+{
+"args":"[['the', 'quick', 'brown', 'fox', 'jumped', 'the'], 'quick', 'jumped']",
+"e":"Mw=="
+},
+{
+"args":"[['the', 'quick', 'brown', 'fox', 'jumped', 'the'], 'the', 'jumped']",
+"e":"MQ=="
+},
+{
+"args":"[['code', 'path', 'code', 'contribute', 'practice'], 'code', 'practice']",
+"e":"Mg=="
+},
+{
+"args":"[['a', 'b'], 'a', 'b']",
+"e":"MQ=="
+},
+{
+"args":"[['x', 'y', 'x'], 'x', 'y']",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[['a', 'a', 'b'], 'a', 'b']",
+"e":"MQ=="
+},
+{
+"args":"[['one', 'two', 'three', 'two', 'one'], 'one', 'three']",
+"e":"Mg=="
+},
+{
+"args":"[['p', 'q', 'r', 'p'], 'p', 'r']",
+"e":"MQ=="
+},
+{
+"args":"[['m', 'n'], 'n', 'm']",
+"e":"MQ=="
+},
+{
+"args":"[['cat', 'dog', 'cat', 'bird', 'dog'], 'cat', 'bird']",
+"e":"MQ=="
+}
+]
+},
+"v2_p01":{
+"title":"Perfect Match",
+"function":"match_made",
+"mode":"stdout",
+"match":"exact",
+"signature":"def match_made(dictionary):",
+"cases":[
+{
+"args":"[{'Peanut butter': 'Jelly', 'Spongebob': 'Patrick', 'Ash': 'Pikachu'}]",
+"e":"J1BlYW51dCBidXR0ZXIgYW5kIEplbGx5IGFyZSBhIHBlcmZlY3QgbWF0Y2guXG5TcG9uZ2Vib2IgYW5kIFBhdHJpY2sgYXJlIGEgcGVyZmVjdCBtYXRjaC5cbkFzaCBhbmQgUGlrYWNodSBhcmUgYSBwZXJmZWN0IG1hdGNoLic="
+},
+{
+"args":"[{'a': 'b'}]",
+"e":"J2EgYW5kIGIgYXJlIGEgcGVyZmVjdCBtYXRjaC4n"
+},
+{
+"args":"[{}]",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"[{'x': 'y', 'y': 'z'}]",
+"e":"J3ggYW5kIHkgYXJlIGEgcGVyZmVjdCBtYXRjaC5cbnkgYW5kIHogYXJlIGEgcGVyZmVjdCBtYXRjaC4n"
+},
+{
+"args":"[{'Tom': 'Jerry'}]",
+"e":"J1RvbSBhbmQgSmVycnkgYXJlIGEgcGVyZmVjdCBtYXRjaC4n"
+},
+{
+"args":"[{'1': '2', '3': '4'}]",
+"e":"JzEgYW5kIDIgYXJlIGEgcGVyZmVjdCBtYXRjaC5cbjMgYW5kIDQgYXJlIGEgcGVyZmVjdCBtYXRjaC4n"
+},
+{
+"args":"[{'Salt': 'Pepper'}]",
+"e":"J1NhbHQgYW5kIFBlcHBlciBhcmUgYSBwZXJmZWN0IG1hdGNoLic="
+},
+{
+"args":"[{'A': 'B', 'C': 'D', 'E': 'F'}]",
+"e":"J0EgYW5kIEIgYXJlIGEgcGVyZmVjdCBtYXRjaC5cbkMgYW5kIEQgYXJlIGEgcGVyZmVjdCBtYXRjaC5cbkUgYW5kIEYgYXJlIGEgcGVyZmVjdCBtYXRjaC4n"
+},
+{
+"args":"[{'solo': 'act'}]",
+"e":"J3NvbG8gYW5kIGFjdCBhcmUgYSBwZXJmZWN0IG1hdGNoLic="
+},
+{
+"args":"[{'Batman': 'Robin', 'Mario': 'Luigi'}]",
+"e":"J0JhdG1hbiBhbmQgUm9iaW4gYXJlIGEgcGVyZmVjdCBtYXRjaC5cbk1hcmlvIGFuZCBMdWlnaSBhcmUgYSBwZXJmZWN0IG1hdGNoLic="
+}
+]
+},
+"v2_p02":{
+"title":"Remove Char",
+"function":"remove_char",
+"mode":"return",
+"match":"exact",
+"signature":"def remove_char(s, n):",
+"cases":[
+{
+"args":"['typpo', 2]",
+"e":"J3R5cG8n"
+},
+{
+"args":"['hello', 0]",
+"e":"J2VsbG8n"
+},
+{
+"args":"['hello', 4]",
+"e":"J2hlbGwn"
+},
+{
+"args":"['abc', 1]",
+"e":"J2FjJw=="
+},
+{
+"args":"['aXb', 1]",
+"e":"J2FiJw=="
+},
+{
+"args":"['remove', 3]",
+"e":"J3JlbXZlJw=="
+},
+{
+"args":"['12345', 2]",
+"e":"JzEyNDUn"
+},
+{
+"args":"['ab', 1]",
+"e":"J2En"
+},
+{
+"args":"['python', 0]",
+"e":"J3l0aG9uJw=="
+},
+{
+"args":"['xyz', 2]",
+"e":"J3h5Jw=="
+}
+]
+},
+"v2_p03":{
+"title":"Count Vowels",
+"function":"vowel_count",
+"mode":"return",
+"match":"exact",
+"signature":"def vowel_count(s):",
+"cases":[
+{
+"args":"['hello world']",
+"e":"Mw=="
+},
+{
+"args":"['aAaAaAaAAA']",
+"e":"MTA="
+},
+{
+"args":"['ths strng s mssng vwls']",
+"e":"MA=="
+},
+{
+"args":"['']",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"['xyz']",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"['aeiou']",
+"e":"NQ=="
+},
+{
+"args":"['AEIOU']",
+"e":"NQ=="
+},
+{
+"args":"['Python']",
+"e":"MQ=="
+},
+{
+"args":"['The quick brown fox']",
+"e":"NQ=="
+},
+{
+"args":"['bcdfg']",
+"e":"MA=="
+},
+{
+"args":"['bc eb']",
+"e":"MQ=="
+},
+{
+"args":"['b']",
+"e":"MA=="
+},
+{
+"args":"['aaa']",
+"e":"Mw=="
+},
+{
+"args":"['eacc']",
+"e":"Mg=="
+},
+{
+"args":"['be']",
+"e":"MQ=="
+}
+]
+},
+"v2_p04":{
+"title":"Reverse Sentence",
+"function":"reverse_sentence",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse_sentence(sentence):",
+"cases":[
+{
+"args":"['I solemnly swear I am up to no good']",
+"e":"J2dvb2Qgbm8gdG8gdXAgYW0gSSBzd2VhciBzb2xlbW5seSBJJw=="
+},
+{
+"args":"['hello']",
+"e":"J2hlbGxvJw==",
+"edge":true
+},
+{
+"args":"['a b c']",
+"e":"J2MgYiBhJw=="
+},
+{
+"args":"['one two']",
+"e":"J3R3byBvbmUn"
+},
+{
+"args":"['the quick brown fox']",
+"e":"J2ZveCBicm93biBxdWljayB0aGUn"
+},
+{
+"args":"['single']",
+"e":"J3NpbmdsZSc=",
+"edge":true
+},
+{
+"args":"['reverse this sentence']",
+"e":"J3NlbnRlbmNlIHRoaXMgcmV2ZXJzZSc="
+},
+{
+"args":"['a b c d e']",
+"e":"J2UgZCBjIGIgYSc="
+},
+{
+"args":"['up down']",
+"e":"J2Rvd24gdXAn"
+},
+{
+"args":"['first second third']",
+"e":"J3RoaXJkIHNlY29uZCBmaXJzdCc="
+},
+{
+"args":"['bbacbd']",
+"e":"J2JiYWNiZCc="
+},
+{
+"args":"['a']",
+"e":"J2En"
+},
+{
+"args":"['ded']",
+"e":"J2RlZCc="
+},
+{
+"args":"['deb']",
+"e":"J2RlYic="
+},
+{
+"args":"['d a d']",
+"e":"J2QgYSBkJw=="
+}
+]
+},
+"v2_p05":{
+"title":"String Compression",
+"function":"compress_string",
+"mode":"return",
+"match":"exact",
+"signature":"def compress_string(my_str):",
+"cases":[
+{
+"args":"['aaaaabbcccd']",
+"e":"J2E1YjJjM2QxJw=="
+},
+{
+"args":"['abcde']",
+"e":"J2FiY2RlJw=="
+},
+{
+"args":"['aabcccccaaa']",
+"e":"J2EyYjFjNWEzJw=="
+},
+{
+"args":"['a']",
+"e":"J2En",
+"edge":true
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['aa']",
+"e":"J2FhJw=="
+},
+{
+"args":"['aabb']",
+"e":"J2FhYmIn"
+},
+{
+"args":"['wwwwww']",
+"e":"J3c2Jw=="
+},
+{
+"args":"['abcdef']",
+"e":"J2FiY2RlZic="
+},
+{
+"args":"['aaabbbccc']",
+"e":"J2EzYjNjMyc="
+},
+{
+"args":"['add']",
+"e":"J2FkZCc="
+},
+{
+"args":"['bc']",
+"e":"J2JjJw=="
+},
+{
+"args":"['ebd c']",
+"e":"J2ViZCBjJw=="
+},
+{
+"args":"['deb']",
+"e":"J2RlYic="
+},
+{
+"args":"['ece']",
+"e":"J2VjZSc="
+}
+]
+},
+"v2_p06":{
+"title":"Needle in a Haystack",
+"function":"find_the_needle",
+"mode":"return",
+"match":"exact",
+"signature":"def find_the_needle(haystack, needle):",
+"cases":[
+{
+"args":"['tobeornottobe', 'be']",
+"e":"Mg=="
+},
+{
+"args":"['leetcode', 'leeto']",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"['hello', 'll']",
+"e":"Mg=="
+},
+{
+"args":"['abc', 'abc']",
+"e":"MA=="
+},
+{
+"args":"['abc', 'd']",
+"e":"LTE="
+},
+{
+"args":"['aaa', 'a']",
+"e":"MA=="
+},
+{
+"args":"['mississippi', 'issip']",
+"e":"NA=="
+},
+{
+"args":"['abc', 'abcd']",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"['xyz', 'z']",
+"e":"Mg=="
+},
+{
+"args":"['banana', 'ana']",
+"e":"MQ=="
+},
+{
+"args":"['b d', 'bebac']",
+"e":"LTE="
+},
+{
+"args":"['ada', 'dbdbe']",
+"e":"LTE="
+},
+{
+"args":"['b', 'dc']",
+"e":"LTE="
+},
+{
+"args":"['c', 'ca']",
+"e":"LTE="
+},
+{
+"args":"['c', 'b']",
+"e":"LTE="
+}
+]
+},
+"v3_p01":{
+"title":"Choose Your Pokemon",
+"function":"choose_pokemon",
+"mode":"stdout",
+"match":"exact",
+"signature":"def choose_pokemon(my_pokemon):",
+"cases":[
+{
+"args":"[['Pikachu', 'Charizard', 'Eevee']]",
+"e":"J1Bpa2FjaHUgSSBjaG9vc2UgeW91IVxuQ2hhcml6YXJkIEkgY2hvb3NlIHlvdSFcbkVldmVlIEkgY2hvb3NlIHlvdSEn"
+},
+{
+"args":"[['Bulbasaur']]",
+"e":"J0J1bGJhc2F1ciBJIGNob29zZSB5b3UhJw=="
+},
+{
+"args":"[[]]",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"[['Mew', 'Mewtwo']]",
+"e":"J01ldyBJIGNob29zZSB5b3UhXG5NZXd0d28gSSBjaG9vc2UgeW91ISc="
+},
+{
+"args":"[['Snorlax']]",
+"e":"J1Nub3JsYXggSSBjaG9vc2UgeW91ISc="
+},
+{
+"args":"[['A', 'B', 'C', 'D']]",
+"e":"J0EgSSBjaG9vc2UgeW91IVxuQiBJIGNob29zZSB5b3UhXG5DIEkgY2hvb3NlIHlvdSFcbkQgSSBjaG9vc2UgeW91ISc="
+},
+{
+"args":"[['Gengar']]",
+"e":"J0dlbmdhciBJIGNob29zZSB5b3UhJw=="
+},
+{
+"args":"[['Squirtle', 'Wartortle']]",
+"e":"J1NxdWlydGxlIEkgY2hvb3NlIHlvdSFcbldhcnRvcnRsZSBJIGNob29zZSB5b3UhJw=="
+},
+{
+"args":"[['Onix']]",
+"e":"J09uaXggSSBjaG9vc2UgeW91ISc="
+},
+{
+"args":"[['Jigglypuff', 'Meowth']]",
+"e":"J0ppZ2dseXB1ZmYgSSBjaG9vc2UgeW91IVxuTWVvd3RoIEkgY2hvb3NlIHlvdSEn"
+},
+{
+"args":"[['a']]",
+"e":"J2EgSSBjaG9vc2UgeW91ISc="
+},
+{
+"args":"[['a', 'ef', 'b', 'ef']]",
+"e":"J2EgSSBjaG9vc2UgeW91IVxuZWYgSSBjaG9vc2UgeW91IVxuYiBJIGNob29zZSB5b3UhXG5lZiBJIGNob29zZSB5b3UhJw=="
+},
+{
+"args":"[['cd']]",
+"e":"J2NkIEkgY2hvb3NlIHlvdSEn"
+},
+{
+"args":"[['ef', 'ef']]",
+"e":"J2VmIEkgY2hvb3NlIHlvdSFcbmVmIEkgY2hvb3NlIHlvdSEn"
+},
+{
+"args":"[['b']]",
+"e":"J2IgSSBjaG9vc2UgeW91ISc="
+}
+]
+},
+"v3_p02":{
+"title":"Rotate Left",
+"function":"rotate_left",
+"mode":"return",
+"match":"exact",
+"signature":"def rotate_left(s, n):",
+"cases":[
+{
+"args":"['rotation', 2]",
+"e":"J3RhdGlvbnJvJw=="
+},
+{
+"args":"['hello', 1]",
+"e":"J2VsbG9oJw=="
+},
+{
+"args":"['abc', 3]",
+"e":"J2FiYyc="
+},
+{
+"args":"['abcd', 1]",
+"e":"J2JjZGEn"
+},
+{
+"args":"['xy', 1]",
+"e":"J3l4Jw=="
+},
+{
+"args":"['python', 3]",
+"e":"J2hvbnB5dCc="
+},
+{
+"args":"['abcdef', 2]",
+"e":"J2NkZWZhYic="
+},
+{
+"args":"['ab', 2]",
+"e":"J2FiJw=="
+},
+{
+"args":"['rotate', 6]",
+"e":"J3JvdGF0ZSc="
+},
+{
+"args":"['string', 4]",
+"e":"J25nc3RyaSc="
+}
+]
+},
+"v3_p03":{
+"title":"First Duplicate",
+"function":"first_repeated_char",
+"mode":"return",
+"match":"exact",
+"signature":"def first_repeated_char(s):",
+"cases":[
+{
+"args":"['hello world']",
+"e":"Mw=="
+},
+{
+"args":"['aAbBCC']",
+"e":"NQ=="
+},
+{
+"args":"['abcdefg']",
+"e":"Tm9uZQ=="
+},
+{
+"args":"['']",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"['a']",
+"e":"Tm9uZQ==",
+"edge":true
+},
+{
+"args":"['abca']",
+"e":"Mw=="
+},
+{
+"args":"['xyzzy']",
+"e":"Mw=="
+},
+{
+"args":"['aabb']",
+"e":"MQ=="
+},
+{
+"args":"['abcdea']",
+"e":"NQ=="
+},
+{
+"args":"['112233']",
+"e":"MQ=="
+},
+{
+"args":"['eeea']",
+"e":"MQ=="
+},
+{
+"args":"['ec']",
+"e":"Tm9uZQ=="
+},
+{
+"args":"['aaaccc']",
+"e":"MQ=="
+},
+{
+"args":"['ecece']",
+"e":"Mg=="
+},
+{
+"args":"['b']",
+"e":"Tm9uZQ=="
+}
+]
+},
+"v3_p04":{
+"title":"Find the Imposter",
+"function":"find_difference",
+"mode":"return",
+"match":"exact",
+"signature":"def find_difference(s1, s2):",
+"cases":[
+{
+"args":"['abcd', 'baedc']",
+"e":"J2Un"
+},
+{
+"args":"['', 'a']",
+"e":"J2En",
+"edge":true
+},
+{
+"args":"['a', 'aa']",
+"e":"J2En"
+},
+{
+"args":"['abc', 'abcd']",
+"e":"J2Qn"
+},
+{
+"args":"['xyz', 'xyzq']",
+"e":"J3En"
+},
+{
+"args":"['hello', 'helllo']",
+"e":"J2wn"
+},
+{
+"args":"['aaa', 'aaaa']",
+"e":"J2En"
+},
+{
+"args":"['test', 'ttest']",
+"e":"J3Qn"
+},
+{
+"args":"['go', 'ogg']",
+"e":"J2cn"
+},
+{
+"args":"['code', 'codex']",
+"e":"J3gn"
+}
+]
+},
+"v3_p05":{
+"title":"Longest Substring",
+"function":"length_of_longest_substring",
+"mode":"return",
+"match":"exact",
+"signature":"def length_of_longest_substring(s):",
+"cases":[
+{
+"args":"['abcdeefghhhhh']",
+"e":"NQ=="
+},
+{
+"args":"['aaaaaaaaaaaaaaa']",
+"e":"MQ=="
+},
+{
+"args":"['']",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"['abcabcbb']",
+"e":"Mw=="
+},
+{
+"args":"['bbbbb']",
+"e":"MQ=="
+},
+{
+"args":"['pwwkew']",
+"e":"Mw=="
+},
+{
+"args":"['abcdef']",
+"e":"Ng=="
+},
+{
+"args":"['au']",
+"e":"Mg=="
+},
+{
+"args":"['dvdf']",
+"e":"Mw=="
+},
+{
+"args":"['x']",
+"e":"MQ=="
+}
+]
+},
+"v3_p06":{
+"title":"Roman to Integer",
+"function":"roman_to_int",
+"mode":"return",
+"match":"exact",
+"signature":"def roman_to_int(s):",
+"cases":[
+{
+"args":"['XL']",
+"e":"NDA="
+},
+{
+"args":"['LVIII']",
+"e":"NTg="
+},
+{
+"args":"['MCMXCIV']",
+"e":"MTk5NA=="
+},
+{
+"args":"['III']",
+"e":"Mw=="
+},
+{
+"args":"['IV']",
+"e":"NA=="
+},
+{
+"args":"['IX']",
+"e":"OQ=="
+},
+{
+"args":"['LVIII']",
+"e":"NTg="
+},
+{
+"args":"['XLII']",
+"e":"NDI="
+},
+{
+"args":"['MMXXIV']",
+"e":"MjAyNA=="
+},
+{
+"args":"['CDXLIV']",
+"e":"NDQ0"
+}
+]
+}
+}
+}

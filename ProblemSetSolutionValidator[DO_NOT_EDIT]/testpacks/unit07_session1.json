@@ -1,0 +1,1307 @@
+{
+"unit":7,
+"session":1,
+"problems":{
+"v1_p01":{
+"title":"Hello Hello",
+"function":"repeat_hello_iterative",
+"mode":"stdout",
+"match":"exact",
+"signature":"def repeat_hello_iterative(n):",
+"cases":[
+{
+"args":"[5]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsbyc="
+},
+{
+"args":"[1]",
+"e":"J0hlbGxvJw=="
+},
+{
+"args":"[0]",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"[3]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG8n"
+},
+{
+"args":"[2]",
+"e":"J0hlbGxvXG5IZWxsbyc="
+},
+{
+"args":"[7]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvJw=="
+},
+{
+"args":"[4]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvJw=="
+},
+{
+"args":"[6]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG8n"
+},
+{
+"args":"[10]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvJw=="
+},
+{
+"args":"[8]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsbyc="
+},
+{
+"args":"[-2]",
+"e":"Jyc="
+},
+{
+"args":"[12]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG8n"
+},
+{
+"args":"[11]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsbyc="
+},
+{
+"args":"[9]",
+"e":"J0hlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG9cbkhlbGxvXG5IZWxsb1xuSGVsbG8n"
+},
+{
+"args":"[-1]",
+"e":"Jyc="
+}
+]
+},
+"v1_p02":{
+"title":"Factorial Cases",
+"function":"factorial",
+"mode":"return",
+"match":"exact",
+"signature":"def factorial(n):",
+"cases":[
+{
+"args":"[5]",
+"e":"MTIw"
+},
+{
+"args":"[0]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[1]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[3]",
+"e":"Ng=="
+},
+{
+"args":"[6]",
+"e":"NzIw"
+},
+{
+"args":"[10]",
+"e":"MzYyODgwMA=="
+},
+{
+"args":"[2]",
+"e":"Mg=="
+},
+{
+"args":"[7]",
+"e":"NTA0MA=="
+},
+{
+"args":"[4]",
+"e":"MjQ="
+},
+{
+"args":"[8]",
+"e":"NDAzMjA="
+},
+{
+"args":"[11]",
+"e":"Mzk5MTY4MDA="
+},
+{
+"args":"[9]",
+"e":"MzYyODgw"
+},
+{
+"args":"[12]",
+"e":"NDc5MDAxNjAw"
+}
+]
+},
+"v1_p03":{
+"title":"Recursive Sum",
+"function":"sum_list",
+"mode":"return",
+"match":"exact",
+"signature":"def sum_list(lst):",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"MTU="
+},
+{
+"args":"[[]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[10]]",
+"e":"MTA="
+},
+{
+"args":"[[-1, 1]]",
+"e":"MA=="
+},
+{
+"args":"[[0, 0, 0]]",
+"e":"MA=="
+},
+{
+"args":"[[100]]",
+"e":"MTAw"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"Ng=="
+},
+{
+"args":"[[-5, -5]]",
+"e":"LTEw"
+},
+{
+"args":"[[7, 8, 9, 10]]",
+"e":"MzQ="
+},
+{
+"args":"[[2, 4, 6]]",
+"e":"MTI="
+},
+{
+"args":"[[63]]",
+"e":"NjM="
+},
+{
+"args":"[[74, 29]]",
+"e":"MTAz"
+},
+{
+"args":"[[5]]",
+"e":"NQ=="
+},
+{
+"args":"[[57, 48]]",
+"e":"MTA1"
+},
+{
+"args":"[[20]]",
+"e":"MjA="
+}
+]
+},
+"v1_p04":{
+"title":"Recursive Power of 2",
+"function":"is_power_of_two",
+"mode":"return",
+"match":"exact",
+"signature":"def is_power_of_two(n):",
+"cases":[
+{
+"args":"[16]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[18]",
+"e":"RmFsc2U="
+},
+{
+"args":"[1]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[2]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[0]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[1024]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[3]",
+"e":"RmFsc2U="
+},
+{
+"args":"[64]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[100]",
+"e":"RmFsc2U="
+},
+{
+"args":"[256]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[101]",
+"e":"RmFsc2U="
+},
+{
+"args":"[29]",
+"e":"RmFsc2U="
+},
+{
+"args":"[83]",
+"e":"RmFsc2U="
+},
+{
+"args":"[40]",
+"e":"RmFsc2U="
+},
+{
+"args":"[89]",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p05":{
+"title":"Binary Search I",
+"function":"binary_search",
+"mode":"return",
+"match":"exact",
+"signature":"def binary_search(lst, target):",
+"cases":[
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 11]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 1]",
+"e":"MA=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 15]",
+"e":"Nw=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 4]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], 2]",
+"e":"MQ=="
+},
+{
+"args":"[[5], 5]",
+"e":"MA=="
+},
+{
+"args":"[[5], 3]",
+"e":"LTE="
+},
+{
+"args":"[[], 1]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5], 5]",
+"e":"NA=="
+},
+{
+"args":"[[10, 20, 30], 10]",
+"e":"MA=="
+}
+]
+},
+"v1_p06":{
+"title":"Backwards Binary Search",
+"function":"find_last",
+"mode":"return",
+"match":"exact",
+"signature":"def find_last(lst, target):",
+"cases":[
+{
+"args":"[[1, 3, 5, 7, 9, 11, 11, 13, 15], 11]",
+"e":"Ng=="
+},
+{
+"args":"[[1, 1, 1], 1]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3], 2]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[5, 5, 5, 5], 5]",
+"e":"Mw=="
+},
+{
+"args":"[[1], 1]",
+"e":"MA=="
+},
+{
+"args":"[[], 3]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[2, 2, 4, 4, 4, 6], 4]",
+"e":"NA=="
+},
+{
+"args":"[[1, 2, 3, 4], 4]",
+"e":"Mw=="
+},
+{
+"args":"[[7, 7], 7]",
+"e":"MQ=="
+}
+]
+},
+"v1_p07":{
+"title":"Find Floor",
+"function":"find_floor",
+"mode":"return",
+"match":"exact",
+"signature":"def find_floor(lst, x):",
+"cases":[
+{
+"args":"[[1, 2, 8, 10, 11, 12, 19], 5]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 2, 3], 0]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"Mg=="
+},
+{
+"args":"[[5, 10, 15], 5]",
+"e":"MA=="
+},
+{
+"args":"[[2, 4, 6], 1]",
+"e":"LTE="
+},
+{
+"args":"[[1], 1]",
+"e":"MA=="
+},
+{
+"args":"[[10, 20], 5]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[1, 3, 5, 7], 6]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4], 4]",
+"e":"Mw=="
+},
+{
+"args":"[[3, 6, 9], 8]",
+"e":"MQ=="
+}
+]
+},
+"v2_p01":{
+"title":"Counting Down",
+"function":"countdown_iterative",
+"mode":"stdout",
+"match":"exact",
+"signature":"def countdown_iterative(n):",
+"cases":[
+{
+"args":"[5]",
+"e":"JzVcbjRcbjNcbjJcbjEn"
+},
+{
+"args":"[1]",
+"e":"JzEn"
+},
+{
+"args":"[0]",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"[3]",
+"e":"JzNcbjJcbjEn"
+},
+{
+"args":"[10]",
+"e":"JzEwXG45XG44XG43XG42XG41XG40XG4zXG4yXG4xJw=="
+},
+{
+"args":"[2]",
+"e":"JzJcbjEn"
+},
+{
+"args":"[7]",
+"e":"JzdcbjZcbjVcbjRcbjNcbjJcbjEn"
+},
+{
+"args":"[4]",
+"e":"JzRcbjNcbjJcbjEn"
+},
+{
+"args":"[6]",
+"e":"JzZcbjVcbjRcbjNcbjJcbjEn"
+},
+{
+"args":"[8]",
+"e":"JzhcbjdcbjZcbjVcbjRcbjNcbjJcbjEn"
+},
+{
+"args":"[-1]",
+"e":"Jyc="
+},
+{
+"args":"[11]",
+"e":"JzExXG4xMFxuOVxuOFxuN1xuNlxuNVxuNFxuM1xuMlxuMSc="
+},
+{
+"args":"[-2]",
+"e":"Jyc="
+}
+]
+},
+"v2_p02":{
+"title":"Fibonacci Cases",
+"function":"fibonacci",
+"mode":"return",
+"match":"exact",
+"signature":"def fibonacci(n):",
+"cases":[
+{
+"args":"[6]",
+"e":"OA=="
+},
+{
+"args":"[0]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[1]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[2]",
+"e":"MQ=="
+},
+{
+"args":"[10]",
+"e":"NTU="
+},
+{
+"args":"[7]",
+"e":"MTM="
+},
+{
+"args":"[3]",
+"e":"Mg=="
+},
+{
+"args":"[12]",
+"e":"MTQ0"
+},
+{
+"args":"[5]",
+"e":"NQ=="
+},
+{
+"args":"[8]",
+"e":"MjE="
+},
+{
+"args":"[14]",
+"e":"Mzc3"
+},
+{
+"args":"[11]",
+"e":"ODk="
+},
+{
+"args":"[13]",
+"e":"MjMz"
+}
+]
+},
+"v2_p03":{
+"title":"Recursive Product",
+"function":"list_product",
+"mode":"return",
+"match":"exact",
+"signature":"def list_product(lst):",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"MTIw"
+},
+{
+"args":"[[]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[10]]",
+"e":"MTA="
+},
+{
+"args":"[[2, 2, 2]]",
+"e":"OA=="
+},
+{
+"args":"[[-1, 5]]",
+"e":"LTU="
+},
+{
+"args":"[[0, 100]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"MQ=="
+},
+{
+"args":"[[3, 3]]",
+"e":"OQ=="
+},
+{
+"args":"[[2, 4, 6]]",
+"e":"NDg="
+},
+{
+"args":"[[-2, -3]]",
+"e":"Ng=="
+},
+{
+"args":"[[36, 40]]",
+"e":"MTQ0MA=="
+},
+{
+"args":"[[1]]",
+"e":"MQ=="
+},
+{
+"args":"[[64, 77, 25]]",
+"e":"MTIzMjAw"
+},
+{
+"args":"[[33, 14, 17, 83]]",
+"e":"NjUxODgy"
+},
+{
+"args":"[[62, 10, 12, 25, 48]]",
+"e":"ODkyODAwMA=="
+}
+]
+},
+"v2_p04":{
+"title":"Recursive Power of 4",
+"function":"is_power_of_four",
+"mode":"return",
+"match":"exact",
+"signature":"def is_power_of_four(n):",
+"cases":[
+{
+"args":"[16]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[8]",
+"e":"RmFsc2U="
+},
+{
+"args":"[1]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[4]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[0]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[64]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[2]",
+"e":"RmFsc2U="
+},
+{
+"args":"[256]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[5]",
+"e":"RmFsc2U="
+},
+{
+"args":"[1024]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[102]",
+"e":"RmFsc2U="
+},
+{
+"args":"[15]",
+"e":"RmFsc2U="
+},
+{
+"args":"[54]",
+"e":"RmFsc2U="
+},
+{
+"args":"[49]",
+"e":"RmFsc2U="
+},
+{
+"args":"[53]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p05":{
+"title":"Binary Search II",
+"function":"binary_search_iterative",
+"mode":"return",
+"match":"exact",
+"signature":"def binary_search_iterative(arr, target):",
+"cases":[
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 11]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 7]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 2, 3], 1]",
+"e":"MA=="
+},
+{
+"args":"[[1, 2, 3], 9]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[5], 5]",
+"e":"MA=="
+},
+{
+"args":"[[], 2]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[2, 4, 6, 8], 8]",
+"e":"Mw=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 3]",
+"e":"Mg=="
+},
+{
+"args":"[[10, 20], 20]",
+"e":"MQ=="
+},
+{
+"args":"[[100], 50]",
+"e":"LTE="
+}
+]
+},
+"v2_p06":{
+"title":"Find Ceiling",
+"function":"find_ceiling",
+"mode":"return",
+"match":"exact",
+"signature":"def find_ceiling(lst, x):",
+"cases":[
+{
+"args":"[[1, 2, 8, 10, 11, 12, 19], 5]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3], 3]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[5, 10, 15], 5]",
+"e":"MA=="
+},
+{
+"args":"[[2, 4, 6], 7]",
+"e":"LTE="
+},
+{
+"args":"[[1], 1]",
+"e":"MA=="
+},
+{
+"args":"[[10, 20], 25]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[1, 3, 5, 7], 4]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3, 4], 0]",
+"e":"MA=="
+},
+{
+"args":"[[3, 6, 9], 6]",
+"e":"MQ=="
+}
+]
+},
+"v2_p07":{
+"title":"Ternary Search",
+"function":"ternary_search",
+"mode":"return",
+"match":"exact",
+"signature":"def ternary_search(lst, target):",
+"cases":[
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 11]",
+"e":"NQ=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 1]",
+"e":"MA=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 15]",
+"e":"Nw=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 4]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], 2]",
+"e":"MQ=="
+},
+{
+"args":"[[5], 5]",
+"e":"MA=="
+},
+{
+"args":"[[], 1]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7], 7]",
+"e":"Ng=="
+},
+{
+"args":"[[10, 20, 30], 20]",
+"e":"MQ=="
+},
+{
+"args":"[[2, 4, 6, 8, 10], 3]",
+"e":"LTE="
+}
+]
+},
+"v3_p01":{
+"title":"In The Stars",
+"function":"insert_stars_iterative",
+"mode":"return",
+"match":"exact",
+"signature":"def insert_stars_iterative(s):",
+"cases":[
+{
+"args":"['abc']",
+"e":"J2EqYipjJw=="
+},
+{
+"args":"['a']",
+"e":"J2En",
+"edge":true
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['hello']",
+"e":"J2gqZSpsKmwqbyc="
+},
+{
+"args":"['ab']",
+"e":"J2EqYic="
+},
+{
+"args":"['xyz']",
+"e":"J3gqeSp6Jw=="
+},
+{
+"args":"['12345']",
+"e":"JzEqMiozKjQqNSc="
+},
+{
+"args":"['z']",
+"e":"J3on"
+},
+{
+"args":"['code']",
+"e":"J2MqbypkKmUn"
+},
+{
+"args":"['recursion']",
+"e":"J3IqZSpjKnUqcipzKmkqbypuJw=="
+},
+{
+"args":"['abbc']",
+"e":"J2EqYipiKmMn"
+},
+{
+"args":"['db']",
+"e":"J2QqYic="
+},
+{
+"args":"['bdbe a']",
+"e":"J2IqZCpiKmUqICphJw=="
+},
+{
+"args":"['edc']",
+"e":"J2UqZCpjJw=="
+},
+{
+"args":"['edd']",
+"e":"J2UqZCpkJw=="
+}
+]
+},
+"v3_p02":{
+"title":"String Length Cases",
+"function":"string_length",
+"mode":"return",
+"match":"exact",
+"signature":"def string_length(s):",
+"cases":[
+{
+"args":"['abc']",
+"e":"Mw=="
+},
+{
+"args":"['']",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"['a']",
+"e":"MQ=="
+},
+{
+"args":"['hello world']",
+"e":"MTE="
+},
+{
+"args":"['x']",
+"e":"MQ=="
+},
+{
+"args":"['12345']",
+"e":"NQ=="
+},
+{
+"args":"['recursion']",
+"e":"OQ=="
+},
+{
+"args":"['  ']",
+"e":"Mg=="
+},
+{
+"args":"['ab']",
+"e":"Mg=="
+},
+{
+"args":"['python']",
+"e":"Ng=="
+},
+{
+"args":"['cbdd']",
+"e":"NA=="
+},
+{
+"args":"['beb']",
+"e":"Mw=="
+},
+{
+"args":"['b a b']",
+"e":"NQ=="
+},
+{
+"args":"['c']",
+"e":"MQ=="
+},
+{
+"args":"['bad a']",
+"e":"NQ=="
+}
+]
+},
+"v3_p03":{
+"title":"Recursive Digits Sum",
+"function":"sum_digits",
+"mode":"return",
+"match":"exact",
+"signature":"def sum_digits(n):",
+"cases":[
+{
+"args":"[523]",
+"e":"MTA="
+},
+{
+"args":"[0]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[7]",
+"e":"Nw=="
+},
+{
+"args":"[100]",
+"e":"MQ=="
+},
+{
+"args":"[999]",
+"e":"Mjc="
+},
+{
+"args":"[12345]",
+"e":"MTU="
+},
+{
+"args":"[5]",
+"e":"NQ=="
+},
+{
+"args":"[1000000]",
+"e":"MQ=="
+},
+{
+"args":"[88]",
+"e":"MTY="
+},
+{
+"args":"[4321]",
+"e":"MTA="
+},
+{
+"args":"[51]",
+"e":"Ng=="
+},
+{
+"args":"[6]",
+"e":"Ng=="
+},
+{
+"args":"[9]",
+"e":"OQ=="
+},
+{
+"args":"[32]",
+"e":"NQ=="
+},
+{
+"args":"[24]",
+"e":"Ng=="
+}
+]
+},
+"v3_p04":{
+"title":"Recursive Count 7s",
+"function":"count_sevens",
+"mode":"return",
+"match":"exact",
+"signature":"def count_sevens(n):",
+"cases":[
+{
+"args":"[727]",
+"e":"Mg=="
+},
+{
+"args":"[0]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[7]",
+"e":"MQ=="
+},
+{
+"args":"[123]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[777]",
+"e":"Mw=="
+},
+{
+"args":"[70707]",
+"e":"Mw=="
+},
+{
+"args":"[17]",
+"e":"MQ=="
+},
+{
+"args":"[100]",
+"e":"MA=="
+},
+{
+"args":"[7777777]",
+"e":"Nw=="
+},
+{
+"args":"[1234567]",
+"e":"MQ=="
+},
+{
+"args":"[99]",
+"e":"MA=="
+},
+{
+"args":"[52]",
+"e":"MA=="
+},
+{
+"args":"[20]",
+"e":"MA=="
+},
+{
+"args":"[72]",
+"e":"MQ=="
+},
+{
+"args":"[18]",
+"e":"MA=="
+}
+]
+},
+"v3_p05":{
+"title":"Binary Search III",
+"function":"binary_search",
+"mode":"return",
+"match":"exact",
+"signature":"def binary_search(lst, target):",
+"cases":[
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 11]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 3, 5, 7, 9, 11, 13, 15], 4]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3], 1]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], 9]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5], 5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[], 1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[2, 4, 6, 8], 8]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 20], 15]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[100], 100]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v3_p06":{
+"title":"Find Missing",
+"function":"find_missing",
+"mode":"return",
+"match":"exact",
+"signature":"def find_missing(nums):",
+"cases":[
+{
+"args":"[[0, 1, 3]]",
+"e":"Mg=="
+},
+{
+"args":"[[0, 1, 2]]",
+"e":"Mw=="
+},
+{
+"args":"[[1]]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[[0]]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[[0, 2, 3, 4]]",
+"e":"MQ=="
+},
+{
+"args":"[[0, 1, 2, 3, 5]]",
+"e":"NA=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"MA=="
+},
+{
+"args":"[[0, 1, 2, 3, 4, 6]]",
+"e":"NQ=="
+},
+{
+"args":"[[0, 1, 3, 4]]",
+"e":"Mg=="
+},
+{
+"args":"[[0, 1, 2, 4, 5]]",
+"e":"Mw=="
+}
+]
+},
+"v3_p07":{
+"title":"Square Root",
+"function":"sqrt",
+"mode":"return",
+"match":"exact",
+"signature":"def sqrt(x):",
+"cases":[
+{
+"args":"[8]",
+"e":"Mg=="
+},
+{
+"args":"[16]",
+"e":"NA=="
+},
+{
+"args":"[0]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[1]",
+"e":"MQ==",
+"edge":true
+},
+{
+"args":"[2]",
+"e":"MQ=="
+},
+{
+"args":"[15]",
+"e":"Mw=="
+},
+{
+"args":"[100]",
+"e":"MTA="
+},
+{
+"args":"[99]",
+"e":"OQ=="
+},
+{
+"args":"[4]",
+"e":"Mg=="
+},
+{
+"args":"[26]",
+"e":"NQ=="
+},
+{
+"args":"[62]",
+"e":"Nw=="
+},
+{
+"args":"[3]",
+"e":"MQ=="
+},
+{
+"args":"[98]",
+"e":"OQ=="
+},
+{
+"args":"[91]",
+"e":"OQ=="
+},
+{
+"args":"[46]",
+"e":"Ng=="
+}
+]
+}
+}
+}

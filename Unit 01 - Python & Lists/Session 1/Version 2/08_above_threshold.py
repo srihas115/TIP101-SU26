@@ -27,3 +27,24 @@ print("  expected:", [-1, -5], "| got:", above_threshold([-1,-5,-10], -6))
 
 print("Test 5 - unsorted list, order preserved")
 print("  expected:", [9, 8], "| got:", above_threshold([1,9,3,8,2], 4))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(above_threshold)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([8, 2, 13, 11, 4, 10, 14], 10, expected=[13, 11, 14])   # checks the value your code returns against this example

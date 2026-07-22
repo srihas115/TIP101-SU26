@@ -21,3 +21,24 @@ print("  expected:", ["x","y"], "| got:", common_keys({"x":1,"y":2}, {"x":9,"y":
 
 print("Test 4 - one dict is empty")
 print("  expected:", [], "| got:", common_keys({"a":1}, {}))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(common_keys)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test({'a': 1, 'b': 2, 'c': 3}, {'b': 4, 'c': 5, 'd': 6}, expected=['b', 'c'])   # checks the value your code returns against this example

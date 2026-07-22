@@ -1,0 +1,996 @@
+{
+"unit":9,
+"session":1,
+"problems":{
+"v1_p01":{
+"title":"Is Symmetric Tree",
+"function":"is_symmetric",
+"mode":"return",
+"match":"exact",
+"signature":"def is_symmetric(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 2, 3, 4, 4, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 2, None, 3, None, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 2, 3, 4, 4, 3, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2, 3, 3, 4, 5, 5, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 2, None, 3, 3, None]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 5, 5, 5, 5, 5, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[5, 4, 2, 2, 3, 4, 2, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 3, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[2, 3, 4, 4, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 4, 4, 3, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[4, 4, 5, 1, 5, 4, 1, 5]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v1_p02":{
+"title":"Root-to-Leaf Paths",
+"function":"binary_tree_paths",
+"mode":"return",
+"match":"unordered",
+"signature":"def binary_tree_paths(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, None, 5]]",
+"e":"WycxLT4yLT41JywgJzEtPjMnXQ=="
+},
+{
+"args":"[[1]]",
+"e":"WycxJ10=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WycxLT4yJywgJzEtPjMnXQ=="
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"WycxLT4yLT4zJ10="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"WycxLT4yLT40JywgJzEtPjItPjUnLCAnMS0+My0+NicsICcxLT4zLT43J10="
+},
+{
+"args":"[[5, 4, 8, 11, None, 13, 4]]",
+"e":"Wyc1LT40LT4xMScsICc1LT44LT4xMycsICc1LT44LT40J10="
+},
+{
+"args":"[[10]]",
+"e":"WycxMCdd"
+},
+{
+"args":"[[1, None, 2, None, None, None, 3]]",
+"e":"WycxLT4yJ10="
+},
+{
+"args":"[[1, 2]]",
+"e":"WycxLT4yJ10="
+},
+{
+"args":"[[1, None, 3]]",
+"e":"WycxLT4zJ10="
+},
+{
+"args":"[[1, 13, 10, 10, 13, 13, 5]]",
+"e":"WycxLT4xMy0+MTAnLCAnMS0+MTMtPjEzJywgJzEtPjEwLT4xMycsICcxLT4xMC0+NSdd"
+},
+{
+"args":"[[1, 13, 4, 11, 5, 13, 2]]",
+"e":"WycxLT4xMy0+MTEnLCAnMS0+MTMtPjUnLCAnMS0+NC0+MTMnLCAnMS0+NC0+Midd"
+},
+{
+"args":"[[8, 9, 10, 11, 9]]",
+"e":"Wyc4LT45LT4xMScsICc4LT45LT45JywgJzgtPjEwJ10="
+},
+{
+"args":"[[5, 7, 5, 9, 1, 9, 7]]",
+"e":"Wyc1LT43LT45JywgJzUtPjctPjEnLCAnNS0+NS0+OScsICc1LT41LT43J10="
+},
+{
+"args":"[[13, 3, 11, 8, 1, 8, 9]]",
+"e":"WycxMy0+My0+OCcsICcxMy0+My0+MScsICcxMy0+MTEtPjgnLCAnMTMtPjExLT45J10="
+}
+]
+},
+"v1_p03":{
+"title":"Minimum Difference in BST",
+"function":"min_diff_in_bst",
+"mode":"return",
+"match":"exact",
+"signature":"def min_diff_in_bst(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[4, 2, 6, 1, 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[1, 0, 48, None, None, 12, 49]]",
+"e":"MQ=="
+},
+{
+"args":"[[2, 1, 3]]",
+"e":"MQ=="
+},
+{
+"args":"[[10, 5, 15]]",
+"e":"NQ=="
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9]]",
+"e":"MQ=="
+},
+{
+"args":"[[100, 50, 200]]",
+"e":"NTA="
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14]]",
+"e":"Mg=="
+},
+{
+"args":"[[20, 10, 30]]",
+"e":"MTA="
+},
+{
+"args":"[[1, None, 5]]",
+"e":"NA=="
+},
+{
+"args":"[[50, 25, 75, 10, 40, 60, 90]]",
+"e":"MTA="
+}
+]
+},
+"v1_p04":{
+"title":"Increasing Order Search Tree",
+"function":"increasing_bst",
+"mode":"return",
+"match":"exact",
+"signature":"def increasing_bst(root):",
+"arg_kinds":[
+"tree"
+],
+"ret_kind":"tree",
+"cases":[
+{
+"args":"[[5, 1, 7]]",
+"e":"WzEsIE5vbmUsIDUsIE5vbmUsIDdd"
+},
+{
+"args":"[[2, 1, 3]]",
+"e":"WzEsIE5vbmUsIDIsIE5vbmUsIDNd"
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[3, 1]]",
+"e":"WzEsIE5vbmUsIDNd"
+},
+{
+"args":"[[4, 2, 6, 1, 3, 5, 7]]",
+"e":"WzEsIE5vbmUsIDIsIE5vbmUsIDMsIE5vbmUsIDQsIE5vbmUsIDUsIE5vbmUsIDYsIE5vbmUsIDdd"
+},
+{
+"args":"[[5, 3, 7, 2, 4, 6, 8]]",
+"e":"WzIsIE5vbmUsIDMsIE5vbmUsIDQsIE5vbmUsIDUsIE5vbmUsIDYsIE5vbmUsIDcsIE5vbmUsIDhd"
+},
+{
+"args":"[[10, 5, 15]]",
+"e":"WzUsIE5vbmUsIDEwLCBOb25lLCAxNV0="
+},
+{
+"args":"[[2, 1]]",
+"e":"WzEsIE5vbmUsIDJd"
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14]]",
+"e":"WzIsIE5vbmUsIDQsIE5vbmUsIDYsIE5vbmUsIDgsIE5vbmUsIDEwLCBOb25lLCAxMiwgTm9uZSwgMTRd"
+},
+{
+"args":"[[50, 25, 75]]",
+"e":"WzI1LCBOb25lLCA1MCwgTm9uZSwgNzVd"
+},
+{
+"args":"[[16]]",
+"e":"WzE2XQ=="
+},
+{
+"args":"[[3, 26, 18, 11, 4, 52]]",
+"e":"WzExLCBOb25lLCAyNiwgTm9uZSwgNCwgTm9uZSwgMywgTm9uZSwgNTIsIE5vbmUsIDE4XQ=="
+},
+{
+"args":"[[48]]",
+"e":"WzQ4XQ=="
+},
+{
+"args":"[[20, 19, 24, 18, 56]]",
+"e":"WzE4LCBOb25lLCAxOSwgTm9uZSwgNTYsIE5vbmUsIDIwLCBOb25lLCAyNF0="
+},
+{
+"args":"[[52, 67, 59, 57, 22, 63]]",
+"e":"WzU3LCBOb25lLCA2NywgTm9uZSwgMjIsIE5vbmUsIDUyLCBOb25lLCA2MywgTm9uZSwgNTld"
+}
+]
+},
+"v1_p05":{
+"title":"Equal Tree Split",
+"function":"can_split",
+"mode":"return",
+"match":"exact",
+"signature":"def can_split(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5, None, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, None, None, 4, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 20]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4, None, None, 5]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[9, 9]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[11]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[11, 6, 13]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[13, 7, 6, 2, 17, 5, 9]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 20, 19, 1]]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v2_p01":{
+"title":"Evaluate Boolean Full Binary Tree",
+"function":"evaluate_tree",
+"mode":"return",
+"match":"exact",
+"signature":"def evaluate_tree(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[['OR', True, 'AND', None, None, False, True]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['AND', True, False]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[True]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[False]]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[['OR', False, False]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[['OR', True, False]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['AND', True, True]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['AND', 'OR', 'AND', True, False, False, True]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[['OR', 'AND', 'OR', False, True, True, False]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[['AND', True, 'OR', None, None, False, False]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p02":{
+"title":"Find Lonely Nodes",
+"function":"find_lonely_nodes",
+"mode":"return",
+"match":"unordered",
+"signature":"def find_lonely_nodes(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[1, 2, 3, None, 4]]",
+"e":"WzRd"
+},
+{
+"args":"[[7, 1, 4, 6, None, 5, 3, None, None, None, None, None, None, None, 2]]",
+"e":"WzZd"
+},
+{
+"args":"[[1]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"W10="
+},
+{
+"args":"[[1, None, 2]]",
+"e":"WzJd"
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"WzIsIDNd"
+},
+{
+"args":"[[1, 2, 3, 4, None, None, 5]]",
+"e":"WzQsIDVd"
+},
+{
+"args":"[[5, 3, None, 1]]",
+"e":"WzMsIDFd"
+},
+{
+"args":"[[1, 2, 3, None, 4, 5, None]]",
+"e":"WzQsIDVd"
+},
+{
+"args":"[[10, 20, 30, 40, 50, 60, 70]]",
+"e":"W10="
+},
+{
+"args":"[[65, 35, 1, 39, 50, 11, 29, 44]]",
+"e":"WzQ0XQ=="
+},
+{
+"args":"[[2, 3, 65, 62, 64, 7, 33, 41, 57, 55]]",
+"e":"WzU1XQ=="
+},
+{
+"args":"[[51, 65, 33, 11, 22, 46, 64, 43, 7]]",
+"e":"W10="
+},
+{
+"args":"[[62, 20, 42, 59, 31, 20, 50]]",
+"e":"W10="
+},
+{
+"args":"[[57, 11, 8]]",
+"e":"W10="
+}
+]
+},
+"v2_p03":{
+"title":"Kth Smallest in BST",
+"function":"kth_smallest",
+"mode":"return",
+"match":"exact",
+"signature":"def kth_smallest(root, k):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[15, 10, 20, 8, 12, 16, 26], 4]",
+"e":"MTU="
+},
+{
+"args":"[[15, 10, 20, 8, 12, 16, 26], 1]",
+"e":"OA=="
+},
+{
+"args":"[[15, 10, 20, 8, 12, 16, 26], 7]",
+"e":"MjY="
+},
+{
+"args":"[[3, 1, 4, None, 2], 2]",
+"e":"Mg=="
+},
+{
+"args":"[[5], 1]",
+"e":"NQ=="
+},
+{
+"args":"[[2, 1, 3], 2]",
+"e":"Mg=="
+},
+{
+"args":"[[8, 4, 12, 2, 6, 10, 14], 5]",
+"e":"MTA="
+},
+{
+"args":"[[20, 10, 30], 3]",
+"e":"MzA="
+},
+{
+"args":"[[50, 25, 75, 10, 40], 1]",
+"e":"MTA="
+},
+{
+"args":"[[100, 50, 150], 2]",
+"e":"MTAw"
+}
+]
+},
+"v2_p04":{
+"title":"Second Minimum Value",
+"function":"find_second_minimum_value",
+"mode":"return",
+"match":"exact",
+"signature":"def find_second_minimum_value(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[2, 2, 5, None, None, 5, 7]]",
+"e":"NQ=="
+},
+{
+"args":"[[2, 2, 2]]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[5, 5, 8]]",
+"e":"OA=="
+},
+{
+"args":"[[1]]",
+"e":"LTE=",
+"edge":true
+},
+{
+"args":"[[1, 1, 3, None, None, 3, 5]]",
+"e":"Mw=="
+},
+{
+"args":"[[2, 2, 22, None, None, 22, 44]]",
+"e":"MjI="
+},
+{
+"args":"[[3, 3, 4]]",
+"e":"NA=="
+},
+{
+"args":"[[7, 7, 7, 7, 7, 7, 7]]",
+"e":"LTE="
+},
+{
+"args":"[[1, 1, 2]]",
+"e":"Mg=="
+},
+{
+"args":"[[5, 5, 9, None, None, 9, 11]]",
+"e":"OQ=="
+}
+]
+},
+"v2_p05":{
+"title":"Transformable by Swapping Subtrees",
+"function":"can_swap",
+"mode":"return",
+"match":"exact",
+"signature":"def can_swap(root1, root2):",
+"arg_kinds":[
+"tree",
+"tree"
+],
+"cases":[
+{
+"args":"[[6, 3, 8, 1, 7, 4, 2], [6, 8, 3, 2, 4, 7, 1]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], [1, 3, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], [1, 3, 2, None, None, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], []]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1], [1]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1, 2], [1, None, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3, 4], [1, 3, 2, None, None, None, 4]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[2, 3, 3, 4, 5, 5, 4], [2, 3, 3, 5, 4, 4, 5]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], [1, 2, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 2], [1, 2, 2]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 5, 2, 6, 8, 4, 7], [8, 8]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[], [5, 6, 7, 8, 8, 8]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 3, 3, 6, 8, 5], [8, 7]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 4, 5], [8, 6, 5, 6]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 8], [1, 4]]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p01":{
+"title":"Evaluate Mathematical Expression Tree",
+"function":"evaluate_tree",
+"mode":"return",
+"match":"exact",
+"signature":"def evaluate_tree(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[['+', '*', '-', 5, 2, 60, 20]]",
+"e":"NTA="
+},
+{
+"args":"[['+', 3, 4]]",
+"e":"Nw=="
+},
+{
+"args":"[[5]]",
+"e":"NQ==",
+"edge":true
+},
+{
+"args":"[['*', 6, 7]]",
+"e":"NDI="
+},
+{
+"args":"[['-', 10, 3]]",
+"e":"Nw=="
+},
+{
+"args":"[['/', 20, 4]]",
+"e":"NQ=="
+},
+{
+"args":"[['*', '+', '-', 2, 3, 10, 4]]",
+"e":"MzA="
+},
+{
+"args":"[['+', '/', '*', 12, 4, 3, 3]]",
+"e":"MTI="
+},
+{
+"args":"[['-', '*', '/', 8, 3, 20, 5]]",
+"e":"MjA="
+},
+{
+"args":"[['*', '-', '+', 9, 4, 2, 3]]",
+"e":"MjU="
+},
+{
+"args":"[['b']]",
+"e":"J2In"
+}
+]
+},
+"v3_p02":{
+"title":"Find Corresponding Node in Cloned Tree",
+"function":"get_target_copy",
+"mode":"return",
+"match":"exact",
+"signature":"def get_target_copy(original, cloned, target):",
+"arg_kinds":[
+"tree",
+"clone_prev",
+"node_by_val"
+],
+"ret_kind":"node_value",
+"cases":[
+{
+"args":"[[7, 4, 3, None, None, 6, 19], None, 3]",
+"e":"Mw=="
+},
+{
+"args":"[[7], None, 7]",
+"e":"Nw=="
+},
+{
+"args":"[[8, None, 6, None, 5, None, 4], None, 4]",
+"e":"NA=="
+},
+{
+"args":"[[1, 2, 3], None, 2]",
+"e":"Mg=="
+},
+{
+"args":"[[1, 2, 3], None, 1]",
+"e":"MQ=="
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9], None, 7]",
+"e":"Nw=="
+},
+{
+"args":"[[10, 20, 30], None, 30]",
+"e":"MzA="
+},
+{
+"args":"[[1, 2, 3, 4, 5], None, 5]",
+"e":"NQ=="
+},
+{
+"args":"[[50, 25, 75], None, 25]",
+"e":"MjU="
+},
+{
+"args":"[[100], None, 100]",
+"e":"MTAw"
+}
+]
+},
+"v3_p03":{
+"title":"Path Sum in Binary Tree",
+"function":"has_path_sum",
+"mode":"return",
+"match":"exact",
+"signature":"def has_path_sum(root, target_sum):",
+"arg_kinds":[
+"tree",
+"plain"
+],
+"cases":[
+{
+"args":"[[5, 4, 8, 11, None, 13, 4, 7, 2, None, None, None, None, None, 1], 22]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3], 3]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 3], 4]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[], 0]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[[1], 1]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1], 2]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[5, 4, 8, 11, None, 13, 4], 18]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4, 5], 7]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 5, 15], 25]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[9, 8, 6, 5, 12], 4]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 10], 10]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[10, 15, 4, 2, 4, 9, 7], 19]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[15, 10, 8, 4, 3], 23]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[10, 9, 7, 8, 13, 12], 9]",
+"e":"RmFsc2U="
+}
+]
+},
+"v3_p04":{
+"title":"Check Balanced Binary Tree",
+"function":"is_balanced",
+"mode":"return",
+"match":"exact",
+"signature":"def is_balanced(root):",
+"arg_kinds":[
+"tree"
+],
+"cases":[
+{
+"args":"[[3, 9, 20, None, None, 15, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, 2, 3, 3, None, None, 4, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1]]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, None, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[1, 2, None, 3, None, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, 2, 2, 3, None, None, 3, 4, None, None, 4]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[1, None, 2, None, 3]]",
+"e":"RmFsc2U="
+},
+{
+"args":"[[6, 10]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[15]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[4, 11]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[13, 6, 12, 9]]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[[19, 6, 20, 7, 16]]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v3_p05":{
+"title":"Replace Node Value with Sum of Subtree",
+"function":"sum_transform",
+"mode":"return",
+"match":"exact",
+"signature":"def sum_transform(root):",
+"arg_kinds":[
+"tree"
+],
+"ret_kind":"tree",
+"cases":[
+{
+"args":"[[1, 2, 3, None, 4, 5, 6, None, None, 7, 8]]",
+"e":"WzM1LCA0LCAyNiwgTm9uZSwgMCwgMTUsIDAsIE5vbmUsIE5vbmUsIDAsIDBd"
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzUsIDAsIDBd"
+},
+{
+"args":"[[1]]",
+"e":"WzBd",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2]]",
+"e":"WzIsIDBd"
+},
+{
+"args":"[[1, None, 3]]",
+"e":"WzMsIE5vbmUsIDBd"
+},
+{
+"args":"[[5, 3, 8, 1, 4, 7, 9]]",
+"e":"WzMyLCA1LCAxNiwgMCwgMCwgMCwgMF0="
+},
+{
+"args":"[[10, 20, 30]]",
+"e":"WzUwLCAwLCAwXQ=="
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6, 7]]",
+"e":"WzI3LCA5LCAxMywgMCwgMCwgMCwgMF0="
+},
+{
+"args":"[[4, 2, 9, 3, 5, None, 7]]",
+"e":"WzI2LCA4LCA3LCAwLCAwLCBOb25lLCAwXQ=="
+},
+{
+"args":"[[25, 23, 13, 3, 9, 25, 4]]",
+"e":"Wzc3LCAxMiwgMjksIDAsIDAsIDAsIDBd"
+},
+{
+"args":"[[18, 18, 3, 3, 17]]",
+"e":"WzQxLCAyMCwgMCwgMCwgMF0="
+},
+{
+"args":"[[29, 18, 8, 25]]",
+"e":"WzUxLCAyNSwgMCwgMF0="
+},
+{
+"args":"[[14, 18, 25, 2, 19, 9]]",
+"e":"WzczLCAyMSwgOSwgMCwgMCwgMF0="
+},
+{
+"args":"[[8, 1, 19, 8, 17, 25]]",
+"e":"WzcwLCAyNSwgMjUsIDAsIDAsIDBd"
+}
+]
+}
+}
+}

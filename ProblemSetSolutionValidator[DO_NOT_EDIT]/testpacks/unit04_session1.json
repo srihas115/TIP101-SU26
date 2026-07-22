@@ -1,0 +1,1063 @@
+{
+"unit":4,
+"session":1,
+"problems":{
+"v1_p01":{
+"title":"Prime Number",
+"function":"is_prime",
+"mode":"return",
+"match":"exact",
+"signature":"def is_prime(n):",
+"cases":[
+{
+"args":"[5]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[12]",
+"e":"RmFsc2U="
+},
+{
+"args":"[9]",
+"e":"RmFsc2U="
+},
+{
+"args":"[2]",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"[1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[0]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[17]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[100]",
+"e":"RmFsc2U="
+},
+{
+"args":"[97]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[49]",
+"e":"RmFsc2U="
+},
+{
+"args":"[73]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[56]",
+"e":"RmFsc2U="
+},
+{
+"args":"[84]",
+"e":"RmFsc2U="
+},
+{
+"args":"[93]",
+"e":"RmFsc2U="
+},
+{
+"args":"[37]",
+"e":"VHJ1ZQ=="
+}
+]
+},
+"v1_p02":{
+"title":"Two-Pointer Reverse List",
+"function":"reverse_list",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse_list(lst):",
+"cases":[
+{
+"args":"[[1, 2, 3, 4, 5]]",
+"e":"WzUsIDQsIDMsIDIsIDFd"
+},
+{
+"args":"[[1]]",
+"e":"WzFd",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"W10=",
+"edge":true
+},
+{
+"args":"[[1, 2]]",
+"e":"WzIsIDFd"
+},
+{
+"args":"[[5, 4, 3]]",
+"e":"WzMsIDQsIDVd"
+},
+{
+"args":"[[0, 0, 0]]",
+"e":"WzAsIDAsIDBd"
+},
+{
+"args":"[[-1, -2, -3]]",
+"e":"Wy0zLCAtMiwgLTFd"
+},
+{
+"args":"[[10, 20, 30, 40]]",
+"e":"WzQwLCAzMCwgMjAsIDEwXQ=="
+},
+{
+"args":"[[7]]",
+"e":"Wzdd"
+},
+{
+"args":"[[1, 2, 3, 4]]",
+"e":"WzQsIDMsIDIsIDFd"
+},
+{
+"args":"[[-1, 34, 14, 5, 25]]",
+"e":"WzI1LCA1LCAxNCwgMzQsIC0xXQ=="
+},
+{
+"args":"[[12, 10, 23, 28]]",
+"e":"WzI4LCAyMywgMTAsIDEyXQ=="
+},
+{
+"args":"[[-2, 25, 12]]",
+"e":"WzEyLCAyNSwgLTJd"
+},
+{
+"args":"[[8]]",
+"e":"Wzhd"
+},
+{
+"args":"[[40, 27, 30, 23, 33]]",
+"e":"WzMzLCAyMywgMzAsIDI3LCA0MF0="
+}
+]
+},
+"v1_p03":{
+"title":"Evaluating Solutions",
+"function":"evaluate_reverse_list",
+"mode":"conceptual",
+"match":"exact",
+"signature":"def evaluate_reverse_list():",
+"prompt":"Evaluate the time and space complexity of your two-pointer reverse_list\nsolution. Then evaluate the time and space of this alternative:\n\n    def reverse_list(lst):\n        reversed_lst = lst[::-1]\n        for i in range(len(lst)):\n            lst[i] = reversed_lst[i]\n\nWhich has better time complexity?\nWhich has better space complexity?"
+},
+"v1_p04":{
+"title":"Move Even Integers",
+"function":"sort_array_by_parity",
+"mode":"return",
+"match":"predicate",
+"signature":"def sort_array_by_parity(nums):",
+"predicate":"parity_partition",
+"cases":[
+{
+"args":"[[3, 1, 2, 4]]"
+},
+{
+"args":"[[0]]",
+"edge":true
+},
+{
+"args":"[[]]",
+"edge":true
+},
+{
+"args":"[[2, 4, 6]]"
+},
+{
+"args":"[[1, 3, 5]]"
+},
+{
+"args":"[[1, 2, 3, 4, 5, 6]]"
+},
+{
+"args":"[[-2, -1, 0]]"
+},
+{
+"args":"[[8, 3, 6, 1]]"
+},
+{
+"args":"[[2]]"
+},
+{
+"args":"[[1]]"
+},
+{
+"args":"[[0, -1]]"
+},
+{
+"args":"[[2, 3, 7, 7, 5, 7]]"
+},
+{
+"args":"[[1, 2, -1, -2]]"
+},
+{
+"args":"[[0, 4, 0, 3]]"
+},
+{
+"args":"[[-1, 3, -2]]"
+}
+]
+},
+"v1_p05":{
+"title":"Palindrome",
+"function":"first_palindrome",
+"mode":"return",
+"match":"exact",
+"signature":"def first_palindrome(words):",
+"cases":[
+{
+"args":"[['abc', 'car', 'ada', 'racecar', 'cool']]",
+"e":"J2FkYSc="
+},
+{
+"args":"[['abc', 'racecar', 'cool']]",
+"e":"J3JhY2VjYXIn"
+},
+{
+"args":"[['abc', 'def', 'ghi']]",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"[[]]",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"[['a']]",
+"e":"J2En"
+},
+{
+"args":"[['ab', 'ba', 'aa']]",
+"e":"J2FhJw=="
+},
+{
+"args":"[['xyz', 'zyx']]",
+"e":"Jyc="
+},
+{
+"args":"[['noon', 'day']]",
+"e":"J25vb24n"
+},
+{
+"args":"[['', 'ab']]",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"[['level']]",
+"e":"J2xldmVsJw=="
+},
+{
+"args":"[['b']]",
+"e":"J2In"
+},
+{
+"args":"[['ef', 'ef', 'cd']]",
+"e":"Jyc="
+},
+{
+"args":"[['a', 'b', 'a', 'a', 'b']]",
+"e":"J2En"
+},
+{
+"args":"[['cd', 'ef', 'a', 'b', 'cd']]",
+"e":"J2En"
+},
+{
+"args":"[['ef', 'ef', 'b', 'b']]",
+"e":"J2In"
+}
+]
+},
+"v1_p06":{
+"title":"Remove Duplicates with O(1)",
+"function":"remove_duplicates",
+"mode":"inplace_length",
+"match":"exact",
+"signature":"def remove_duplicates(nums):",
+"cases":[
+{
+"args":"[[1, 1, 2, 3, 4, 4, 4, 5]]",
+"e":"WzUsIFsxLCAyLCAzLCA0LCA1XV0="
+},
+{
+"args":"[[1]]",
+"e":"WzEsIFsxXV0="
+},
+{
+"args":"[[]]",
+"e":"WzAsIFtdXQ==",
+"edge":true
+},
+{
+"args":"[[1, 1, 1]]",
+"e":"WzEsIFsxXV0=",
+"edge":true
+},
+{
+"args":"[[1, 2, 3]]",
+"e":"WzMsIFsxLCAyLCAzXV0="
+},
+{
+"args":"[[0, 0, 1, 1, 2]]",
+"e":"WzMsIFswLCAxLCAyXV0="
+},
+{
+"args":"[[-2, -2, -1]]",
+"e":"WzIsIFstMiwgLTFdXQ=="
+},
+{
+"args":"[[5, 5, 5, 5, 5]]",
+"e":"WzEsIFs1XV0="
+},
+{
+"args":"[[1, 2, 2, 3, 3, 3]]",
+"e":"WzMsIFsxLCAyLCAzXV0="
+},
+{
+"args":"[[7, 8, 9]]",
+"e":"WzMsIFs3LCA4LCA5XV0="
+},
+{
+"args":"[[3, -1, -2, 4, 4, 4, 8]]",
+"e":"WzUsIFstMiwgLTEsIDMsIDQsIDhdXQ=="
+},
+{
+"args":"[[3, 5, 0, 4, 5, 3]]",
+"e":"WzYsIFswLCAzLCAzLCA0LCA1LCA1XV0="
+},
+{
+"args":"[[-1, 7, 6, -2, -2, 4]]",
+"e":"WzUsIFstMiwgLTEsIDQsIDYsIDddXQ=="
+},
+{
+"args":"[[1, 4, 7]]",
+"e":"WzMsIFsxLCA0LCA3XV0="
+},
+{
+"args":"[[1, 3, 4, 5, 7, 6, 8, 5]]",
+"e":"WzgsIFsxLCAzLCA0LCA1LCA1LCA2LCA3LCA4XV0="
+}
+]
+},
+"v2_p01":{
+"title":"Perfect Number",
+"function":"is_perfect_number",
+"mode":"return",
+"match":"exact",
+"signature":"def is_perfect_number(n):",
+"cases":[
+{
+"args":"[6]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[28]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[9]",
+"e":"RmFsc2U="
+},
+{
+"args":"[1]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[496]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[12]",
+"e":"RmFsc2U="
+},
+{
+"args":"[2]",
+"e":"RmFsc2U=",
+"edge":true
+},
+{
+"args":"[8128]",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"[100]",
+"e":"RmFsc2U="
+},
+{
+"args":"[7]",
+"e":"RmFsc2U="
+},
+{
+"args":"[75]",
+"e":"RmFsc2U="
+},
+{
+"args":"[77]",
+"e":"RmFsc2U="
+},
+{
+"args":"[37]",
+"e":"RmFsc2U="
+},
+{
+"args":"[61]",
+"e":"RmFsc2U="
+},
+{
+"args":"[64]",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p02":{
+"title":"2-Pointer Palindrome",
+"function":"is_palindrome",
+"mode":"return",
+"match":"exact",
+"signature":"def is_palindrome(s):",
+"cases":[
+{
+"args":"['amanaplanacanalpanama']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['helloworld']",
+"e":"RmFsc2U="
+},
+{
+"args":"['']",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"['a']",
+"e":"VHJ1ZQ==",
+"edge":true
+},
+{
+"args":"['abba']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['abc']",
+"e":"RmFsc2U="
+},
+{
+"args":"['racecar']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['aa']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['ab']",
+"e":"RmFsc2U="
+},
+{
+"args":"['noon']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['b ba']",
+"e":"RmFsc2U="
+},
+{
+"args":"['d']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['adac']",
+"e":"RmFsc2U="
+},
+{
+"args":"['e']",
+"e":"VHJ1ZQ=="
+},
+{
+"args":"['eda']",
+"e":"RmFsc2U="
+}
+]
+},
+"v2_p03":{
+"title":"Evaluate Palindrome",
+"function":"evaluate_palindrome",
+"mode":"conceptual",
+"match":"exact",
+"signature":"def evaluate_palindrome():",
+"prompt":"Evaluate the time and space complexity of your two-pointer is_palindrome\nsolution. Then evaluate this alternative:\n\n    def is_palindrome(s):\n        reverse = s[::-1]\n        return reverse == s\n\nWhich has better time complexity?\nWhich has better space complexity?"
+},
+"v2_p04":{
+"title":"Make Palindromes",
+"function":"make_palindrome",
+"mode":"return",
+"match":"exact",
+"signature":"def make_palindrome(s):",
+"cases":[
+{
+"args":"['egcfe']",
+"e":"J2VmY2ZlJw=="
+},
+{
+"args":"['abcd']",
+"e":"J2FiYmEn"
+},
+{
+"args":"['seven']",
+"e":"J25ldmVuJw=="
+},
+{
+"args":"['a']",
+"e":"J2En",
+"edge":true
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['ab']",
+"e":"J2FhJw=="
+},
+{
+"args":"['aa']",
+"e":"J2FhJw=="
+},
+{
+"args":"['abccba']",
+"e":"J2FiY2NiYSc="
+},
+{
+"args":"['zzazz']",
+"e":"J3p6YXp6Jw=="
+},
+{
+"args":"['racr']",
+"e":"J3JhYXIn"
+},
+{
+"args":"['b']",
+"e":"J2In"
+},
+{
+"args":"['eee']",
+"e":"J2VlZSc="
+},
+{
+"args":"['c']",
+"e":"J2Mn"
+},
+{
+"args":"['bdbd']",
+"e":"J2JiYmIn"
+},
+{
+"args":"['eec']",
+"e":"J2NlYyc="
+}
+]
+},
+"v2_p05":{
+"title":"Reverse Vowels",
+"function":"reverse_vowels",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse_vowels(s):",
+"cases":[
+{
+"args":"['hello']",
+"e":"J2hvbGxlJw=="
+},
+{
+"args":"['leetcode']",
+"e":"J2xlb3RjZWRlJw=="
+},
+{
+"args":"['aeiou']",
+"e":"J3VvaWVhJw=="
+},
+{
+"args":"['xyz']",
+"e":"J3h5eic=",
+"edge":true
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['AEIOU']",
+"e":"J1VPSUVBJw=="
+},
+{
+"args":"['racecar']",
+"e":"J3JhY2VjYXIn"
+},
+{
+"args":"['a']",
+"e":"J2En"
+},
+{
+"args":"['HELLO']",
+"e":"J0hPTExFJw=="
+},
+{
+"args":"['programming']",
+"e":"J3ByaWdyYW1tb25nJw=="
+},
+{
+"args":"['c bddd']",
+"e":"J2MgYmRkZCc="
+},
+{
+"args":"['bce']",
+"e":"J2JjZSc="
+},
+{
+"args":"['a e']",
+"e":"J2UgYSc="
+},
+{
+"args":"['b']",
+"e":"J2In"
+},
+{
+"args":"['ac']",
+"e":"J2FjJw=="
+}
+]
+},
+"v2_p06":{
+"title":"Two-Pointer Remove Element",
+"function":"remove_element",
+"mode":"inplace_length",
+"match":"exact",
+"signature":"def remove_element(nums, val):",
+"cases":[
+{
+"args":"[[5, 4, 4, 3, 4, 1], 4]",
+"e":"WzMsIFsxLCAzLCA1XV0="
+},
+{
+"args":"[[1, 1, 1], 1]",
+"e":"WzAsIFtdXQ==",
+"edge":true
+},
+{
+"args":"[[], 0]",
+"e":"WzAsIFtdXQ==",
+"edge":true
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"WzMsIFsxLCAyLCAzXV0="
+},
+{
+"args":"[[2, 2, 2], 2]",
+"e":"WzAsIFtdXQ==",
+"edge":true
+},
+{
+"args":"[[0, 1, 0, 1], 0]",
+"e":"WzIsIFsxLCAxXV0="
+},
+{
+"args":"[[7], 7]",
+"e":"WzAsIFtdXQ=="
+},
+{
+"args":"[[3, 3, 3, 3], 3]",
+"e":"WzAsIFtdXQ=="
+},
+{
+"args":"[[1, 2, 3, 4], 2]",
+"e":"WzMsIFsxLCAzLCA0XV0="
+},
+{
+"args":"[[5, 6, 7], 8]",
+"e":"WzMsIFs1LCA2LCA3XV0="
+},
+{
+"args":"[[7], 10]",
+"e":"WzEsIFs3XV0="
+},
+{
+"args":"[[2, 5], 9]",
+"e":"WzIsIFsyLCA1XV0="
+},
+{
+"args":"[[7], -1]",
+"e":"WzEsIFs3XV0="
+},
+{
+"args":"[[6, 4, 2, 6], 3]",
+"e":"WzQsIFsyLCA0LCA2LCA2XV0="
+},
+{
+"args":"[[7, 3, 2, 7, 3, 7], 4]",
+"e":"WzYsIFsyLCAzLCAzLCA3LCA3LCA3XV0="
+}
+]
+},
+"v3_p01":{
+"title":"Highest Exponent",
+"function":"find_highest_exponent",
+"mode":"return",
+"match":"exact",
+"signature":"def find_highest_exponent(base, limit):",
+"cases":[
+{
+"args":"[2, 100]",
+"e":"Ng=="
+},
+{
+"args":"[3, 5]",
+"e":"MQ=="
+},
+{
+"args":"[2, 1]",
+"e":"MA==",
+"edge":true
+},
+{
+"args":"[5, 25]",
+"e":"Mg=="
+},
+{
+"args":"[10, 999]",
+"e":"Mg=="
+},
+{
+"args":"[2, 1024]",
+"e":"MTA="
+},
+{
+"args":"[3, 3]",
+"e":"MQ=="
+},
+{
+"args":"[7, 50]",
+"e":"Mg=="
+},
+{
+"args":"[2, 63]",
+"e":"NQ=="
+},
+{
+"args":"[4, 4]",
+"e":"MQ=="
+},
+{
+"args":"[3, 64]",
+"e":"Mw=="
+},
+{
+"args":"[8, 14]",
+"e":"MQ=="
+},
+{
+"args":"[9, 47]",
+"e":"MQ=="
+},
+{
+"args":"[12, 42]",
+"e":"MQ=="
+},
+{
+"args":"[8, 87]",
+"e":"Mg=="
+}
+]
+},
+"v3_p02":{
+"title":"Two-Pointer Target Sum",
+"function":"two_sum",
+"mode":"return",
+"match":"unordered",
+"signature":"def two_sum(nums, target):",
+"cases":[
+{
+"args":"[[2, 7, 11, 15, 17], 9]",
+"e":"WzAsIDFd"
+},
+{
+"args":"[[2, 7, 11, 15, 17], 18]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1, 2, 3], 5]",
+"e":"WzEsIDJd",
+"edge":true
+},
+{
+"args":"[[0, 4, 6, 9], 9]",
+"e":"WzAsIDNd"
+},
+{
+"args":"[[-3, -1, 2, 5], 1]",
+"e":"WzEsIDJd"
+},
+{
+"args":"[[1, 5], 6]",
+"e":"WzAsIDFd"
+},
+{
+"args":"[[2, 3, 4], 6]",
+"e":"WzAsIDJd"
+},
+{
+"args":"[[1, 2, 3, 4, 5], 9]",
+"e":"WzMsIDRd"
+},
+{
+"args":"[[0, 1], 1]",
+"e":"WzAsIDFd"
+},
+{
+"args":"[[3, 5, 7, 10], 12]",
+"e":"WzEsIDJd"
+}
+]
+},
+"v3_p03":{
+"title":"Evaluate Two Sum",
+"function":"evaluate_two_sum",
+"mode":"conceptual",
+"match":"exact",
+"signature":"def evaluate_two_sum():",
+"prompt":"Evaluate the time and space complexity of your two-pointer two_sum\nsolution. Then evaluate this alternative:\n\n    def two_sum(nums, target):\n        prev_map = {}\n        for i in range(len(nums)):\n            diff = target - nums[i]\n            if diff in prev_map:\n                return [prev_map[diff], i]\n            prev_map[nums[i]] = i\n\nWhich has better time complexity?\nWhich has better space complexity?"
+},
+"v3_p04":{
+"title":"Two-Pointer Reverse Letters",
+"function":"reverse_only_letters",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse_only_letters(s):",
+"cases":[
+{
+"args":"['a-bC-dEf-ghIj']",
+"e":"J2otSWgtZ2ZFLWRDYmEn"
+},
+{
+"args":"['abc']",
+"e":"J2NiYSc="
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['a']",
+"e":"J2En"
+},
+{
+"args":"['1-2-3']",
+"e":"JzEtMi0zJw==",
+"edge":true
+},
+{
+"args":"['ab-cd']",
+"e":"J2RjLWJhJw=="
+},
+{
+"args":"['Test123']",
+"e":"J3RzZVQxMjMn"
+},
+{
+"args":"['!!!']",
+"e":"JyEhISc="
+},
+{
+"args":"['Hello, World!']",
+"e":"J2Rscm9XLCBvbGxlSCEn"
+},
+{
+"args":"['x.y.z']",
+"e":"J3oueS54Jw=="
+},
+{
+"args":"['c']",
+"e":"J2Mn"
+},
+{
+"args":"['b']",
+"e":"J2In"
+},
+{
+"args":"['ccbcac']",
+"e":"J2NhY2JjYyc="
+},
+{
+"args":"['bdebee']",
+"e":"J2VlYmVkYic="
+},
+{
+"args":"['ece']",
+"e":"J2VjZSc="
+}
+]
+},
+"v3_p05":{
+"title":"Reverse Prefix",
+"function":"reverse_prefix",
+"mode":"return",
+"match":"exact",
+"signature":"def reverse_prefix(word, ch):",
+"cases":[
+{
+"args":"['abcdefd', 'd']",
+"e":"J2RjYmFlZmQn"
+},
+{
+"args":"['helloworld', 'w']",
+"e":"J3dvbGxlaG9ybGQn"
+},
+{
+"args":"['xyzxyz', 'a']",
+"e":"J3h5enh5eic=",
+"edge":true
+},
+{
+"args":"['abcd', 'a']",
+"e":"J2FiY2Qn",
+"edge":true
+},
+{
+"args":"['abcd', 'd']",
+"e":"J2RjYmEn"
+},
+{
+"args":"['a', 'a']",
+"e":"J2En",
+"edge":true
+},
+{
+"args":"['racecar', 'e']",
+"e":"J2VjYXJjYXIn"
+},
+{
+"args":"['hello', 'z']",
+"e":"J2hlbGxvJw=="
+},
+{
+"args":"['prefix', 'f']",
+"e":"J2ZlcnBpeCc="
+},
+{
+"args":"['aaa', 'a']",
+"e":"J2FhYSc="
+},
+{
+"args":"['e a', 'b a']",
+"e":"J2UgYSc="
+},
+{
+"args":"['a', 'db']",
+"e":"J2En"
+},
+{
+"args":"['ea ab', 'd b']",
+"e":"J2VhIGFiJw=="
+},
+{
+"args":"['bb', 'baab']",
+"e":"J2JiJw=="
+},
+{
+"args":"['adceab', 'aeba']",
+"e":"J2FkY2VhYic="
+}
+]
+},
+"v3_p06":{
+"title":"Squash Spaces",
+"function":"squash_spaces",
+"mode":"return",
+"match":"exact",
+"signature":"def squash_spaces(s):",
+"cases":[
+{
+"args":"['  hello    world  ']",
+"e":"J2hlbGxvIHdvcmxkJw=="
+},
+{
+"args":"['  what  about  this    ?']",
+"e":"J3doYXQgYWJvdXQgdGhpcyA/Jw=="
+},
+{
+"args":"['this is my sentence']",
+"e":"J3RoaXMgaXMgbXkgc2VudGVuY2Un"
+},
+{
+"args":"['   ']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['']",
+"e":"Jyc=",
+"edge":true
+},
+{
+"args":"['single']",
+"e":"J3NpbmdsZSc="
+},
+{
+"args":"['  lead']",
+"e":"J2xlYWQn"
+},
+{
+"args":"['trail  ']",
+"e":"J3RyYWlsJw=="
+},
+{
+"args":"['a  b  c']",
+"e":"J2EgYiBjJw=="
+},
+{
+"args":"['no  extra  spaces']",
+"e":"J25vIGV4dHJhIHNwYWNlcyc="
+},
+{
+"args":"['dd']",
+"e":"J2RkJw=="
+},
+{
+"args":"['e']",
+"e":"J2Un"
+},
+{
+"args":"['c']",
+"e":"J2Mn"
+},
+{
+"args":"['cbce']",
+"e":"J2NiY2Un"
+},
+{
+"args":"['ea']",
+"e":"J2VhJw=="
+}
+]
+}
+}
+}

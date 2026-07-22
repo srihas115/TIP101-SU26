@@ -30,3 +30,17 @@ print("  expected:", 13, "| got:", Card("Clubs", "King").get_value())
 
 print("Test 5 - invalid rank")
 print("  expected:", None, "| got:", Card("Hearts", "Joker").get_value())
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade
+
+grade(Card)   # ▶ Run this file to validate your work

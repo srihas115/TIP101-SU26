@@ -42,3 +42,24 @@ d3 = Node('z')
 d1.next = d2
 d2.next = d3
 print("  expected:", ['z', 'z', 'z'], "| got:", print_linked_list(d1))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(print_linked_list)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test(['a', 'b', 'c', 'd', 'e'], expected=['a', 'b', 'c', 'd', 'e'])   # checks the value your code returns against this example

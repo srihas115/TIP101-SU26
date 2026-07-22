@@ -22,3 +22,24 @@ print("  expected:", {-1:2,-2:1}, "| got:", count_occurrences([-1,-1,-2]))
 
 print("Test 5 - all same value")
 print("  expected:", {7:4}, "| got:", count_occurrences([7,7,7,7]))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(count_occurrences)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test([1, 2, 2, 3, 3, 3, 4], expected={1: 1, 2: 2, 3: 3, 4: 1})   # checks the value your code returns against this example

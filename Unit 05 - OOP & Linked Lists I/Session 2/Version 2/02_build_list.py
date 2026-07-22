@@ -7,3 +7,17 @@ print(node_1.value, "->", node_1.next.value)
 print(node_2.value, "->", node_2.next.value)
 print(node_3.value, "->", node_3.next.value)
 print(node_4.value, "->", node_4.next)
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import check_setup
+
+check_setup()   # ▶ Run this file to validate your work

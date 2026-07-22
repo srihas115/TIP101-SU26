@@ -19,3 +19,24 @@ print("  expected:", [296.15, 73.4], "| got:", convertTemp(23.00))
 
 print("Test 4 - decimal celsius value")
 print("  expected:", [309.75, 97.88], "| got:", convertTemp(36.6))
+
+
+'''
+==============================================================================
+  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+==============================================================================
+'''
+import sys, pathlib
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]").is_dir():
+        sys.path.insert(0, str(_p / "ProblemSetSolutionValidator[DO_NOT_EDIT]")); break
+from problem_set_solution_validator import grade, test
+
+grade(convertTemp)   # ▶ Run this file to validate your solution
+
+'''
+==============================================================================
+  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+==============================================================================
+'''
+# test(23.0, expected=[296.15, 73.4])   # checks the value your code returns against this example
