@@ -1,0 +1,78 @@
+[00:00:02.03] - Speaker 1
+Alright, hey, good morning guys. This is Cory from CodePath, and today we're going to be talking about our brand new TIP 101 problem set validator. So we covered this a little bit in class, but what this guide is, is essentially just a video walkthrough on really what is this validator and how do we use it. So at a really high level, this validator is essentially going to be a toolkit that you guys can download and open in VS Code. It's essentially just a bunch of Python files, but if you think about how you guys currently operate through your breakout room questions, those problem sets, either in class or outside of class, you essentially have to create a new Python file in VS Code for every single question, or maybe every class, and kind of when you get to your solution, you might not have a really good way of being able to validate that it works other than kind of mentally working through it in your, in your head, or referring to AI or something like that.
+
+[00:00:49.19] - Speaker 1
+So those are all valid, but we did get some feedback that students wanted to have a little bit more feedback. So we built this for you guys. So it's gonna be essentially organizing all those questions for you.. And this is using a method of development that's popular in the industry called test-driven development, by unit testing or providing essentially test cases like HackerRank or LeetCode does to your actual solution after you code it. So what we're downloading, it does not contain any actual Python answers or solutions.
+
+[00:01:16.24] - Speaker 1
+It's just those verified inputs and outputs. We're going to see how do we actually run it. I'm going to show you guys, there's like a play button in VS Code. So I'll show you how to find that. But let's talk about how do we actually set this up.
+
+[00:01:28.12] - Speaker 1
+So you're gonna see in here there's this download link at the very top. We're gonna click that and it's gonna download a zip file to your computer. So if you look at this URL, you'll see that it has the latest word in the URL. So as CodePath, if we need to make any updates to this validator in the future, you might have to come back and re-download, but we will definitely let you guys know. Hopefully there's not any bugs, but just in case, this is always gonna be the most up-to-date version.
+
+[00:01:54.14] - Speaker 1
+So if we open up our downloads, we will see that zip file right there. So on Mac, how do we actually open the zip file? All you have to do is double-click it, and it's going to extract it out into its own folder. If you're on Windows, you might have to right-click the zip, and there might be an option that says something like, uh, decompress or extract or something like that, or unzip, something like that in here. But both of them should give you this one new folder.
+
+[00:02:22.06] - Speaker 1
+You see there's something that— a folder that's for students and a folder that's for the solution validator itself. This solution validator code is not for you guys to open. Definitely do not make any edits to this or else it won't work anymore. The only folder you guys will actually need to worry about is what's inside of the student one. But of course, you're not going to be just looking at the files.
+
+[00:02:41.00] - Speaker 1
+Let's talk about how do we open this in VS Code.
+
+[00:02:45.04] - Speaker 1
+You guys have seen this screen before. We are just on a new VS Code window. We're going to go ahead and click that open button and jump over to that new folder that we just made. So again, we know that there's a few different things in here, maybe a student folder, a validator folder. We are just going to open that new HighLevel folder that we made that includes everything.
+
+[00:03:07.05] - Speaker 1
+So over here, you guys can kind of see the layout of what this is going to look like. Essentially, we are organizing all of your questions by unit. And if we were to click into a specific one, I had one open earlier, but you will see we kind of split them up by session and then by version as well, just like you guys are used to in these problem sets. So what I want you— what I wanna— excuse me, what I wanna talk about now for a few seconds is essentially how these files are organized. So when you come and look inside of each one of these files, you'll see they kind of have the same kind of layouts.
+
+[00:03:40.01] - Speaker 1
+And what's going on inside of each of these are we are providing essentially a We're restating kind of what problem you're coding the solution for, which is going to match the description from the CodePath course portal. And then we are providing some umpire scaffolding here. And then you're going to see a few things below that. So in each of these files, again, you're going to be seeing kind of this placeholder shell or scaffolding for a function. And every single one will have this pass keyword here.
+
+[00:04:08.02] - Speaker 1
+And if we look at that comment, we're going to be replacing that keyword with our actual solution. Below that, there's a bit more code and we're going to talk about that later. For now, you would come and just start coding right away as you normally would. You're just going to replace that past statement and get to work. Essentially, at some point, you will be done with your solution.
+
+[00:04:29.09] - Speaker 1
+You might have some code that you want to test out. At this point in your breakout rooms, you guys have to go through in your head or maybe move forward. But what you guys see here is this play button. Here on VS Code. This is essentially just to run the Python file that you're currently looking at.
+
+[00:04:46.04] - Speaker 1
+So, this should again be installed by default in VS Code. If it's not, stick around until the end and I will tell you guys some tips on how to try to enable that, but it should be pretty straightforward. But again, when I go ahead and click that play button, we saw some output pop up in our terminal down here. So, let's see what it says, right? We are— it's a validator results and we've passed 13 out of 13 test cases.
+
+[00:05:09.15] - Speaker 1
+So depending on the question, it might have anywhere from 10 to 15 different test cases. And we see a little grid of checkmarks showing that we got them all right. So this is like a perfect solution. We see one comment that's a reminder to try out some custom test cases. We're going to look at that in a moment as well.
+
+[00:05:25.04] - Speaker 1
+But let's see what happens if our code were wrong, right? So I'm going to change a line right here to be the wrong value and hit play again. So we see a little bit of a different type of output here, right? Previously, we had this perfect result. Now we are looking at one that only got 3 out of 13 correct.
+
+[00:05:43.03] - Speaker 1
+And we see that here as well. So what I want you guys to know is how do we read this? This is typical, like, how do we read unit testing in general? This is like industry standard. You will see essentially the input that was being tested, what's being passed into your function, right?
+
+[00:05:55.23] - Speaker 1
+So test 1 was passing in 5, test 4 was passing in 3, so on and so forth. And this is that verified output. So it is the correct answer that 5 factorial is 120 and not 15. So when you guys are looking at this, it's essentially saying your code returned this red incorrect value and the correct expected one that's missing is this green one. So it can kind of give you a sign of like what's going on, right?
+
+[00:06:19.23] - Speaker 1
+Looking at this, maybe it's skipping definitely some multiplication or something like that, or just values in general. But this is kind of an idea of how you might be able to kind of work backwards using this validator. So the last thing I wanna talk about is down here, what are these two separate sections? We see one section is named the validator code. Do not edit or move this section.
+
+[00:06:41.10] - Speaker 1
+It's really important that you guys just leave this code exactly as is, because you can see here as well, why are we providing scaffolding functions? Why is it also important not to change this function name and only to replace that pass statement? Because the autograder is expecting a very specific function name. So if you were to name this as something else like factorial2, it's not going to work. So you want to make sure that you're not changing this part, just the pass statement, and definitely not changing anything in here.
+
+[00:07:10.04] - Speaker 1
+But if we come and look at the last section at the very bottom, we see something that says your own test cases. So this is an optional feature that you guys can use. All you have to do is uncomment and edit to try out your own inputs. So we see one comment here. It's using something called test.
+
+[00:07:24.24] - Speaker 1
+There's like a function that I built called— that we built called test. And how this works is essentially you're going to pass in the input and then what's the output. So you could pass in a list of numbers, a node element, integer, just depending on what's going on. Here is just a number. And what is that expected value?
+
+[00:07:41.03] - Speaker 1
+So when we hit play, we are going to see a new area pop up in our validator output, which is for our own test cases. So it'll let us know we had one test case for 5 and it did return 120 correctly. And, you know, if we were to do something like, let's try 1. We know that 1 factorial is definitely not 120. If I were to run that, we see that all the provided test cases are fine, but there's something wrong with our one test case that we added.
+
+[00:08:09.02] - Speaker 1
+So something like this probably means that your code might be working, but it's possible that you defined the test case incorrectly like we did here. So, this is kind of like an idea, just a callout that you guys have to be sure that you're actually, like, using the right things. But it's just kind of giving you guys a faster way of testing a bunch of different edge cases, right? So, in our head, we know that 2 factorial should be 4. We know that 3 factorial should be 6.
+
+[00:08:35.08] - Speaker 1
+You can kind of just easily add a bunch of test cases in there. Sorry, 2 factorial is not 4, it's 1. Virtue. So this is kind of like the main walkthrough for how do we actually use this, this validator here. If you guys are able to see this play button, this is pretty much the end of the guide, so you can feel free to stop watching here.
+
+[00:08:52.23] - Speaker 1
+But if you are unable to see this run Python file button up here, what I want you to do is come over here to the extensions tab and click on that one, the one that looks like a bunch of little blocks. Okay, so when you're there, go ahead and type Python. Again, they should be installed by default, but if they're not, you will see the official Microsoft extensions for Python. There's like 4 of them that popped up. If you click on the one that's for Python directly, this is the one that you guys want to make sure is enabled.
+
+[00:09:20.19] - Speaker 1
+So you want to make sure that it's turned on. Here, my screen says disable because this extension is currently turned on. If you see a button that says enable, you want to click that. So you might need to restart VS Code or it might work right away, but just go back and see if you saw that play button pop up. If it doesn't, try to go ahead and enable all 4 of these.
+
