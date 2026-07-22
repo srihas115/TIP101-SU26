@@ -24,7 +24,12 @@ Plan:
 
 
 def list_to_number(digits):
-    pass
+    num = 0
+    multiplier = 1
+    for i in range(len(digits)-1, -1, -1):
+        num += digits[i] * multiplier
+        multiplier *= 10
+    return num
 
 digits = [1,0,3]
 number = list_to_number(digits)

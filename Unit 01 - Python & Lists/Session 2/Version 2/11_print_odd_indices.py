@@ -23,7 +23,8 @@ Plan:
 
 
 def print_odd_indices(nums):
-    pass
+    for i in range(1, len(nums), 2):
+        print(nums[i])
 
 nums = [3,4,8,1,5,2]
 print_odd_indices(nums)

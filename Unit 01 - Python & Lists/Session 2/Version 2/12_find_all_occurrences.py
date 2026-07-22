@@ -24,7 +24,11 @@ Plan:
 
 
 def find_all_occurrences(lst, target):
-    pass
+    index_list = []
+    for i in range(len(lst)):
+        if lst[i] == target:
+            index_list.append(i)
+    return index_list
 
 lst = [1,2,6,5,2,1,3,2,2]
 index_list = find_all_occurrences(lst, 2)

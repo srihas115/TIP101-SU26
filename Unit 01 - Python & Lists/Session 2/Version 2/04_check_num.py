@@ -24,7 +24,10 @@ Plan:
 
 
 def check_num(lst, num):
-    pass
+    for item in lst:
+        if item == num:
+            return True
+    return False
 
 lst = [5,2,3,9,10]
 flag1 = check_num(lst,9)

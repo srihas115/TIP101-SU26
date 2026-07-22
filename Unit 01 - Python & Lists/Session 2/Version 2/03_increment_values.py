@@ -24,7 +24,9 @@ Plan:
 
 
 def increment_values(lst):
-    pass
+    for i in range(len(lst)):
+        lst[i] += 1
+    return lst
 
 lst = [3,5,8,2]
 new_lst = increment_values(lst)

@@ -24,7 +24,12 @@ Plan:
 
 
 def find_missing(nums):
-    pass
+    nums = sorted(nums)
+    for i in range(len(nums)):
+        if nums[i] != i:
+            return i
+    return len(nums)
+    
 
 nums = [2,4,1,0,5]
 missing_num = find_missing(nums)

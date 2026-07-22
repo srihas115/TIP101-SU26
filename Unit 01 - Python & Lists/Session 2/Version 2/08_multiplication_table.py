@@ -23,7 +23,8 @@ Plan:
 
 
 def multiplication_table(num):
-    pass
+    for i in range(1, 11):
+        print(num * i)
 
 multiplication_table(7)
 

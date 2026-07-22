@@ -23,7 +23,11 @@ Plan:
 
 
 def get_odds(nums):
-    pass
+    odds = []
+    for num in nums:
+        if num % 2 == 1:
+            odds.append(num)
+    return odds
 
 nums = [2,5,1,8,6,5]
 odd_nums = get_odds(nums)

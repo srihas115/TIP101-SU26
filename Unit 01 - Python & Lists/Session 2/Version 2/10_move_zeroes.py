@@ -22,9 +22,31 @@ Plan:
 
 '''
 
+# Time: O(n)
+# Space: O(n)
+def move_zeroes1(nums):
+    new_nums = []
+    count_zeros = 0
+    for num in nums:
+        if num == 0:
+            count_zeros += 1
+        else:
+            new_nums.append(num)
+    
+    for i in range(count_zeros):
+        new_nums.append(0)
+        
+    return new_nums
 
+# Time: O(n)
+# Space: O(1), because we use the two-pointer approach
 def move_zeroes(nums):
-    pass
+    insert_pos = 0
+    for i in range(len(nums)):
+        if nums[i] != 0:
+            nums[i], nums[insert_pos] = nums[insert_pos], nums[i]
+            insert_pos += 1
+    return nums
 
 nums = [1,0,2,3,0,0,4]
 new_nums = move_zeroes(nums)
