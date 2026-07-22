@@ -29,7 +29,15 @@ Plan:
 
 
 def convertTemp(celsius):
-    pass
+  kelvin = round((celsius + 273.15), 2)
+  fahrenheit = round(((celsius * 1.8) + 32), 2)
+
+  ans = []
+
+  ans.append(kelvin)
+  ans.append(fahrenheit)
+  
+  return ans
 
 temperatures = convertTemp(23.00)
 print(temperatures)

@@ -23,7 +23,10 @@ Plan:
 
 
 def average(scores):
-    pass
+  sum = 0
+  for score in scores:
+    sum += score
+  return sum / len(scores)
 
 scores = [84,73,92,95,88]
 avg_score = average(scores)
