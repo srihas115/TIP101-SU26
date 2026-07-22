@@ -20,7 +20,7 @@ def check_tree(root):
 Example Usage:
 
 
-```python
+```
 Example Input Tree #1:
   10
  /  \

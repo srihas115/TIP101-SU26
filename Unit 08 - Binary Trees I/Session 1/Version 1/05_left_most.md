@@ -20,7 +20,7 @@ def left_most(root):
 Example Usage:
 
 
-```python
+```
 Example Input Tree #1:
 
       1
@@ -35,7 +35,8 @@ Expected Output: 4
 
 Example Input Tree #2:
 
-     1
+    1
+     \
       \
        2
       /

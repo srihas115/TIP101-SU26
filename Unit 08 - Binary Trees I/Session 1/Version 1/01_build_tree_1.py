@@ -1,5 +1,19 @@
+from __future__ import annotations
+from typing import Optional
+
 class TreeNode:
-    def __init__(self, val, left=None, right=None):
+    def __init__(self, val: int, left: Optional[TreeNode] = None, right: Optional[TreeNode] = None):
         self.val = val
         self.left = left
         self.right = right
+
+tree = TreeNode(10, TreeNode(4), TreeNode(6))
+
+'''
+  10
+ /  \
+4    6
+'''
+
+assert tree.left is not None and tree.right is not None
+print(tree.val, tree.left.val, tree.right.val)

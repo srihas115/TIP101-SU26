@@ -17,7 +17,7 @@ def inorder_traversal(root):
 Example Usage:
 
 
-```python
+```
 Example Input Tree #1:
      1
       \
