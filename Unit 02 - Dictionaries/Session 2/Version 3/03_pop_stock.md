@@ -34,7 +34,7 @@ print(resultD)
 Example Output:
 
 
-```python
+```
 {'chocolate': 20, 'candy': 3, 'chips': 10}
 Not enough stock
 Item does not exist

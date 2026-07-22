@@ -60,7 +60,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Return Value: 1
 # Expected Result List: 1 -> 2 -> 4
 ```

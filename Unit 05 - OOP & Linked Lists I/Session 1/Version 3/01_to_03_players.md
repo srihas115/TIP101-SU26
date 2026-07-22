@@ -116,7 +116,7 @@ print(player_one.get_player())
 Example Output:
 
 
-```python
+```
 Yoshi driving the Super Blooper
 Yoshi driving the Dolphin Dasher
 ```

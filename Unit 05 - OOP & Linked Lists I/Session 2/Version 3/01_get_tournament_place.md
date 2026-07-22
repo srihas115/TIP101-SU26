@@ -38,7 +38,7 @@ print(f"{player1.character} was number {player1.get_tournament_place(opponents)}
 Example Output:
 
 
-```python
+```
 Mario was number 1 # Mario's average place is 1.6, Luigi's is 2.0, and Peach's is 2.4
 ```
 

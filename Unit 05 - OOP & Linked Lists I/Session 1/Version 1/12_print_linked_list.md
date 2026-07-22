@@ -27,7 +27,7 @@ print_linked_list(a)
 Example Output:
 
 
-```python
+```
 a -> b -> c -> d -> e
 ```
 

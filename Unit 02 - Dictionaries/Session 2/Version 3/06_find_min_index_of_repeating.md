@@ -23,7 +23,7 @@ print(find_min_index_of_repeating(nums3))
 Example Output:
 
 
-```python
+```
 1
 None
 3

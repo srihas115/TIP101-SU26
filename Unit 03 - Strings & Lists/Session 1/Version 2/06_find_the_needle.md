@@ -24,7 +24,7 @@ print(find_the_needle(haystack2, needle2))
 Example Output:
 
 
-```python
+```
 2
 -1
 ```

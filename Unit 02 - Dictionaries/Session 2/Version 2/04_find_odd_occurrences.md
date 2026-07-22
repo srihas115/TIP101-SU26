@@ -20,7 +20,7 @@ print(odd_list)
 Example Output:
 
 
-```python
+```
 [1,3]
 ```
 

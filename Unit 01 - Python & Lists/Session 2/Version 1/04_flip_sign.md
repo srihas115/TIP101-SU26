@@ -20,6 +20,6 @@ print(flipped_lst)
 Example Output:
 
 
-```python
+```
 [-1, 2, 3, -4]
 ```

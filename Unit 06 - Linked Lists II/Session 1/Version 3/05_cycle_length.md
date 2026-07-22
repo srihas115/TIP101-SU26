@@ -32,7 +32,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Output: 3
 ```
 

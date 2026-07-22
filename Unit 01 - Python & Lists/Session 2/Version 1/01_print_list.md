@@ -13,7 +13,7 @@ Example Input: `lst = ["squirtle", "gengar", "charizard", "pikachu"]`
 Example Output:
 
 
-```python
+```
 squirtle
 gengar
 charizard

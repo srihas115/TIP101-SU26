@@ -21,7 +21,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 2
 # Explanation: 2 digits with value 7 in the number 727
 ```

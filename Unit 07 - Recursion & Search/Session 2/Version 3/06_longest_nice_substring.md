@@ -21,7 +21,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: "aAa"
 # Explanation:"aAa" is a nice string because 'A/a' is the only letter of the alphabet in s
 # where both 'A' and 'a' appear. "aAa" is the longest nice substring.

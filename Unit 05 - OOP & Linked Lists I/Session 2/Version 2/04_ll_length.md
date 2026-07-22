@@ -29,7 +29,7 @@ print(ll_length(head))
 Example Output:
 
 
-```python
+```
 3
 0
 ```

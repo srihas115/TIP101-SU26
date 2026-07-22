@@ -21,7 +21,7 @@ print(contains_nearby_duplicate(lst2, 1))
 Example Output:
 
 
-```python
+```
 False
 True
 ```

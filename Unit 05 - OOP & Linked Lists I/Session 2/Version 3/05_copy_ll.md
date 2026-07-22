@@ -32,7 +32,7 @@ print(head.value, copy.value)
 Example Output:
 
 
-```python
+```
 5 5
 10 5
 ```

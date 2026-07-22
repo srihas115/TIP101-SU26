@@ -32,7 +32,7 @@ player_two.print_inventory()
 Example Output:
 
 
-```python
+```
 Inventory: banana: 2, bob-omb: 1, super star: 1
 Inventory empty
 ```

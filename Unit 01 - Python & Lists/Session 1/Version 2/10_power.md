@@ -21,7 +21,7 @@ print(pow2)
 Example Output:
 
 
-```python
+```
 32
 27
 ```

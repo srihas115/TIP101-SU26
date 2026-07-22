@@ -24,7 +24,7 @@ print(scores)
 Example Output:
 
 
-```python
+```
 {'Alice': 110, 'Bob': 90}
 {'Alice': 110, 'Bob': 90, 'Calvin': 20}
 {'Alice': 110, 'Bob': 90, 'Calvin': 25}

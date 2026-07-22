@@ -27,7 +27,7 @@ print(count3)
 Example Output:
 
 
-```python
+```
 3
 10
 0

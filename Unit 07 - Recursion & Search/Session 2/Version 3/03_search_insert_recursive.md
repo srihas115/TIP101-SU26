@@ -22,7 +22,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 2
 # Explanation: 5 has index 2 in the list
 ```

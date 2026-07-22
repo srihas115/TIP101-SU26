@@ -20,6 +20,6 @@ print(index_list)
 Example Output:
 
 
-```python
+```
 [1,4,7,8]
 ```

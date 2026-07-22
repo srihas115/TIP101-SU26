@@ -32,7 +32,7 @@ my_pokemon.choose()
 Example Output:
 
 
-```python
+```
 {'name': 'rattata', 'types': ['Normal'], 'is_caught': False}
 rattata is wild! Catch them if you can!
 rattata I choose you!

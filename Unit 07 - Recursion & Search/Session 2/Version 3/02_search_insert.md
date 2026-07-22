@@ -19,7 +19,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 8
 # Explanation: 20 would be inserted at the end which is index 8
 ```

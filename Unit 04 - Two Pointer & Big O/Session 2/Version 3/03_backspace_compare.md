@@ -28,7 +28,7 @@ print(backspace_compare(a, b))
 Example Output:
 
 
-```python
+```
 True
 True
 False

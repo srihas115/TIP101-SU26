@@ -33,7 +33,7 @@ print(second_draw.is_valid())
 Example Output:
 
 
-```python
+```
 True
 False
 ```

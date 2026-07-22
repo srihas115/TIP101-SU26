@@ -21,6 +21,6 @@ print(inter_lst)
 Example Output:
 
 
-```python
+```
 [1, 10, 2, 20, 3, 4]
 ```

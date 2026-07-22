@@ -40,7 +40,7 @@ print(node_two.next)
 Example Output:
 
 
-```python
+```
 a
 None
 b
@@ -98,7 +98,7 @@ print(node_two.value)
 Example Output:
 
 
-```python
+```
 a
 b
 b

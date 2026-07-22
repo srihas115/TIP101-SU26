@@ -24,7 +24,7 @@ print(check3)
 Example Output:
 
 
-```python
+```
 False
 True
 True

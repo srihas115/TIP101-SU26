@@ -24,7 +24,7 @@ get_description(info, keys)
 *Expected* Output:
 
 
-```python
+```
 Tom
 engineer
 None

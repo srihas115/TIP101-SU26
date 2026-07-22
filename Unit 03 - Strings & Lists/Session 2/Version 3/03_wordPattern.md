@@ -28,7 +28,7 @@ print(wordPattern(pattern2, s4))
 Example Output:
 
 
-```python
+```
 True
 False
 False

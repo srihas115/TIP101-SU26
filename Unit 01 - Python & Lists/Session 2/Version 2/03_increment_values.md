@@ -20,7 +20,7 @@ print(new_lst)
 Example Output:
 
 
-```python
+```
 [4, 6, 9, 3]
 ```
 

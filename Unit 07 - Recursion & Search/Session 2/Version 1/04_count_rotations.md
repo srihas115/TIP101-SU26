@@ -18,7 +18,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 3
 # Explanation: Array is rotated 3 times:
 	# Sorted Array: [2, 5, 6, 8, 9, 10]

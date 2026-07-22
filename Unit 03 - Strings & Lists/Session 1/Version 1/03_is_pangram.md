@@ -22,7 +22,7 @@ print(is_pangram(str2))
 Example Output:
 
 
-```python
+```
 True
 False
 ```

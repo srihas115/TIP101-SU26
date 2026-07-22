@@ -31,7 +31,7 @@ print(tip3)
 Example Output:
 
 
-```python
+```
 6.6795
 4.453
 8.906

@@ -41,7 +41,7 @@ print(card_two.get_value())
 Example Output:
 
 
-```python
+```
 7
 11
 ```

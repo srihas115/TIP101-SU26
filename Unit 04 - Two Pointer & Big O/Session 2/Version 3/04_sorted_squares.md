@@ -23,7 +23,7 @@ print(sq_nums2)
 Example Output:
 
 
-```python
+```
 [1,4,9,16]
 [0,1,9,16,100]
 ```

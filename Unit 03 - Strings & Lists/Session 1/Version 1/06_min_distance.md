@@ -26,7 +26,7 @@ print(dist3)
 Example Output:
 
 
-```python
+```
 3
 1
 2

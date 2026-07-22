@@ -25,7 +25,7 @@ print(first_unique_char(str3))
 Example Output
 
 
-```python
+```
 0
 2
 -1

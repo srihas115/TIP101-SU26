@@ -14,7 +14,7 @@ Example Usage: `multiplication_table(7)`
 Example Output:
 
 
-```python
+```
 7
 14
 21

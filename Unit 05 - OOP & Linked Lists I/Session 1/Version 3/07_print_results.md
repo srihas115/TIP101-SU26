@@ -31,7 +31,7 @@ print_results(race_one)
 Example Output:
 
 
-```python
+```
 1. Peach
 2. Mario
 3. Luigi

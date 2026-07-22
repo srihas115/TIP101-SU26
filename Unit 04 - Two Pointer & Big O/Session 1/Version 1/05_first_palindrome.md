@@ -28,7 +28,7 @@ print(palindrome3)
 Example Output:
 
 
-```python
+```
 ada
 racecar
 ```

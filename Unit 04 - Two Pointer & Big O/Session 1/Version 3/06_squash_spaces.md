@@ -25,7 +25,7 @@ print(squash_spaces("this is my sentence"))
 Example Output:
 
 
-```python
+```
 hello world
 what about this ?
 this is my sentence

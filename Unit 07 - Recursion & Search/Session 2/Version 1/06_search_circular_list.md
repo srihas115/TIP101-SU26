@@ -18,7 +18,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 2
 # Explanation: 10 is at index 2 in the list
 ```

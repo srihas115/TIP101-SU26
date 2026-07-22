@@ -21,7 +21,7 @@ print(sort_array_by_parity(nums2))
 Example Output:
 
 
-```python
+```
 [4,5,2,7]
 # [2,7,4,5], [2,7,4,5], [4,7,2,5] also works
 [2,3]

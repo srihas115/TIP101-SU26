@@ -22,7 +22,7 @@ print(find_largest_k(nums2))
 Example Output:
 
 
-```python
+```
 3
 -1
 ```

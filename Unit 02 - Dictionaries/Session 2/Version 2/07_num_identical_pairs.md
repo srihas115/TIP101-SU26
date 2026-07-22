@@ -27,7 +27,7 @@ print(num_identical_pairs(nums))
 Example Output:
 
 
-```python
+```
 4
 0
 6

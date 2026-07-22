@@ -32,7 +32,7 @@ print(my_list.value)
 Example Output:
 
 
-```python
+```
 5
 6
 7

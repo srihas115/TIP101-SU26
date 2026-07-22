@@ -35,7 +35,7 @@ squirtle.print_pokemon()
 Example Output:
 
 
-```python
+```
 {'name': 'Squirtle', 'types': ['water'], 'is_caught': False}
 ```
 
@@ -75,7 +75,7 @@ Using your code from Problem 2, update your `squirtle` Pokemon so that `is_caugh
 Expected Output:
 
 
-```python
+```
 {
     "name": "Squirtle",
     "types": ["Water"],
@@ -86,7 +86,7 @@ Expected Output:
 Example Output
 
 
-```python
+```
 {'name': 'Squirtle', 'types': ['water'], 'is_caught': True}
 ```
 

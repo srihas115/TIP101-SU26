@@ -28,7 +28,7 @@ my_pokemon.print_pokemon()
 Example Output:
 
 
-```python
+```
 {'name': 'rattata', 'types': ['Normal'], 'is_caught': False} # First print statement
 {'name': 'rattata', 'types': ['Normal'], 'is_caught': True}  # Second print statement
 ```

@@ -37,7 +37,7 @@ print(lst2)
 Example Output:
 
 
-```python
+```
 ['a', 'b']
 ['j', 'k', 'l']
 ```

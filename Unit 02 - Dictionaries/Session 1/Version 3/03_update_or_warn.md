@@ -23,7 +23,7 @@ print(records)
 Example Output:
 
 
-```python
+```
 grape not found!
 {'apple': 1, 'banana': 2, 'orange': 3}
 {'apple': 1, 'banana': 5, 'orange': 3}

@@ -28,7 +28,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Return Value: 2
 ```
 

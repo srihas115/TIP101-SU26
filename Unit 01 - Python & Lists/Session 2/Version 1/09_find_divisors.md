@@ -19,6 +19,6 @@ print(lst)
 Example Output:
 
 
-```python
+```
 [1, 2, 3, 6]
 ```

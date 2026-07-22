@@ -11,7 +11,7 @@ def multiples_of_five():
 Example Output:
 
 
-```python
+```
 5
 10
 15

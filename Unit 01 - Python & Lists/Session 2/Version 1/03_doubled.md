@@ -15,6 +15,6 @@ print(new_lst)
 Example Output:
 
 
-```python
+```
 [2, 4, 6]
 ```

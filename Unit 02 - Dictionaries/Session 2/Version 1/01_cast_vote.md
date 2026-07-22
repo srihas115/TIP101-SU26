@@ -22,7 +22,7 @@ print(votes)
 Example Output:
 
 
-```python
+```
 {'Alice': 6, 'Bob': 3}
 {'Alice': 6, 'Bob': 3, 'Gina': 1}
 ```

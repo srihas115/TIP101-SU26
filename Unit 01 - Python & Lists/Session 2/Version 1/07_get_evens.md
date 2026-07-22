@@ -20,7 +20,7 @@ print(evens_lst)
 Example Output:
 
 
-```python
+```
 [2, 4]
 ```
 

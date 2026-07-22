@@ -12,7 +12,7 @@ Example Usage: `counter(7)`.
 Example Output:
 
 
-```python
+```
 1
 2
 3

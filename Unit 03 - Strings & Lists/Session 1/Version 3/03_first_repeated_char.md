@@ -24,7 +24,7 @@ print(first_repeated_char(s3))
 Example Output:
 
 
-```python
+```
 3
 5
 None

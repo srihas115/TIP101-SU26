@@ -20,6 +20,6 @@ print(odd_nums)
 Example Output:
 
 
-```python
+```
 [5, 1, 5]
 ```

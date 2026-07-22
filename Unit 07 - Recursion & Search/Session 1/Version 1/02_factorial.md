@@ -24,7 +24,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 120
 # Explanation: 5! = 5 * 4 * 3 * 2 * 1 = 120
 ```

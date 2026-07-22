@@ -24,7 +24,7 @@ print(nums_len)
 Example Output:
 
 
-```python
+```
 [5, 3, 1]
 3
 ```

@@ -25,7 +25,7 @@ avg_lst = find_averages_of_subarrays(5, nums)
 Example Output:
 
 
-```python
+```
 [2.2, 2.8, 2.4, 3.6, 2.8]
 # (1 + 3 + 2 + 6 - 1)/5 = 2.2
 # (3 + 2 + 6 -1 + 4)/5 = 2.8

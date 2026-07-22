@@ -30,7 +30,7 @@ print(node_2.value, "->", node_2.next)
 Example Output:
 
 
-```python
+```
 Jigglypuff -> Wigglytuff
 Wigglytuff -> None
 ```

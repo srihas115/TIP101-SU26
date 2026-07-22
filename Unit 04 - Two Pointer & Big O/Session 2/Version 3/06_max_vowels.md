@@ -21,7 +21,7 @@ print(max_vowels(s, 5))
 Example Output:
 
 
-```python
+```
 # "iii"
 3
 # "iiide

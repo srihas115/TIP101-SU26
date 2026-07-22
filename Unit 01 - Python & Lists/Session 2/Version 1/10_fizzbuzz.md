@@ -18,7 +18,7 @@ Example Usage: `fizzbuzz(13)`
 Example Output:
 
 
-```python
+```
 1
 2
 Fizz

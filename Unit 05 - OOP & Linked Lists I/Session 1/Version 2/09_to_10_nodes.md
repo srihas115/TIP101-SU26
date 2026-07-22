@@ -39,7 +39,7 @@ print(tail.next)
 Example Output:
 
 
-```python
+```
 100
 200
 200
@@ -97,7 +97,7 @@ print(tail.next)
 Example Output:
 
 
-```python
+```
 150
 200
 None

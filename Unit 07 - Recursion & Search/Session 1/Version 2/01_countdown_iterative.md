@@ -31,7 +31,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output:
 # 5
 # 4

@@ -18,7 +18,7 @@ print(output)
 Output:
 
 
-```python
+```
 adult
 child
 adult

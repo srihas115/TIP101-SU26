@@ -25,7 +25,7 @@ print(is_power_of_two(18))
 Example Output:
 
 
-```python
+```
 True
 False
 ```

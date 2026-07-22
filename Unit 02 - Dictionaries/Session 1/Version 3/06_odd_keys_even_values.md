@@ -20,6 +20,6 @@ print(final_list)
 Example Output:
 
 
-```python
+```
 [1, 5]
 ```

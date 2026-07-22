@@ -22,7 +22,7 @@ print(exp2)
 Example Output:
 
 
-```python
+```
 # 2^6 = 64 and 2^7 = 128
 6
 # 3^1 = 3 and 3^2 = 9

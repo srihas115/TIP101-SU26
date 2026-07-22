@@ -42,7 +42,7 @@ print(charizard_list)
 Example Output:
 
 
-```python
+```
 ['Charmander', 'Charmeleon', 'Charizard']
 ['Charmeleon', 'Charizard']
 ['Charizard']

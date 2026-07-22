@@ -19,7 +19,7 @@ count = num_of_subarrays(lst, 3, 4)
 Example Output:
 
 
-```python
+```
 3
 # subarrays are [2,5,5], [5,5,5] and [5,5,8]
 ```

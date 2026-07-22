@@ -22,7 +22,7 @@ print(find_missing_positive(nums2))
 Example Output:
 
 
-```python
+```
 4
 6
 ```

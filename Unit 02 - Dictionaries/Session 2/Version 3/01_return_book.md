@@ -24,7 +24,7 @@ print(updated_lib)
 Example Output:
 
 
-```python
+```
 {'The Hobbit': 2, '1984': 2, 'The Great Gatsby': 4}
 {'The Hobbit': 2, '1984': 1, 'The Great Gatsby': 4, 'The Giver': 1}
 ```

@@ -19,7 +19,7 @@ print(group_by_frequency(lst))
 Example Output:
 
 
-```python
+```
 { 1 : ['a', 'b'], 2: ['c', 'd'], 3: ['e']}
 ```
 

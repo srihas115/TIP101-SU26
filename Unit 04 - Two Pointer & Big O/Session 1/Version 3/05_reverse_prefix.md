@@ -28,7 +28,7 @@ print(rev_word3)
 Example Output:
 
 
-```python
+```
 dcbaefd
 wollehorld
 xyzxyz

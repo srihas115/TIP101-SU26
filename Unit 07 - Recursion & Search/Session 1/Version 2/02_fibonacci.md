@@ -24,7 +24,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 8
 # Explanation: The 6th Fibonacci number is 8. The 5th Fibonacci number is 5 and the 4th Fibonacci
 # number is 3. 5 + 3 = 8.

@@ -48,7 +48,7 @@ print(is_two_pair(player_two_hand))
 Example Output:
 
 
-```python
+```
 True  # Two Aces + Two 4s (+ Unused 6)
 False # Two 4s (+ Ace + 6 + 7)
 ```

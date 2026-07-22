@@ -32,7 +32,7 @@ print(binary_substrings_count(s3))
 Example Output:
 
 
-```python
+```
 # substrings for s: "0011", "01", "1100", "10", "0011", "01"
 6
 # substrings for s2: "10", "01", "10", "01"

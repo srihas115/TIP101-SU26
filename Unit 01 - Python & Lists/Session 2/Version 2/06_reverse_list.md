@@ -20,7 +20,7 @@ print(rev_lst)
 Example Output:
 
 
-```python
+```
 [5,4,3,2,1]
 ```
 

@@ -24,7 +24,7 @@ print(time)
 Output:
 
 
-```python
+```
 taco time 🌮
 nap time 😴
 peanut butter jelly time 🥪

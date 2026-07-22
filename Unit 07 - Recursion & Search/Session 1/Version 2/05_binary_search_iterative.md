@@ -39,7 +39,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 5
 # Explanation: 11 has index 5 in the list
 ```

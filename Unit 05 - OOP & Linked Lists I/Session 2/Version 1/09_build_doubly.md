@@ -27,6 +27,6 @@ print(poliwhirl.prev.value, "<->", poliwhirl.value, "<->", poliwhirl.next.value)
 Example Output:
 
 
-```python
+```
 Poliwag <-> Poliwhirl <-> Poliwrath
 ```

@@ -34,7 +34,7 @@ print(sum2)
 Example Output
 
 
-```python
+```
 3
 0
 ```

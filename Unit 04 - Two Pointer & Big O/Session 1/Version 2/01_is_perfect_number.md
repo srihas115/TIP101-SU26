@@ -23,7 +23,7 @@ print(is_perfect_number(9))
 Example Output:
 
 
-```python
+```
 True
 True
 False

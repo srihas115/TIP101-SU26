@@ -24,7 +24,7 @@ print(l2)
 Example Output:
 
 
-```python
+```
 4
 1
 ```

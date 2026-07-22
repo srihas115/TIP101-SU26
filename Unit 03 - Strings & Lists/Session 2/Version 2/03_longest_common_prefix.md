@@ -24,6 +24,6 @@ print(common_str)
 Example Output:
 
 
-```python
+```
 fl
 ```

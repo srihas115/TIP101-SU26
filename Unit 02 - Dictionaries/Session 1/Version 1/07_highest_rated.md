@@ -34,7 +34,7 @@ books = [
 Expected Output:
 
 
-```python
+```
 {"title": "A Fortune For Your Disaster",
  "author": "Hanif Abdurraqib",
  "rating": 4.47

@@ -34,7 +34,7 @@ print(is_long_pressed(name3, typed3))
 Example Output:
 
 
-```python
+```
 # 'a' and 'e' were long pressed in "alex"
 True
 # there are two 'e's in "saeed", and only one 'e' in the typed string

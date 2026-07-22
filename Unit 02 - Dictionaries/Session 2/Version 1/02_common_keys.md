@@ -21,7 +21,7 @@ print(common_list)
 Example Output:
 
 
-```python
+```
 ['b', 'c']
 ```
 

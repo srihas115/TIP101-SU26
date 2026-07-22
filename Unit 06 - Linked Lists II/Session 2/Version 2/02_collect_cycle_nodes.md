@@ -29,7 +29,7 @@ print(lst2)
 Example Output:
 
 
-```python
+```
 [num2, num3, num4]
 []
 ```

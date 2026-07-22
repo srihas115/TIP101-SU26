@@ -36,7 +36,7 @@ player_two.set_player("Kermit")
 Example Output:
 
 
-```python
+```
 Character updated
 Invalid character
 ```

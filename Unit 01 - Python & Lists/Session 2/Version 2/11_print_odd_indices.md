@@ -19,7 +19,7 @@ print_odd_indices(nums)
 Example Output:
 
 
-```python
+```
 4
 1
 2

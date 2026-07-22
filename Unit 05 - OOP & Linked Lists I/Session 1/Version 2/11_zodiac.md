@@ -23,7 +23,7 @@ print(node_4.value, "->", node_4.next)
 Example Output:
 
 
-```python
+```
 aries -> taurus
 taurus -> gemini
 gemini -> cancer

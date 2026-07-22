@@ -25,7 +25,7 @@ print(sol2)
 Example Output
 
 
-```python
+```
 [0,1]
 [1,2]
 ```

@@ -24,6 +24,6 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # 2
 ```

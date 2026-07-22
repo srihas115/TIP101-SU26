@@ -36,7 +36,7 @@ print(node_1.value, "->", node_1.next.value)
 Example Output:
 
 
-```python
+```
 Jigglypuff -> Wigglytuff
 Ditto -> Jigglypuff
 ```

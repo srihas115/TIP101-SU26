@@ -25,7 +25,7 @@ print(min_merge_operations(nums3))
 Example Output:
 
 
-```python
+```
 # merge 6 and 1 to get [7,3,7]
 1
 # nums2 already a palindrome

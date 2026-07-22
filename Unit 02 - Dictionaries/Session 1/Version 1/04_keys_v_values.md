@@ -30,7 +30,7 @@ print(greater_sum)
 Example Output:
 
 
-```python
+```
 values
 keys
 ```

@@ -21,7 +21,7 @@ book_ratings = {
 Example Output:
 
 
-```python
+```
 {'The Great Gatsby': 4.166666666666667,
 'To Kill a Mockingbird': 4.675000000000001}
 ```

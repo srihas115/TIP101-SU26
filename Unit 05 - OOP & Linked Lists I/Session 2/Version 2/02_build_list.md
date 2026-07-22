@@ -32,7 +32,7 @@ print(node_4.value, "->", node_4.next)
 Example Output:
 
 
-```python
+```
 Barbie -> President Barbie
 President Barbie -> Weird Barbie
 Weird Barbie -> Ken

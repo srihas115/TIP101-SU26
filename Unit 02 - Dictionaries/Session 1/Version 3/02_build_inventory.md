@@ -23,7 +23,7 @@ print(build_inventory(product_names, product_prices))
 Example Output:
 
 
-```python
+```
 {'Apple': 0.99, 'Banana': 0.5, 'Orange': 0.75}
 ```
 

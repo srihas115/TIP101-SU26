@@ -26,7 +26,7 @@ print(node_4.value, "->", node_4.next)
 Example Output:
 
 
-```python
+```
 Mario -> Luigi
 Luigi -> Wario
 Wario -> Toad

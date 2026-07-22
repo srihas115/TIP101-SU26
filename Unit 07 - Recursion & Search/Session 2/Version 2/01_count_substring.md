@@ -24,7 +24,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 2
 # Explanation: 'abc' occurs twice in 'abcdeabcde'
 ```

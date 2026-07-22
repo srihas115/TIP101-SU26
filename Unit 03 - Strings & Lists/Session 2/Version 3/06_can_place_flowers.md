@@ -25,7 +25,7 @@ print(approved2)
 Example Output:
 
 
-```python
+```
 True
 False
 ```

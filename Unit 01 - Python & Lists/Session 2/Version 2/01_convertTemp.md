@@ -27,6 +27,6 @@ print(temperatures)
 Example Output:
 
 
-```python
+```
 [296.15, 73.40]
 ```

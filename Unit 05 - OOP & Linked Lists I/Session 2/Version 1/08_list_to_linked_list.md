@@ -39,7 +39,7 @@ print(linked_list.value)        # expected: Betty
 Example Output:
 
 
-```python
+```
 Betty
 
 Betty -> Veronica -> Archie -> Jughead

@@ -24,7 +24,7 @@ print(valid_palindrome(s3))
 Example Output:
 
 
-```python
+```
 True
 True
 False

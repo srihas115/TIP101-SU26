@@ -24,7 +24,7 @@ print(count)
 Example Output:
 
 
-```python
+```
 5
 1
 ```

@@ -33,7 +33,7 @@ print(is_circular(var1))
 Example Output:
 
 
-```python
+```
 True
 False
 ```

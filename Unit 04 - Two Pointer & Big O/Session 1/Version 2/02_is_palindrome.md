@@ -25,7 +25,7 @@ print(is_palindrome(s2))
 Example Output:
 
 
-```python
+```
 True
 False
 ```

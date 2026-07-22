@@ -27,7 +27,7 @@ print(compressed_Str2)
 Example Output:
 
 
-```python
+```
 a5b2c3d1
 abcde
 # did not convert my_str2 because `a1b1c1d1e1` is double the length

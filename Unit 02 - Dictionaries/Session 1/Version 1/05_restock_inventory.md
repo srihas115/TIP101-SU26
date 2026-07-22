@@ -36,7 +36,7 @@ restock_list = {
 Example Output:
 
 
-```python
+```
 {
     "apples": 4 0,
     "bananas": 15,

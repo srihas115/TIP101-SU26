@@ -27,7 +27,7 @@ print(is_subsequence(a, b))
 Example Output:
 
 
-```python
+```
 True
 False
 ```

@@ -27,6 +27,6 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: { 1: 1, 2: 2, 3: 2, 4: 1}
 ```

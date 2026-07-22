@@ -41,7 +41,7 @@ print(mouse.next)
 Example Output:
 
 
-```python
+```
 Spike
 Tom
 Jerry
@@ -104,7 +104,7 @@ print(mouse.next)
 Example Output:
 
 
-```python
+```
 Spike
 True
 Tom

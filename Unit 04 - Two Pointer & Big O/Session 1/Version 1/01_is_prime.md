@@ -20,7 +20,7 @@ print(is_prime(9))
 Example Output:
 
 
-```python
+```
 True
 False
 False

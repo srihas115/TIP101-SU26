@@ -26,7 +26,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output 1: True
 # Explanation: 16 = 4^2, so it is a power of four.
 

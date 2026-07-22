@@ -12,7 +12,7 @@ Example Usage: `print_negatives([3,-2,2,1,-5])`
 Example Output:
 
 
-```python
+```
 -2
 -5
 ```
@@ -22,6 +22,6 @@ Example Usage: `print_negatives([1,2,3,4,5])`
 Example Output:
 
 
-```python
+```
 None
 ```

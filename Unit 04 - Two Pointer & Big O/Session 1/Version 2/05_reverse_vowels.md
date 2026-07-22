@@ -24,7 +24,7 @@ print(rev_s2)
 Example Output:
 
 
-```python
+```
 holle
 leotcede
 ```

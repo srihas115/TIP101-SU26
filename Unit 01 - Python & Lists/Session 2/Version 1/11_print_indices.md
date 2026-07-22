@@ -21,7 +21,7 @@ print_indices(lst)
 Example Output:
 
 
-```python
+```
 0
 1
 2

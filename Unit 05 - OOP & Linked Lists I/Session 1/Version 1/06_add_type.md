@@ -28,7 +28,7 @@ jigglypuff.print_pokemon()
 Example Output:
 
 
-```python
+```
 {'name': 'Jigglypuff', 'types': ['Normal'], 'is_caught': False}
 {'name': 'Jigglypuff', 'types': ['Normal', 'Fairy'], 'is_caught': False}
 ```

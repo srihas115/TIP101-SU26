@@ -22,7 +22,7 @@ print(removed_list_two)
 Example Output:
 
 
-```python
+```
 ["banana", "date"]
 None
 ```

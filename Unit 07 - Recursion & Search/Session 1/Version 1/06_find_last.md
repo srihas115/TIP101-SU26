@@ -21,7 +21,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 6
 # Explanation: The second (last) occurrence of 11 has index 6 in the list
 ```

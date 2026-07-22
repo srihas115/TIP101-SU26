@@ -27,7 +27,7 @@ blackjack(10)
 Output:
 
 
-```python
+```
 Blackjack!
 Bust!
 Nice hand!

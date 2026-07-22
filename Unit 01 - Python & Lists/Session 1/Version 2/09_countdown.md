@@ -14,7 +14,7 @@ Example Usage: `countdown(5,1)`
 Example Output:
 
 
-```python
+```
 5
 4
 3

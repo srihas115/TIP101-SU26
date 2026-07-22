@@ -22,7 +22,7 @@ print(count_pairs(nums2,2))
 Example Output:
 
 
-```python
+```
 # nums[0] + nums[1] = 0
 # nums[0] + nums[2] = 1
 # nums[0] + nums[4] = 0

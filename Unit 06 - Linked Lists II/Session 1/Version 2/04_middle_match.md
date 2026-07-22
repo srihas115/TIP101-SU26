@@ -32,7 +32,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Return Value: True
 # Expected Return Value: False
 ```

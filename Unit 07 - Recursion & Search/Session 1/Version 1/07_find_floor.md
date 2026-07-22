@@ -21,7 +21,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Output: 1
 # 2 is the largest element in the list that is less than or equal to 5. 2 has index 1 in the list.
 ```

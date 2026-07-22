@@ -22,7 +22,7 @@ print(flag2)
 Example Output:
 
 
-```python
+```
 True
 False
 ```

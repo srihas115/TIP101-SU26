@@ -13,7 +13,7 @@ Example Input: `lst = [1,2,3]`
 Example Output:
 
 
-```python
+```
 2
 4
 6

@@ -22,7 +22,7 @@ print(partition_label(s2))
 Example Output:
 
 
-```python
+```
 # s1 partitioned into "ababcbaca", "defegde" and "hijhklij"
 [9, 7, 8]
 # s2 cannot be partitioned into more parts because of the "a" character at the end

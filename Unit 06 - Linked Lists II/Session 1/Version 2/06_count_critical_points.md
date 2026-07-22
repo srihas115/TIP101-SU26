@@ -30,7 +30,7 @@ Example Usage:
 Example Output:
 
 
-```python
+```
 # Expected Return Value: 2
 # Explanation:
 #  - Critical point 1 (local maxima) 3 -> 5 -> 1

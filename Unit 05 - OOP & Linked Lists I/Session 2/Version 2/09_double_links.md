@@ -33,7 +33,7 @@ print(tail.prev.value, "<->", tail.value)
 Example Output:
 
 
-```python
+```
 First <-> Last
 First <-> Last
 ```
