@@ -26,9 +26,18 @@ Plan:
 
 
 def list_product(lst):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: [1, 2, 3, 4, 5]
+
+
+
+
+
+
+
+
+
+
 
 
 '''

@@ -28,9 +28,27 @@ Plan:
 
 '''
 
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
-def merge_trees(self, root1, root2):
-    pass
+
+
+def merge_trees(root1, root2):
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

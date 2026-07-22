@@ -27,13 +27,18 @@ Plan:
 
 
 def cast_vote(votes, candidate):
-    pass
+    pass  # replace this line with your solution
 
-votes = {"Alice": 5, "Bob": 3}
-cast_vote(votes, "Alice")
-print(votes)
-cast_vote(votes, "Gina")
-print(votes)
+
+
+
+
+
+
+
+
+
+
 
 
 '''

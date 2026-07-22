@@ -26,10 +26,19 @@ Plan:
 '''
 
 
-def search_circular_list(nums, target):
-    pass
+def majority_element(nums):
+    pass  # replace this line with your solution
 
-# Example Input: nums = [3,2,3]
+
+
+
+
+
+
+
+
+
+
 
 
 '''

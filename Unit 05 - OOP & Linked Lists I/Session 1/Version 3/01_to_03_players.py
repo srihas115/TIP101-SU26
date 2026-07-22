@@ -12,23 +12,20 @@
 ==============================================================================
 '''
 
-
 class Player():
-    def  __init__(self, character, kart):
+    def __init__(self, character, kart):
         self.character = character
         self.kart = kart
         self.items = []
+    def get_player(self):
+        return f'{self.character} driving the {self.kart}'
 
-# --- Merged from Problem 2: Get Player.py ---
-def get_player(self):
-    return f"{self.character} driving the {self.kart}"
 
-# --- Merged from Problem 3: Update Kart.py ---
-print(player_one.get_player())
-
-# < your code to update kart>
-
-print(player_one.get_player())
+# Problem 1: create player_one (character 'Yoshi', kart 'Super Blooper').
+# Problem 2: create player_two (character 'Bowser', kart 'Pirahna Prowler').
+# Problem 3: update player_one's kart to 'Dolphin Dasher'.
+player_one = None
+player_two = None
 
 
 '''

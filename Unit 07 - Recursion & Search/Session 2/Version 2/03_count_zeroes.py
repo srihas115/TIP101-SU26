@@ -22,9 +22,18 @@ Plan:
 
 
 def count_zeroes(lst):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: [0, 0, 0, 1, 1, 1, 1]
+
+
+
+
+
+
+
+
+
+
 
 
 '''

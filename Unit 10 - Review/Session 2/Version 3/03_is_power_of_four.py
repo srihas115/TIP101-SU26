@@ -26,7 +26,18 @@ Plan:
 
 
 def is_power_of_four(n):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

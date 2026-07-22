@@ -26,7 +26,18 @@ Plan:
 
 
 def sequential_digits(low, high):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

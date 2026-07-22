@@ -24,9 +24,26 @@ Plan:
 
 '''
 
+class Node:
+    def __init__(self, value, next=None):
+        self.value = value
+        self.next = next
+
+
 
 def shuffle_merge(head_a, head_b):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

@@ -28,7 +28,18 @@ Plan:
 
 
 def can_place_flowers(flowerbed, n):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

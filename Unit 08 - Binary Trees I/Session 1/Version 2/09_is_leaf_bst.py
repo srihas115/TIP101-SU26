@@ -24,12 +24,27 @@ Plan:
 
 '''
 
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
-class TreeNode():
-    def __init__(self, value, left=None, right=None):
-        pass
+
+
 def is_leaf_bst(root, value):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

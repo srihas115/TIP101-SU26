@@ -10,44 +10,16 @@
       by name (they're case-sensitive). If it can't find one, the results will tell
       you which name is missing.
 ==============================================================================
-Understand (input, output, core logic):
-Check the value of is_caught and print output depending on value
-
-Match:
-
-Plan:
-use an if conditional on the is_caught variable to determine if the print is needed
 '''
-
 
 class Pokemon():
     def __init__(self, name, types):
         self.name = name
         self.types = types
         self.is_caught = False
-        
-    def print_pokemon(self):
-        print({
-            "name": self.name,
-            "types": self.types,
-            "is_caught": self.is_caught
-        })
-
-    def catch(self):
-        self.is_caught = True
 
     def choose(self):
-        if self.is_caught:
-            print(self.name + " I choose you!")
-        else:
-            print(self.name + " is wild! Catch them if you can!")
-
-my_pokemon = Pokemon("rattata", ["Normal"])
-my_pokemon.print_pokemon()
-
-my_pokemon.choose()
-my_pokemon.catch()
-my_pokemon.choose()
+        pass  # write your solution here
 
 
 '''

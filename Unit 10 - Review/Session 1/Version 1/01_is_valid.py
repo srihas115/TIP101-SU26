@@ -30,15 +30,18 @@ Plan:
 
 
 def is_valid(s):
-    pass
+    pass  # replace this line with your solution
 
-s = "()[]{}"
 
-s = "(())"
 
-s = "(]"
 
-s = "([)]"
+
+
+
+
+
+
+
 
 
 '''

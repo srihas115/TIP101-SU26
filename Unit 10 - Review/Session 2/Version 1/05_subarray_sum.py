@@ -26,7 +26,18 @@ Plan:
 
 
 def subarray_sum(nums, k):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

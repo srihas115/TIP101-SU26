@@ -24,7 +24,18 @@ Plan:
 
 
 def intersection(nums1, nums2):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

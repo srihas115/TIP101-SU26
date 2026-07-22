@@ -31,7 +31,18 @@ Plan:
 
 
 def two_sum(numbers, target):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

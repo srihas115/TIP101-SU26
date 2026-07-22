@@ -12,7 +12,6 @@
 ==============================================================================
 '''
 
-
 class Node:
     def __init__(self, value, next=None):
         self.value = value
@@ -23,6 +22,10 @@ yellow = Node('yellow')
 blue = Node('blue')
 red.next = yellow
 yellow.next = blue
+
+# Update the list  red -> yellow -> blue  to be
+#   red -> orange -> yellow -> green -> blue
+# (insert orange after red, and green after yellow):
 
 
 '''

@@ -26,9 +26,18 @@ Plan:
 
 
 def find_ceiling(lst, x):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: lst = [1, 2, 8, 10, 11, 12, 19], x = 5
+
+
+
+
+
+
+
+
+
+
 
 
 '''

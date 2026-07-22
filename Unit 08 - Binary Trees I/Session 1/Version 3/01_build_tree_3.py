@@ -12,21 +12,20 @@
 ==============================================================================
 '''
 
-
-"""
-    a
-   / \
-  b   c
-       \
-        d
-
-"""
-
 class TreeNode:
-    def __init__(self, value, left=None, right=None):
-        self.val = value
+    def __init__(self, val, left=None, right=None):
+        self.val = val
         self.left = left
         self.right = right
+
+
+# Build this tree and store its root in a variable named `root`:
+#       a
+#      / \
+#     b   c
+#          \
+#           d
+root = None  # your code here
 
 
 '''

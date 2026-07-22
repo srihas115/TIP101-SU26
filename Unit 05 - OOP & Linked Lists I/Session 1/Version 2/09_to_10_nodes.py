@@ -12,21 +12,17 @@
 ==============================================================================
 '''
 
-
 class Node:
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
 
-print(head.value)
-print(head.next.value)
-print(tail.value)
-print(tail.next)
 
-# --- Merged from Problem 10: Middle Node.py ---
-print(head.next.value)
-print(middle.next.value)
-print(tail.next)
+# Problem 9: create head (value 100) and tail (value 200); head -> tail.
+# Problem 10: create middle (value 150) and insert it between head and tail.
+head = None
+tail = None
+middle = None
 
 
 '''

@@ -29,7 +29,18 @@ Plan:
 
 
 def max_area(height):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

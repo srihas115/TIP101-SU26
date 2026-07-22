@@ -22,22 +22,18 @@ Plan:
 
 
 def sum_ten():
-    sum = 0
-    for i in range(1,11):
-        sum += i
-    return sum
+    pass  # replace this line with your solution
 
-output = sum_ten()
 
-# ==== AI-generated test cases (added by Claude via Claude Code) ====
-# These are AI-generated edge-case tests, not part of the original CodePath problem set.
-# They check correctness beyond the single example call above.
 
-print("Test 1 - basic call")
-print("  expected:", 55, "| got:", sum_ten())
 
-print("Test 2 - calling again returns the same result")
-print("  expected:", 55, "| got:", sum_ten())
+
+
+
+
+
+
+
 
 
 '''

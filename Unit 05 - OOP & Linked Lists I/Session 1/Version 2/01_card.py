@@ -12,11 +12,14 @@
 ==============================================================================
 '''
 
-
 class Card():
-    def  __init__(self, suit, rank):
+    def __init__(self, suit, rank):
         self.suit = suit
         self.rank = rank
+
+
+# Create a Card with suit 'Spades' and rank '8', stored in `card`:
+card = None  # your code
 
 
 '''

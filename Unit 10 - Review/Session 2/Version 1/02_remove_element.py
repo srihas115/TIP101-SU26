@@ -34,7 +34,18 @@ Plan:
 
 
 def remove_element(nums, val):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

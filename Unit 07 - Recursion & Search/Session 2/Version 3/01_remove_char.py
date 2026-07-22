@@ -26,9 +26,18 @@ Plan:
 
 
 def remove_char(s, char):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: s = "xaxbxc", char = 'x'
+
+
+
+
+
+
+
+
+
+
 
 
 '''

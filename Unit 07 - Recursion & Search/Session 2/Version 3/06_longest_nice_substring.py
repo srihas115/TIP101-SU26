@@ -31,9 +31,18 @@ Plan:
 
 
 def longest_nice_substring(s):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: s = "YazaAay"
+
+
+
+
+
+
+
+
+
+
 
 
 '''

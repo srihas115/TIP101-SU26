@@ -22,15 +22,27 @@ Plan:
 
 '''
 
-
 class Node:
     def __init__(self, value, next=None, prev=None):
         self.value = value
-        this.next = next
-        this.prev = prev
+        self.next = next
+        self.prev = prev
+
+
 
 def get_length(node):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

@@ -31,7 +31,18 @@ Plan:
 
 
 def generate_possible_next_moves(current_state):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

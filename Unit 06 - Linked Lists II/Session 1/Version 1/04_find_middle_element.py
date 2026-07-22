@@ -20,74 +20,34 @@
   ⚠️  Keep the function name `find_middle_element` and its parameters exactly as given —
       the problem set solution validator looks for that exact name.
 ==============================================================================
-Understand (input, output, core logic):
-input: head
-output: middle node,
-    if there are two, return the second middle node
-core logic:
-    iterate through the linked list with slow and fast pointer technique
-edge cases:
-    head empty, one node
-    has two middle nodes (even number of nodes in list)
+Understand (input, output, core logic): 
 
 Match:
 
 Plan:
-define slow and fast pointers starting from the head
-
-iterate through the list --> while fast != None and fast.next != None:
-    slow = slow.next
-    fast = fast.next.next
 
 '''
 
-
 class Node:
-   def __init__(self, value, next=None):
-       self.value = value
-       self.next = next
+    def __init__(self, value, next=None):
+        self.value = value
+        self.next = next
 
-# From Problem 3: Remove Tail.py
-def print_list(node):
-    current = node
-    while current:
-        print(current.value, end=" -> " if current.next else "")
-        current = current.next
-    print()
 
-# Time Complexity: O(n)
-# Space Complexity: O(1)
+
 def find_middle_element(head):
-    slow = head # slow is going to be the middle
-    fast = head # fast is going to be after the end (None)
-    
-    while fast is not None and fast.next is not None:
-        slow = slow.next
-        fast = fast.next.next
-    
-    return slow
+    pass  # replace this line with your solution
 
-# Input List:
-# 1 -> 2 -> 3
-# Input: head = 1
-head = Node(1, Node(2, Node(3)))
-mid = find_middle_element(head)
-# print(mid.value) # pyright: ignore[reportOptionalMemberAccess]
-if mid:
-    print(mid.value)
-else:
-    print("List is empty")
 
-print()
 
-# 1 -> 2 -> 3 -> 4
-head = Node(1, Node(2, Node(3, Node(4))))
-mid = find_middle_element(head)
-# print(mid.value) # pyright: ignore[reportOptionalMemberAccess]
-if mid:
-    print(mid.value)
-else:
-    print("List is empty")
+
+
+
+
+
+
+
+
 
 
 '''

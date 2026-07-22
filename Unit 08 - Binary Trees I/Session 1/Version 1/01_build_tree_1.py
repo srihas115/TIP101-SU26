@@ -12,26 +12,18 @@
 ==============================================================================
 '''
 
-
-from __future__ import annotations
-from typing import Optional
-
 class TreeNode:
-    def __init__(self, val: int, left: Optional[TreeNode] = None, right: Optional[TreeNode] = None):
+    def __init__(self, val, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
 
-root = TreeNode(10, TreeNode(4), TreeNode(6))
 
-'''
-  10
- /  \
-4    6
-'''
-
-assert root.left is not None and root.right is not None
-print(root.val, root.left.val, root.right.val)
+# Build this tree and store its root in a variable named `root`:
+#       10
+#      /  \
+#     4    6
+root = None  # your code here
 
 
 '''

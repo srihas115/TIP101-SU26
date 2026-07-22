@@ -23,12 +23,27 @@ Plan:
 
 '''
 
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
-class TreeNode():
-    def __init__(self, value, left=None, right=None):
-        pass
+
+
 def is_full_tree(root):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

@@ -24,10 +24,18 @@ Plan:
 
 
 def todays_mood():
-    mood = "😎"
-    print("Today's mood: " + mood)
+    pass  # replace this line with your solution
 
-todays_mood()
+
+
+
+
+
+
+
+
+
+
 
 
 '''

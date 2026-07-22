@@ -21,41 +21,26 @@ Plan:
 
 '''
 
-
 class Node:
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
 
+
+
 def find_max(head):
-    pass
+    pass  # replace this line with your solution
 
-# Linked List: 5 -> 6 -> 7 -> 8
-# Input: head = 5
-_n4 = Node(8)
-_n3 = Node(7, _n4)
-_n2 = Node(6, _n3)
-_n1 = Node(5, _n2)
-print(find_max(_n1))
 
-# ==== AI-generated test cases (added by Claude via Claude Code) ====
-# These are AI-generated edge-case tests, not part of the original CodePath problem set.
-# They check correctness beyond the single example call above.
 
-print("Test 1 - single-node list")
-single = Node(42)
-print("  expected:", 42, "| got:", find_max(single))
 
-print("Test 2 - all negative numbers")
-neg2 = Node(-1)
-neg1 = Node(-5, neg2)
-print("  expected:", -1, "| got:", find_max(neg1))
 
-print("Test 3 - duplicate max values")
-dup3 = Node(7)
-dup2 = Node(7, dup3)
-dup1 = Node(3, dup2)
-print("  expected:", 7, "| got:", find_max(dup1))
+
+
+
+
+
+
 
 
 '''

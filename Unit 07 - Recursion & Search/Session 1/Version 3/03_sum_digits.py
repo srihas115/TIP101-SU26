@@ -25,9 +25,18 @@ Plan:
 
 
 def sum_digits(n):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: 523
+
+
+
+
+
+
+
+
+
+
 
 
 '''

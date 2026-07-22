@@ -12,21 +12,15 @@
 ==============================================================================
 '''
 
-
 class Node:
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
-        
-# node_1 = Node("Jigglypuff", None)
-# node_2 = Node("Wigglytuff")
-# node_1.next = node_2
 
-node_2 = Node("Wigglytuff")
-node_1 = Node("Jigglypuff", node_2)
 
-print(node_1.value, "->", node_1.next.value)
-print(node_2.value, "->", node_2.next)
+# Build  Jigglypuff -> Wigglytuff  using variables node_1 and node_2:
+node_1 = None  # your code here
+node_2 = None  # your code here
 
 
 '''

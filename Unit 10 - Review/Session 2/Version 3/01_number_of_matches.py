@@ -33,7 +33,18 @@ Plan:
 
 
 def number_of_matches(n):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

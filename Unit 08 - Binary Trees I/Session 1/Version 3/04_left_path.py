@@ -23,12 +23,27 @@ Plan:
 
 '''
 
-
 class TreeNode:
-    def __init__(self, value, left=None, right=None):
-        pass
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+
 def left_path(root):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

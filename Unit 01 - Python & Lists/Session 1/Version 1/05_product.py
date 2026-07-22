@@ -24,6 +24,21 @@ Plan:
 '''
 
 
+def product(a, b):
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
+
+
 '''
 ==============================================================================
   PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION

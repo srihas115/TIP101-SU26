@@ -24,9 +24,18 @@ Plan:
 
 
 def find_frequencies(lst):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: [2, 2, 2, 4, 4, 4, 5, 5, 6, 8, 8, 9]
+
+
+
+
+
+
+
+
+
+
 
 
 '''

@@ -43,7 +43,18 @@ Plan:
 
 
 def valid_word_abbreviation(word, abbr):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

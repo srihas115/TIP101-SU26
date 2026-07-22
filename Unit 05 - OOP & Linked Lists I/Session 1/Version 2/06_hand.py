@@ -12,67 +12,18 @@
 ==============================================================================
 '''
 
-
 class Card():
     def __init__(self, suit, rank):
         self.suit = suit
         self.rank = rank
-
 class Hand:
     def __init__(self):
         self.cards = []
-
     def add_card(self, card):
-        pass
+        pass  # write your solution here
 
     def remove_card(self, card):
-        pass
-
-card_one = Card("Hearts", "3")
-card_two = Card("Spades", "8")
-
-player1_hand = Hand()
-# cards = []
-
-player1_hand.add_card(card_one)
-# cards = [card_one]
-
-player1_hand.add_card(card_two)
-# cards = [card_one, card_two]
-
-player1_hand.remove_card(card_one)
-# cards = [card_two]
-print([c.rank for c in player1_hand.cards])
-
-# ==== AI-generated test cases (added by Claude via Claude Code) ====
-# These are AI-generated edge-case tests, not part of the original CodePath problem set.
-# They check correctness beyond the single example call above.
-
-print("Test 1 - a new hand starts empty")
-fresh_hand = Hand()
-print("  expected:", [], "| got:", [c.rank for c in fresh_hand.cards])
-
-print("Test 2 - adding a single card")
-h2 = Hand()
-c1 = Card("Hearts", "5")
-h2.add_card(c1)
-print("  expected:", ["5"], "| got:", [c.rank for c in h2.cards])
-
-print("Test 3 - adding a second card preserves order")
-c2 = Card("Clubs", "9")
-h2.add_card(c2)
-print("  expected:", ["5", "9"], "| got:", [c.rank for c in h2.cards])
-
-print("Test 4 - removing a card leaves the rest")
-h2.remove_card(c1)
-print("  expected:", ["9"], "| got:", [c.rank for c in h2.cards])
-
-print("Test 5 - adding the same card object twice allows duplicates")
-h3 = Hand()
-dup_card = Card("Spades", "Ace")
-h3.add_card(dup_card)
-h3.add_card(dup_card)
-print("  expected:", ["Ace", "Ace"], "| got:", [c.rank for c in h3.cards])
+        pass  # write your solution here
 
 
 '''

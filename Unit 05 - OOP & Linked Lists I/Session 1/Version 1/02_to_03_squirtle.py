@@ -12,27 +12,19 @@
 ==============================================================================
 '''
 
-
-class Pokemon:
+class Pokemon():
     def __init__(self, name, types):
         self.name = name
         self.types = types
         self.is_caught = False
-
     def print_pokemon(self):
-        print({
-            "name": self.name,
-            "types": self.types,
-            "is_caught": self.is_caught
-        })
+        print({'name': self.name, 'types': self.types, 'is_caught': self.is_caught})
 
-squirtle = Pokemon("Squirtle", ["water"])
-squirtle.print_pokemon()
 
-print()
-
-squirtle.is_caught = True
-squirtle.print_pokemon()
+# Problem 2: create `squirtle` (name 'Squirtle', types ['Water']) and
+#            call squirtle.print_pokemon().
+# Problem 3: update squirtle so is_caught is True, then print again.
+squirtle = None  # your code
 
 
 '''

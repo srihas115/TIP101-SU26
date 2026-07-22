@@ -12,9 +12,17 @@
 ==============================================================================
 '''
 
+class Card():
+    def __init__(self, suit, rank):
+        self.suit = suit
+        self.rank = rank
+    def print_card(self):
+        print(f'{self.rank} of {self.suit}')
 
-def print_card(self):
-    print(f"{self.rank} of {self.suit}")
+
+# Problem 2: create `card` (suit 'Clubs', rank 'Ace') and call card.print_card().
+# Problem 3: update card's suit to 'Hearts', then print again.
+card = None  # your code
 
 
 '''

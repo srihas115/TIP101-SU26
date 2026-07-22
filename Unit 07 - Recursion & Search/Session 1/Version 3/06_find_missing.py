@@ -26,9 +26,18 @@ Plan:
 
 
 def find_missing(nums):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: nums = [0,1,3]
+
+
+
+
+
+
+
+
+
+
 
 
 '''

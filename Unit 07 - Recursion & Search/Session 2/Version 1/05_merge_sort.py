@@ -32,12 +32,19 @@ Plan:
 '''
 
 
-def merge(left, right):
-    pass
 def merge_sort(lst):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: [5,3,4,2,1]
+
+
+
+
+
+
+
+
+
+
 
 
 '''

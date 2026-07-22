@@ -14,43 +14,34 @@
   ⚠️  Keep the function name `partition` and its parameters exactly as given —
       the problem set solution validator looks for that exact name.
 ==============================================================================
-Understand (input, output, core logic):
-Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
-You should preserve the original relative order of the nodes in each of the two partitions.
-result:
-1 -> 2 -> 2 -> 4 -> 3 -> 5 or 2 -> 2 -> 1 -> 5 -> 4 -> 3
+Understand (input, output, core logic): 
 
 Match:
 
 Plan:
-create two linked lists: greater or less than the value
 
 '''
-
 
 class Node:
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
 
+
+
 def partition(head, val):
-    smaller = None
-    bigger = None
-    curr = head
-    
-    
-    pass
-
-# 1 -> 4 -> 3 -> 2 -> 5 -> 2
-# small list = 1 -> 2 -> 2
-# big list = 4 -> 3 -> 5
+    pass  # replace this line with your solution
 
 
-# result: 1 -> 2 -> 2 -> 4 -> 3 -> 5 
 
-# head = 1, val = 3
 
-# i really want to work on this later - jessica
+
+
+
+
+
+
+
 
 
 '''

@@ -28,14 +28,26 @@ Plan:
 
 '''
 
-
 class Node:
-    def __init__(self, val=0, next=None):
-        self.value = val
+    def __init__(self, value, next=None):
+        self.value = value
         self.next = next
 
+
+
 def delete_nodes(head, m, n):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

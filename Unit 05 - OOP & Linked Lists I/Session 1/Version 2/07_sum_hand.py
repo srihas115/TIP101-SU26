@@ -12,66 +12,31 @@
 ==============================================================================
 '''
 
-
 class Card():
-    def  __init__(self, suit, rank):
+    def __init__(self, suit, rank):
         self.suit = suit
         self.rank = rank
-
-    #... methods from previous problems
-
+    def get_value(self):
+        if self.suit not in ('Hearts', 'Spades', 'Clubs', 'Diamonds') or self.rank not in ('2','3','4','5','6','7','8','9','10','Jack','Queen','King','Ace'):
+            return None
+        if self.rank == 'Ace':
+            return 1
+        if self.rank == 'Jack':
+            return 11
+        if self.rank == 'Queen':
+            return 12
+        if self.rank == 'King':
+            return 13
+        return int(self.rank)
 class Hand:
     def __init__(self):
         self.cards = []
-
     def add_card(self, card):
-        pass
-
-    def remove_card(self, card):
-        pass
+        self.cards.append(card)
 
 
 def sum_hand(hand):
-    pass
-
-card_one = Card("Hearts", "3")
-card_two = Card("Hearts", "Jack")
-card_three = Card("Spades", "3")
-
-hand = Hand()
-hand.add_card(card_one)
-hand.add_card(card_two)
-hand.add_card(card_three)
-
-sum = sum_hand(hand)
-print(sum)
-
-# ==== AI-generated test cases (added by Claude via Claude Code) ====
-# These are AI-generated edge-case tests, not part of the original CodePath problem set.
-# They check correctness beyond the single example call above.
-# Note: expected values assume a correct get_value() (from Problem 5) and correct
-# add_card()/remove_card() (from Problem 6) - fill those in for these to pass too.
-
-print("Test 1 - empty hand")
-empty_hand = Hand()
-print("  expected:", 0, "| got:", sum_hand(empty_hand))
-
-print("Test 2 - single numeric card")
-h1 = Hand()
-h1.add_card(Card("Hearts", "5"))
-print("  expected:", 5, "| got:", sum_hand(h1))
-
-print("Test 3 - two face cards")
-h2 = Hand()
-h2.add_card(Card("Hearts", "King"))
-h2.add_card(Card("Clubs", "Ace"))
-print("  expected:", 14, "| got:", sum_hand(h2))
-
-print("Test 4 - hand containing an invalid card")
-h3 = Hand()
-h3.add_card(Card("Hearts", "5"))
-h3.add_card(Card("Spades", "Joker"))
-print("  expected:", None, "| got:", sum_hand(h3))
+    pass  # write your solution here
 
 
 '''

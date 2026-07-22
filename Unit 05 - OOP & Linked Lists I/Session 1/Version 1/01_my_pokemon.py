@@ -12,14 +12,16 @@
 ==============================================================================
 '''
 
-
-class Pokemon:
+class Pokemon():
     def __init__(self, name, types):
         self.name = name
         self.types = types
         self.is_caught = False
 
-my_pokemon = Pokemon("Pikachu", ["Electric"])
+
+# Create a Pokemon named 'Pikachu' with types ['Electric'],
+# stored in a variable named my_pokemon:
+my_pokemon = None  # your code
 
 
 '''

@@ -22,22 +22,23 @@ Understand (input, output, core logic):
 Match:
 
 Plan:
-((())) --> empty
-(
 
 '''
 
 
 def is_nested(s):
-    if s == "":
-        return True
-    if s[0] == "(" and s[-1] == ")":
-        return is_nested(s[1:-1])
-    return False
+    pass  # replace this line with your solution
 
-# Example Input: "(())"
-example = "(())"
-print(is_nested(example))
+
+
+
+
+
+
+
+
+
+
 
 
 '''

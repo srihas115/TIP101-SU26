@@ -26,9 +26,18 @@ Plan:
 
 
 def count_sevens(n):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: 727
+
+
+
+
+
+
+
+
+
+
 
 
 '''

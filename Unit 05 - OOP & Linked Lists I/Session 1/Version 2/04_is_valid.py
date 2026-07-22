@@ -12,45 +12,13 @@
 ==============================================================================
 '''
 
-
 class Card():
     def __init__(self, suit, rank):
         self.suit = suit
         self.rank = rank
 
     def is_valid(self):
-        pass
-
-my_card = Card("Hearts", "7")
-print(my_card.is_valid())
-
-second_draw = Card("Spades", "Joker")
-print(second_draw.is_valid())
-
-# ==== AI-generated test cases (added by Claude via Claude Code) ====
-# These are AI-generated edge-case tests, not part of the original CodePath problem set.
-# They check correctness beyond the single example call above.
-
-print("Test 1 - valid suit and rank (Hearts, 7)")
-print("  expected:", True, "| got:", Card("Hearts", "7").is_valid())
-
-print("Test 2 - invalid rank (Joker)")
-print("  expected:", False, "| got:", Card("Spades", "Joker").is_valid())
-
-print("Test 3 - invalid suit")
-print("  expected:", False, "| got:", Card("Stars", "King").is_valid())
-
-print("Test 4 - valid face card rank (Ace)")
-print("  expected:", True, "| got:", Card("Diamonds", "Ace").is_valid())
-
-print("Test 5 - valid face card rank (King)")
-print("  expected:", True, "| got:", Card("Clubs", "King").is_valid())
-
-print("Test 6 - both suit and rank invalid")
-print("  expected:", False, "| got:", Card("Stars", "Joker").is_valid())
-
-print("Test 7 - rank as int instead of string (invalid, spec expects string ranks)")
-print("  expected:", False, "| got:", Card("Hearts", 7).is_valid())
+        pass  # write your solution here
 
 
 '''

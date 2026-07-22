@@ -24,7 +24,18 @@ Plan:
 
 
 def contains_duplicate(nums):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

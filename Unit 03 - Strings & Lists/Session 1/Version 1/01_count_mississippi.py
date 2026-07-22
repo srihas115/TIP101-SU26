@@ -22,8 +22,18 @@ Plan:
 
 
 def count_mississippi(limit):
-    for num in range(1, limit):
-        print( f"{num} mississippi")
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

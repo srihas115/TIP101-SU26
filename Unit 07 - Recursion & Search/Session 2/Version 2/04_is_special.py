@@ -30,9 +30,18 @@ Plan:
 
 
 def is_special(nums):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: nums = [3,5]
+
+
+
+
+
+
+
+
+
+
 
 
 '''

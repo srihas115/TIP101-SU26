@@ -30,14 +30,19 @@ Plan:
 '''
 
 
-def countdown(n):
-    if n > 0:
-        print(n)
-        countdown(n - 1)
+def countdown_iterative(n):
+    pass  # replace this line with your solution
 
-countdown(5)
 
-# Example Input: 5
+
+
+
+
+
+
+
+
+
 
 
 '''

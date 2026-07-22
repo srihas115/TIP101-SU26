@@ -29,9 +29,18 @@ Plan:
 
 
 def count_substring(s, sub):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: s = "abcdeabcde" sub = "abc"
+
+
+
+
+
+
+
+
+
+
 
 
 '''

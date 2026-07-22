@@ -27,7 +27,18 @@ Plan:
 
 
 def gcd_of_stings(str1, str2):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

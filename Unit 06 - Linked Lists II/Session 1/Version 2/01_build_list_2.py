@@ -12,13 +12,14 @@
 ==============================================================================
 '''
 
-
 class Node:
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
 
-head = Node("Mario", Node("Luigi", Node("Wario")))
+
+# Build the linked list  Mario -> Luigi -> Wario  and store it in a variable named `head`:
+head = None  # your code here
 
 
 '''

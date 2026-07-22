@@ -31,7 +31,18 @@ Plan:
 
 
 def find_error_nums(nums):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

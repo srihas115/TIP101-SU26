@@ -10,38 +10,18 @@
       by name (they're case-sensitive). If it can't find one, the results will tell
       you which name is missing.
 ==============================================================================
-Understand (input, output, core logic):
-Problem 9: make two nodes and assign values to them
-Problem 10: connect two nodes
-
-Match:
-
-Plan:
-Problem 9: create node objects
-Problem 10: use .next method
 '''
-
 
 class Node:
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
 
-node_one = Node("a")
-node_two = Node("b")
 
-print(node_one.value)
-print(node_one.next)
-print(node_two.value)
-print(node_two.next)
-        
-node_one = Node("a")
-node_two = Node("b")
-node_one.next = node_two
-
-print(node_one.value)
-print(node_one.next.value)
-print(node_two.value)
+# Problem 9: create node_one (value 'a') and node_two (value 'b').
+# Problem 10: link node_one to node_two (node_one.next = node_two).
+node_one = None  # your code
+node_two = None  # your code
 
 
 '''

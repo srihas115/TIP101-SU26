@@ -24,7 +24,18 @@ Plan:
 
 
 def print_menu(menu):
-    print("Lunch today is: " + menu)
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

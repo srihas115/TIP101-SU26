@@ -12,11 +12,17 @@
 ==============================================================================
 '''
 
-
 class Node:
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
+
+
+# Build the linked list  cat -> mouse -> cheese  where
+# cat.value == 'Tom', mouse.value == 'Jerry', cheese.value == 'Gouda':
+cat = None
+mouse = None
+cheese = None
 
 
 '''

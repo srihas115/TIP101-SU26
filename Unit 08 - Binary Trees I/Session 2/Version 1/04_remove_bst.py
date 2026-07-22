@@ -29,12 +29,28 @@ Plan:
 
 '''
 
+class TreeNode:
+    def __init__(self, key, val=None, left=None, right=None):
+        self.key = key
+        self.val = val if val is not None else key
+        self.left = left
+        self.right = right
 
-class TreeNode():
-    def __init__(self, key, value, left=None, right=None):
-        pass
+
+
 def remove_bst(root, key):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

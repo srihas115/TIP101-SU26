@@ -25,7 +25,18 @@ Plan:
 
 
 def climb_stairs(n):
-    pass
+    pass  # replace this line with your solution
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''

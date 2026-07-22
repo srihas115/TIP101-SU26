@@ -12,14 +12,18 @@
 ==============================================================================
 '''
 
-
 class Node:
-    def __init__(self, value, next = None, prev = None):
+    def __init__(self, value, next=None, prev=None):
         self.value = value
         self.next = next
         self.prev = prev
 
-print(poliwhirl.prev.value, "<->", poliwhirl.value, "<->", poliwhirl.next.value)
+
+# Build the doubly linked list  Poliwag <-> Poliwhirl <-> Poliwrath
+# using variables named poliwag, poliwhirl, and poliwrath:
+poliwag = None     # your code here
+poliwhirl = None   # your code here
+poliwrath = None   # your code here
 
 
 '''

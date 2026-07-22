@@ -23,9 +23,18 @@ Plan:
 
 
 def search_circular_list(nums, target):
-    pass
+    pass  # replace this line with your solution
 
-# Example Input: nums = [8, 9, 10, 2, 5, 6], target = 10
+
+
+
+
+
+
+
+
+
+
 
 
 '''
