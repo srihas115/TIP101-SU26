@@ -20,11 +20,24 @@
   ⚠️  Keep the function name `find_middle_element` and its parameters exactly as given —
       the problem set solution validator looks for that exact name.
 ==============================================================================
-Understand (input, output, core logic): 
+Understand (input, output, core logic):
+input: head
+output: middle node,
+    if there are two, return the second middle node
+core logic:
+    iterate through the linked list with slow and fast pointer technique
+edge cases:
+    head empty, one node
+    has two middle nodes (even number of nodes in list)
 
 Match:
 
 Plan:
+define slow and fast pointers starting from the head
+
+iterate through the list --> while fast != None and fast.next != None:
+    slow = slow.next
+    fast = fast.next.next
 
 '''
 
@@ -41,29 +54,6 @@ def print_list(node):
         print(current.value, end=" -> " if current.next else "")
         current = current.next
     print()
-
-'''
-1. Understand
-    input: head
-    output: middle node,
-        if there are two, return the second middle node
-    core logic:
-        iterate through the linked list with slow and fast pointer technique
-    edge cases:
-        head empty, one node
-        has two middle nodes (even number of nodes in list)
-        [1, 2, 3, 4]     None
-                         f
-               s
-        One more iteration to get to the second middle
-
-3. Plan
-    define slow and fast pointers starting from the head
-
-    iterate through the list --> while fast != None and fast.next != None:
-        slow = slow.next
-        fast = fast.next.next
-'''
 
 # Time Complexity: O(n)
 # Space Complexity: O(1)

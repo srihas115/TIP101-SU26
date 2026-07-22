@@ -22,12 +22,6 @@ Plan:
 '''
 
 
-'''
-plan
-    
-'''
-
-
 def count_ones_iterative(lst):
     left = 0
     right = len(lst) - 1

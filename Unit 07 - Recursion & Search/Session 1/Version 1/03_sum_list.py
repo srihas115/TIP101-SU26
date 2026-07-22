@@ -16,28 +16,20 @@
   ⚠️  Keep the function name `sum_list` and its parameters exactly as given —
       the problem set solution validator looks for that exact name.
 ==============================================================================
-Understand (input, output, core logic): 
+Understand (input, output, core logic):
+input: list
+output: sum of all values
+core logic: recursion
 
 Match:
 
 Plan:
+base case: if the list is empty, then return 0
+recursive step:
+    return the value of the first element of the list + sum_list(rest of the list)
 
 '''
 
-
-'''
-1. understand
-    input: list
-    output: sum of all values
-    core logic: recursion
-
-3. plan
-    base case: if the list is empty, then return 0
-    recursive step:
-        return the value of the first element of the list + sum_list(rest of the list)
-
-
-'''
 
 # Time: O(n^2) because because each of the n calls creates a new slice lst[1:],
 #       and slicing a list of length k takes O(k) time to copy — summing

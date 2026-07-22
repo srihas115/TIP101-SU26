@@ -22,19 +22,11 @@ Understand (input, output, core logic):
 Match:
 
 Plan:
+((())) --> empty
+(
 
 '''
 
-
-'''
-
-3. plan
-    ((())) --> empty
-    (
-
-    
-
-'''
 
 def is_nested(s):
     if s == "":

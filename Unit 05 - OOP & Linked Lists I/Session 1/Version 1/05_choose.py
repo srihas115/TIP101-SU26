@@ -10,13 +10,16 @@
       by name (they're case-sensitive). If it can't find one, the results will tell
       you which name is missing.
 ==============================================================================
+Understand (input, output, core logic):
+Check the value of is_caught and print output depending on value
+
+Match:
+
+Plan:
+use an if conditional on the is_caught variable to determine if the print is needed
 '''
 
 
-# UPI
-# Understand: Check the value of is_caught and print output depending on value
-# Plan: use an if conditional on the is_caught variable to determine if the print is needed
-# Implement: (below)
 class Pokemon():
     def __init__(self, name, types):
         self.name = name

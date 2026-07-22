@@ -10,15 +10,16 @@
       by name (they're case-sensitive). If it can't find one, the results will tell
       you which name is missing.
 ==============================================================================
+Understand (input, output, core logic):
+Input: pokemon object (starter_pokemon)
+Output: a list of evolved pokemon and starter pokemon
+
+Match:
+
+Plan:
+empty list and traverse through like linked list
 '''
 
-
-# UPI
-# Understand 
-# Input: pokemon object (starter_pokemon)
-# Output: a list of evolved pokemon and starter pokemon
-# Plan: empty list and traverse through like linked list
-# Implement: (below)
 
 class Pokemon():
     def  __init__(self, name, types, evolution = None):

@@ -10,16 +10,17 @@
       by name (they're case-sensitive). If it can't find one, the results will tell
       you which name is missing.
 ==============================================================================
+Understand (input, output, core logic):
+Input: list of pokemon instances, and a list
+Output: a list of pokemon with same type
+
+Match:
+
+Plan:
+Traverse through list and for each element check
+if pokemon type match current element
 '''
 
-
-# UPI
-# Understand 
-# Input: list of pokemon instances, and a list
-# Output: a list of pokemon with same type
-# Plan: Traverse through list and for each element check 
-# if pokemon type match current element
-# Implement: (below)
 
 class Pokemon():
     def __init__(self, name, types):

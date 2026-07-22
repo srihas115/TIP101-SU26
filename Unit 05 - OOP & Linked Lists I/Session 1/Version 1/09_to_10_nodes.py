@@ -10,13 +10,18 @@
       by name (they're case-sensitive). If it can't find one, the results will tell
       you which name is missing.
 ==============================================================================
+Understand (input, output, core logic):
+Problem 9: make two nodes and assign values to them
+Problem 10: connect two nodes
+
+Match:
+
+Plan:
+Problem 9: create node objects
+Problem 10: use .next method
 '''
 
 
-# UPI
-# Understand: make two nodes and assign values to them 
-# Plan: create node objects
-# Implement: (below)
 class Node:
     def __init__(self, value, next=None):
         self.value = value
@@ -29,18 +34,6 @@ print(node_one.value)
 print(node_one.next)
 print(node_two.value)
 print(node_two.next)
-
-# --- Merged from Problem 10: Linking Nodes.py ---
-# UPI
-# Understand: connect two nodes
-# Plan: use .next method 
-# Implement: (below)
-'''
-class Node:
-    def __init__(self, value, next=None):
-        self.value = value
-        self.next = next
-'''
         
 node_one = Node("a")
 node_two = Node("b")

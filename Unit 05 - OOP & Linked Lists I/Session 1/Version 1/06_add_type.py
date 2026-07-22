@@ -10,13 +10,16 @@
       by name (they're case-sensitive). If it can't find one, the results will tell
       you which name is missing.
 ==============================================================================
+Understand (input, output, core logic):
+Adding to list of types
+
+Match:
+
+Plan:
+access the types attribute and append with the parameter
 '''
 
 
-# UPI
-# Understand: Adding to list of types 
-# Plan: access the types attribute and append with the parameter
-# Implement: (below)
 class Pokemon():
     def __init__(self, name, types):
         self.name = name

@@ -18,11 +18,21 @@
   ⚠️  Keep the function name `is_palindrome` and its parameters exactly as given —
       the problem set solution validator looks for that exact name.
 ==============================================================================
-Understand (input, output, core logic): 
+Understand (input, output, core logic):
+input: head
+output: return True if values is palindrome, False otherwise
+core logic: multiple pass technique
+    one pointer for traversing the original list, one for traversing the reversed list
+    (or fast/slow pointers for the O(1) space approach).
+edge cases:
+    a) Linked List is empty
+    b) Linked List has only 1 node
 
 Match:
 
 Plan:
+Idea 1: Find the middle. reverse the 2nd half of the linked list. and check if it is identical to the first half
+Idea 2: create a copy of the original linked list, reverse the copy, and check if the reversed is identical to the original
 
 '''
 
@@ -31,23 +41,6 @@ class Node:
    def __init__(self, value, next=None):
        self.value = value
        self.next = next
-
-'''
-1. Understand
-    input: head
-    output: return True if values is palindrome, False otherwise
-    core logic: multiple pass technique
-        one pointer for traversing the original list, one for traversing the reversed list (or fast/slow pointers for the O(1) space approach).
-        
-    Edge cases:
-    a) Linked List is empty
-    b) Linked List has only 1 node
-
-3. Plan
-    Idea 1: Find the middle. reverse the 2nd half of the linked list. and check if it is identical to the first half
-    Idea 2: create a copy of the original linked list, reverse the copy, and check if the reversed is identical to the original
-
-'''
 
 # Time Complexity: O(n)
 # Space Complexity: O(n), because we create a deep copy of the original linked list
