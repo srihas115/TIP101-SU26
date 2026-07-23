@@ -27,7 +27,9 @@ Plan:
 
 
 def merge_catalogs(catalog1, catalog2):
-    pass
+    for k, v in catalog2.items():
+        catalog1[k] = catalog2.get(k)
+    return catalog1
 
 catalog1 = {"apple": 1.0, "banana": 0.5}
 catalog2 = {"banana": 0.75, "cherry": 1.25}

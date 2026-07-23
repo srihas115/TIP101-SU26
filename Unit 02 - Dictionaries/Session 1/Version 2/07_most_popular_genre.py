@@ -30,7 +30,27 @@ Plan:
 
 
 def most_popular_genre(movies):
-    pass
+    totals = {}
+    counts = {}
+
+    for movie in movies:
+        genre = movie["genre"]
+        rating = movie["rating"]
+        totals[genre] = totals.get(genre, 0) + rating
+        counts[genre] = counts.get(genre, 0) + 1
+
+    averages = {}
+    for genre in totals:
+        averages[genre] = totals[genre] / counts[genre]
+
+    best_genre = None
+    best_average = None
+    for genre in averages:
+        if best_average is None or averages[genre] > best_average:
+            best_genre = genre
+            best_average = averages[genre]
+
+    return best_genre
 
 movies = [
     {"title": "Inception",

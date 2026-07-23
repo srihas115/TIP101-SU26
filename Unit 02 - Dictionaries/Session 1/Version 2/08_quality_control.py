@@ -29,7 +29,13 @@ Plan:
 
 
 def quality_control(product_scores, threshold):
-    pass
+    res = {}
+    for k, v in product_scores.items():
+        if v < threshold:
+            res[k] = "fail"
+        else:
+            res[k] = "pass"
+    return res
 
 product_scores = {"x0123": 75, "x0124": 40, "x0125": 90, "x0126": 55}
 threshold = 60

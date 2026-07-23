@@ -24,7 +24,11 @@ Plan:
 
 
 def sum_even_values(dictionary):
-    pass
+    sum = 0
+    for v in dictionary.values():
+        if v % 2 == 0:
+            sum += v
+    return sum
 
 dictionary = {"a": 4, "b": 1, "c": 2, "d": 8, }
 print(sum_even_values(dictionary))
