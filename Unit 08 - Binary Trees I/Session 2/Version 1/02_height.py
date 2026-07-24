@@ -31,7 +31,13 @@ class TreeNode():
          self.right = right
 
 def height(root):
-    pass
+    if root is None:
+        return 0
+
+    left = height(root.left) + 1
+    right = height(root.right) + 1
+
+    return max(left, right)
 
 
 '''

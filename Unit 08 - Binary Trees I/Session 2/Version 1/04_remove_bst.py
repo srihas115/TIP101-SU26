@@ -32,10 +32,48 @@ Plan:
 
 class TreeNode():
     def __init__(self, key, value, left=None, right=None):
-        pass
-def remove_bst(root, key):
-    pass
+        self.val = value
+        self.left = left
+        self.right = right
+        
 
+def remove_bst(root, key):
+    if root is None:
+        return None
+    
+    # Locate the node to be removed
+    if key < root.key:
+        root.left = remove_bst(root.left, key)
+    elif key > root.key:
+        root.right = remove_bst(root.right, key)
+    else:
+        # If the node is a leaf node:
+        if root.left is None and root.right is None:
+            return None
+            # Remove the node by redirecting the appropriate child reference of its parent to None
+    
+        # If the node has one child:
+            # Replace the node with its child, updating its parent's nodes child reference appropriately
+    
+    
+        # If the node has two children:
+        if root.left is not None and root.right is not None:
+            # Find the node's inorder successor (smallest node in right subtree)
+            # Swap the value of the node and its inorder successor
+            # Recursively remove the successor (which now has the current node's value)
+  
+  
+	# Return the root of the updated tree
+    return root
+
+# Example Input Tree #1: (tree depicted using keys)
+
+#       10
+#      /  \
+#     /    \
+#    5      15
+#   / \     / \
+#  1   8   13  16
 
 '''
 ==============================================================================

@@ -31,8 +31,57 @@ class TreeNode():
          self.left = left
          self.right = right
 
+# with sets
+def is_univalued2(root):
+    if root is None:
+        return True
+        
+    counter = set()
+    def helper(root, counter):
+        if root is None:
+            return False
+        if len(counter) >= 2:
+            return False
+        
+        is_univalued(root.left)
+        counter.add(root.value)
+        is_univalued(root.right)
+
+    return True
+
+
+# recursive
+# Time: O(n)
+# Space: O(n)
 def is_univalued(root):
-    pass
+    if root is None:  # base case
+        return True
+    
+    if root.left is not None and root.left.val != root.val:
+        return False
+    if root.right is not None and root.right.val != root.val:
+        return False
+    
+    return is_univalued(root.left) and is_univalued(root.right)
+
+example1 = TreeNode(1, TreeNode(1, TreeNode(1), TreeNode(1)), TreeNode(1, None, TreeNode(1)))
+print(is_univalued(example1))
+
+example2 = TreeNode(1, TreeNode(1, TreeNode(1), TreeNode(1)), TreeNode(2, None, TreeNode(1)))
+print(is_univalued(example2))
+
+
+#
+#     1   
+#    / \
+#  True True
+# 
+
+#       1 
+#      /  \
+#     1    T
+#         /  \
+#        T    T
 
 
 '''

@@ -28,15 +28,24 @@ Plan:
 
 
 class TreeNode():
-     def __init__(self, key, value, left=None, right=None):
-            self.key = key
-            self.val = value
-            self.left = left
-            self.right = right
+    def __init__(self, key, value, left=None, right=None):
+        self.key = key
+        self.val = value
+        self.left = left
+        self.right = right
 
 def insert(root, key, value):
-    pass
+    if root is None:  # base case
+        return TreeNode(key, value)        
 
+    if key == root.key:                                 # matched
+        root.value = value
+    elif key < root.key:                                # go to the left tree
+        root.left = insert(root.left, key, value)
+    else:                                               # go to the right tree
+        root.right = insert(root.right, key, value)
+    
+    return root
 
 '''
 ==============================================================================
