@@ -33,7 +33,23 @@ class TreeNode:
         self.right = right
 
 def binary_tree_paths(root):
-    pass
+    paths = []
+
+    if root is None:
+        return paths
+
+    helper(root, str(root.val), paths)
+    return paths
+
+def helper(node, path, paths):
+    if node.left is None and node.right is None:
+        paths.append(path)
+        return
+
+    if node.left is not None:
+        helper(node.left, path + "->" + str(node.left.val), paths)
+    if node.right is not None:
+        helper(node.right, path + "->" + str(node.right.val), paths)
 
 
 '''
