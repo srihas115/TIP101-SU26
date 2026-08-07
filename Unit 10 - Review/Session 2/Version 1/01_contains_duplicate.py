@@ -15,18 +15,32 @@
         the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
-
+    input: list of ints
+    output: boolean - True if any value appears more than once, False otherwise
+    core logic: using a set to determine if a number is seen
+    
 Match:
-
+    seen set
+    
 Plan:
-
+    initialize a set
+    loop through nums
+        if the number in seen set?
+            return true
+        add num to set
+    return false
 '''
 
 
 def contains_duplicate(nums):
-    pass
+    seen = set()
 
+    for num in nums:
+        if num in seen:
+            return True
+        seen.add(num)
 
+    return False
 '''
 ==============================================================================
     PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION

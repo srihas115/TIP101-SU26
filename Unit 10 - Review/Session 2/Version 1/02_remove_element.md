@@ -17,7 +17,7 @@ def remove_element(nums, val):
 ```
 
 
-```python
+```
 Example #1:
 Input: nums = [3,2,2,3], val = 3
 Expected Output: 2

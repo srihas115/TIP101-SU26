@@ -25,17 +25,29 @@
         the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
-
+    input: we are given a list of nums and a target value
+    output: number of elements in nums that are NOT equal to val
+    core logic: 
+    
 Match:
-
+    list traversal / manipulation
+    
 Plan:
+    for loop through the list of nums by index in reverse
+        if the current number matches the target value
+            remove nums at index
+    
+    return the size of the list
 
 '''
 
 
 def remove_element(nums, val):
-    pass
-
+    for index in range(len(nums)-1, -1, -1):
+        if nums[index] == val:
+            nums.pop(index)
+    
+    return len(nums)
 
 '''
 ==============================================================================
