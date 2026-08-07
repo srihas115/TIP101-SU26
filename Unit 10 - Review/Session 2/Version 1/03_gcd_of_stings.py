@@ -32,13 +32,21 @@ Plan:
     
 '''
 def gcd(a, b):
-    # use euclids algorithm
-    pass
-
+    # use Euclid's algorithm
+    while b != 0:
+        temp = a
+        a = b
+        b = temp % b
+    return a
 def gcd_of_stings(str1, str2):
     if str(str1) + str(str2) != str(str2) + str(str1):
-        return False
-    pass
+        return ""
+
+    common_length = gcd(len(str1), len(str2))
+    result = ""
+    for i in range(common_length):
+        result += str1[i]
+    return result
 
 '''
 Example #1:
