@@ -1,6 +1,6 @@
 # Contributing
 
-This repo holds my personal problem sets and notes for CodePath's **TIP101** course, so it isn't a typical open-source project looking for contributors. That said, if we worked through a problem together in session and you've got a fixed or improved solution, I'd genuinely love to see it — sharing alternative approaches is one of the best ways to learn.
+This repo holds my personal problem sets and notes for CodePath's **TIP101** course, so it isn't a typical open-source project looking for contributors. That said, if we worked through a problem together in session and you've got a fixed or improved solution, I'd love to see it!
 
 ## Ways to contribute
 
