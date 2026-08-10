@@ -69,10 +69,6 @@ TIP101/
 │   └── Unit Assets/
 ├── Unit 02 - Dictionaries/
 │   └── ...
-├── HackerRank Style ProblemSetSolutionValidator[DO_NOT_EDIT]/
-│   ├── metadata/
-│   ├── solutions/
-│   └── testpacks/
 ├── codepath-staff-tip101-summer-26/
 │   ├── Staff/                              ← official reference templates
 │   ├── Student/                            ← official student validator templates
@@ -82,7 +78,7 @@ TIP101/
 
 Every `.py` solution file has a matching `.md` file with the **same name** in the same folder. The folder and file names now mirror CodePath's staff-provided validator layout (`Unit ## - Topic/Session #/Version #/NN_slug.py`) while preserving my Markdown problem statements and local Python solution files.
 
-Each unit may also include a `HackerRank Style Questions/` folder containing the assessment-style coding prompts and my submitted Python solutions. The matching `HackerRank Style ProblemSetSolutionValidator[DO_NOT_EDIT]/` folder keeps a HackerRank Style-only index and copied solution set for those questions.
+Each unit may also include a `HackerRank Style Questions/` folder containing the assessment-style coding prompts and my submitted Python solutions. These files use simple local `print(...)` checks instead of the course problem set validator, so they can be run directly with Python.
 
 # Getting Started
 
