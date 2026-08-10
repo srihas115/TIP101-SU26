@@ -1,0 +1,384 @@
+{
+  "questions": [
+    {
+      "assignment": "1A",
+      "unit": 1,
+      "version": "A",
+      "number": 5,
+      "title": "Find Product",
+      "slug": "05_find_product",
+      "prompt_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1A/05_find_product.md",
+      "solution_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1A/05_find_product.py"
+    },
+    {
+      "assignment": "1A",
+      "unit": 1,
+      "version": "A",
+      "number": 6,
+      "title": "In Range",
+      "slug": "06_in_range",
+      "prompt_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1A/06_in_range.md",
+      "solution_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1A/06_in_range.py"
+    },
+    {
+      "assignment": "1B",
+      "unit": 1,
+      "version": "B",
+      "number": 5,
+      "title": "Find Maximum",
+      "slug": "05_find_maximum",
+      "prompt_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1B/05_find_maximum.md",
+      "solution_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1B/05_find_maximum.py"
+    },
+    {
+      "assignment": "1B",
+      "unit": 1,
+      "version": "B",
+      "number": 6,
+      "title": "Count the Occurences",
+      "slug": "06_count_the_occurences",
+      "prompt_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1B/06_count_the_occurences.md",
+      "solution_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1B/06_count_the_occurences.py"
+    },
+    {
+      "assignment": "1C",
+      "unit": 1,
+      "version": "C",
+      "number": 5,
+      "title": "Find Sum",
+      "slug": "05_find_sum",
+      "prompt_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1C/05_find_sum.md",
+      "solution_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1C/05_find_sum.py"
+    },
+    {
+      "assignment": "1C",
+      "unit": 1,
+      "version": "C",
+      "number": 6,
+      "title": "List Minimum",
+      "slug": "06_list_minimum",
+      "prompt_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1C/06_list_minimum.md",
+      "solution_path": "Unit 01 - Python & Lists/HackerRank Style Questions/1C/06_list_minimum.py"
+    },
+    {
+      "assignment": "2A",
+      "unit": 2,
+      "version": "A",
+      "number": 5,
+      "title": "Contains Duplicate",
+      "slug": "05_contains_duplicate",
+      "prompt_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2A/05_contains_duplicate.md",
+      "solution_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2A/05_contains_duplicate.py"
+    },
+    {
+      "assignment": "2A",
+      "unit": 2,
+      "version": "A",
+      "number": 6,
+      "title": "Element Frequency Greater than N",
+      "slug": "06_element_frequency_greater_than_n",
+      "prompt_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2A/06_element_frequency_greater_than_n.md",
+      "solution_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2A/06_element_frequency_greater_than_n.py"
+    },
+    {
+      "assignment": "2B",
+      "unit": 2,
+      "version": "B",
+      "number": 5,
+      "title": "Patient List",
+      "slug": "05_patient_list",
+      "prompt_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2B/05_patient_list.md",
+      "solution_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2B/05_patient_list.py"
+    },
+    {
+      "assignment": "2B",
+      "unit": 2,
+      "version": "B",
+      "number": 6,
+      "title": "Find Unique",
+      "slug": "06_find_unique",
+      "prompt_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2B/06_find_unique.md",
+      "solution_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2B/06_find_unique.py"
+    },
+    {
+      "assignment": "2C",
+      "unit": 2,
+      "version": "C",
+      "number": 5,
+      "title": "Invert Dictionary",
+      "slug": "05_invert_dictionary",
+      "prompt_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2C/05_invert_dictionary.md",
+      "solution_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2C/05_invert_dictionary.py"
+    },
+    {
+      "assignment": "2C",
+      "unit": 2,
+      "version": "C",
+      "number": 6,
+      "title": "Frequency Equality",
+      "slug": "06_frequency_equality",
+      "prompt_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2C/06_frequency_equality.md",
+      "solution_path": "Unit 02 - Dictionaries/HackerRank Style Questions/2C/06_frequency_equality.py"
+    },
+    {
+      "assignment": "3A",
+      "unit": 3,
+      "version": "A",
+      "number": 5,
+      "title": "Character Count in Strings",
+      "slug": "05_character_count_in_strings",
+      "prompt_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3A/05_character_count_in_strings.md",
+      "solution_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3A/05_character_count_in_strings.py"
+    },
+    {
+      "assignment": "3A",
+      "unit": 3,
+      "version": "A",
+      "number": 6,
+      "title": "Ransom Note",
+      "slug": "06_ransom_note",
+      "prompt_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3A/06_ransom_note.md",
+      "solution_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3A/06_ransom_note.py"
+    },
+    {
+      "assignment": "3B",
+      "unit": 3,
+      "version": "B",
+      "number": 5,
+      "title": "Count Unique Words",
+      "slug": "05_count_unique_words",
+      "prompt_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3B/05_count_unique_words.md",
+      "solution_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3B/05_count_unique_words.py"
+    },
+    {
+      "assignment": "3B",
+      "unit": 3,
+      "version": "B",
+      "number": 6,
+      "title": "Anagram Checker",
+      "slug": "06_anagram_checker",
+      "prompt_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3B/06_anagram_checker.md",
+      "solution_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3B/06_anagram_checker.py"
+    },
+    {
+      "assignment": "3C",
+      "unit": 3,
+      "version": "C",
+      "number": 5,
+      "title": "Consonant Frequencies",
+      "slug": "05_consonant_frequencies",
+      "prompt_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3C/05_consonant_frequencies.md",
+      "solution_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3C/05_consonant_frequencies.py"
+    },
+    {
+      "assignment": "3C",
+      "unit": 3,
+      "version": "C",
+      "number": 6,
+      "title": "Palindrome Verification",
+      "slug": "06_palindrome_verification",
+      "prompt_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3C/06_palindrome_verification.md",
+      "solution_path": "Unit 03 - Strings & Lists/HackerRank Style Questions/3C/06_palindrome_verification.py"
+    },
+    {
+      "assignment": "4A",
+      "unit": 4,
+      "version": "A",
+      "number": 5,
+      "title": "Find the Target",
+      "slug": "05_find_the_target",
+      "prompt_path": "Unit 04 - Two Pointer & Big O/HackerRank Style Questions/4A/05_find_the_target.md",
+      "solution_path": "Unit 04 - Two Pointer & Big O/HackerRank Style Questions/4A/05_find_the_target.py"
+    },
+    {
+      "assignment": "4A",
+      "unit": 4,
+      "version": "A",
+      "number": 6,
+      "title": "Find the Minimum Sublist Sum",
+      "slug": "06_find_the_minimum_sublist_sum",
+      "prompt_path": "Unit 04 - Two Pointer & Big O/HackerRank Style Questions/4A/06_find_the_minimum_sublist_sum.md",
+      "solution_path": "Unit 04 - Two Pointer & Big O/HackerRank Style Questions/4A/06_find_the_minimum_sublist_sum.py"
+    },
+    {
+      "assignment": "5A",
+      "unit": 5,
+      "version": "A",
+      "number": 5,
+      "title": "Get Grandchildren",
+      "slug": "05_get_grandchildren",
+      "prompt_path": "Unit 05 - OOP & Linked Lists I/HackerRank Style Questions/5A/05_get_grandchildren.md",
+      "solution_path": "Unit 05 - OOP & Linked Lists I/HackerRank Style Questions/5A/05_get_grandchildren.py"
+    },
+    {
+      "assignment": "5A",
+      "unit": 5,
+      "version": "A",
+      "number": 6,
+      "title": "Extend Linked List",
+      "slug": "06_extend_linked_list",
+      "prompt_path": "Unit 05 - OOP & Linked Lists I/HackerRank Style Questions/5A/06_extend_linked_list.md",
+      "solution_path": "Unit 05 - OOP & Linked Lists I/HackerRank Style Questions/5A/06_extend_linked_list.py"
+    },
+    {
+      "assignment": "5A",
+      "unit": 5,
+      "version": "A",
+      "number": 7,
+      "title": "Copy First N Nodes (LL)",
+      "slug": "07_copy_first_n_nodes",
+      "prompt_path": "Unit 05 - OOP & Linked Lists I/HackerRank Style Questions/5A/07_copy_first_n_nodes.md",
+      "solution_path": "Unit 05 - OOP & Linked Lists I/HackerRank Style Questions/5A/07_copy_first_n_nodes.py"
+    },
+    {
+      "assignment": "6A",
+      "unit": 6,
+      "version": "A",
+      "number": 5,
+      "title": "Find Nth From End (LL)",
+      "slug": "05_find_nth_from_end",
+      "prompt_path": "Unit 06 - Linked Lists II/HackerRank Style Questions/6A/05_find_nth_from_end.md",
+      "solution_path": "Unit 06 - Linked Lists II/HackerRank Style Questions/6A/05_find_nth_from_end.py"
+    },
+    {
+      "assignment": "6A",
+      "unit": 6,
+      "version": "A",
+      "number": 6,
+      "title": "Shuffle (LL)",
+      "slug": "06_shuffle",
+      "prompt_path": "Unit 06 - Linked Lists II/HackerRank Style Questions/6A/06_shuffle.md",
+      "solution_path": "Unit 06 - Linked Lists II/HackerRank Style Questions/6A/06_shuffle.py"
+    },
+    {
+      "assignment": "6A",
+      "unit": 6,
+      "version": "A",
+      "number": 7,
+      "title": "Find Intersection (LL)",
+      "slug": "07_find_intersection",
+      "prompt_path": "Unit 06 - Linked Lists II/HackerRank Style Questions/6A/07_find_intersection.md",
+      "solution_path": "Unit 06 - Linked Lists II/HackerRank Style Questions/6A/07_find_intersection.py"
+    },
+    {
+      "assignment": "7A",
+      "unit": 7,
+      "version": "A",
+      "number": 5,
+      "title": "String Search",
+      "slug": "05_string_search",
+      "prompt_path": "Unit 07 - Recursion & Search/HackerRank Style Questions/7A/05_string_search.md",
+      "solution_path": "Unit 07 - Recursion & Search/HackerRank Style Questions/7A/05_string_search.py"
+    },
+    {
+      "assignment": "7A",
+      "unit": 7,
+      "version": "A",
+      "number": 6,
+      "title": "Power Function",
+      "slug": "06_power_function",
+      "prompt_path": "Unit 07 - Recursion & Search/HackerRank Style Questions/7A/06_power_function.md",
+      "solution_path": "Unit 07 - Recursion & Search/HackerRank Style Questions/7A/06_power_function.py"
+    },
+    {
+      "assignment": "7A",
+      "unit": 7,
+      "version": "A",
+      "number": 7,
+      "title": "Find the Domain",
+      "slug": "07_find_the_domain",
+      "prompt_path": "Unit 07 - Recursion & Search/HackerRank Style Questions/7A/07_find_the_domain.md",
+      "solution_path": "Unit 07 - Recursion & Search/HackerRank Style Questions/7A/07_find_the_domain.py"
+    },
+    {
+      "assignment": "8A",
+      "unit": 8,
+      "version": "A",
+      "number": 5,
+      "title": "Insert Node into a Binary Search Tree",
+      "slug": "05_insert_node_into_a_binary_search_tree",
+      "prompt_path": "Unit 08 - Binary Trees I/HackerRank Style Questions/8A/05_insert_node_into_a_binary_search_tree.md",
+      "solution_path": "Unit 08 - Binary Trees I/HackerRank Style Questions/8A/05_insert_node_into_a_binary_search_tree.py"
+    },
+    {
+      "assignment": "8A",
+      "unit": 8,
+      "version": "A",
+      "number": 6,
+      "title": "Sum the Nodes",
+      "slug": "06_sum_the_nodes",
+      "prompt_path": "Unit 08 - Binary Trees I/HackerRank Style Questions/8A/06_sum_the_nodes.md",
+      "solution_path": "Unit 08 - Binary Trees I/HackerRank Style Questions/8A/06_sum_the_nodes.py"
+    },
+    {
+      "assignment": "8A",
+      "unit": 8,
+      "version": "A",
+      "number": 7,
+      "title": "Remove Node from a Binary Search Tree",
+      "slug": "07_remove_node_from_a_binary_search_tree",
+      "prompt_path": "Unit 08 - Binary Trees I/HackerRank Style Questions/8A/07_remove_node_from_a_binary_search_tree.md",
+      "solution_path": "Unit 08 - Binary Trees I/HackerRank Style Questions/8A/07_remove_node_from_a_binary_search_tree.py"
+    },
+    {
+      "assignment": "9A",
+      "unit": 9,
+      "version": "A",
+      "number": 5,
+      "title": "Sum of All Left Leaves in Binary Tree",
+      "slug": "05_sum_of_all_left_leaves_in_binary_tree",
+      "prompt_path": "Unit 09 - Binary Trees II/HackerRank Style Questions/9A/05_sum_of_all_left_leaves_in_binary_tree.md",
+      "solution_path": "Unit 09 - Binary Trees II/HackerRank Style Questions/9A/05_sum_of_all_left_leaves_in_binary_tree.py"
+    },
+    {
+      "assignment": "9A",
+      "unit": 9,
+      "version": "A",
+      "number": 6,
+      "title": "Two Sum BST",
+      "slug": "06_two_sum_bst",
+      "prompt_path": "Unit 09 - Binary Trees II/HackerRank Style Questions/9A/06_two_sum_bst.md",
+      "solution_path": "Unit 09 - Binary Trees II/HackerRank Style Questions/9A/06_two_sum_bst.py"
+    },
+    {
+      "assignment": "9A",
+      "unit": 9,
+      "version": "A",
+      "number": 7,
+      "title": "Check if Binary Tree is Perfect",
+      "slug": "07_check_if_binary_tree_is_perfect",
+      "prompt_path": "Unit 09 - Binary Trees II/HackerRank Style Questions/9A/07_check_if_binary_tree_is_perfect.md",
+      "solution_path": "Unit 09 - Binary Trees II/HackerRank Style Questions/9A/07_check_if_binary_tree_is_perfect.py"
+    },
+    {
+      "assignment": "10A",
+      "unit": 10,
+      "version": "A",
+      "number": 5,
+      "title": "Longest Palindrome",
+      "slug": "05_longest_palindrome",
+      "prompt_path": "Unit 10 - Review/HackerRank Style Questions/10A/05_longest_palindrome.md",
+      "solution_path": "Unit 10 - Review/HackerRank Style Questions/10A/05_longest_palindrome.py"
+    },
+    {
+      "assignment": "10A",
+      "unit": 10,
+      "version": "A",
+      "number": 6,
+      "title": "Linked List Cycle",
+      "slug": "06_linked_list_cycle",
+      "prompt_path": "Unit 10 - Review/HackerRank Style Questions/10A/06_linked_list_cycle.md",
+      "solution_path": "Unit 10 - Review/HackerRank Style Questions/10A/06_linked_list_cycle.py"
+    },
+    {
+      "assignment": "10A",
+      "unit": 10,
+      "version": "A",
+      "number": 7,
+      "title": "Peak Element",
+      "slug": "07_peak_element",
+      "prompt_path": "Unit 10 - Review/HackerRank Style Questions/10A/07_peak_element.md",
+      "solution_path": "Unit 10 - Review/HackerRank Style Questions/10A/07_peak_element.py"
+    }
+  ]
+}
