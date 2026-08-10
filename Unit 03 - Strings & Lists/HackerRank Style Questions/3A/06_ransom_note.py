@@ -34,18 +34,5 @@ def ransom_note(message, magazine):
     return True
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    temp = input()
-
-    if len(temp) > 65:
-        chunks = temp.split(", ")
-        list_of_lists = [list(map(str, chunk.split())) for chunk in chunks]
-        result = [ransom_note(lst[0], lst[1]) for lst in list_of_lists]
-    else:
-        t = temp.split()
-        result = ransom_note(t[0], t[1])
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("ransom_note('abc', 'abc') ->", ransom_note('abc', 'abc'))
+    print("ransom_note('aa', 'ab') ->", ransom_note('aa', 'ab'))

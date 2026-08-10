@@ -23,18 +23,5 @@ def find_sum(lst):
     return sum
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    temp = input()
-
-    if len(temp) > 70:
-        input_string = temp
-        chunks = input_string.split(", ")
-        list_of_lists = [list(map(int, chunk.split())) for chunk in chunks]
-        result = [find_sum(lst) for lst in list_of_lists]
-    else:
-        result = find_sum([int(n) for n in temp.split()])
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("find_sum([1, 2, 3]) ->", find_sum([1, 2, 3]))
+    print("find_sum([-1, 5, 10]) ->", find_sum([-1, 5, 10]))

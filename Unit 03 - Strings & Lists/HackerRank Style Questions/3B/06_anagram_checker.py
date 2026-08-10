@@ -33,27 +33,6 @@ def anagram_checker(str1, str2):
 
     return freq1 == freq2
 
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    t = input()
-
-    def split(inlist):
-        first = inlist[:(len(inlist) // 2)]
-        second = inlist[(len(inlist) // 2):]
-        return [first, second]
-
-    if len(t) > 105:
-        chunks = t.split(", ")
-        list_of_lists = [list(map(str, chunk.split())) for chunk in chunks]
-        result = [anagram_checker(" ".join(split(lst)[0]), " ".join(split(lst)[1])) for lst in list_of_lists]
-    else:
-        temp = t.split(',')
-        str1 = str(temp[0])
-        str2 = str(temp[1])
-        result = anagram_checker(str1, str2)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("anagram_checker('listen', 'silent') ->", anagram_checker('listen', 'silent'))
+    print("anagram_checker('hello', 'world') ->", anagram_checker('hello', 'world'))

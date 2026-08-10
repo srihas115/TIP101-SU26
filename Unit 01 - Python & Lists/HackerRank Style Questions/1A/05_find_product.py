@@ -23,18 +23,5 @@ def find_product(lst):
     return product
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    temp = input()
-
-    if len(temp) > 55:
-        input_string = temp
-        chunks = input_string.split(", ")
-        list_of_lists = [list(map(int, chunk.split())) for chunk in chunks]
-        result = [find_product(lst) for lst in list_of_lists]
-    else:
-        result = find_product([int(n) for n in temp.split()])
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("find_product([1, 2, 3]) ->", find_product([1, 2, 3]))
+    print("find_product([2, 4, 6]) ->", find_product([2, 4, 6]))

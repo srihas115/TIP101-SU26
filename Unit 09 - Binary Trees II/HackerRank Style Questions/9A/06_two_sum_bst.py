@@ -37,25 +37,7 @@ def find_target(root, k):
 
     return dfs(root)
 
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    def make_tree(tree_tup):
-        if tree_tup is None:
-            return None # Base case
-        elif len(tree_tup) != 3:
-            print("Invalid input: ", tree_tup)
-            return None # Invalid case
-        # Happy case
-        return TreeNode(tree_tup[0], make_tree(tree_tup[1]), make_tree(tree_tup[2]))
-
-    root = make_tree(ast.literal_eval(input()))
-
-    target = int(input().strip())
-
-    result = find_target(root, target)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    root = TreeNode(5, TreeNode(3, TreeNode(2), TreeNode(4)), TreeNode(6, None, TreeNode(7)))
+    print("find_target(root, 9) ->", find_target(root, 9))
+    print("find_target(root, 28) ->", find_target(root, 28))

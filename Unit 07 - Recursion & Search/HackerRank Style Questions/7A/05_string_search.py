@@ -36,18 +36,6 @@ def find_val(names, val):
     return -1
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    # Read the input list as a string and safely evaluate it to a Python list
-    names = ast.literal_eval(input().strip())
-
-    # Read the value to find, also stripping the surrounding quotes
-    val = input().strip().strip("'")
-
-    # Call the find_val function with names and val
-    result = find_val(names, val)
-
-    # Write the result to the file expected by HackerRank Style
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    names = ['Ada', 'Grace', 'Katherine', 'Mae']
+    print("find_val(names, 'Katherine') ->", find_val(names, 'Katherine'))
+    print("find_val(names, 'Sally') ->", find_val(names, 'Sally'))

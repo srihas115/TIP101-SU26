@@ -61,22 +61,6 @@ def find_min_sublist_sum(nums, k):
 
     return min_sum
 
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    nums_count = int(input().strip())
-
-    nums = []
-
-    for _ in range(nums_count):
-        nums_item = int(input().strip())
-        nums.append(nums_item)
-
-    k = int(input().strip())
-
-    result = find_min_sublist_sum(nums, k)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("find_min_sublist_sum([3, -2, 5, -1], 2) ->", find_min_sublist_sum([3, -2, 5, -1], 2))
+    print("find_min_sublist_sum([4, 2, 1, 7], 3) ->", find_min_sublist_sum([4, 2, 1, 7], 3))

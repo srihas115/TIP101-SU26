@@ -30,27 +30,5 @@ def frequency_equality(lst1, lst2):
     return freq1 == freq2
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    t = input()
-
-    if len(t) > 140:
-        chunks = t.split(", ")
-        list_of_lists = [list(map(int, chunk.split())) for chunk in chunks]
-
-        def helper(inlist):
-            temp = [int(n) for n in inlist]
-            lst1 = temp[:(len(temp) // 2)]
-            lst2 = temp[(len(temp) // 2):]
-            return [lst1, lst2]
-
-        result = [frequency_equality(helper(lst)[0], helper(lst)[1]) for lst in list_of_lists]
-    else:
-        temp = [int(n) for n in t.split()]
-        lst1 = temp[:(len(temp) // 2)]
-        lst2 = temp[(len(temp) // 2):]
-        result = frequency_equality(lst1, lst2)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("frequency_equality([1, 2, 2], [2, 1, 2]) ->", frequency_equality([1, 2, 2], [2, 1, 2]))
+    print("frequency_equality([1, 2], [1, 1]) ->", frequency_equality([1, 2], [1, 1]))

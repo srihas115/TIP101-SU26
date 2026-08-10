@@ -31,12 +31,5 @@ def peak_element(nums):
     return low
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    nums = ast.literal_eval(input().strip())
-
-    result = peak_element(nums)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("peak_element([1, 2, 3, 1]) ->", peak_element([1, 2, 3, 1]))
+    print("peak_element([1, 2, 1, 3, 5, 6, 4]) ->", peak_element([1, 2, 1, 3, 5, 6, 4]))

@@ -26,20 +26,5 @@ def count_occurrences(lst, val):
     return count
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    t = input()
-
-    if len(t) > 70:
-        input_string_in_range = t
-        chunks_in_range = input_string_in_range.split(", ")
-        # Parsing each chunk into lists of integers, excluding the first and last numbers which represent min and max values
-        list_of_lists_in_range = [list(map(int, chunk.split())) for chunk in chunks_in_range]
-        result = [count_occurrences(lst[1:], lst[0]) for lst in list_of_lists_in_range]
-    else:
-        temp = [int(n) for n in t.split()]
-        result = count_occurrences(temp[1:], temp[0])
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("count_occurrences([1, 2, 2, 3], 2) ->", count_occurrences([1, 2, 2, 3], 2))
+    print("count_occurrences(['a', 'b', 'a'], 'a') ->", count_occurrences(['a', 'b', 'a'], 'a'))

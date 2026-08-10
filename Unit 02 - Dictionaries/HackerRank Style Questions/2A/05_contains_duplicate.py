@@ -25,19 +25,7 @@ def contains_duplicate(nums):
             return True
 
     return False
+
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    temp = input()
-
-    if len(temp) > 40:
-        input_string = temp
-        chunks = input_string.split(", ")
-        list_of_lists = [list(map(int, chunk.split())) for chunk in chunks]
-        result = [contains_duplicate(lst) for lst in list_of_lists]
-    else:
-        result = contains_duplicate([int(n) for n in temp.split()])
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("contains_duplicate([1, 2, 3, 1]) ->", contains_duplicate([1, 2, 3, 1]))
+    print("contains_duplicate([1, 2, 3, 4]) ->", contains_duplicate([1, 2, 3, 4]))

@@ -27,17 +27,5 @@ def char_count(str):
     return freq
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    string = input()
-
-    if len(string) > 55:
-        chunks = string.split(", ")
-        list_of_lists = [list(map(str, chunk.split())) for chunk in chunks]
-        result = [char_count(" ".join(lst)) for lst in list_of_lists]
-    else:
-        result = char_count(string)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("char_count('hello') ->", char_count('hello'))
+    print("char_count('mississippi') ->", char_count('mississippi'))

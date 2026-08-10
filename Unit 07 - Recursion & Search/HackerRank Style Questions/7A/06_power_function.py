@@ -24,14 +24,5 @@ def power(x, n):
     return x * power(x, n-1)
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    x = int(input().strip())
-
-    n = int(input().strip())
-
-    result = power(x, n)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("power(2, 3) ->", power(2, 3))
+    print("power(5, 0) ->", power(5, 0))

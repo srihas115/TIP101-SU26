@@ -35,19 +35,6 @@ def is_palindrome(string):
 
     return True
 
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    string = input()
-
-    if len(string) > 100:
-        chunks = string.split(", ")
-        list_of_lists = [list(map(str, chunk.split())) for chunk in chunks]
-        result = [is_palindrome(" ".join(lst)) for lst in list_of_lists]
-    else:
-        result = is_palindrome(string)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("is_palindrome('racecar') ->", is_palindrome('racecar'))
+    print("is_palindrome('python') ->", is_palindrome('python'))

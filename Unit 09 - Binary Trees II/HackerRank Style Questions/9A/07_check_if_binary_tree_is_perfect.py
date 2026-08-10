@@ -56,21 +56,7 @@ def is_perfect(root):
     return True
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    def make_tree(tree_tup):
-        if tree_tup is None:
-            return None # Base case
-        elif len(tree_tup) != 3:
-            print("Invalid input: ", tree_tup)
-            return None # Invalid case
-        # Happy case
-        return TreeNode(tree_tup[0], make_tree(tree_tup[1]), make_tree(tree_tup[2]))
-
-    root = make_tree(ast.literal_eval(input()))
-
-    result = is_perfect(root)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    perfect = TreeNode(1, TreeNode(2), TreeNode(3))
+    not_perfect = TreeNode(1, TreeNode(2), None)
+    print("is_perfect(perfect) ->", is_perfect(perfect))
+    print("is_perfect(not_perfect) ->", is_perfect(not_perfect))

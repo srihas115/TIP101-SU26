@@ -31,15 +31,5 @@ def find_pair_sum(s, target):
     return False
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    s = input()
-
-    target = int(input().strip())
-
-    result = find_pair_sum(s, target)
-
-    fptr.write(str(result) + '\n')
-
-
-    fptr.close()
+    print("find_pair_sum('12345', 5) ->", find_pair_sum('12345', 5))
+    print("find_pair_sum('12345', 10) ->", find_pair_sum('12345', 10))

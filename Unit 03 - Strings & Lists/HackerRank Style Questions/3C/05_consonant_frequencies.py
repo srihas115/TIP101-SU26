@@ -28,17 +28,5 @@ def consonant_frequencies(str):
     return freq
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    string = input()
-
-    if len(string) > 130:
-        chunks = string.split(", ")
-        list_of_lists = [list(map(str, chunk.split())) for chunk in chunks]
-        result = [consonant_frequencies(" ".join(lst)) for lst in list_of_lists]
-    else:
-        result = consonant_frequencies(string)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("consonant_frequencies('banana') ->", consonant_frequencies('banana'))
+    print("consonant_frequencies('codepath') ->", consonant_frequencies('codepath'))

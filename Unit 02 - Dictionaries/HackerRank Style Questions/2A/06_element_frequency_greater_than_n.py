@@ -30,18 +30,5 @@ def frequency_greater_than_n(nums, n):
     return res_dict
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    t = input()
-
-    if len(t) > 65:
-        chunks_in_range = t.split(", ")
-        list_of_lists_in_range = [list(map(int, chunk.split())) for chunk in chunks_in_range]
-        result = [frequency_greater_than_n(lst[1:], lst[0]) for lst in list_of_lists_in_range]
-    else:
-        temp = ([int(n) for n in t.split()])
-        result = frequency_greater_than_n(temp[1:], temp[0])
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("frequency_greater_than_n([1, 1, 2, 3], 1) ->", frequency_greater_than_n([1, 1, 2, 3], 1))
+    print("frequency_greater_than_n([1, 2, 3], 2) ->", frequency_greater_than_n([1, 2, 3], 2))

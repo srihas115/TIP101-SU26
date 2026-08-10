@@ -27,20 +27,5 @@ def in_range(nums, min_val, max_val):
     return res
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    t = input()
-
-    if len(t) > 60:
-        input_string_in_range = t
-        chunks_in_range = input_string_in_range.split(", ")
-        list_of_lists_in_range = [list(map(int, chunk.split())) for chunk in chunks_in_range]
-        result = [in_range(lst[2:], lst[0], lst[1]) for lst in list_of_lists_in_range]
-
-    else:
-        temp = [int(n) for n in t.split()]
-        result = in_range(temp[2:], temp[0], temp[1])
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("in_range([1, 2, 3, 4, 5], 1, 5) ->", in_range([1, 2, 3, 4, 5], 1, 5))
+    print("in_range([8, 6, 4], 2, 10) ->", in_range([8, 6, 4], 2, 10))

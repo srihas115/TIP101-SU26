@@ -58,33 +58,11 @@ def insert_node(root, val):
 
     return root
 
-
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    def make_tree(tree_tup):
-        if tree_tup is None:
-            return None # Base case
-        elif len(tree_tup) != 3:
-            print("Invalid input: ", tree_tup)
-            return None # Invalid case
-        # Happy case
-        return TreeNode(tree_tup[0], make_tree(tree_tup[1]), make_tree(tree_tup[2]))
-
-    def unmake_tree(root):
+    def tree_to_tuple(root):
         if root is None:
             return None
-        return (root.val, unmake_tree(root.left), unmake_tree(root.right))
+        return (root.val, tree_to_tuple(root.left), tree_to_tuple(root.right))
 
-    root = make_tree(ast.literal_eval(input()))
-
-    val = int(input().strip())
-
-    result_tree = insert_node(root, val)
-
-    result = unmake_tree(result_tree)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    root = TreeNode(4, TreeNode(2), TreeNode(7))
+    print("insert_node(root, 5) ->", tree_to_tuple(insert_node(root, 5)))

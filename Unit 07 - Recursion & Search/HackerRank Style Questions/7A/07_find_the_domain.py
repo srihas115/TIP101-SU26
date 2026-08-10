@@ -57,14 +57,5 @@ def search(nums, target):
     return [start, end]
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    nums = ast.literal_eval(input().strip())
-    target = int(input().strip())
-
-    result = search(nums, target)
-
-    # Change here: Convert the entire list to a string that looks like a list
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("search([1, 2, 2, 2, 3], 2) ->", search([1, 2, 2, 2, 3], 2))
+    print("search([1, 2, 3], 4) ->", search([1, 2, 3], 4))

@@ -33,14 +33,6 @@ def longest_palindrome(s):
 
     return length
 
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    s = input()
-
-    result = longest_palindrome(s)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("longest_palindrome('abccccdd') ->", longest_palindrome('abccccdd'))
+    print("longest_palindrome('a') ->", longest_palindrome('a'))

@@ -24,18 +24,5 @@ def find_max(lst):
     return max
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    temp = input()
-
-    if len(temp) > 45:
-        input_string = temp
-        chunks = input_string.split(", ")
-        list_of_lists = [list(map(int, chunk.split())) for chunk in chunks]
-        result = [find_max(lst) for lst in list_of_lists]
-    else:
-        result = find_max([int(n) for n in temp.split()])
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("find_max([1, 5, 3]) ->", find_max([1, 5, 3]))
+    print("find_max([-10, -3, -7]) ->", find_max([-10, -3, -7]))

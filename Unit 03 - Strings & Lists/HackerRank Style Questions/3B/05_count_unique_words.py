@@ -20,19 +20,6 @@ def count_unique_words(str):
     lst = str.lower().split()
     return len(set(lst))
 
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    string = input()
-
-    if len(string) > 565:
-        chunks = string.split(", ")
-        list_of_lists = [list(map(str, chunk.split())) for chunk in chunks]
-        result = [count_unique_words(" ".join(lst)) for lst in list_of_lists]
-    else:
-        result = count_unique_words(string)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print("count_unique_words('the cat and the dog') ->", count_unique_words('the cat and the dog'))
+    print("count_unique_words('one one one') ->", count_unique_words('one one one'))
