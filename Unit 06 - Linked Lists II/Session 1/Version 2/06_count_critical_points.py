@@ -1,25 +1,25 @@
 '''
 ==============================================================================
-  Unit 6: Linked Lists II  ·  Session 1  ·  Version 2
-  Problem 6: Was That a Crit?
+    Unit 6: Linked Lists II  ·  Session 1  ·  Version 2
+    Problem 6: Was That a Crit?
 
-  Given the `head` of a singly linked list, return the number of critical
-  points. A critical point is a local minima or maxima. - The head and tail
-  nodes are not considered critical points. - A node is a local minima if
-  both the next and previous elements are greater than the current element -
-  A node is a local maxima if both the next and previous elements are less
-  than the current element.
+    Given the `head` of a singly linked list, return the number of critical
+    points. A critical point is a local minima or maxima. - The head and tail
+    nodes are not considered critical points. - A node is a local minima if
+    both the next and previous elements are greater than the current element -
+    A node is a local maxima if both the next and previous elements are less
+    than the current element.
 
-  Evaluate the time and space complexity of your solution. Define your
-  variables and provide a rationale for why you believe your solution has
-  the stated time and space complexity.
+    Evaluate the time and space complexity of your solution. Define your
+    variables and provide a rationale for why you believe your solution has
+    the stated time and space complexity.
 
-  Write your solution for `count_critical_points` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `count_critical_points` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `count_critical_points` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `count_critical_points` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -53,7 +53,7 @@ def count_critical_points(head):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -66,7 +66,7 @@ grade(count_critical_points)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([1, 2, 3, 3, 3, 5, 1, 3], expected=2)   # checks the value your code returns against this example

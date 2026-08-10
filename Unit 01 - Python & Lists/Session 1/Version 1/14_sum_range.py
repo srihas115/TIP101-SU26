@@ -1,17 +1,17 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 1  ·  Version 1
-  Problem 14: Total Sum in Range
+    Unit 1: Python & Lists  ·  Session 1  ·  Version 1
+    Problem 14: Total Sum in Range
 
-  Write a function `sum_range()` that returns the sum of numbers from a
-  given `start` value to a given `stop` value (inclusive).
+    Write a function `sum_range()` that returns the sum of numbers from a
+    given `start` value to a given `stop` value (inclusive).
 
-  Write your solution for `sum_range` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `sum_range` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `sum_range` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `sum_range` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -39,7 +39,7 @@ def sum_range(start, stop):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -52,7 +52,7 @@ grade(sum_range)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test(3, 9, expected=42)   # checks the value your code returns against this example

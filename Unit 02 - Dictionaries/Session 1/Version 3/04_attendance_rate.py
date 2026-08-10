@@ -1,19 +1,19 @@
 '''
 ==============================================================================
-  Unit 2: Dictionaries  ·  Session 1  ·  Version 3
-  Problem 4: Attendance Rate
+    Unit 2: Dictionaries  ·  Session 1  ·  Version 3
+    Problem 4: Attendance Rate
 
-  Write a function `attendance_rate()` that takes in a dictionary
-  `attendance_list` as a parameter. The function maps student names to their
-  attendance status (`"Present"` or `"Absent"`), and returns the percentage
-  of students who are present.
+    Write a function `attendance_rate()` that takes in a dictionary
+    `attendance_list` as a parameter. The function maps student names to their
+    attendance status (`"Present"` or `"Absent"`), and returns the percentage
+    of students who are present.
 
-  Write your solution for `attendance_rate` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `attendance_rate` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `attendance_rate` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `attendance_rate` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -41,7 +41,7 @@ def attendance_rate(attendance_list):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -54,7 +54,7 @@ grade(attendance_rate)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test({'Bluey': 'Present', 'Bingo': 'Absent', 'Snickers': 'Present', 'Winton': 'Absent'}, expected=50.0)   # checks the value your code returns against this example

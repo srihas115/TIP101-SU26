@@ -12,7 +12,7 @@ def gcd_of_stings(str1, str2):
 ```
 
 
-```python
+```
 Example #1:
 Input: str1 = "ABCABC", str2 = "ABC"
 Output: "ABC"

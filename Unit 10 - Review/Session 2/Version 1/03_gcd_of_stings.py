@@ -1,29 +1,63 @@
 '''
 ==============================================================================
-  Unit 10: Review  ·  Session 2  ·  Version 1
-  Problem 3: GCD of Strings
+    Unit 10: Review  ·  Session 2  ·  Version 1
+    Problem 3: GCD of Strings
 
-  For two strings `s` and `t`, we say "`t` divides `s`" if and only if `s =
-  t + t + t + ... + t + t` (i.e., `t` is concatenated with itself one or
-  more times).
+    For two strings `s` and `t`, we say "`t` divides `s`" if and only if `s =
+    t + t + t + ... + t + t` (i.e., `t` is concatenated with itself one or
+    more times).
 
-  Given two strings `str1` and `str2`, return *the largest string* `x` *such
-  that* `x` *divides both* `str1` *and* `str2`.
+    Given two strings `str1` and `str2`, return *the largest string* `x` *such
+    that* `x` *divides both* `str1` *and* `str2`.
 
-  Write your solution for `gcd_of_stings` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `gcd_of_stings` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `gcd_of_stings` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `gcd_of_stings` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
+    input: str1 and str2
+    output: largest string x s.t. x divides both str1 and str2
+    core logic: 
 
 Match:
+    helper function to get gcd between str1 and str2
 
 Plan:
+    check if str1 + str2 is not the same as str2 + str1
+        return an empty string, since there would be no way to have a common divisor
+    
+    
+'''
+def gcd(a, b):
+    # use Euclid's algorithm
+    while b != 0:
+        temp = a
+        a = b
+        b = temp % b
+    return a
+def gcd_of_stings(str1, str2):
+    if str(str1) + str(str2) != str(str2) + str(str1):
+        return ""
+
+    common_length = gcd(len(str1), len(str2))
+    result = ""
+    for i in range(common_length):
+        result += str1[i]
+    return result
 
 '''
+Example #1:
+Input: str1 = "ABCABC", str2 = "ABC"
+Output: "ABC"
+
+len str1 = 6
+len str2 = 3
+
+(-->) len str1 / len str2 = 2
+(<--) str2 + str2 == str1
 
 
 def gcd_of_stings(str1, str2):
@@ -43,7 +77,7 @@ def gcd_of_stings(str1, str2):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -56,7 +90,7 @@ grade(gcd_of_stings)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test('ABCABC', 'ABC', expected='ABC')   # checks the value your code returns against this example

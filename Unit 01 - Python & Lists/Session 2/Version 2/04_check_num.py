@@ -1,18 +1,18 @@
 '''
 ==============================================================================
-  Unit 1: Python & Lists  ·  Session 2  ·  Version 2
-  Problem 4: Check for Number
+    Unit 1: Python & Lists  ·  Session 2  ·  Version 2
+    Problem 4: Check for Number
 
-  Write a function `check_num()` that takes in a list of integers `lst` and
-  an integer `num` as parameters and returns `True` if `num` is a value in
-  `lst` and `False` otherwise.
+    Write a function `check_num()` that takes in a list of integers `lst` and
+    an integer `num` as parameters and returns `True` if `num` is a value in
+    `lst` and `False` otherwise.
 
-  Write your solution for `check_num` in the space below,
-  then click  ▶ Run  to grade it.
-  (The full problem, with examples, is in the problem set.)
+    Write your solution for `check_num` in the space below,
+    then click  ▶ Run  to grade it.
+    (The full problem, with examples, is in the problem set.)
 
-  ⚠️  Keep the function name `check_num` and its parameters exactly as given —
-      the problem set solution validator looks for that exact name.
+    ⚠️  Keep the function name `check_num` and its parameters exactly as given —
+        the problem set solution validator looks for that exact name.
 ==============================================================================
 Understand (input, output, core logic): 
 
@@ -40,7 +40,7 @@ def check_num(lst, num):
 
 '''
 ==============================================================================
-  PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
+    PROBLEM SET SOLUTION VALIDATOR   ·   DO NOT EDIT OR MOVE THIS SECTION
 ==============================================================================
 '''
 import sys, pathlib
@@ -53,7 +53,7 @@ grade(check_num)   # ▶ Run this file to validate your solution
 
 '''
 ==============================================================================
-  YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
+    YOUR OWN TEST CASES   ·   optional — uncomment & edit to try your own inputs
 ==============================================================================
 '''
 # test([5, 2, 3, 9, 10], 9, expected=True)   # checks the value your code returns against this example
