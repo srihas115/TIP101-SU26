@@ -64,6 +64,10 @@ TIP101/
 │   │   └── Version 3/                      ← present when applicable
 │   ├── Unit 01 Overview.md
 │   ├── Unit 01 Cheatsheet and Resources.md
+│   ├── HackerRank Style Questions/
+│   │   └── 1A/
+│   │       ├── 05_find_product.md         ← HackerRank Style coding prompt
+│   │       └── 05_find_product.py         ← starter file with print checks
 │   └── Unit Assets/
 ├── Unit 02 - Dictionaries/
 │   └── ...
@@ -76,9 +80,11 @@ TIP101/
 
 Every `.py` solution file has a matching `.md` file with the **same name** in the same folder. The folder and file names now mirror CodePath's staff-provided validator layout (`Unit ## - Topic/Session #/Version #/NN_slug.py`) while preserving my Markdown problem statements and local Python solution files.
 
+Each unit may also include a `HackerRank Style Questions/` folder containing assessment-style coding prompts and starter Python files. These files use simple local `print(...)` checks instead of the course problem set validator, so they can be run directly with Python after adding a solution.
+
 # Getting Started
 
-Welcome to TIP101! The onboarding notes in [`Getting Started/`](Getting%20Started/) are adapted from the CodePath course portal and include setup, submission, AI tutor, HackerRank, syllabus, and policy references.
+Welcome to TIP101! The onboarding notes in [`Getting Started/`](Getting%20Started/) are adapted from the CodePath course portal and include setup, submission, AI tutor, HackerRank Style, syllabus, and policy references.
 
 # Connect & Collaborate
 
