@@ -4,9 +4,11 @@
 
 ## About This Repository
 
-This repository contains my problem sets, solution files, notes, and course reference material for **TIP101: Intro to Technical Interview Prep**, Summer 2026 section on [CodePath.org](https://www.codepath.org). All solution files are written in **Python**.
+This branch is a **template version** of the main repository. It includes the course problem sets, starter files, notes, and reference material, but does **not** include my completed solutions.
 
-I will push solutions continuously as I work through problems, both during class and outside of it, so this repo is intended to stay a work in progress throughout the course.
+It is meant to be starter code for someone else, such as another student, to fork or clone and write their own solutions without affecting or depending on my solution branch.
+
+The main branch contains my personal work for **TIP101: Intro to Technical Interview Prep**, Summer 2026 section on [CodePath.org](https://www.codepath.org). All Python files in this template branch are intended as starting points for your own solution work.
 
 ## Course Structure
 
