@@ -86,6 +86,10 @@ Each unit may also include a `HackerRank Style Questions/` folder containing ass
 
 Welcome to TIP101! The onboarding notes in [`Getting Started/`](Getting%20Started/) are adapted from the CodePath course portal and include setup, submission, AI tutor, HackerRank Style, syllabus, and policy references.
 
+Additional setup resources:
+- [`Replit --> VS Code for Edu Tutorial`](Getting%20Started/Replit%20--_%20VS%20Code%20for%20Edu%20Tutorial.pdf)
+- [`Setting Up Visual Studio Code for Education Walkthrough`](Getting%20Started/Setting%20Up%20Visual%20Studio%20Code%20for%20Education%20Walkthrough.mp4)
+
 # Connect & Collaborate
 
 If we worked through a problem together in session and you have a fixed or improved version of the code, please share it. I'd love to see alternative or better solutions.
